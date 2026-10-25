@@ -17,7 +17,8 @@
     "catalog:report": "tsx scripts/catalog-build.ts --report",
     "catalog:push": "tsx scripts/catalog-push.ts",
     "icons": "tsx scripts/icons.ts",
-    "shots": "tsx scripts/shots.ts"
+    "shots": "tsx scripts/shots.ts",
+    "demo:check": "tsx scripts/demo-check.ts"
   },
   "dependencies": {
     "@fontsource-variable/manrope": "^5.3.0",

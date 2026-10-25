@@ -1,6 +1,6 @@
 {
  "version": "2026-10-25",
- "builtAt": "2026-10-25T09:55:24.897Z",
+ "builtAt": "2026-10-25T10:03:21.524Z",
  "products": [
   {
    "id": "detail-acid-shampoo",
@@ -704,6 +704,935 @@
    "warnings": [],
    "status": "verified",
    "productUrl": "https://grass.su/product/shampun_pervaya_faza_us_ultra_safe_5_kg/"
+  },
+  {
+   "id": "foam-heroes-acid-citrus",
+   "brand": "Foam Heroes",
+   "name": "Acid Citrus",
+   "subtitle": "Кислотный шампунь для ручной мойки с цитрусовыми маслами",
+   "aliases": [],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "кислотный",
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 7,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для пенокомплекта в соотношении 1:7-1:10",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести готовый раствор на поверхность",
+      "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+      "Промывать губку после каждого элемента",
+      "Не допуская высыхания смыть водой под высоким давлением"
+     ],
+     "restrictions": [
+      "Избегать использования под прямыми солнечными лучами",
+      "Избегать применения на оголённых металлических поверхностях"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb116.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для пенокомплекта в соотношении 1:7-1:10"
+    },
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 3,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести готовый раствор на поверхность",
+      "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+      "Промывать губку после каждого элемента",
+      "Не допуская высыхания смыть водой под высоким давлением"
+     ],
+     "restrictions": [
+      "Избегать использования под прямыми солнечными лучами",
+      "Избегать применения на оголённых металлических поверхностях"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb116.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 40,
+      "to": 60,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для ручного помпового опрыскивателя в соотношении 1:40-1:60",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести готовый раствор на поверхность",
+      "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+      "Промывать губку после каждого элемента",
+      "Не допуская высыхания смыть водой под высоким давлением"
+     ],
+     "restrictions": [
+      "Избегать использования под прямыми солнечными лучами",
+      "Избегать применения на оголённых металлических поверхностях"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb116.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для ручного помпового опрыскивателя в соотношении 1:40-1:60"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://foam-heroes.ru/product-fhb116.html"
+  },
+  {
+   "id": "foam-heroes-acid-shock",
+   "brand": "Foam Heroes",
+   "name": "Acid Shock",
+   "subtitle": "Кислотный шампунь для ручной мойки (нейтрализация щёлочи)",
+   "aliases": [],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "кислотный",
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 8,
+      "to": 12,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для пенокомплекта в соотношении 1:8-1:12",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести готовый раствор на поверхность",
+      "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+      "Промывать губку после каждого элемента",
+      "Не допуская высыхания смыть водой под высоким давлением"
+     ],
+     "restrictions": [
+      "Избегать использования под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb062.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для пенокомплекта в соотношении 1:8-1:12"
+    },
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 3,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести готовый раствор на поверхность",
+      "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+      "Промывать губку после каждого элемента",
+      "Не допуская высыхания смыть водой под высоким давлением"
+     ],
+     "restrictions": [
+      "Избегать использования под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb062.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 40,
+      "to": 60,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для ручного помпового опрыскивателя в соотношении 1:40-1:60",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести готовый раствор на поверхность",
+      "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+      "Промывать губку после каждого элемента",
+      "Не допуская высыхания смыть водой под высоким давлением"
+     ],
+     "restrictions": [
+      "Избегать использования под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb062.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для ручного помпового опрыскивателя в соотношении 1:40-1:60"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://foam-heroes.ru/product-fhb062.html"
+  },
+  {
+   "id": "foam-heroes-citrus-buddy",
+   "brand": "Foam Heroes",
+   "name": "Citrus Buddy",
+   "subtitle": "Шампунь для предварительной мойки на основе цитрусовых масел, pH 10",
+   "aliases": [],
+   "category": "prewash",
+   "phase": 1,
+   "ph": 10,
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 12,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для пенокомплекта в соотношении 1:5 - 1:12",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 300
+     },
+     "steps": [
+      "Предварительно удалить поверхностные загрязнения водой под давлением",
+      "Нанести в виде пены или эмульсии",
+      "Выдержать 2–5 минут",
+      "Смыть водой под высоким давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb033.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для пенокомплекта в соотношении 1:5 - 1:12"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 40,
+      "to": 60,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для пеногенератора в соотношении 1:40 - 1:60",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 300
+     },
+     "steps": [
+      "Предварительно удалить поверхностные загрязнения водой под давлением",
+      "Нанести в виде пены или эмульсии",
+      "Выдержать 2–5 минут",
+      "Смыть водой под высоким давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb033.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для пеногенератора в соотношении 1:40 - 1:60"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 40,
+      "to": 60,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для помпового опрыскивателя в соотношении 1:40 - 1:60",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 300
+     },
+     "steps": [
+      "Предварительно удалить поверхностные загрязнения водой под давлением",
+      "Нанести в виде пены или эмульсии",
+      "Выдержать 2–5 минут",
+      "Смыть водой под высоким давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb033.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для помпового опрыскивателя в соотношении 1:40 - 1:60"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://foam-heroes.ru/product-fhb033.html"
+  },
+  {
+   "id": "foam-heroes-cola-bay",
+   "brand": "Foam Heroes",
+   "name": "Cola Bay",
+   "subtitle": "pH-нейтральный шампунь для ручной мойки, аромат колы",
+   "aliases": [],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "нейтральный",
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 15,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для пенокомплекта в соотношении 1:10-1:15",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести готовый раствор на поверхность",
+      "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+      "Промывать губку после каждого элемента",
+      "Не допуская высыхания смыть водой под высоким давлением"
+     ],
+     "restrictions": [
+      "Избегать использования под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb001.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для пенокомплекта в соотношении 1:10-1:15"
+    },
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 3,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести готовый раствор на поверхность",
+      "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+      "Промывать губку после каждого элемента",
+      "Не допуская высыхания смыть водой под высоким давлением"
+     ],
+     "restrictions": [
+      "Избегать использования под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb001.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 15,
+      "to": 20,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для помпового опрыскивателя в соотношении 1:15-1:20",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести готовый раствор на поверхность",
+      "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+      "Промывать губку после каждого элемента",
+      "Не допуская высыхания смыть водой под высоким давлением"
+     ],
+     "restrictions": [
+      "Избегать использования под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb001.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для помпового опрыскивателя в соотношении 1:15-1:20"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://foam-heroes.ru/product-fhb001.html"
+  },
+  {
+   "id": "foam-heroes-double-iron",
+   "brand": "Foam Heroes",
+   "name": "Double Iron",
+   "subtitle": "Готовый очиститель металлических вкраплений с двойной индикацией",
+   "aliases": [],
+   "category": "iron_remover",
+   "phase": null,
+   "ph": "pH-сбалансированный",
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "готовый к применению",
+     "surface": null,
+     "dwellSec": {
+      "from": 180,
+      "to": 300
+     },
+     "steps": [
+      "Тщательно вымыть автомобиль",
+      "Нанести состав и оставить на 3–5 минут",
+      "При сильных загрязнениях использовать кисти и щётки",
+      "Смыть обильно водой под давлением"
+     ],
+     "restrictions": [
+      "Не распылять на горячую поверхность",
+      "Не наносить на незащищённые элементы из железа и его сплавов"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb076.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Double Iron от Foam Heroes - готовый к применению эффективный очиститель кузова"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://foam-heroes.ru/product-fhb076.html"
+  },
+  {
+   "id": "foam-heroes-foam-buddy",
+   "brand": "Foam Heroes",
+   "name": "Foam Buddy",
+   "subtitle": "Высокопенный шампунь для бесконтактной мойки (осенне-зимний период, реагенты)",
+   "aliases": [
+    "Фоам Бадди"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 15,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для пенокомплекта в соотношении 1:10 - 1:15",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 240
+     },
+     "steps": [
+      "При необходимости удалить поверхностные загрязнения водой под давлением",
+      "Нанести готовый раствор в виде пены или эмульсии",
+      "Выдержать 2–4 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением"
+     ],
+     "restrictions": [
+      "Не наносить на оголённые металлические поверхности",
+      "Не распылять на горячую поверхность",
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb032.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для пенокомплекта в соотношении 1:10 - 1:15"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 100,
+      "to": 150,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для пеногенератора в соотношении 1:100 - 1:150",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 240
+     },
+     "steps": [
+      "При необходимости удалить поверхностные загрязнения водой под давлением",
+      "Нанести готовый раствор в виде пены или эмульсии",
+      "Выдержать 2–4 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением"
+     ],
+     "restrictions": [
+      "Не наносить на оголённые металлические поверхности",
+      "Не распылять на горячую поверхность",
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb032.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для пеногенератора в соотношении 1:100 - 1:150"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 100,
+      "to": 150,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для ручного помпового опрыскивателя в соотношении 1:100 - 1:150",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 240
+     },
+     "steps": [
+      "При необходимости удалить поверхностные загрязнения водой под давлением",
+      "Нанести готовый раствор в виде пены или эмульсии",
+      "Выдержать 2–4 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением"
+     ],
+     "restrictions": [
+      "Не наносить на оголённые металлические поверхности",
+      "Не распылять на горячую поверхность",
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb032.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для ручного помпового опрыскивателя в соотношении 1:100 - 1:150"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://foam-heroes.ru/product-fhb032.html"
+  },
+  {
+   "id": "foam-heroes-gentle-soap-amber",
+   "brand": "Foam Heroes",
+   "name": "Gentle Soap Amber",
+   "subtitle": "Деликатный шампунь для предварительной мойки авто с защитными покрытиями (амбра и табак)",
+   "aliases": [
+    "Gentle Soap"
+   ],
+   "category": "prewash",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 12,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для пенокомплекта в соотношении 1:10-1:12",
+     "surface": "dry",
+     "dwellSec": {
+      "from": 120,
+      "to": 300
+     },
+     "steps": [
+      "Нанести на сухую поверхность в виде пены или эмульсии",
+      "Выдержать 2–5 минут",
+      "Смыть водой под высоким давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb003.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для пенокомплекта в соотношении 1:10-1:12"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 40,
+      "to": 60,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для ручного пеногенератора в соотношении 1:40-1:60",
+     "surface": "dry",
+     "dwellSec": {
+      "from": 120,
+      "to": 300
+     },
+     "steps": [
+      "Нанести на сухую поверхность в виде пены или эмульсии",
+      "Выдержать 2–5 минут",
+      "Смыть водой под высоким давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb003.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для ручного пеногенератора в соотношении 1:40-1:60"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 40,
+      "to": 60,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для помпового опрыскивателя в соотношении 1:40-1:60",
+     "surface": "dry",
+     "dwellSec": {
+      "from": 120,
+      "to": 300
+     },
+     "steps": [
+      "Нанести на сухую поверхность в виде пены или эмульсии",
+      "Выдержать 2–5 минут",
+      "Смыть водой под высоким давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb003.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для помпового опрыскивателя в соотношении 1:40-1:60"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://foam-heroes.ru/product-fhb003.html"
+  },
+  {
+   "id": "foam-heroes-gentle-soap-cloudberry",
+   "brand": "Foam Heroes",
+   "name": "Gentle Soap Cloudberry",
+   "subtitle": "Деликатный шампунь для предварительной мойки авто с защитными покрытиями (морошковое варенье)",
+   "aliases": [
+    "Gentle Soap"
+   ],
+   "category": "prewash",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 12,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для пенокомплекта в соотношении 1:10-1:12",
+     "surface": "dry",
+     "dwellSec": {
+      "from": 120,
+      "to": 300
+     },
+     "steps": [
+      "Нанести на сухую поверхность в виде пены или эмульсии",
+      "Выдержать 2–5 минут",
+      "Смыть водой под высоким давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb102.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для пенокомплекта в соотношении 1:10-1:12"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 40,
+      "to": 60,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для ручного пеногенератора в соотношении 1:40-1:60",
+     "surface": "dry",
+     "dwellSec": {
+      "from": 120,
+      "to": 300
+     },
+     "steps": [
+      "Нанести на сухую поверхность в виде пены или эмульсии",
+      "Выдержать 2–5 минут",
+      "Смыть водой под высоким давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb102.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для ручного пеногенератора в соотношении 1:40-1:60"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 40,
+      "to": 60,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для помпового опрыскивателя в соотношении 1:40-1:60",
+     "surface": "dry",
+     "dwellSec": {
+      "from": 120,
+      "to": 300
+     },
+     "steps": [
+      "Нанести на сухую поверхность в виде пены или эмульсии",
+      "Выдержать 2–5 минут",
+      "Смыть водой под высоким давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb102.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для помпового опрыскивателя в соотношении 1:40-1:60"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://foam-heroes.ru/product-fhb102.html"
+  },
+  {
+   "id": "foam-heroes-mad-drops",
+   "brand": "Foam Heroes",
+   "name": "Mad Drops",
+   "subtitle": "Готовое быстрое гидрофобное покрытие (SiO2) на мокрый кузов",
+   "aliases": [],
+   "category": "protection",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "готовое к применению",
+     "surface": "wet",
+     "dwellSec": null,
+     "steps": [
+      "Тщательно вымыть авто и сбить остатки моющих средств водой",
+      "Поэлементно нанести на мокрый кузов: 1 распыление на элемент, 2 на капот и крышу",
+      "По желанию разнести губкой/падом/влажной микрофиброй",
+      "Не допуская высыхания смыть водой под высоким давлением",
+      "Высушить"
+     ],
+     "restrictions": [
+      "Избегать прямых солнечных лучей и температуры воздуха выше 25 °C"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb015.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "поэлементно нанесите состав на мокрый кузов автомобиля (1 распыление на элемент, 2 на капот и крышу)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://foam-heroes.ru/product-fhb015.html"
+  },
+  {
+   "id": "foam-heroes-pure-wheels",
+   "brand": "Foam Heroes",
+   "name": "Pure Wheels",
+   "subtitle": "Высокопенный очиститель шин и дисков, pH 10 в концентрате",
+   "aliases": [],
+   "category": "wheel_cleaner",
+   "phase": null,
+   "ph": 10,
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "используйте готовый состав или разведите его с водой 1:1",
+     "surface": null,
+     "dwellSec": null,
+     "steps": [
+      "Предварительно удалить поверхностные загрязнения водой под давлением",
+      "Нанести на колёса в виде эмульсии или пены",
+      "Подождать несколько минут, при необходимости поработать кистями",
+      "Смыть обильно водой под давлением"
+     ],
+     "restrictions": [
+      "Не распылять на горячую поверхность дисков"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb031.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "в зависимости от степени загрязнения используйте готовый состав или разведите его с водой 1:1"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://foam-heroes.ru/product-fhb031.html"
+  },
+  {
+   "id": "foam-heroes-pure-wheels-plus",
+   "brand": "Foam Heroes",
+   "name": "Pure Wheels+",
+   "subtitle": "Высокопенный концентрат очистителя шин и дисков, pH 10,5 в концентрате",
+   "aliases": [
+    "Pure Wheels Plus"
+   ],
+   "category": "wheel_cleaner",
+   "phase": null,
+   "ph": 10.5,
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 1,
+      "to": 5,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "разведите состав с водой в соотношении 1:1-1:5",
+     "surface": null,
+     "dwellSec": null,
+     "steps": [
+      "Предварительно удалить поверхностные загрязнения водой под давлением",
+      "Нанести разведённый состав на колёса",
+      "Подождать несколько минут",
+      "Смыть обильно водой под давлением"
+     ],
+     "restrictions": [
+      "Не применять в неразбавленном виде",
+      "Не распылять на горячую поверхность дисков"
+     ],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb097.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "в зависимости от степени загрязнения разведите состав с водой в соотношении 1:1-1:5"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://foam-heroes.ru/product-fhb097.html"
+  },
+  {
+   "id": "foam-heroes-slick-ice",
+   "brand": "Foam Heroes",
+   "name": "Slick Ice",
+   "subtitle": "pH-нейтральный шампунь для ручной мойки с повышенными лубрицирующими свойствами",
+   "aliases": [
+    "Slick Ice Zippy"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "нейтральный",
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 15,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для пенокомплекта в соотношении 1:10-1:15",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести готовый раствор на поверхность",
+      "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+      "Промывать губку после каждого элемента",
+      "Не допуская высыхания смыть водой под высоким давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb014.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для пенокомплекта в соотношении 1:10-1:15"
+    },
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 3,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести готовый раствор на поверхность",
+      "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+      "Промывать губку после каждого элемента",
+      "Не допуская высыхания смыть водой под высоким давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb014.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://foam-heroes.ru/product-fhb014.html"
+  },
+  {
+   "id": "foam-heroes-slimy-foam",
+   "brand": "Foam Heroes",
+   "name": "Slimy Foam",
+   "subtitle": "pH-нейтральный шампунь для ручной мойки по методу двух вёдер",
+   "aliases": [],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "нейтральный",
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 3,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "для мойки при помощи ведра в соотношении 30-50 мл на 10л воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести в ведре (лучше в тёплой воде)",
+      "Нанести готовый раствор на поверхность",
+      "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+      "Промывать губку после каждого элемента",
+      "Не допуская высыхания смыть водой под высоким давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://foam-heroes.ru/product-fhb070.html",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для мойки при помощи ведра в соотношении 30-50 мл на 10л воды"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://foam-heroes.ru/product-fhb070.html"
   },
   {
    "id": "glitz-01-goldie",
@@ -2387,6 +3316,1182 @@
    "warnings": [],
    "status": "verified",
    "productUrl": "https://grass.su/product/avtoshampun_s_karnaubskim_voskom_wash_wax_flakon_1l/"
+  },
+  {
+   "id": "koch-chemie-alkali-wheel-cleaner",
+   "brand": "Koch-Chemie",
+   "name": "Alkali Wheel Cleaner",
+   "subtitle": "Мощный щелочной очиститель дисков",
+   "aliases": [],
+   "category": "wheel_cleaner",
+   "phase": null,
+   "ph": "щелочной",
+   "packages": [
+    5000,
+    20000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 2,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "apply a 1:2 to 1:10 solution to the whole of the rinsed rim",
+     "surface": "wet",
+     "dwellSec": null,
+     "steps": [
+      "Ополоснуть диск",
+      "Нанести раствор 1:2–1:10 на весь диск (избегать подтёков)",
+      "Дать кратко прореагировать",
+      "Смыть АВД, при необходимости дочистить щёткой"
+     ],
+     "restrictions": [
+      "Do not use on hot surfaces",
+      "Не для полированного алюминия, хрома и чувствительных к щелочи поверхностей",
+      "Do not let dry"
+     ],
+     "sourceUrl": "https://www.koch-chemie.com/en/products/alkali_wheel_cleaner",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Depending on the dirt accumulation, apply a 1:2 to 1:10 solution to the whole of the rinsed rim"
+    }
+   ],
+   "warnings": [
+    "Before using, check suitability and compatibility"
+   ],
+   "status": "verified",
+   "productUrl": "https://www.koch-chemie.com/en/products/alkali_wheel_cleaner"
+  },
+  {
+   "id": "koch-chemie-gentle-snow-foam",
+   "brand": "Koch-Chemie",
+   "name": "Gentle Snow Foam",
+   "subtitle": "pH-нейтральная пена для предварительной мойки (снежная пена) и ручной мойки, аромат вишни",
+   "aliases": [
+    "GSF"
+   ],
+   "category": "universal_shampoo",
+   "phase": null,
+   "ph": "нейтральный",
+   "packages": [
+    1000,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 20,
+      "to": 20,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "Pour approx. 20 ml Snow Foam into 1 l water and lather the vehicle using a foam sprayer.",
+     "surface": null,
+     "dwellSec": null,
+     "steps": [
+      "Влить ок. 20 мл на 1 л воды в пенный распылитель (foam sprayer)",
+      "Покрыть автомобиль пеной"
+     ],
+     "restrictions": [
+      "Do not let dry (не допускать высыхания)"
+     ],
+     "sourceUrl": "https://www.koch-chemie.com/en/products/gentle_snow_foam",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Pour approx. 20 ml Snow Foam into 1 l water and lather the vehicle using a foam sprayer."
+    },
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 5,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "Pour 50 ml into 10 litres water",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "50 мл на 10 л воды",
+      "Вымыть варежкой",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Do not let dry (не допускать высыхания)"
+     ],
+     "sourceUrl": "https://www.koch-chemie.com/en/products/gentle_snow_foam",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Pour 50 ml into 10 litres water, clean the vehicle with washing mitts and rinse with water."
+    }
+   ],
+   "warnings": [
+    "Before using, check suitability and compatibility (проверить совместимость)"
+   ],
+   "status": "verified",
+   "productUrl": "https://www.koch-chemie.com/en/products/gentle_snow_foam"
+  },
+  {
+   "id": "koch-chemie-green-star",
+   "brand": "Koch-Chemie",
+   "name": "Green Star",
+   "subtitle": "Высококонцентрированный щелочной универсальный очиститель (без фосфатов и растворителей); для экстерьера и двигателя",
+   "aliases": [
+    "GS",
+    "Грин Стар",
+    "Green Star Koch"
+   ],
+   "category": "prewash",
+   "phase": 1,
+   "ph": "щелочной",
+   "packages": [
+    1000,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 5,
+      "to": 30,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Vehicle exteriors and engines: 1:5 to 1:30 solution",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести раствор на всю поверхность",
+      "Дать кратко прореагировать",
+      "Тщательно смыть аппаратом высокого давления"
+     ],
+     "restrictions": [
+      "Do not use on hot surfaces (не наносить на горячие поверхности)",
+      "Do not let dry (не допускать высыхания)",
+      "Максимальная концентрация применения 1:3 (VDA), выдержка не более 5 минут"
+     ],
+     "sourceUrl": "https://www.koch-chemie.com/en/products/green_star",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Vehicle exteriors and engines: 1:5 to 1:30 solution"
+    }
+   ],
+   "warnings": [
+    "Before using, check suitability and compatibility (проверить совместимость)"
+   ],
+   "status": "verified",
+   "productUrl": "https://www.koch-chemie.com/en/products/green_star"
+  },
+  {
+   "id": "koch-chemie-hydro-foam-sealant",
+   "brand": "Koch-Chemie",
+   "name": "Hydro Foam Sealant",
+   "subtitle": "Премиальный концентрат защиты на мокрый кузов",
+   "aliases": [
+    "HFS"
+   ],
+   "category": "protection",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 150,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Dilute 1:50-1:150 with water",
+     "surface": "wet",
+     "dwellSec": null,
+     "steps": [
+      "Развести 1:50–1:150",
+      "Нанести на чистый ещё мокрый автомобиль",
+      "Дать кратко прореагировать",
+      "Тщательно смыть, чтобы избежать пятен",
+      "Высушить остатки воды"
+     ],
+     "restrictions": [
+      "Разведённый состав – на одно применение, не хранить",
+      "Protect against frost and excessive heat"
+     ],
+     "sourceUrl": "https://www.koch-chemie.com/en/products/hydro_foam_sealant",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Dilute 1:50-1:150 with water ... using a foam sprayer or pump sprayer"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 50,
+      "to": 150,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Dilute 1:50-1:150 with water",
+     "surface": "wet",
+     "dwellSec": null,
+     "steps": [
+      "Развести 1:50–1:150",
+      "Нанести на чистый ещё мокрый автомобиль",
+      "Дать кратко прореагировать",
+      "Тщательно смыть, чтобы избежать пятен",
+      "Высушить остатки воды"
+     ],
+     "restrictions": [
+      "Разведённый состав – на одно применение, не хранить",
+      "Protect against frost and excessive heat"
+     ],
+     "sourceUrl": "https://www.koch-chemie.com/en/products/hydro_foam_sealant",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Dilute 1:50-1:150 with water ... using a foam sprayer or pump sprayer"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://www.koch-chemie.com/en/products/hydro_foam_sealant"
+  },
+  {
+   "id": "koch-chemie-reactivation-shampoo",
+   "brand": "Koch-Chemie",
+   "name": "Reactivation Shampoo",
+   "subtitle": "Кислотный шампунь для реактивации керамических покрытий, pH 3,0",
+   "aliases": [],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": 3,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 200,
+      "to": 200,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Dilute the shampoo 1:200 (for hand washing 50 ml to 10 l) with water.",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "50 мл на 10 л воды",
+      "Вымыть вручную"
+     ],
+     "restrictions": [
+      "Do not let the product dry",
+      "Wearing gloves is recommended"
+     ],
+     "sourceUrl": "https://www.koch-chemie.com/en/products/reactivation_shampoo",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Dilute the shampoo 1:200 (for hand washing 50 ml to 10 l) with water."
+    }
+   ],
+   "warnings": [
+    "Check for material compatibility before use",
+    "Protect from frost and excessive heat"
+   ],
+   "status": "verified",
+   "productUrl": "https://www.koch-chemie.com/en/products/reactivation_shampoo"
+  },
+  {
+   "id": "koch-chemie-reactive-rust-remover",
+   "brand": "Koch-Chemie",
+   "name": "Reactive Rust Remover",
+   "subtitle": "pH-нейтральный очиститель ржавчины, металлических частиц и пригоревшей тормозной пыли",
+   "aliases": [
+    "RRR"
+   ],
+   "category": "iron_remover",
+   "phase": null,
+   "ph": "нейтральный",
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "Spray undiluted product onto surface",
+     "surface": "any",
+     "dwellSec": {
+      "from": 180,
+      "to": 360
+     },
+     "steps": [
+      "Распылить неразбавленный состав",
+      "Дать впитаться ок. 3–6 минут",
+      "Тщательно смыть, стойкие места дочистить щёткой или губкой"
+     ],
+     "restrictions": [
+      "Do not use on hot surfaces",
+      "Do not let dry"
+     ],
+     "sourceUrl": "https://www.koch-chemie.com/en/products/reactive_rust_remover",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Spray undiluted product onto surface"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://www.koch-chemie.com/en/products/reactive_rust_remover"
+  },
+  {
+   "id": "lavr-carnauba-shampoo",
+   "brand": "LAVR",
+   "name": "Автошампунь-полироль карнаубский воск",
+   "subtitle": "Концентрированный автошампунь для ручной мойки с полирующим эффектом",
+   "aliases": [
+    "Ln2205",
+    "Carnauba Wax Shampoo"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": null,
+   "packages": [
+    255
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 8,
+      "to": 8,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "Развести 40 мл автошампуня в 5 л воды.",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Встряхнуть",
+      "Развести 40 мл в 5 л воды",
+      "Вымыть авто мягкой губкой или тканью",
+      "Смыть водой, протереть насухо"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-ruchnoy-moyki/avtoshampun-polirol-s-karnaubskim-voskom-255-ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Развести 40 мл автошампуня в 5 л воды."
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-ruchnoy-moyki/avtoshampun-polirol-s-karnaubskim-voskom-255-ml/"
+  },
+  {
+   "id": "lavr-antimukha-concentrate",
+   "brand": "LAVR",
+   "name": "Антимуха (концентрат)",
+   "subtitle": "Концентрат для удаления следов насекомых",
+   "aliases": [
+    "Ln1420"
+   ],
+   "category": "insect_remover",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 7,
+      "to": 7,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Развести средство водой в концентрации 1:7 (125 мл/л).",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Очистить кузов от дорожной грязи",
+      "Развести 1:7",
+      "Обильно нанести на поверхность",
+      "Через 2–3 минуты удалить загрязнения фактурной тканью",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не наносить на нагретые поверхности",
+      "Избегать прямых солнечных лучей"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/antimukha-kontsentrat-1-7-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Развести средство водой в концентрации 1:7 (125 мл/л)."
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/antimukha-kontsentrat-1-7-1-l/"
+  },
+  {
+   "id": "lavr-antimukha-trigger",
+   "brand": "LAVR",
+   "name": "Антимуха (триггер)",
+   "subtitle": "Очиститель следов насекомых (триггер 500 мл)",
+   "aliases": [],
+   "category": "insect_remover",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    500
+   ],
+   "applications": [],
+   "warnings": [],
+   "status": "unverified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/ochistitel-ot-sledov-nasekomykh-lavr-s-triggerom-500ml/"
+  },
+  {
+   "id": "lavr-fast-wax",
+   "brand": "LAVR",
+   "name": "Быстрый воск",
+   "subtitle": "Быстрый воск на влажный кузов, не требует располировки",
+   "aliases": [],
+   "category": "protection",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    500
+   ],
+   "applications": [],
+   "warnings": [],
+   "status": "unverified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/vosk/bystryy-vosk-fast-wax-500ml-20sht/"
+  },
+  {
+   "id": "lavr-bitumen-cleaner",
+   "brand": "LAVR",
+   "name": "Очиститель от битумных пятен",
+   "subtitle": "Очиститель битума, гудрона и техжидкостей (триггер 500 мл)",
+   "aliases": [],
+   "category": "tar_remover",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    500
+   ],
+   "applications": [],
+   "warnings": [],
+   "status": "unverified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/ochistitel-ot-bitumnykh-pyaten-lavr-s-triggerom-500ml/"
+  },
+  {
+   "id": "lavr-color",
+   "brand": "LAVR",
+   "name": "Color",
+   "subtitle": "Автошампунь для бесконтактной мойки с розовым индикатором, усиленная моющая способность",
+   "aliases": [
+    "Ln2331",
+    "ЛАВР Color"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 3,
+      "to": 8,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 3 – 8 частям воды (110 – 250 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-color-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 3 – 8 частям воды (110 – 250 мл/л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 50 – 100 частям воды (10 – 20 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-color-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 50 – 100 частям воды (10 – 20 мл/л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-color-1-l/"
+  },
+  {
+   "id": "lavr-complex",
+   "brand": "LAVR",
+   "name": "Complex",
+   "subtitle": "Автошампунь для бесконтактной мойки, повышенная пенность",
+   "aliases": [
+    "Ln2321"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": null,
+   "packages": [],
+   "applications": [
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 15,
+      "to": 25,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "Расход концентрата при использовании пеногенератора: 15 – 25 мл/л",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-complex-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Расход концентрата при использовании пеногенератора: 15 – 25 мл/л"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 170,
+      "to": 340,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "при использовании пенокомплекта: 170 – 340 мл/л",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-complex-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "при использовании пенокомплекта: 170 – 340 мл/л"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-complex-1-l/"
+  },
+  {
+   "id": "lavr-green",
+   "brand": "LAVR",
+   "name": "Green",
+   "subtitle": "Концентрированный автошампунь для ручной мойки",
+   "aliases": [
+    "Ln2270"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": null,
+   "packages": [
+    255,
+    500,
+    1000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 3,
+      "to": 8,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "Развести 30 – 40 мл автошампуня в 5 – 10 л воды.",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Перемешать",
+      "Развести в воде",
+      "Вымыть авто мягкой губкой или тканью",
+      "Смыть водой и протереть насухо"
+     ],
+     "restrictions": [
+      "Не наносить на нагретые поверхности"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-ruchnoy-moyki/avtoshampun-green-505-ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Развести 30 – 40 мл автошампуня в 5 – 10 л воды."
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-ruchnoy-moyki/avtoshampun-green-505-ml/"
+  },
+  {
+   "id": "lavr-intensive",
+   "brand": "LAVR",
+   "name": "Intensive",
+   "subtitle": "Автошампунь для бесконтактной мойки, повышенная пенность, для жёсткой воды",
+   "aliases": [
+    "Ln2306",
+    "ЛАВР Intensive"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 1,
+      "to": 4,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 1 – 4 частям воды (200 – 500 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-intensive-povyshennaya-pennost-1-30-1-50-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 1 – 4 частям воды (200 – 500 мл/л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 30,
+      "to": 50,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 30 – 50 частям воды (20 – 35 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-intensive-povyshennaya-pennost-1-30-1-50-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 30 – 50 частям воды (20 – 35 мл/л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-intensive-povyshennaya-pennost-1-30-1-50-1-l/"
+  },
+  {
+   "id": "lavr-light",
+   "brand": "LAVR",
+   "name": "Light",
+   "subtitle": "Базовый автошампунь для бесконтактной мойки (лёгкие загрязнения)",
+   "aliases": [
+    "Ln2301",
+    "ЛАВР Light"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 1,
+      "to": 3,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 1 – 3 частям воды (250 – 500 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-light-bazovyy-sostav-3-0-1-20-1-50-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 1 – 3 частям воды (250 – 500 мл/л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 20,
+      "to": 50,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 20 – 50 частям воды (20 – 50 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-light-bazovyy-sostav-3-0-1-20-1-50-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 20 – 50 частям воды (20 – 50 мл/л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-light-bazovyy-sostav-3-0-1-20-1-50-1-l/"
+  },
+  {
+   "id": "lavr-optimal",
+   "brand": "LAVR",
+   "name": "Optimal",
+   "subtitle": "Автошампунь для бесконтактной мойки, повышенная пенность и моющая способность",
+   "aliases": [
+    "Ln2316",
+    "ЛАВР Optimal"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 2,
+      "to": 5,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 2 – 5 частям воды (165 – 330 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-optimal-1-30-1-60-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 2 – 5 частям воды (165 – 330 мл/л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 30,
+      "to": 60,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 30 – 60 частям воды (15 – 35 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-optimal-1-30-1-60-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 30 – 60 частям воды (15 – 35 мл/л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-optimal-1-30-1-60-1-l/"
+  },
+  {
+   "id": "lavr-storm",
+   "brand": "LAVR",
+   "name": "Storm",
+   "subtitle": "Автошампунь для бесконтактной мойки, повышенная пенность",
+   "aliases": [
+    "Ln2336",
+    "ЛАВР Storm"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 3,
+      "to": 8,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 3 – 8 частям воды (110 – 250 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-storm-povyshennaya-pennost-1-50-1-100-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 3 – 8 частям воды (110 – 250 мл/л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 50 – 100 частям воды (10 – 20 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-storm-povyshennaya-pennost-1-50-1-100-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 50 – 100 частям воды (10 – 20 мл/л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-storm-povyshennaya-pennost-1-50-1-100-1-l/"
+  },
+  {
+   "id": "lavr-tornado",
+   "brand": "LAVR",
+   "name": "Tornado",
+   "subtitle": "Концентрированный автошампунь для бесконтактной мойки для жёсткой воды",
+   "aliases": [
+    "Ln2341",
+    "ЛАВР Tornado"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 15,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 10 – 15 частям воды (60 – 90 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontakt-moyki-tornado-samyy-kontsent-d-zhestkoy-vody-1-60-1-160-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 10 – 15 частям воды (60 – 90 мл/л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 60,
+      "to": 160,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 60 – 160 частям воды (5 – 15 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontakt-moyki-tornado-samyy-kontsent-d-zhestkoy-vody-1-60-1-160-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 60 – 160 частям воды (5 – 15 мл/л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontakt-moyki-tornado-samyy-kontsent-d-zhestkoy-vody-1-60-1-160-1-l/"
+  },
+  {
+   "id": "lavr-ultimatum",
+   "brand": "LAVR",
+   "name": "Ultimatum",
+   "subtitle": "Автошампунь для бесконтактной мойки для жёсткой воды",
+   "aliases": [
+    "Ln2326",
+    "ЛАВР Ultimatum"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 3,
+      "to": 6,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 3 – 6 частям воды (140 – 250 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-ultimatum-dlya-zhestkoy-vody-1-40-1-70-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 3 – 6 частям воды (140 – 250 мл/л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 40,
+      "to": 70,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "развести в воде из расчета 1 часть средства к 40 – 70 частям воды (15 – 25 мл/л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Перед использованием тщательно перемешать",
+      "При сложных загрязнениях предварительно сбить грязь АВД",
+      "Развести с водой",
+      "Равномерно нанести шампунь на кузов",
+      "Оставить на 2–3 минуты",
+      "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава на кузове",
+      "Не наносить на разогретую поверхность"
+     ],
+     "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-ultimatum-dlya-zhestkoy-vody-1-40-1-70-1-l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 40 – 70 частям воды (15 – 25 мл/л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-ultimatum-dlya-zhestkoy-vody-1-40-1-70-1-l/"
+  },
+  {
+   "id": "lavr-wheel-disk-cleaner",
+   "brand": "LAVR",
+   "name": "Wheel Disk Cleaner",
+   "subtitle": "Очиститель колёсных дисков с розовой индикаторной пеной",
+   "aliases": [],
+   "category": "wheel_cleaner",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    500
+   ],
+   "applications": [],
+   "warnings": [],
+   "status": "unverified",
+   "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/ochistitel-kolesnykh-diskov/ochistitel-kolesnykh-diskov-lavr-wheel-disk-cleaner-500-ml/"
   },
   {
    "id": "shine-systems-acidcleaner",

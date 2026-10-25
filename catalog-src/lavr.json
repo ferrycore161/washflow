@@ -1,0 +1,838 @@
+{
+  "brand": "LAVR",
+  "brandSite": "https://lavr.ru",
+  "products": [
+    {
+      "id": "lavr-color",
+      "name": "Color",
+      "subtitle": "Автошампунь для бесконтактной мойки с розовым индикатором, усиленная моющая способность",
+      "aliases": [
+        "Ln2331",
+        "ЛАВР Color"
+      ],
+      "category": "active_foam",
+      "phase": 1,
+      "ph": null,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-color-1-l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 3,
+            "to": 8,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 3 – 8 частям воды (110 – 250 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-color-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 3 – 8 частям воды (110 – 250 мл/л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 50 – 100 частям воды (10 – 20 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-color-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 50 – 100 частям воды (10 – 20 мл/л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "lavr-tornado",
+      "name": "Tornado",
+      "subtitle": "Концентрированный автошампунь для бесконтактной мойки для жёсткой воды",
+      "aliases": [
+        "Ln2341",
+        "ЛАВР Tornado"
+      ],
+      "category": "active_foam",
+      "phase": 1,
+      "ph": null,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontakt-moyki-tornado-samyy-kontsent-d-zhestkoy-vody-1-60-1-160-1-l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 15,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 10 – 15 частям воды (60 – 90 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontakt-moyki-tornado-samyy-kontsent-d-zhestkoy-vody-1-60-1-160-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 10 – 15 частям воды (60 – 90 мл/л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 60,
+            "to": 160,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 60 – 160 частям воды (5 – 15 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontakt-moyki-tornado-samyy-kontsent-d-zhestkoy-vody-1-60-1-160-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 60 – 160 частям воды (5 – 15 мл/л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "lavr-intensive",
+      "name": "Intensive",
+      "subtitle": "Автошампунь для бесконтактной мойки, повышенная пенность, для жёсткой воды",
+      "aliases": [
+        "Ln2306",
+        "ЛАВР Intensive"
+      ],
+      "category": "active_foam",
+      "phase": 1,
+      "ph": null,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-intensive-povyshennaya-pennost-1-30-1-50-1-l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 1,
+            "to": 4,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 1 – 4 частям воды (200 – 500 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-intensive-povyshennaya-pennost-1-30-1-50-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 1 – 4 частям воды (200 – 500 мл/л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 30,
+            "to": 50,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 30 – 50 частям воды (20 – 35 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-intensive-povyshennaya-pennost-1-30-1-50-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 30 – 50 частям воды (20 – 35 мл/л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "lavr-light",
+      "name": "Light",
+      "subtitle": "Базовый автошампунь для бесконтактной мойки (лёгкие загрязнения)",
+      "aliases": [
+        "Ln2301",
+        "ЛАВР Light"
+      ],
+      "category": "active_foam",
+      "phase": 1,
+      "ph": null,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-light-bazovyy-sostav-3-0-1-20-1-50-1-l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 1,
+            "to": 3,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 1 – 3 частям воды (250 – 500 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-light-bazovyy-sostav-3-0-1-20-1-50-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 1 – 3 частям воды (250 – 500 мл/л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 20,
+            "to": 50,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 20 – 50 частям воды (20 – 50 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-light-bazovyy-sostav-3-0-1-20-1-50-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 20 – 50 частям воды (20 – 50 мл/л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "lavr-optimal",
+      "name": "Optimal",
+      "subtitle": "Автошампунь для бесконтактной мойки, повышенная пенность и моющая способность",
+      "aliases": [
+        "Ln2316",
+        "ЛАВР Optimal"
+      ],
+      "category": "active_foam",
+      "phase": 1,
+      "ph": null,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-optimal-1-30-1-60-1-l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 2,
+            "to": 5,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 2 – 5 частям воды (165 – 330 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-optimal-1-30-1-60-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 2 – 5 частям воды (165 – 330 мл/л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 30,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 30 – 60 частям воды (15 – 35 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-optimal-1-30-1-60-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 30 – 60 частям воды (15 – 35 мл/л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "lavr-storm",
+      "name": "Storm",
+      "subtitle": "Автошампунь для бесконтактной мойки, повышенная пенность",
+      "aliases": [
+        "Ln2336",
+        "ЛАВР Storm"
+      ],
+      "category": "active_foam",
+      "phase": 1,
+      "ph": null,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-storm-povyshennaya-pennost-1-50-1-100-1-l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 3,
+            "to": 8,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 3 – 8 частям воды (110 – 250 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-storm-povyshennaya-pennost-1-50-1-100-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 3 – 8 частям воды (110 – 250 мл/л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 50 – 100 частям воды (10 – 20 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-storm-povyshennaya-pennost-1-50-1-100-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 50 – 100 частям воды (10 – 20 мл/л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "lavr-ultimatum",
+      "name": "Ultimatum",
+      "subtitle": "Автошампунь для бесконтактной мойки для жёсткой воды",
+      "aliases": [
+        "Ln2326",
+        "ЛАВР Ultimatum"
+      ],
+      "category": "active_foam",
+      "phase": 1,
+      "ph": null,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-ultimatum-dlya-zhestkoy-vody-1-40-1-70-1-l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 3,
+            "to": 6,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 3 – 6 частям воды (140 – 250 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-ultimatum-dlya-zhestkoy-vody-1-40-1-70-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пенокомплекта: развести в воде из расчета 1 часть средства к 3 – 6 частям воды (140 – 250 мл/л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 70,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "развести в воде из расчета 1 часть средства к 40 – 70 частям воды (15 – 25 мл/л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-dlya-beskontaktnoy-moyki-ultimatum-dlya-zhestkoy-vody-1-40-1-70-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При использовании пеногенератора: развести в воде из расчета 1 часть средства к 40 – 70 частям воды (15 – 25 мл/л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "lavr-complex",
+      "name": "Complex",
+      "subtitle": "Автошампунь для бесконтактной мойки, повышенная пенность",
+      "aliases": [
+        "Ln2321"
+      ],
+      "category": "active_foam",
+      "phase": 1,
+      "ph": null,
+      "packages": [],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-complex-1-l/",
+      "applications": [
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 15,
+            "to": 25,
+            "basis": "solution"
+          },
+          "dilutionText": "Расход концентрата при использовании пеногенератора: 15 – 25 мл/л",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-complex-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Расход концентрата при использовании пеногенератора: 15 – 25 мл/л"
+        },
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 170,
+            "to": 340,
+            "basis": "solution"
+          },
+          "dilutionText": "при использовании пенокомплекта: 170 – 340 мл/л",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Перед использованием тщательно перемешать",
+            "При сложных загрязнениях предварительно сбить грязь АВД",
+            "Развести с водой",
+            "Равномерно нанести шампунь на кузов",
+            "Оставить на 2–3 минуты",
+            "Смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава на кузове",
+            "Не наносить на разогретую поверхность"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-beskontaktnoy-moyki/avtoshampun-complex-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "при использовании пенокомплекта: 170 – 340 мл/л"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "lavr-green",
+      "name": "Green",
+      "subtitle": "Концентрированный автошампунь для ручной мойки",
+      "aliases": [
+        "Ln2270"
+      ],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": null,
+      "packages": [
+        255,
+        500,
+        1000
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-ruchnoy-moyki/avtoshampun-green-505-ml/",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 3,
+            "to": 8,
+            "basis": "water"
+          },
+          "dilutionText": "Развести 30 – 40 мл автошампуня в 5 – 10 л воды.",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Перемешать",
+            "Развести в воде",
+            "Вымыть авто мягкой губкой или тканью",
+            "Смыть водой и протереть насухо"
+          ],
+          "restrictions": [
+            "Не наносить на нагретые поверхности"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-ruchnoy-moyki/avtoshampun-green-505-ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Развести 30 – 40 мл автошампуня в 5 – 10 л воды."
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "lavr-carnauba-shampoo",
+      "name": "Автошампунь-полироль карнаубский воск",
+      "subtitle": "Концентрированный автошампунь для ручной мойки с полирующим эффектом",
+      "aliases": [
+        "Ln2205",
+        "Carnauba Wax Shampoo"
+      ],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": null,
+      "packages": [
+        255
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-ruchnoy-moyki/avtoshampun-polirol-s-karnaubskim-voskom-255-ml/",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 8,
+            "to": 8,
+            "basis": "water"
+          },
+          "dilutionText": "Развести 40 мл автошампуня в 5 л воды.",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Встряхнуть",
+            "Развести 40 мл в 5 л воды",
+            "Вымыть авто мягкой губкой или тканью",
+            "Смыть водой, протереть насухо"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/avtoshampuni-dlya-ruchnoy-moyki/avtoshampun-polirol-s-karnaubskim-voskom-255-ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Развести 40 мл автошампуня в 5 л воды."
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "lavr-antimukha-concentrate",
+      "name": "Антимуха (концентрат)",
+      "subtitle": "Концентрат для удаления следов насекомых",
+      "aliases": [
+        "Ln1420"
+      ],
+      "category": "insect_remover",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/antimukha-kontsentrat-1-7-1-l/",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 7,
+            "to": 7,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Развести средство водой в концентрации 1:7 (125 мл/л).",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Очистить кузов от дорожной грязи",
+            "Развести 1:7",
+            "Обильно нанести на поверхность",
+            "Через 2–3 минуты удалить загрязнения фактурной тканью",
+            "Смыть водой"
+          ],
+          "restrictions": [
+            "Не наносить на нагретые поверхности",
+            "Избегать прямых солнечных лучей"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/antimukha-kontsentrat-1-7-1-l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Развести средство водой в концентрации 1:7 (125 мл/л)."
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "lavr-fast-wax",
+      "name": "Быстрый воск",
+      "subtitle": "Быстрый воск на влажный кузов, не требует располировки",
+      "category": "protection",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/vosk/bystryy-vosk-fast-wax-500ml-20sht/",
+      "applications": [],
+      "warnings": [],
+      "status": "unverified"
+    },
+    {
+      "id": "lavr-wheel-disk-cleaner",
+      "name": "Wheel Disk Cleaner",
+      "subtitle": "Очиститель колёсных дисков с розовой индикаторной пеной",
+      "category": "wheel_cleaner",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/ochistitel-kolesnykh-diskov/ochistitel-kolesnykh-diskov-lavr-wheel-disk-cleaner-500-ml/",
+      "applications": [],
+      "warnings": [],
+      "status": "unverified"
+    },
+    {
+      "id": "lavr-bitumen-cleaner",
+      "name": "Очиститель от битумных пятен",
+      "subtitle": "Очиститель битума, гудрона и техжидкостей (триггер 500 мл)",
+      "category": "tar_remover",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/ochistitel-ot-bitumnykh-pyaten-lavr-s-triggerom-500ml/",
+      "applications": [],
+      "warnings": [],
+      "status": "unverified"
+    },
+    {
+      "id": "lavr-antimukha-trigger",
+      "name": "Антимуха (триггер)",
+      "subtitle": "Очиститель следов насекомых (триггер 500 мл)",
+      "category": "insect_remover",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/ochistitel-ot-sledov-nasekomykh-lavr-s-triggerom-500ml/",
+      "applications": [],
+      "warnings": [],
+      "status": "unverified"
+    }
+  ]
+}

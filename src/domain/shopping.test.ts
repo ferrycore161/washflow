@@ -52,3 +52,14 @@ describe('ссылки на магазины', () => {
     expect(links.filter((l) => l.store === 'ozon')).toHaveLength(1);
   });
 });
+
+describe('несколько фасовок', () => {
+  it('подписывает ссылки объёмом и не дублирует', () => {
+    const links = shopLinks('X', [
+      { store: 'official', url: 'https://a.ru/750', title: '', checkedAt: '2026-10-25', packageMl: 750 },
+      { store: 'official', url: 'https://a.ru/5000', title: '', checkedAt: '2026-10-25', packageMl: 5000 },
+    ]);
+    const off = links.filter((l) => l.store === 'official');
+    expect(off.map((l) => l.label)).toEqual(['Офиц. · 750 мл', 'Офиц. · 5 л']);
+  });
+});

@@ -1,4 +1,5 @@
 import { EQUIPMENT_META, METHOD_LABEL } from './equipment';
+import { formatVolume } from './dilution';
 import type { AccessoryKind, Offer, ShopData, Store } from './shopSchema';
 import type { ApplicationMethod, Equipment, OwnedChemical, Product, ProductCategory } from './types';
 
@@ -162,7 +163,18 @@ export interface ShopLink {
 
 /** Честные ссылки: проверенные карточки товара + поиск по точному названию на маркетплейсах. */
 export function shopLinks(query: string, offers: Offer[], officialUrl?: string): ShopLink[] {
-  const links: ShopLink[] = offers.map((o) => ({ store: o.store, url: o.url, direct: true, label: STORE_LABEL[o.store] }));
+  // несколько фасовок в одном магазине — подписываем объёмом, дубли без объёма убираем
+  const links: ShopLink[] = [];
+  for (const o of offers) {
+    const sameStore = offers.filter((x) => x.store === o.store);
+    if (sameStore.length > 1 && !o.packageMl && links.some((l) => l.store === o.store)) continue;
+    if (links.some((l) => l.url === o.url)) continue;
+    const label =
+      sameStore.length > 1 && o.packageMl
+        ? `${o.store === 'official' ? 'Офиц.' : STORE_LABEL[o.store]} · ${formatVolume(o.packageMl)}`
+        : STORE_LABEL[o.store];
+    links.push({ store: o.store, url: o.url, direct: true, label });
+  }
   if (officialUrl && !links.some((l) => l.store === 'official')) {
     links.push({ store: 'official', url: officialUrl, direct: true, label: STORE_LABEL.official });
   }

@@ -39,6 +39,10 @@ export function ProductScreen() {
     );
   }
   const color = productColor(p);
+  // одинаковые для всех способов шаги и ограничения показываем один раз
+  const key = (a: (typeof p.applications)[number]) => JSON.stringify([a.steps, a.restrictions]);
+  const shared =
+    p.applications.length > 1 && p.applications.every((a) => key(a) === key(p.applications[0])) ? p.applications[0] : null;
 
   return (
     <div className="screen no-tabbar">
@@ -97,6 +101,21 @@ export function ProductScreen() {
           </div>
         ) : (
           <div className="stack">
+            {shared && (shared.steps.length > 0 || shared.restrictions.length > 0) && (
+              <div className="card app-card">
+                <span className="h3">Как наносить</span>
+                {shared.steps.length > 0 && (
+                  <ol className="steps-list">
+                    {shared.steps.map((s, i) => <li key={i}>{s}</li>)}
+                  </ol>
+                )}
+                {shared.restrictions.length > 0 && (
+                  <ul className="warn-list">
+                    {shared.restrictions.map((s, i) => <li key={i}><AlertTriangle size={14} /> {s}</li>)}
+                  </ul>
+                )}
+              </div>
+            )}
             {p.applications.map((a) => (
               <div key={a.method} className="card app-card">
                 <div className="row" style={{ justifyContent: 'space-between' }}>
@@ -110,19 +129,19 @@ export function ProductScreen() {
                   {a.surface && <span className="tag"><Layers size={13} /> {SURFACE[a.surface]}</span>}
                   {fmtDwell(a) && <span className="tag"><Clock size={13} /> Выдержка {fmtDwell(a)}</span>}
                 </div>
-                {a.steps.length > 0 && (
+                {!shared && a.steps.length > 0 && (
                   <ol className="steps-list">
                     {a.steps.map((s, i) => <li key={i}>{s}</li>)}
                   </ol>
                 )}
-                {a.restrictions.length > 0 && (
+                {!shared && a.restrictions.length > 0 && (
                   <ul className="warn-list">
                     {a.restrictions.map((s, i) => <li key={i}><AlertTriangle size={14} /> {s}</li>)}
                   </ul>
                 )}
                 {!p.custom && (
                   <div className="src">
-                    {a.sourceQuote && <div className="src-quote">«{a.sourceQuote}»</div>}
+                    {a.sourceQuote && a.sourceQuote !== a.dilutionText && <div className="src-quote">«{a.sourceQuote}»</div>}
                     <a className="src-link" href={a.sourceUrl} target="_blank" rel="noreferrer">
                       {a.sourceType === 'retailer' ? 'Инструкция со страницы магазина' : 'Источник'} <ExternalLink size={13} />
                     </a>

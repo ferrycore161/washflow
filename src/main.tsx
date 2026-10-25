@@ -5,6 +5,7 @@ import App from './App';
 import './styles/global.css';
 import './styles/screens.css';
 import './styles/shop.css';
+import './styles/car.css';
 
 registerSW({ immediate: true });
 // просим браузер не вытеснять локальные данные

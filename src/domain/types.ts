@@ -126,6 +126,12 @@ export interface CarProfile {
   make: string;
   model: string;
   body: BodyType;
+  /** Поколение из библиотеки автомобилей (vehicleCatalog), например mazda-6-gj. */
+  generationId?: string;
+  /** Вариант кузова при одинаковом типе (3d/5d). */
+  bodyVariant?: string;
+  /** Ключ цвета из палитры изображений (CAR_COLORS). */
+  colorKey?: string;
   years?: string;
   color?: string;
   engine?: string;

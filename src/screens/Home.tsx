@@ -2,7 +2,8 @@ import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { BarChart3, ShoppingBag, Box, ChevronRight, Clock, Droplet, FlaskConical, Play, Plus, Sparkles } from 'lucide-react';
 import { BrandHeader, Cta } from '../components/ui';
-import { CarArt, carPaintFromName } from '../components/art/CarArt';
+import { CarArt } from '../components/art/CarArt';
+import { CarImage, selectionFromCar } from '../components/CarImage';
 import { EquipmentArt } from '../components/art/EquipmentArt';
 import { ProductBottle } from '../components/art/Bottle';
 import { useStore } from '../store/useStore';
@@ -79,7 +80,7 @@ export function Home() {
           )}
         </div>
         <div className="car-card-art">
-          <CarArt width={230} body={car?.body} paint={carPaintFromName(car?.color)} />
+          {car ? <CarImage selection={selectionFromCar(car)} width={230} paintName={car.color} eager /> : <CarArt width={230} />}
         </div>
         <span className="car-card-edit">
           {car ? 'Изменить' : 'Добавить'} <ChevronRight size={16} />

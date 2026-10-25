@@ -2,6 +2,15 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
+import { readFileSync } from 'node:fs';
+
+// Изображения машин: цвет по умолчанию каждой модели — в предзагрузке (офлайн сразу),
+// остальные цвета кэшируются после первого показа.
+const carAssets = JSON.parse(readFileSync('src/data/carAssets.json', 'utf8')) as Record<
+  string,
+  { colors: Record<string, string>; defaultColor: string; createdAt: string }
+>;
+const carPrecache = Object.values(carAssets).map((a) => ({ url: a.colors[a.defaultColor], revision: a.createdAt }));
 
 export default defineConfig({
   base: './',
@@ -32,8 +41,15 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'],
         navigateFallback: 'index.html',
         cleanupOutdatedCaches: true,
+        additionalManifestEntries: carPrecache,
+        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         // фото товаров с сайтов производителей: после первого показа доступны офлайн
         runtimeCaching: [
+          {
+            urlPattern: ({ url, sameOrigin }) => sameOrigin && url.pathname.includes('/cars/'),
+            handler: 'CacheFirst',
+            options: { cacheName: 'car-images', expiration: { maxEntries: 400 } },
+          },
           {
             urlPattern: ({ request, sameOrigin }) => !sameOrigin && request.destination === 'image',
             handler: 'CacheFirst',

@@ -1,235 +1,288 @@
 import { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Check, Search, X } from 'lucide-react';
+import { Check, PenLine, Search, Trash2, X } from 'lucide-react';
 import { BackHeader, toast } from '../components/ui';
-import { CAR_PAINTS, CarArt, carPaintFromName } from '../components/art/CarArt';
+import { CarImage, CAR_MANIFEST, selectionFromCar, type CarSelection } from '../components/CarImage';
 import { useStore } from '../store/useStore';
 import { BODY_LABEL } from '../domain/equipment';
+import { CAR_COLORS, assetIdFor, type CarColorKey } from '../domain/vehicles';
+import { VEHICLE_MODELS, findGeneration, findVehicleModel } from '../data/vehicleCatalog';
+import { searchCars, type CarModel } from '../data/cars';
 import type { BodyType, CarProfile } from '../domain/types';
-import { POPULAR_CARS, findCarModel, searchCars, type CarModel } from '../data/cars';
 import '../styles/car.css';
 
-const BODIES: BodyType[] = ['sedan', 'hatchback', 'wagon', 'crossover', 'suv', 'minivan'];
+const BODIES = Object.keys(BODY_LABEL) as BodyType[];
 
-const norm = (s?: string) => (s ?? '').trim().toLowerCase().replace(/ё/g, 'е');
+/** Модель из общего списка поиска → модель библиотеки (Vesta SW → Vesta, кузов универсал). */
+function toVehicle(c: CarModel) {
+  const exact = findVehicleModel(c.make, c.model);
+  if (exact) return { vehicle: exact, body: c.body };
+  const base = VEHICLE_MODELS.find(
+    (v) => v.make === c.make && c.model.toLowerCase().startsWith(v.model.toLowerCase() + ' '),
+  );
+  return base ? { vehicle: base, body: c.body } : null;
+}
 
 export function CarScreen() {
   const nav = useNavigate();
   const { car, setCar } = useStore();
-  const [form, setForm] = useState<CarProfile>(car ?? { make: '', model: '', body: 'sedan', color: 'Чёрный' });
-  const [query, setQuery] = useState('');
-  const set = (patch: Partial<CarProfile>) => setForm((f) => ({ ...f, ...patch }));
+  const initial = selectionFromCar(car);
+  const initialGen = findGeneration(initial.generationId);
 
-  const results = useMemo(() => searchCars(query, 6), [query]);
-  const matched = useMemo(() => findCarModel(form.make, form.model), [form.make, form.model]);
-  const paint = carPaintFromName(form.color);
-  const knownPaint = CAR_PAINTS.some((p) => norm(p.name) === norm(form.color));
-  const title = [form.make, form.model].filter((s) => s.trim()).join(' ');
-  const bodyName = matched?.body === form.body && matched.bodyName ? matched.bodyName : BODY_LABEL[form.body];
+  const [modelId, setModelId] = useState<string | undefined>(initialGen?.model.id);
+  const [generationId, setGenerationId] = useState<string | undefined>(initial.generationId);
+  const [body, setBody] = useState<BodyType>(car?.body ?? 'sedan');
+  const [variant, setVariant] = useState<string | undefined>(car?.bodyVariant);
+  const [color, setColor] = useState<CarColorKey>(initial.color ?? 'black');
+  const [engine, setEngine] = useState(car?.engine ?? '');
+  const [manual, setManual] = useState(!!car && !initialGen);
+  const [make, setMake] = useState(car?.make ?? '');
+  const [modelName, setModelName] = useState(car?.model ?? '');
+  const [q, setQ] = useState('');
+  const [showAll, setShowAll] = useState(false);
 
-  const pick = (c: CarModel) => {
-    set({ make: c.make, model: c.model, body: c.body, years: c.generations?.includes(form.years ?? '') ? form.years : '' });
-    setQuery('');
+  const vehicle = VEHICLE_MODELS.find((v) => v.id === modelId);
+  const generation = vehicle?.generations.find((g) => g.id === generationId);
+  const selection: CarSelection = { generationId: manual ? undefined : generationId, body, variant, color };
+  const asset = generationId ? CAR_MANIFEST[assetIdFor(generationId, body, variant)] : undefined;
+  const colors = asset ? CAR_COLORS.filter((c) => asset.colors[c.key]) : CAR_COLORS;
+  const colorName = CAR_COLORS.find((c) => c.key === color)?.name ?? '';
+
+  const results = useMemo(() => (q.trim() ? searchCars(q, 8) : []), [q]);
+  const popular = VEHICLE_MODELS.filter((v) => v.popular);
+
+  const pickVehicle = (vid: string, preferBody?: BodyType) => {
+    const v = VEHICLE_MODELS.find((x) => x.id === vid)!;
+    const gen = v.generations.find((g) => g.bodies.some((b) => b.body === preferBody)) ?? v.generations[0];
+    const b = gen.bodies.find((x) => x.body === preferBody) ?? gen.bodies[0];
+    setManual(false);
+    setModelId(v.id);
+    setGenerationId(gen.id);
+    setBody(b.body);
+    setVariant(b.variant);
+    setQ('');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const pickGeneration = (gid: string) => {
+    const gen = vehicle!.generations.find((g) => g.id === gid)!;
+    setGenerationId(gid);
+    const keep = gen.bodies.find((b) => b.body === body && b.variant === variant) ?? gen.bodies.find((b) => b.body === body);
+    const b = keep ?? gen.bodies[0];
+    setBody(b.body);
+    setVariant(b.variant);
   };
 
   const save = () => {
-    if (!form.make.trim()) return toast('Укажите марку');
-    setCar({
-      ...form,
-      make: form.make.trim(),
-      model: form.model.trim(),
-      years: form.years?.trim() || undefined,
-      engine: form.engine?.trim() || undefined,
-      color: form.color?.trim() || undefined,
-    });
+    let profile: CarProfile;
+    if (!manual && vehicle && generation) {
+      profile = {
+        make: vehicle.make,
+        model: vehicle.model,
+        body,
+        bodyVariant: variant,
+        generationId: generation.id,
+        years: `${generation.years} (${generation.code})`,
+        color: colorName,
+        colorKey: color,
+        engine: engine.trim() || undefined,
+      };
+    } else {
+      if (!make.trim()) return toast('Укажите марку');
+      profile = { make: make.trim(), model: modelName.trim(), body, color: colorName, colorKey: color, engine: engine.trim() || undefined };
+    }
+    setCar(profile);
     toast('Автомобиль сохранён');
     nav(-1);
   };
+
+  const title = manual ? `${make} ${modelName}`.trim() || 'Мой автомобиль' : vehicle ? `${vehicle.make} ${vehicle.model}` : 'Выберите автомобиль';
+  const bodyLabel = generation?.bodies.find((b) => b.body === body && b.variant === variant)?.label ?? BODY_LABEL[body];
 
   return (
     <div className="screen no-tabbar car-screen">
       <BackHeader title="Мой автомобиль" />
 
-      {/* ── Сцена ── */}
-      <section className="car-stage" aria-label="Предпросмотр автомобиля">
-        <div className="car-stage-art" key={form.body}>
-          <CarArt body={form.body} paint={paint} width={340} className="car-stage-svg" />
+      <section className="car-stage" aria-live="polite">
+        <div className="car-stage-img">
+          <CarImage selection={selection} width={360} paintName={colorName} eager />
         </div>
         <div className="car-stage-meta">
-          <div className="eyebrow">{bodyName}{form.color ? ` · ${form.color}` : ''}</div>
-          <div className="car-stage-title">{title || 'Ваш автомобиль'}</div>
-          {(form.years || form.engine) && (
-            <div className="car-stage-sub">{[form.years, form.engine].filter(Boolean).join(' · ')}</div>
+          <div className="h2" data-testid="car-title">{title}</div>
+          <div className="muted" style={{ fontSize: 14, marginTop: 4 }}>
+            {[generation && !manual ? `${generation.code} · ${generation.years}` : null, bodyLabel, colorName].filter(Boolean).join(' · ')}
+          </div>
+          {!asset && (vehicle || manual) && (
+            <div className="car-stage-note">Иллюстрация по типу кузова — изображения этой модели пока нет в библиотеке</div>
           )}
         </div>
       </section>
 
-      {/* ── Поиск ── */}
-      <div className="car-block">
-        <div className="search car-search">
-          <Search size={20} />
-          <input
-            className="input"
-            type="search"
-            inputMode="search"
-            enterKeyHint="search"
-            autoComplete="off"
-            value={query}
-            placeholder="Найти модель: «мазда 6», «camry»"
-            aria-label="Поиск модели"
-            onChange={(e) => setQuery(e.target.value)}
-          />
-          {query && (
-            <button className="clear" aria-label="Очистить поиск" onClick={() => setQuery('')}>
-              <X size={18} />
-            </button>
+      {vehicle && !manual && (
+        <div className="stack" style={{ marginTop: 18 }}>
+          {vehicle.generations.length > 1 && (
+            <div className="field">
+              <span>Поколение</span>
+              <div className="chips" style={{ margin: 0, padding: 0, flexWrap: 'wrap' }}>
+                {vehicle.generations.map((g) => (
+                  <button key={g.id} className="chip" aria-pressed={g.id === generationId} onClick={() => pickGeneration(g.id)}>
+                    {g.code} <span className="muted" style={{ fontWeight: 500 }}>{g.years}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+          {generation && generation.bodies.length > 1 && (
+            <div className="field">
+              <span>Кузов</span>
+              <div className="chips" style={{ margin: 0, padding: 0, flexWrap: 'wrap' }}>
+                {generation.bodies.map((b) => (
+                  <button
+                    key={b.body + (b.variant ?? '')}
+                    className="chip"
+                    aria-pressed={b.body === body && b.variant === variant}
+                    onClick={() => {
+                      setBody(b.body);
+                      setVariant(b.variant);
+                    }}
+                  >
+                    {b.label ?? BODY_LABEL[b.body]}
+                  </button>
+                ))}
+              </div>
+            </div>
           )}
         </div>
+      )}
 
-        {query.trim() ? (
-          results.length ? (
-            <ul className="car-results" role="listbox" aria-label="Найденные модели">
-              {results.map((c) => (
-                <li key={c.id}>
-                  <button className="car-result" role="option" aria-selected={false} onClick={() => pick(c)}>
-                    <span className="car-result-art">
-                      <CarArt body={c.body} paint={paint} width={86} plain />
-                    </span>
-                    <span className="car-result-text">
-                      <b>{c.make} {c.model}</b>
-                      <small>{c.bodyName ?? BODY_LABEL[c.body]}</small>
-                    </span>
-                  </button>
-                </li>
+      {manual && (
+        <div className="stack" style={{ marginTop: 18 }}>
+          <div className="grid-2">
+            <label className="field"><span>Марка</span><input className="input" value={make} onChange={(e) => setMake(e.target.value)} /></label>
+            <label className="field"><span>Модель</span><input className="input" value={modelName} onChange={(e) => setModelName(e.target.value)} /></label>
+          </div>
+          <div className="field">
+            <span>Кузов</span>
+            <div className="chips" style={{ margin: 0, padding: 0, flexWrap: 'wrap' }}>
+              {BODIES.map((b) => (
+                <button key={b} className="chip" aria-pressed={body === b} onClick={() => setBody(b)}>{BODY_LABEL[b]}</button>
               ))}
-            </ul>
-          ) : (
-            <p className="car-hint">Такой модели нет в списке — просто впишите марку и модель ниже.</p>
-          )
-        ) : (
-          <div className="chips car-quick" aria-label="Популярные модели">
-            {POPULAR_CARS.map((c) => {
-              const on = matched?.id === c.id;
+            </div>
+          </div>
+        </div>
+      )}
+
+      {(vehicle || manual) && (
+        <div className="stack" style={{ marginTop: 16 }}>
+          <div className="field">
+            <span>Цвет · {colorName}</span>
+            <div className="car-swatches" role="radiogroup" aria-label="Цвет">
+              {colors.map((c) => (
+                <button
+                  key={c.key}
+                  role="radio"
+                  aria-checked={c.key === color}
+                  aria-label={c.name}
+                  className="car-swatch"
+                  style={{ ['--sw' as string]: c.hex }}
+                  onClick={() => setColor(c.key)}
+                >
+                  {c.key === color && <Check size={16} />}
+                </button>
+              ))}
+            </div>
+          </div>
+          <label className="field">
+            <span>Двигатель (необязательно)</span>
+            <input className="input" value={engine} placeholder="2.5 л" onChange={(e) => setEngine(e.target.value)} />
+          </label>
+          <button className="btn btn-primary block" style={{ minHeight: 58 }} onClick={save} data-testid="car-save">
+            <Check size={20} /> Сохранить
+          </button>
+        </div>
+      )}
+
+      <div className="eyebrow" style={{ margin: '24px 0 10px' }}>Сменить автомобиль</div>
+      <div className="search">
+        <Search size={20} />
+        <input className="input" placeholder="Марка или модель: «мазда 6», «camry»" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Поиск автомобиля" data-testid="car-search" />
+        {q && (
+          <button className="clear" aria-label="Очистить" onClick={() => setQ('')}>
+            <X size={18} />
+          </button>
+        )}
+      </div>
+
+      {q.trim() && (
+        <div className="car-results">
+          {results.map((c) => {
+            const v = toVehicle(c);
+            return (
+              <button
+                key={c.id}
+                className="car-result"
+                onClick={() => {
+                  if (v) pickVehicle(v.vehicle.id, v.body);
+                  else {
+                    setManual(true);
+                    setModelId(undefined);
+                    setGenerationId(undefined);
+                    setMake(c.make);
+                    setModelName(c.model);
+                    setBody(c.body);
+                    setVariant(undefined);
+                    setQ('');
+                  }
+                }}
+              >
+                <span className="car-result-art">
+                  <CarImage selection={v ? { generationId: v.vehicle.generations[0].id, body: v.body } : { body: c.body }} width={92} />
+                </span>
+                <span style={{ flex: 1, textAlign: 'left' }}>
+                  <b>{c.make} {c.model}</b>
+                  <span className="muted" style={{ display: 'block', fontSize: 12.5 }}>{c.bodyName ?? BODY_LABEL[c.body]}</span>
+                </span>
+              </button>
+            );
+          })}
+          {results.length === 0 && <p className="muted" style={{ padding: '6px 4px' }}>Не нашли — введите вручную ниже.</p>}
+        </div>
+      )}
+
+      {!q.trim() && (
+        <>
+          <div className="eyebrow" style={{ margin: '14px 0 10px' }}>Популярные</div>
+          <div className="car-popular">
+            {popular.slice(0, showAll ? undefined : 8).map((v) => {
+              const gen = v.generations[0];
+              const b = gen.bodies[0];
               return (
-                <button key={c.id} className="chip" aria-pressed={on} onClick={() => pick(c)}>
-                  {c.make} {c.model}
+                <button key={v.id} className={`car-pop ${v.id === modelId && !manual ? 'on' : ''}`} onClick={() => pickVehicle(v.id)} data-testid="car-pop">
+                  <CarImage selection={{ generationId: gen.id, body: b.body, variant: b.variant }} width={132} />
+                  <b>{v.make} {v.model}</b>
+                  <span>{gen.code}</span>
                 </button>
               );
             })}
           </div>
-        )}
-      </div>
-
-      {/* ── Марка / модель ── */}
-      <div className="grid-2 car-block">
-        <label className="field">
-          <span>Марка</span>
-          <input className="input" value={form.make} placeholder="Mazda" autoComplete="off" onChange={(e) => set({ make: e.target.value })} />
-        </label>
-        <label className="field">
-          <span>Модель</span>
-          <input className="input" value={form.model} placeholder="6" autoComplete="off" onChange={(e) => set({ model: e.target.value })} />
-        </label>
-      </div>
-
-      {/* ── Кузов ── */}
-      <div className="car-block">
-        <div className="car-label">
-          <span>Кузов</span>
-          <small>От кузова зависит, сколько раствора готовить</small>
-        </div>
-        <div className="car-bodies" role="radiogroup" aria-label="Тип кузова">
-          {BODIES.map((b) => {
-            const on = form.body === b;
-            return (
-              <button key={b} className="car-body" role="radio" aria-checked={on} onClick={() => set({ body: b })}>
-                <CarArt body={b} paint={on ? paint : '#2a353b'} width={100} plain className="car-body-svg" />
-                <span>{BODY_LABEL[b]}</span>
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* ── Цвет ── */}
-      <div className="car-block">
-        <div className="car-label">
-          <span>Цвет</span>
-          <small>{form.color || 'Не выбран'}</small>
-        </div>
-        <div className="car-paints" role="radiogroup" aria-label="Цвет кузова">
-          {CAR_PAINTS.map((p) => {
-            const on = norm(form.color) === norm(p.name);
-            return (
-              <button
-                key={p.name}
-                className="car-paint"
-                role="radio"
-                aria-checked={on}
-                aria-label={p.name}
-                title={p.name}
-                style={{ ['--paint' as string]: p.hex }}
-                onClick={() => set({ color: p.name })}
-              >
-                <i />
-                {on && <Check size={16} strokeWidth={3} />}
-              </button>
-            );
-          })}
-          {form.color && !knownPaint && (
-            <button className="car-paint" role="radio" aria-checked aria-label={form.color} title={form.color} style={{ ['--paint' as string]: paint }}>
-              <i />
-              <Check size={16} strokeWidth={3} />
+          {!showAll && popular.length > 8 && (
+            <button className="btn btn-secondary block" style={{ marginTop: 10 }} onClick={() => setShowAll(true)}>
+              Все модели · {popular.length}
             </button>
           )}
-        </div>
-      </div>
+        </>
+      )}
 
-      {/* ── Годы / двигатель ── */}
-      <div className="car-block">
-        {matched?.generations && (
-          <div className="car-label">
-            <span>Поколение</span>
-          </div>
-        )}
-        {matched?.generations && (
-          <div className="chips car-gens" aria-label="Поколение">
-            {matched.generations.map((g) => (
-              <button key={g} className="chip" aria-pressed={form.years === g} onClick={() => set({ years: form.years === g ? '' : g })}>
-                {g}
-              </button>
-            ))}
-          </div>
-        )}
-        <div className="grid-2">
-          <label className="field">
-            <span>Годы / поколение</span>
-            <input className="input" value={form.years ?? ''} placeholder="2012–2018" onChange={(e) => set({ years: e.target.value })} />
-          </label>
-          <label className="field">
-            <span>Двигатель</span>
-            <input className="input" value={form.engine ?? ''} placeholder="2.5 л" onChange={(e) => set({ engine: e.target.value })} />
-          </label>
-        </div>
-      </div>
-
-      <div className="car-actions">
-        <button className="btn btn-primary block" style={{ minHeight: 58 }} onClick={save}>
-          Сохранить
+      {!manual && (
+        <button className="btn btn-ghost block" style={{ marginTop: 10 }} onClick={() => { setManual(true); setModelId(undefined); setGenerationId(undefined); }}>
+          <PenLine size={16} /> Моей машины нет в списке
         </button>
-        {car && (
-          <button
-            className="btn btn-danger block"
-            onClick={() => {
-              setCar(null);
-              toast('Автомобиль удалён');
-              nav(-1);
-            }}
-          >
-            Удалить автомобиль
-          </button>
-        )}
-      </div>
+      )}
+      {car && (
+        <button className="btn btn-danger block" style={{ marginTop: 10 }} onClick={() => { setCar(null); toast('Автомобиль удалён'); nav(-1); }}>
+          <Trash2 size={18} /> Удалить автомобиль
+        </button>
+      )}
     </div>
   );
 }

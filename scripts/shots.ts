@@ -49,6 +49,7 @@ const routes: [string, string, ((p: import('@playwright/test').Page) => Promise<
     },
   ],
   ['13-equipment-bottle', '/#/equipment/new?type=bottle_trigger'],
+  ['14-car', '/#/car'],
 ];
 
 const browser = await chromium.launch();

@@ -156,5 +156,5 @@ test('распылитель на флакон: FastQuartz без разбавл
   }
   await expect(page.getByTestId('step-title')).toHaveText('Нанеси состав');
   await expect(page.getByTestId('dose-consumption')).toHaveText(/≈\d+ мл/);
-  await expect(page.getByText('распылителем на флаконе')).toBeVisible();
+  await expect(page.locator('.mix-eq')).toContainText('прямо на флакон');
 });

@@ -292,6 +292,43 @@ export function WashRun() {
           </div>
         )}
 
+        {step.recipe?.mode === 'consumption' && product && (
+          <div className="mix">
+            <div className="mix-visual">
+              <div className="mix-bottle"><ProductBottle product={product} size={120} /></div>
+              {eq && (
+                <div className="mix-eq">
+                  <EquipmentArt type={eq.type} size={92} />
+                  <div>
+                    <div className="muted" style={{ fontSize: 12 }}>Моё оборудование</div>
+                    <b style={{ fontSize: 15 }}>{eq.name}</b>
+                    <div className="muted" style={{ fontSize: 12.5 }}>прямо на флакон</div>
+                  </div>
+                </div>
+              )}
+            </div>
+            <div className="grid-2" style={{ marginTop: 12 }}>
+              <div className="dose chem">
+                <Droplet size={26} fill="currentColor" />
+                <div>
+                  <div className="dose-v num" data-testid="dose-consumption">≈{step.recipe.chemMl}<small> мл</small></div>
+                  <div className="dose-l">
+                    на машину
+                    {step.recipe.rangeMl && ` · ${step.recipe.rangeMl.from}–${step.recipe.rangeMl.to}`}
+                  </div>
+                </div>
+              </div>
+              <div className="dose water off">
+                <Droplet size={26} />
+                <div>
+                  <div className="dose-v">0<small> мл</small></div>
+                  <div className="dose-l">без воды</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
         {step.noVerifiedRecipe && (
           <div className="notice" style={{ marginTop: 14 }} role="alert">
             <AlertTriangle size={20} />
@@ -309,7 +346,13 @@ export function WashRun() {
             {step.method && eq && (
               <div className="fact">
                 <span className="muted">Чем</span>
-                <b>{step.kind === 'prepare' ? EQUIPMENT_META[eq.type].label : METHOD_VERB[step.method]}</b>
+                <b>
+                  {eq.type === 'bottle_trigger'
+                    ? 'распылителем на флаконе'
+                    : step.kind === 'prepare'
+                      ? EQUIPMENT_META[eq.type].label
+                      : METHOD_VERB[step.method]}
+                </b>
               </div>
             )}
             {step.timerRange && (

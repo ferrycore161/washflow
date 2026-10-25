@@ -31,6 +31,18 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'],
         navigateFallback: 'index.html',
         cleanupOutdatedCaches: true,
+        // фото товаров с сайтов производителей: после первого показа доступны офлайн
+        runtimeCaching: [
+          {
+            urlPattern: ({ request, sameOrigin }) => !sameOrigin && request.destination === 'image',
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'product-images',
+              expiration: { maxEntries: 300, maxAgeSeconds: 60 * 60 * 24 * 60 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+        ],
       },
     }),
   ],

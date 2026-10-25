@@ -771,3 +771,64 @@
   overflow: hidden;
   line-height: 1.2;
 }
+
+.radio-dot {
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid var(--line-2);
+  flex-shrink: 0;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.radio-dot.on {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 5px var(--bg-2), inset 0 0 0 12px var(--accent);
+}
+.toggle[role='radio'][aria-checked='true'] {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+.eq-vol {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dose.off {
+  opacity: 0.55;
+}
+
+.kind-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.kind-grid .kind-tile {
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 12px;
+  min-height: 66px;
+  padding: 10px 12px;
+}
+.kind-ico {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: var(--surface-2);
+  flex-shrink: 0;
+}
+.kind-tile[aria-checked='true'] .kind-ico {
+  background: rgba(51, 227, 212, 0.16);
+}
+.kind-txt {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.kind-grid .kind-tile b {
+  margin-top: 0;
+}

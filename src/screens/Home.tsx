@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { BarChart3, Box, ChevronRight, Clock, Droplet, FlaskConical, Play, Plus, Sparkles } from 'lucide-react';
+import { BarChart3, ShoppingBag, Box, ChevronRight, Clock, Droplet, FlaskConical, Play, Plus, Sparkles } from 'lucide-react';
 import { BrandHeader, Cta } from '../components/ui';
 import { CarArt } from '../components/art/CarArt';
 import { EquipmentArt } from '../components/art/EquipmentArt';
@@ -8,13 +8,21 @@ import { ProductBottle } from '../components/art/Bottle';
 import { useStore } from '../store/useStore';
 import { useProductMap } from '../store/catalog';
 import { BODY_LABEL, CATEGORY_SHORT } from '../domain/equipment';
-import { formatVolume } from '../domain/dilution';
+import { equipmentSubtitle } from './Equipment';
 import { buildScenario } from '../domain/scenario';
+import { analyzeNeeds } from '../domain/shopping';
+import { SHOP } from '../store/shop';
+import { useProducts } from '../store/catalog';
 
 export function Home() {
   const nav = useNavigate();
   const { car, equipment, owned, settings, active } = useStore();
   const products = useProductMap();
+  const productList = useProducts();
+  const missing = useMemo(
+    () => analyzeNeeds({ products: productList, owned, equipment, offers: SHOP.offers }).filter((n) => !n.covered),
+    [productList, owned, equipment],
+  );
 
   const scenario = useMemo(
     () =>
@@ -98,7 +106,7 @@ export function Home() {
                 <EquipmentArt type={e.type} size={84} />
               </div>
               <div className="mini-name">{e.name}</div>
-              <div className="mini-sub">{formatVolume(e.volumeMl)}</div>
+              <div className="mini-sub">{equipmentSubtitle(e, products)}</div>
             </button>
           ))}
           <button className="mini-tile add" onClick={() => nav('/equipment/new')}>
@@ -137,6 +145,20 @@ export function Home() {
           </button>
         </div>
       </section>
+
+      {missing.length > 0 && (
+        <button className="section card press ready-card shop-cta" onClick={() => nav('/shop')} data-testid="home-shop">
+          <div className="icon-tile" style={{ width: 56, height: 56 }}>
+            <ShoppingBag size={24} />
+          </div>
+          <div style={{ flex: 1, textAlign: 'left', minWidth: 0 }}>
+            <div className="muted" style={{ fontSize: 13.5 }}>Покупки</div>
+            <div className="h3" style={{ fontSize: 17, marginTop: 2 }}>Не хватает: {missing.slice(0, 3).map((n) => n.def.title.toLowerCase()).join(', ')}</div>
+            <div className="muted" style={{ fontSize: 13, marginTop: 4 }}>Подберём составы под ваше оборудование</div>
+          </div>
+          <ChevronRight size={20} className="muted" />
+        </button>
+      )}
 
       {scenario.productIds.length > 0 && (
         <button className="section card press ready-card" onClick={() => { useStore.getState().setSettings({ kind: 'protect' }); nav('/wash'); }}>

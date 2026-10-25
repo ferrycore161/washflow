@@ -12,6 +12,7 @@ import { WashDone } from './screens/WashDone';
 import { Profile } from './screens/Profile';
 import { CarScreen } from './screens/Car';
 import { Welcome } from './screens/Welcome';
+import { Shop } from './screens/Shop';
 import { useStore } from './store/useStore';
 
 const NO_TABBAR = [/^\/wash\/(run|done)/, /^\/equipment\/.+/, /^\/product\//, /^\/car/, /^\/welcome/];
@@ -39,6 +40,7 @@ function Shell() {
         <Route path="/wash" element={<WashSetup />} />
         <Route path="/wash/run" element={<WashRun />} />
         <Route path="/wash/done" element={<WashDone />} />
+        <Route path="/shop" element={<Shop />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/car" element={<CarScreen />} />
         <Route path="*" element={<Navigate to="/" replace />} />

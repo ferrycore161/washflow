@@ -2,7 +2,8 @@ import { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ChevronRight, CircleDot, Droplet, FlaskConical, LayoutGrid, MoreVertical, Pencil, Plus, ShieldCheck, Trash2, ExternalLink } from 'lucide-react';
 import { BrandHeader, Cta, Empty, Progress, Sheet, SheetHeader, toast } from '../components/ui';
-import { ProductBottle, productColor } from '../components/art/Bottle';
+import { productColor } from '../components/art/Bottle';
+import { ProductImage } from '../components/ProductImage';
 import { AddChemSheet } from '../components/AddChemSheet';
 import { useStore } from '../store/useStore';
 import { useProductMap } from '../store/catalog';
@@ -82,7 +83,7 @@ export function Chemistry() {
           return (
             <div key={o.id} className="card chem-card fade-up" data-testid="owned-chem">
               <button className="chem-art" onClick={() => nav(`/product/${p.id}`)} aria-label={`Карточка ${p.name}`} style={{ ['--c' as string]: color }}>
-                <ProductBottle product={p} size={118} />
+                <ProductImage product={p} size={108} />
               </button>
               <div className="chem-body">
                 <div className="row" style={{ alignItems: 'flex-start', gap: 6 }}>

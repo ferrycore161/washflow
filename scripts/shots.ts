@@ -28,6 +28,27 @@ const routes: [string, string, ((p: import('@playwright/test').Page) => Promise<
   ['07-product', '/#/product/shine-systems-delicatewash'],
   ['08-equipment-form', '/#/equipment/new'],
   ['09-profile', '/#/profile'],
+  ['10-shop', '/#/shop'],
+  [
+    '11-iron-setup',
+    '/#/wash',
+    async (p) => {
+      await p.getByRole('radio', { name: /С Iron/ }).click();
+    },
+  ],
+  [
+    '12-run-fastquartz',
+    '/#/wash',
+    async (p) => {
+      await p.getByRole('radio', { name: /С защитой/ }).click();
+      await p.getByTestId('begin-scenario').click();
+      for (let i = 0; i < 30; i++) {
+        if ((await p.getByTestId('dose-consumption').count()) > 0) break;
+        await p.getByTestId('next-step').click();
+      }
+    },
+  ],
+  ['13-equipment-bottle', '/#/equipment/new?type=bottle_trigger'],
 ];
 
 const browser = await chromium.launch();

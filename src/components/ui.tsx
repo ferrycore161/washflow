@@ -2,7 +2,7 @@ import { useEffect, useRef, type ReactNode } from 'react';
 import { createPortal } from 'react-dom';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { create } from 'zustand';
-import { Bell, Box, ChevronLeft, ChevronRight, FlaskConical, House, Minus, Plus, UserRound, X } from 'lucide-react';
+import { Bell, Box, ChevronLeft, ChevronRight, FlaskConical, House, Minus, Plus, ShoppingBag, UserRound, X } from 'lucide-react';
 
 export function Logo({ size = 30, sub = true }: { size?: number; sub?: boolean }) {
   return (
@@ -77,7 +77,8 @@ export function Cta({
 export function TabBar() {
   const tabs = [
     { to: '/', label: 'Главная', icon: House, end: true },
-    { to: '/chemistry', label: 'Моя химия', icon: FlaskConical },
+    { to: '/chemistry', label: 'Химия', icon: FlaskConical },
+    { to: '/shop', label: 'Покупки', icon: ShoppingBag },
     { to: '/equipment', label: 'Оборудование', icon: Box },
     { to: '/profile', label: 'Профиль', icon: UserRound },
   ];

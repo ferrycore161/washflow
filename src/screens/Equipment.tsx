@@ -4,6 +4,8 @@ import { Check, Cloud, LayoutGrid, MoreHorizontal, Pencil, Plus, Search, SprayCa
 import { BackHeader, BrandHeader, Cta, Empty, Sheet, SheetHeader, Toggle, VolumeStepper, toast } from '../components/ui';
 import { EquipmentArt } from '../components/art/EquipmentArt';
 import { useStore, uid } from '../store/useStore';
+import { useProductMap } from '../store/catalog';
+import { ProductBottle } from '../components/art/Bottle';
 import { EQUIPMENT_META, defaultFill } from '../domain/equipment';
 import { formatVolume } from '../domain/dilution';
 import type { Equipment, EquipmentType } from '../domain/types';
@@ -27,7 +29,7 @@ function BucketIcon() {
 
 function matches(f: Filter, t: EquipmentType) {
   if (f === 'all') return true;
-  if (f === 'sprayer') return t === 'sprayer' || t === 'trigger';
+  if (f === 'sprayer') return t === 'sprayer' || t === 'trigger' || t === 'bottle_trigger';
   if (f === 'bucket') return t === 'bucket';
   return t === 'foam_generator' || t === 'foam_lance' || t === 'hpw_injector';
 }
@@ -35,6 +37,7 @@ function matches(f: Filter, t: EquipmentType) {
 export function EquipmentList() {
   const nav = useNavigate();
   const { equipment, removeEquipment, setDefaultEquipment } = useStore();
+  const productMap = useProductMap();
   const [filter, setFilter] = useState<Filter>('all');
   const [q, setQ] = useState('');
   const [menu, setMenu] = useState<Equipment | null>(null);
@@ -91,7 +94,7 @@ export function EquipmentList() {
             <div className="eq-name">{e.name}</div>
             <div className="muted" style={{ fontSize: 12.5, marginTop: 2 }}>{EQUIPMENT_META[e.type].label}</div>
             <div className="row" style={{ marginTop: 10, gap: 6 }}>
-              <span className="tag num">{formatVolume(e.volumeMl)}</span>
+              <span className="tag num eq-vol">{equipmentSubtitle(e, productMap)}</span>
               <button className="btn btn-secondary eq-edit" onClick={() => nav(`/equipment/${e.id}`)}>
                 <Pencil size={15} /> Изменить
               </button>
@@ -150,13 +153,14 @@ export function EquipmentList() {
   );
 }
 
-const TYPES: EquipmentType[] = ['sprayer', 'foam_generator', 'foam_lance', 'bucket', 'trigger', 'other'];
+const TYPES: EquipmentType[] = ['sprayer', 'foam_generator', 'foam_lance', 'bucket', 'trigger', 'bottle_trigger'];
 
 export function EquipmentForm() {
   const { id } = useParams();
   const [params] = useSearchParams();
   const nav = useNavigate();
-  const { equipment, upsertEquipment, removeEquipment } = useStore();
+  const { equipment, upsertEquipment, removeEquipment, owned } = useStore();
+  const productMap = useProductMap();
   const existing = equipment.find((e) => e.id === id);
   const initialType = (existing?.type ?? (params.get('type') as EquipmentType) ?? 'sprayer') as EquipmentType;
 
@@ -166,6 +170,13 @@ export function EquipmentForm() {
   const [fill, setFill] = useState(existing?.fillMl ?? defaultFill(initialType, volume));
   const [fillTouched, setFillTouched] = useState(!!existing);
   const [isDefault, setIsDefault] = useState(existing?.isDefault ?? !equipment.some((e) => e.type === initialType));
+  const [boundProduct, setBoundProduct] = useState<string>(existing?.productId ?? '');
+  // средства, которые производитель наносит распылением без разбавления
+  const readySpray = owned
+    .map((o) => productMap.get(o.productId))
+    .filter((p): p is NonNullable<typeof p> => !!p)
+    .filter((p) => p.applications.some((a) => a.dilution.kind === 'ready' && (a.method === 'trigger' || a.method === 'sprayer')))
+    .filter((p, i, arr) => arr.findIndex((x) => x.id === p.id) === i);
 
   if (id && id !== 'new' && !existing) {
     return (
@@ -195,10 +206,11 @@ export function EquipmentForm() {
       id: existing?.id ?? uid(),
       type,
       name: name.trim() || meta.label,
-      volumeMl: volume,
-      fillMl: Math.min(fill, volume),
+      volumeMl: type === 'bottle_trigger' ? 0 : volume,
+      fillMl: type === 'bottle_trigger' ? 0 : Math.min(fill, volume),
       isDefault,
       createdAt: existing?.createdAt ?? Date.now(),
+      productId: type === 'bottle_trigger' && boundProduct ? boundProduct : undefined,
     };
     upsertEquipment(e);
     toast(existing ? 'Сохранено' : 'Оборудование добавлено');
@@ -230,7 +242,36 @@ export function EquipmentForm() {
           <input className="input" placeholder={type === 'sprayer' ? 'Например, Marolex Industry Ergo' : meta.label} value={name} onChange={(e) => setName(e.target.value)} />
         </label>
 
-        {meta.method && (
+        {type === 'bottle_trigger' && (
+          <div className="field">
+            <span>На какой флакон накручен</span>
+            <div className="stack" role="radiogroup" aria-label="Флакон">
+              <button className="toggle" role="radio" aria-checked={boundProduct === ''} onClick={() => setBoundProduct('')}>
+                <span>
+                  <span style={{ display: 'block', fontWeight: 700 }}>Переставляю на разные флаконы</span>
+                  <span className="muted" style={{ fontSize: 13 }}>Для любого готового состава, который наносят распылением</span>
+                </span>
+                <span className={`radio-dot ${boundProduct === '' ? 'on' : ''}`} aria-hidden="true" />
+              </button>
+              {readySpray.map((p) => (
+                <button key={p.id} className="toggle" role="radio" aria-checked={boundProduct === p.id} onClick={() => setBoundProduct(p.id)}>
+                  <ProductBottle product={p} size={44} />
+                  <span>
+                    <span style={{ display: 'block', fontWeight: 700 }}>{p.name}</span>
+                    <span className="muted" style={{ fontSize: 13 }}>{p.brand} · без разбавления</span>
+                  </span>
+                  <span className={`radio-dot ${boundProduct === p.id ? 'on' : ''}`} aria-hidden="true" />
+                </button>
+              ))}
+            </div>
+            <span className="muted" style={{ fontSize: 13, fontWeight: 500 }}>
+              Отдельная ёмкость не нужна: средство распыляется прямо из оригинальной бутылки. Разведения нет — WASHFLOW покажет
+              расход по инструкции производителя.
+            </span>
+          </div>
+        )}
+
+        {meta.method && type !== 'bottle_trigger' && (
           <>
             <div className="field">
               <span>Объём ёмкости</span>
@@ -296,4 +337,10 @@ export function EquipmentForm() {
 
 function Box() {
   return <LayoutGrid />;
+}
+
+/** Подпись под оборудованием: объём или флакон, на который накручен распылитель. */
+export function equipmentSubtitle(e: Equipment, products: Map<string, { name: string }>): string {
+  if (e.type === 'bottle_trigger') return e.productId ? `на ${products.get(e.productId)?.name ?? 'флакон'}` : 'на любой флакон';
+  return formatVolume(e.volumeMl);
 }

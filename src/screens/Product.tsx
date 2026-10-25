@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { AlertTriangle, Check, Clock, ExternalLink, Layers, Pencil, Plus, ShieldAlert, ShieldCheck, Trash2 } from 'lucide-react';
 import { BackHeader, Empty, Progress, Segmented, toast } from '../components/ui';
-import { ProductBottle, productColor } from '../components/art/Bottle';
+import { productColor } from '../components/art/Bottle';
+import { ProductImage } from '../components/ProductImage';
 import { AddChemSheet } from '../components/AddChemSheet';
 import { useStore, uid } from '../store/useStore';
 import { useProductMap } from '../store/catalog';
@@ -43,7 +44,7 @@ export function ProductScreen() {
     <div className="screen no-tabbar">
       <BackHeader title={p.brand} />
       <div className="product-hero" style={{ ['--c' as string]: color }}>
-        <ProductBottle product={p} size={190} />
+        <ProductImage product={p} size={190} />
       </div>
       <div className="eyebrow">{p.brand}</div>
       <h1 className="h1" style={{ marginTop: 4 }}>{p.name}</h1>

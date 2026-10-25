@@ -22,7 +22,7 @@ export interface ScenarioInput {
   getProduct: (id: string) => Product | undefined;
 }
 
-type Role = 'phase1' | 'phase2' | 'protection' | 'wheels' | 'insects';
+export type Role = 'phase1' | 'phase2' | 'protection' | 'wheels' | 'insects' | 'iron';
 
 /** В каком порядке предпочитаем способы нанесения для каждой роли. */
 const METHOD_PRIORITY: Record<Role, ApplicationMethod[]> = {
@@ -31,6 +31,7 @@ const METHOD_PRIORITY: Record<Role, ApplicationMethod[]> = {
   protection: ['sprayer', 'foam_generator', 'foam_lance', 'trigger'],
   wheels: ['trigger', 'sprayer', 'foam_generator'],
   insects: ['trigger', 'sprayer', 'foam_generator'],
+  iron: ['trigger', 'sprayer', 'foam_generator', 'foam_lance'],
 };
 
 const ROLE_CATEGORIES: Record<Role, ProductCategory[]> = {
@@ -39,9 +40,11 @@ const ROLE_CATEGORIES: Record<Role, ProductCategory[]> = {
   protection: ['protection'],
   wheels: ['wheel_cleaner'],
   insects: ['insect_remover'],
+  iron: ['iron_remover'],
 };
 
 interface Pick {
+  car?: CarProfile | null;
   role: Role;
   product: Product;
   owned: OwnedChemical;
@@ -77,7 +80,8 @@ function pickProduct(role: Role, items: { product: Product; owned: OwnedChemical
 }
 
 function chooseEquipment(equipment: Equipment[], method: ApplicationMethod, used: Map<string, string>) {
-  const list = equipment.filter((e) => EQUIPMENT_META[e.type].method === method);
+  // распылитель на флакон не является ёмкостью для раствора
+  const list = equipment.filter((e) => e.type !== 'bottle_trigger' && EQUIPMENT_META[e.type].method === method);
   list.sort((a, b) => {
     // свободная ёмкость лучше занятой другой химией
     const ua = used.has(a.id) ? 1 : 0;
@@ -92,6 +96,17 @@ function chooseEquipment(equipment: Equipment[], method: ApplicationMethod, used
 function resolveApplication(role: Role, product: Product, equipment: Equipment[], used: Map<string, string>) {
   if (product.applications.length === 0) {
     return { missingReason: 'Для этого средства в каталоге нет подтверждённой методики разведения.' };
+  }
+  // Готовый состав, который производитель наносит распылением: распылитель прямо на флакон
+  // (без переливания и без разбавления) — в приоритете.
+  const sprayReady = product.applications.find(
+    (a) => a.dilution.kind === 'ready' && (a.method === 'trigger' || a.method === 'sprayer'),
+  );
+  if (sprayReady) {
+    const bottle = equipment
+      .filter((e) => e.type === 'bottle_trigger' && (!e.productId || e.productId === product.id))
+      .sort((a, b) => (a.productId === product.id ? 0 : 1) - (b.productId === product.id ? 0 : 1))[0];
+    if (bottle) return { app: sprayReady, equipment: bottle };
   }
   for (const method of METHOD_PRIORITY[role]) {
     const app = product.applications.find((a) => a.method === method);
@@ -165,6 +180,16 @@ function applyText(pick: Pick): string {
         : `Нанеси ${surface} снизу вверх, затем пройди варежкой сверху вниз.`;
     case 'protection':
       return `Нанеси ${surface} сверху вниз тонким равномерным слоем.`;
+    case 'iron': {
+      const t = pick.product.targets;
+      const where =
+        t?.includes('body') && t.includes('wheels')
+          ? 'на кузов и диски'
+          : t?.includes('wheels') && !t.includes('body')
+            ? 'на диски'
+            : 'на кузов';
+      return `Нанеси ${where} равномерно, начиная с низа кузова и порогов — там больше всего металлических частиц.`;
+    }
   }
 }
 
@@ -174,7 +199,26 @@ const STAGE: Record<Role, string> = {
   phase1: 'Первая фаза',
   phase2: 'Вторая фаза',
   protection: 'Защита',
+  iron: 'Iron',
 };
+
+/** Расход готового состава из флакона: точка внутри диапазона производителя по кузову. */
+function consumptionFor(app: Application, car: CarProfile | null | undefined): number | null {
+  const c = app.consumptionMl;
+  if (!c) return null;
+  const body = car?.body ?? 'sedan';
+  const v =
+    body === 'hatchback'
+      ? c.from
+      : body === 'sedan'
+        ? (c.from + c.to) / 2
+        : body === 'suv' || body === 'minivan'
+          ? c.to
+          : (c.from + 3 * c.to) / 4;
+  return Math.round(v / 5) * 5;
+}
+
+const isBottle = (pick: Pick) => pick.equipment?.type === 'bottle_trigger';
 
 function prepareStep(pick: Pick, car: CarProfile | null, reuse: boolean, dirt: DirtLevel): ScenarioStep {
   const p = pick.product;
@@ -266,6 +310,39 @@ function applySteps(pick: Pick): ScenarioStep[] {
   const restrictions = [...(app?.restrictions ?? []), ...p.warnings];
   const dt = dwellText(app);
 
+  if (pick.role === 'iron' && app?.surface === 'dry') {
+    steps.push({
+      id: sid('info'),
+      kind: 'info',
+      title: 'Подготовь поверхность',
+      text: 'Средство наносится на сухую поверхность: собери воду микрофиброй с участков, которые будешь обрабатывать.',
+      stage,
+      tips: [],
+      warnings: [],
+      skippable: false,
+    });
+  }
+
+  let bottleRecipe: ScenarioStep['recipe'];
+  const bottleTips: string[] = [];
+  if (app && isBottle(pick)) {
+    const ml = consumptionFor(app, pick.car);
+    if (ml && app.consumptionMl) {
+      bottleRecipe = {
+        mode: 'consumption',
+        rangeMl: app.consumptionMl,
+        chemMl: ml,
+        waterMl: 0,
+        totalMl: ml,
+        basisText: `Без разбавления. Расход по инструкции производителя: ${app.consumptionMl.from}–${app.consumptionMl.to} мл на автомобиль`,
+      };
+    }
+    bottleTips.push(`Накрути распылитель прямо на флакон ${p.name} — переливать и разбавлять не нужно.`);
+    if (!pick.equipment?.productId) bottleTips.push('Если распылитель стоял на другом флаконе — промой трубку чистой водой.');
+    if (ml && ml > pick.owned.remainingMl)
+      bottleTips.push(`Во флаконе осталось ${formatMl(pick.owned.remainingMl)} — может не хватить на весь кузов.`);
+  }
+
   steps.push({
     id: sid('apply'),
     kind: pick.role === 'phase2' && app?.method === 'bucket' ? 'contact' : 'apply',
@@ -275,7 +352,8 @@ function applySteps(pick: Pick): ScenarioStep[] {
     productId: p.id,
     equipmentId: pick.equipment?.id,
     method: app?.method,
-    tips: app?.steps.slice(0, 3) ?? [],
+    recipe: bottleRecipe,
+    tips: [...bottleTips, ...(app?.steps.slice(0, 3) ?? [])],
     warnings: restrictions,
     skippable: false,
     sourceUrl: app?.sourceUrl,
@@ -299,7 +377,7 @@ function applySteps(pick: Pick): ScenarioStep[] {
       sourceUrl: app.sourceUrl,
       checkedAt: app.checkedAt,
     });
-  } else if (pick.role === 'phase1' && app) {
+  } else if ((pick.role === 'phase1' || pick.role === 'iron') && app) {
     steps.push({
       id: sid('dwell'),
       kind: 'dwell',
@@ -362,16 +440,18 @@ export function buildScenario(input: ScenarioInput): Scenario {
   if (settings.includeInsects) roles.push('insects');
   roles.push('phase1');
   if (settings.kind !== 'quick') roles.push('phase2');
-  if (settings.kind === 'protect') roles.push('protection');
+  if (settings.kind === 'iron') roles.push('iron');
+  // после удаления вкраплений защиту наносят на чистый кузов — берём её, если она есть
+  if (settings.kind === 'protect' || settings.kind === 'iron') roles.push('protection');
 
   for (const role of roles) {
     const item = pickProduct(role, items, usedProducts);
     if (!item) continue;
     usedProducts.add(item.product.id);
     const res = resolveApplication(role, item.product, equipment, usedEquipment);
-    const pick: Pick = { role, product: item.product, owned: item.owned, ...res };
+    const pick: Pick = { car, role, product: item.product, owned: item.owned, ...res };
     picks.push(pick);
-    if (pick.equipment) usedEquipment.set(pick.equipment.id, item.product.id);
+    if (pick.equipment && pick.equipment.type !== 'bottle_trigger') usedEquipment.set(pick.equipment.id, item.product.id);
   }
 
   // Быстрая мойка без средства первой фазы — используем ручной шампунь
@@ -379,7 +459,7 @@ export function buildScenario(input: ScenarioInput): Scenario {
     const item = pickProduct('phase2', items, usedProducts);
     if (item) {
       const res = resolveApplication('phase2', item.product, equipment, usedEquipment);
-      picks.push({ role: 'phase2', product: item.product, owned: item.owned, ...res });
+      picks.push({ car, role: 'phase2', product: item.product, owned: item.owned, ...res });
     }
   }
 
@@ -389,7 +469,16 @@ export function buildScenario(input: ScenarioInput): Scenario {
   if (settings.kind === 'protect' && !picks.some((p) => p.role === 'protection')) {
     notices.push('Для защиты добавьте в «Мою химию» средство категории «Защита».');
   }
+  const missingRoles: Role[] = [];
+  if (!picks.some((p) => p.role === 'phase1')) missingRoles.push('phase1');
+  if (settings.kind !== 'quick' && !picks.some((p) => p.role === 'phase2')) missingRoles.push('phase2');
+  if (settings.kind === 'protect' && !picks.some((p) => p.role === 'protection')) missingRoles.push('protection');
+  if (settings.kind === 'iron' && !picks.some((p) => p.role === 'iron')) {
+    missingRoles.push('iron');
+    notices.push('Нет средства для удаления металлических вкраплений (Iron) — этап пропущен. Подходящие составы есть в разделе «Покупки».');
+  }
   if (settings.includeWheels && !picks.some((p) => p.role === 'wheels')) {
+    missingRoles.push('wheels');
     notices.push('Очистителя дисков нет в «Моей химии» — этап дисков пропущен.');
   }
   for (const p of picks) {
@@ -398,13 +487,15 @@ export function buildScenario(input: ScenarioInput): Scenario {
 
   // Порядок использования ёмкостей: первая химия в ёмкости готовится заранее,
   // повторное использование той же ёмкости — прямо перед этапом, с промывкой.
-  const order: Role[] = ['wheels', 'insects', 'phase1', 'phase2', 'protection'];
+  const order: Role[] = ['wheels', 'insects', 'phase1', 'phase2', 'iron', 'protection'];
   picks.sort((a, b) => order.indexOf(a.role) - order.indexOf(b.role));
 
   const firstUse = new Set<string>();
   const upfront: ScenarioStep[] = [];
   const deferred = new Map<Pick, ScenarioStep>();
   for (const pick of picks) {
+    // распылитель на флакон: готовить нечего, расход — в шаге нанесения
+    if (isBottle(pick)) continue;
     const eqId = pick.equipment?.id;
     if (!eqId || !firstUse.has(eqId)) {
       if (eqId) firstUse.add(eqId);
@@ -478,7 +569,7 @@ export function buildScenario(input: ScenarioInput): Scenario {
 
   const consumption: Record<string, number> = {};
   for (const s of steps) {
-    if (s.kind === 'prepare' && s.recipe && s.productId) {
+    if (s.recipe && s.productId) {
       consumption[s.productId] = (consumption[s.productId] ?? 0) + s.recipe.chemMl;
     }
   }
@@ -488,8 +579,15 @@ export function buildScenario(input: ScenarioInput): Scenario {
   const hasP2 = picks.some((p) => p.role === 'phase2');
   const hasProt = picks.some((p) => p.role === 'protection');
 
+  const hasIron = picks.some((p) => p.role === 'iron');
   const title =
-    settings.kind === 'quick'
+    settings.kind === 'iron'
+      ? hasIron
+        ? hasProt
+          ? 'Мойка с Iron + защита'
+          : 'Мойка с удалением вкраплений'
+        : 'Мойка с Iron'
+      : settings.kind === 'quick'
       ? 'Быстрая мойка'
       : hasP1 && hasP2
         ? hasProt
@@ -500,7 +598,9 @@ export function buildScenario(input: ScenarioInput): Scenario {
           : 'Стандартная мойка';
 
   const subtitle =
-    settings.kind === 'quick'
+    settings.kind === 'iron'
+      ? 'Двухфазная мойка, затем удаление металлических частиц на чистой поверхности и защита.'
+      : settings.kind === 'quick'
       ? 'Бесконтактная мойка без варежки — когда мало времени.'
       : hasProt
         ? 'Глубокая очистка и защитный слой на кузове.'
@@ -516,5 +616,6 @@ export function buildScenario(input: ScenarioInput): Scenario {
     equipmentIds: [...new Set(picks.map((p) => p.equipment?.id).filter((x): x is string => !!x))],
     consumption,
     notices,
+    missingRoles,
   };
 }

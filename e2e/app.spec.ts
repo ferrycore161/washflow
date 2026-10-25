@@ -111,3 +111,50 @@ test('офлайн: после первой загрузки приложени�
   await expect(page.getByText('Mazda 6')).toBeVisible();
   await context.setOffline(false);
 });
+
+test('покупки: анализ этапов, ссылки и перенос купленного в мою химию', async ({ page }) => {
+  await loadDemo(page);
+  await page.getByTestId('home-shop').click();
+  await expect(page).toHaveURL(/#\/shop/);
+  await expect(page.getByTestId('need-phase1')).toContainText('Есть');
+  const iron = page.getByTestId('need-iron');
+  await iron.getByRole('button', { name: /Металлические вкрапления/ }).click();
+  const card = iron.getByTestId('shop-card').first();
+  await expect(card).toBeVisible();
+  // у каждого товара есть ссылки на магазины, все — на реальные домены магазинов
+  const hrefs = await card.locator('a.store-link').evaluateAll((as) => as.map((a) => (a as HTMLAnchorElement).href));
+  expect(hrefs.length).toBeGreaterThan(0);
+  for (const h of hrefs) expect(h).toMatch(/^https:\/\//);
+  await card.getByTestId('shop-bought').click();
+  await page.getByTestId('confirm-add-chem').click();
+  await expect(page.getByTestId('need-iron')).toContainText('Есть');
+});
+
+test('мойка с Iron: Iron после второй фазы, перед защитой', async ({ page }) => {
+  await loadDemo(page);
+  await page.goto('/#/shop?need=iron');
+  await page.getByTestId('need-iron').getByTestId('shop-bought').first().click();
+  await page.getByTestId('confirm-add-chem').click();
+  await page.goto('/#/wash');
+  await page.getByRole('radio', { name: /С Iron/ }).click();
+  await expect(page.getByTestId('scenario-title')).toHaveText(/Iron/);
+  const stages = await page.locator('.step-card .muted').allTextContents();
+  const iIron = stages.findIndex((s) => s.includes('Iron'));
+  const iPhase2 = stages.findIndex((s) => s.includes('Вторая фаза'));
+  const iProt = stages.findIndex((s) => s.includes('Защита'));
+  expect(iIron).toBeGreaterThan(iPhase2);
+  expect(iProt).toBeGreaterThan(iIron);
+});
+
+test('распылитель на флакон: FastQuartz без разбавления, расход по инструкции', async ({ page }) => {
+  await loadDemo(page);
+  await page.goto('/#/wash');
+  await page.getByRole('radio', { name: /С защитой/ }).click();
+  await page.getByTestId('begin-scenario').click();
+  for (let i = 0; i < 30 && (await page.getByTestId('dose-consumption').count()) === 0; i++) {
+    await page.getByTestId('next-step').click();
+  }
+  await expect(page.getByTestId('step-title')).toHaveText('Нанеси состав');
+  await expect(page.getByTestId('dose-consumption')).toHaveText(/≈\d+ мл/);
+  await expect(page.getByText('распылителем на флаконе')).toBeVisible();
+});

@@ -3,7 +3,7 @@ import { useStore, uid } from '../store/useStore';
 import type { Product } from '../domain/types';
 
 /**
- * Демонстрационный профиль для проверки: Mazda 6, Marolex 2 л,
+ * Демонстрационный профиль для проверки: Mazda 6, Marolex 2 л, распылитель на флакон FastQuartz,
  * Shine Systems DelicateWash / CherryBomb / FastQuartz.
  * Дозировки берутся только из каталога. Если у карточки нет подтверждённой
  * методики, создаётся демо-заглушка БЕЗ дозировок — рецепт не выводится.
@@ -26,6 +26,16 @@ export function loadDemoProfile() {
     volumeMl: 2000,
     fillMl: 1500,
     isDefault: true,
+    createdAt: Date.now(),
+  });
+  // дисперсионный распылитель, накрученный прямо на флакон FastQuartz
+  st.upsertEquipment({
+    id: uid(),
+    type: 'bottle_trigger',
+    name: 'Распылитель на флакон',
+    volumeMl: 0,
+    fillMl: 0,
+    productId: 'shine-systems-fastquartz',
     createdAt: Date.now(),
   });
   const placeholders: Product[] = [];

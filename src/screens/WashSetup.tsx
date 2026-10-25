@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AlertTriangle, Bug, CircleDot, Clock, Box, FlaskConical, Play, ShieldCheck, Sparkles, Zap } from 'lucide-react';
+import { AlertTriangle, Bug, CircleDot, Clock, Box, FlaskConical, Magnet, Play, ShieldCheck, ShoppingBag, Sparkles, Zap } from 'lucide-react';
 import { BackHeader, Cta, Segmented, Toggle } from '../components/ui';
 import { StepVisual } from '../components/StepVisual';
 import { useStore } from '../store/useStore';
@@ -13,6 +13,7 @@ const KINDS: { value: ScenarioKind; label: string; hint: string; icon: JSX.Eleme
   { value: 'quick', label: 'Быстрая', hint: 'без варежки', icon: <Zap size={20} /> },
   { value: 'standard', label: 'Стандартная', hint: 'две фазы', icon: <Sparkles size={20} /> },
   { value: 'protect', label: 'С защитой', hint: '+ защитный слой', icon: <ShieldCheck size={20} /> },
+  { value: 'iron', label: 'С Iron', hint: 'металл. вкрапления', icon: <Magnet size={20} /> },
 ];
 
 export function WashSetup() {
@@ -43,12 +44,14 @@ export function WashSetup() {
       <h1 className="h1" style={{ marginTop: 6, maxWidth: '85%' }} data-testid="scenario-title">{scenario.title}</h1>
       <p className="lead" style={{ maxWidth: '80%' }}>{scenario.subtitle}</p>
 
-      <div className="grid-3" style={{ marginTop: 18 }} role="radiogroup" aria-label="Тип мойки">
+      <div className="kind-grid" style={{ marginTop: 18 }} role="radiogroup" aria-label="Тип мойки">
         {KINDS.map((k) => (
           <button key={k.value} role="radio" aria-checked={settings.kind === k.value} className="kind-tile" onClick={() => setSettings({ kind: k.value })}>
-            {k.icon}
-            <b>{k.label}</b>
-            <span>{k.hint}</span>
+            <span className="kind-ico">{k.icon}</span>
+            <span className="kind-txt">
+              <b>{k.label}</b>
+              <span>{k.hint}</span>
+            </span>
           </button>
         ))}
       </div>
@@ -110,6 +113,21 @@ export function WashSetup() {
         </div>
       )}
 
+      {scenario.missingRoles.length > 0 && (
+        <button
+          className="card press row shop-cta"
+          style={{ width: '100%', marginTop: 12, textAlign: 'left' }}
+          onClick={() => nav(`/shop?need=${scenario.missingRoles.join(',')}`)}
+          data-testid="shop-missing"
+        >
+          <div className="icon-tile"><ShoppingBag size={20} /></div>
+          <div style={{ flex: 1 }}>
+            <div className="h3" style={{ fontSize: 15.5 }}>Подобрать недостающее</div>
+            <div className="muted" style={{ fontSize: 13 }}>Что докупить, чтобы закрыть все этапы</div>
+          </div>
+        </button>
+      )}
+
       {canWash ? (
         <ol className="step-cards" aria-label="Этапы мойки">
           {scenario.steps.map((s, i) => {
@@ -128,7 +146,9 @@ export function WashSetup() {
                     {p && <span className="muted" style={{ fontWeight: 600 }}> · {p.name}</span>}
                   </div>
                   <div className="step-card-text">
-                    {s.recipe
+                    {s.recipe?.mode === 'consumption'
+                      ? `≈${s.recipe.chemMl} мл прямо из флакона, без разбавления`
+                      : s.recipe
                       ? s.recipe.waterMl > 0
                         ? `${s.recipe.chemMl} мл химии + ${s.recipe.waterMl.toLocaleString('ru-RU')} мл воды`
                         : `${s.recipe.chemMl} мл без разведения`

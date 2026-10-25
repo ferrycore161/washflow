@@ -7,6 +7,7 @@ export const EQUIPMENT_COLOR: Record<EquipmentType, string> = {
   foam_lance: '#47a9ff',
   bucket: '#33e3d4',
   trigger: '#ff9f4d',
+  bottle_trigger: '#2ee6c8',
   hpw_injector: '#ffd24d',
   other: '#9fb0b6',
 };
@@ -118,6 +119,28 @@ export function EquipmentArt({ type, size = 110, color }: { type: EquipmentType;
           <path d="M44 22 h36 l4 8 h-8 v10 H48 c-6 0-10-4-10-9 z" fill={`url(#k${id})`} />
           <path d="M60 40 c-4 6-6 10-10 12" stroke="#171e22" strokeWidth="5" strokeLinecap="round" />
           <rect x="84" y="26" width="8" height="5" rx="2" fill={c} />
+        </>
+      );
+      break;
+    case 'bottle_trigger':
+      body = (
+        <>
+          {/* оригинальный флакон с дисперсионным триггером */}
+          <rect x="42" y="52" width="36" height="56" rx="8" fill={`url(#k${id})`} stroke="rgba(255,255,255,0.08)" />
+          <rect x="42" y="56" width="36" height="9" fill={c} opacity="0.85" />
+          <rect x="42" y="96" width="36" height="10" rx="4" fill={c} opacity="0.7" />
+          <rect x="46" y="68" width="28" height="24" rx="3" fill="#0a0e10" />
+          <rect x="52" y="74" width="16" height="2" rx="1" fill="#cfd8dc" />
+          <rect x="49" y="80" width="22" height="3" rx="1.5" fill="#fff" />
+          <rect x="54" y="86" width="12" height="1.5" rx="0.75" fill={c} />
+          <rect x="45" y="56" width="4" height="48" rx="2" fill="#fff" opacity="0.12" />
+          <rect x="52" y="42" width="16" height="11" rx="2" fill="#1d262b" />
+          <path d="M46 22 h30 l6 7 h-6 v12 H50 c-5 0-8-4-8-9 z" fill="#f2f6f7" />
+          <path d="M60 41 c-3 5-5 9-9 11" stroke="#d7dee0" strokeWidth="5" strokeLinecap="round" />
+          <rect x="82" y="26" width="7" height="4" rx="2" fill={c} />
+          {[0, 1, 2].map((i) => (
+            <circle key={i} cx={95 + i * 5} cy={27 + (i - 1) * 3} r={1.6 - i * 0.3} fill={c} opacity={0.8 - i * 0.2} />
+          ))}
         </>
       );
       break;

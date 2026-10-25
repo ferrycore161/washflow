@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Check, ChevronDown, ChevronRight, Heart, Info, Plus, Search, ShieldCheck, X } from 'lucide-react';
 import { BackHeader, Empty, Sheet, SheetHeader } from '../components/ui';
-import { ProductBottle } from '../components/art/Bottle';
+import { ProductImage } from '../components/ProductImage';
 import { AddChemSheet } from '../components/AddChemSheet';
 import { useStore } from '../store/useStore';
 import { useProducts } from '../store/catalog';
@@ -103,7 +103,7 @@ export function Catalog() {
           return (
             <div key={p.id} className="card cat-card" data-testid="catalog-item">
               <button className="cat-art" onClick={() => nav(`/product/${p.id}`)} aria-label={`Карточка ${p.brand} ${p.name}`}>
-                <ProductBottle product={p} size={104} />
+                <ProductImage product={p} size={96} />
               </button>
               <div style={{ minWidth: 0, flex: 1 }}>
                 <div className="row" style={{ alignItems: 'flex-start', gap: 4 }}>

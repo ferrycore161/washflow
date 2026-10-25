@@ -4,6 +4,7 @@ import { registerSW } from 'virtual:pwa-register';
 import App from './App';
 import './styles/global.css';
 import './styles/screens.css';
+import './styles/shop.css';
 
 registerSW({ immediate: true });
 // просим браузер не вытеснять локальные данные

@@ -15,7 +15,11 @@ export type ApplicationMethod =
   | 'trigger' // триггерный распылитель (обычно готовые составы)
   | 'hpw_injector'; // через бачок / инжектор АВД
 
-export type EquipmentType = ApplicationMethod | 'other';
+/**
+ * bottle_trigger — дисперсионный распылитель, который накручивается прямо на оригинальный
+ * флакон: без отдельной ёмкости и без разбавления (только для готовых составов).
+ */
+export type EquipmentType = ApplicationMethod | 'bottle_trigger' | 'other';
 
 export type Range = { from: number; to: number };
 
@@ -100,6 +104,8 @@ export interface Equipment {
   fillMl: number;
   isDefault?: boolean;
   createdAt: number;
+  /** Для распылителя на флакон: на какое средство накручен (пусто — переставляется на любой флакон). */
+  productId?: string;
 }
 
 export interface OwnedChemical {
@@ -123,7 +129,7 @@ export interface CarProfile {
   engine?: string;
 }
 
-export type ScenarioKind = 'quick' | 'standard' | 'protect';
+export type ScenarioKind = 'quick' | 'standard' | 'protect' | 'iron';
 export type DirtLevel = 'light' | 'normal' | 'heavy';
 
 export interface WashSettings {
@@ -143,6 +149,10 @@ export type StepKind =
   | 'info'; // подготовка / советы
 
 export interface Recipe {
+  /** mix — налить химию и воду; consumption — средство из флакона, показываем расход по инструкции. */
+  mode?: 'mix' | 'consumption';
+  /** Расход производителя на автомобиль (для mode consumption). */
+  rangeMl?: Range;
   chemMl: number;
   waterMl: number;
   totalMl: number;
@@ -185,4 +195,6 @@ export interface Scenario {
   /** Расход концентрата по средствам, мл. */
   consumption: Record<string, number>;
   notices: string[];
+  /** Роли, для которых у пользователя нет средства (для подсказки «Покупки»). */
+  missingRoles: ('phase1' | 'phase2' | 'protection' | 'wheels' | 'insects' | 'iron')[];
 }

@@ -50,6 +50,7 @@ const STORE_HOST: Record<string, RegExp> = {
   ozon: /(^|\.)ozon\.ru$/,
   wildberries: /(^|\.)wildberries\.ru$|(^|\.)wb\.ru$/,
   yandex_market: /(^|\.)market\.yandex\.ru$/,
+  time2detailing: /(^|\.)time2detailing\.ru$/,
   official: /.*/,
 };
 

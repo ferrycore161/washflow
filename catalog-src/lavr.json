@@ -80,7 +80,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/b31/nbb0zk0l5x66vqlkdxzuqbi81j6t42tn.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "lavr-tornado",
@@ -160,7 +164,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/695/je731gdtbj85v01ig8bty2cxj7zqycq0.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "lavr-intensive",
@@ -240,7 +248,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/5d1/bsr0d9zs6hm0weiyuf0u8m8ylbhsjjer.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "lavr-light",
@@ -320,7 +332,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/b83/j68dfy2ypvlphoz6ia4hdxpxmsisy97x.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "lavr-optimal",
@@ -400,7 +416,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/197/iqm27c4zs25yyslpiundolhepveao74i.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "lavr-storm",
@@ -480,7 +500,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/a47/ygyb6k4fg1khtdnio3es673pckkjjlz0.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "lavr-ultimatum",
@@ -560,7 +584,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/d10/02snvnoevcow76r0arjq82ldhajdl360.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "lavr-complex",
@@ -637,7 +665,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/140/eek2d7tdejztaw5yxvx29rgo8q6vi4f3.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "lavr-green",
@@ -682,7 +714,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/d2b/82q2cntrz4e7xlyjsiegs67bk7engto9.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "lavr-carnauba-shampoo",
@@ -724,7 +760,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/045/83p1bgu6on3nl1yypjyv1x5jj5nkxauv.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "lavr-antimukha-concentrate",
@@ -768,26 +808,60 @@
           ],
           "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/antimukha-kontsentrat-1-7-1-l/",
           "checkedAt": "2026-10-25",
-          "sourceQuote": "Развести средство водой в концентрации 1:7 (125 мл/л)."
+          "sourceQuote": "Развести средство водой в концентрации 1:7 (125 мл/л).",
+          "methodAssumed": true
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/31d/q91dnpmnc1myvacmweirgvpfd1hpaz5l.jpg",
+      "targets": [
+        "body",
+        "glass",
+        "plastic"
+      ]
     },
     {
       "id": "lavr-fast-wax",
       "name": "Быстрый воск",
-      "subtitle": "Быстрый воск на влажный кузов, не требует располировки",
-      "category": "protection",
+      "subtitle": "Быстрый воск на влажный кузов для отвода воды, не требует располировки",
+      "category": "drying_aid",
       "phase": null,
       "ph": null,
       "packages": [
         500
       ],
       "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/vosk/bystryy-vosk-fast-wax-500ml-20sht/",
-      "applications": [],
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство как есть",
+          "surface": "wet",
+          "dwellSec": {
+            "from": 60,
+            "to": 60
+          },
+          "methodAssumed": true,
+          "steps": [
+            "Тщательно встряхнуть средство",
+            "Сразу после мойки равномерно нанести на влажный кузов",
+            "Через 1 минуту протереть остатки воды сухой тканью"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/vosk/bystryy-vosk-fast-wax-500ml-20sht/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Наносить средство на влажную поверхность сразу после мойки автомобиля."
+        }
+      ],
       "warnings": [],
-      "status": "unverified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/7b9/vpeijkjxscowmaky4lmt75y191guugj1.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "lavr-wheel-disk-cleaner",
@@ -800,9 +874,62 @@
         500
       ],
       "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/ochistitel-kolesnykh-diskov/ochistitel-kolesnykh-diskov-lavr-wheel-disk-cleaner-500-ml/",
-      "applications": [],
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство как есть",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Обильно распылить состав на поверхность диска",
+            "Дать подействовать 1–2 минуты",
+            "Смыть остатки струёй воды",
+            "При необходимости повторить обработку со щёткой средней жёсткости"
+          ],
+          "restrictions": [
+            "Не наносить на нагретые детали"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/ochistitel-kolesnykh-diskov/ochistitel-kolesnykh-diskov-lavr-wheel-disk-cleaner-500-ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Обильно распылить состав на поверхность. Дать составу подействовать в течение 1 – 2 минут"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство как есть",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Обильно распылить состав на поверхность диска",
+            "Дать подействовать 1–2 минуты",
+            "Смыть остатки струёй воды",
+            "При необходимости повторить обработку со щёткой средней жёсткости"
+          ],
+          "restrictions": [
+            "Не наносить на нагретые детали"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/ochistitel-kolesnykh-diskov/ochistitel-kolesnykh-diskov-lavr-wheel-disk-cleaner-500-ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Обильно распылить состав на поверхность. Дать составу подействовать в течение 1 – 2 минут"
+        }
+      ],
       "warnings": [],
-      "status": "unverified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/219/gpd287dybm8k2a4s5yic1pieemnc39x0.jpg",
+      "targets": [
+        "wheels"
+      ]
     },
     {
       "id": "lavr-bitumen-cleaner",
@@ -815,9 +942,60 @@
         500
       ],
       "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/ochistitel-ot-bitumnykh-pyaten-lavr-s-triggerom-500ml/",
-      "applications": [],
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство как есть",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Нанести средство распылителем или губкой",
+            "Через 2–3 минуты удалить потёки битума мягкой тканью",
+            "Промыть поверхность водой",
+            "При необходимости повторить"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/ochistitel-ot-bitumnykh-pyaten-lavr-s-triggerom-500ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Нанести средство при помощи распылителя или губки."
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство как есть",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Нанести средство распылителем или губкой",
+            "Через 2–3 минуты удалить потёки битума мягкой тканью",
+            "Промыть поверхность водой",
+            "При необходимости повторить"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/ochistitel-ot-bitumnykh-pyaten-lavr-s-triggerom-500ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Нанести средство при помощи распылителя или губки."
+        }
+      ],
       "warnings": [],
-      "status": "unverified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/600/q7mmtjq19krasqt0tkuan2y9qvn7kpta.jpg",
+      "targets": [
+        "body",
+        "glass",
+        "wheels"
+      ]
     },
     {
       "id": "lavr-antimukha-trigger",
@@ -830,9 +1008,41 @@
         500
       ],
       "productUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/ochistitel-ot-sledov-nasekomykh-lavr-s-triggerom-500ml/",
-      "applications": [],
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство как есть",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Очистить кузов от дорожной грязи",
+            "Обильно нанести препарат на очищаемую поверхность",
+            "Через 2–3 минуты удалить загрязнения фактурной тканью",
+            "Смыть остатки водой"
+          ],
+          "restrictions": [
+            "Использовать в тени",
+            "Не наносить на нагретые поверхности"
+          ],
+          "sourceUrl": "https://lavr.ru/production/kuzov-i-vneshniy-vid/udalenie-slozhnykh-zagryazneniy/ochistitel-ot-sledov-nasekomykh-lavr-s-triggerom-500ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Обильно нанести препарат на очищаемую поверхность. Через 2 – 3 минуты удалить загрязнения фактурной тканью"
+        }
+      ],
       "warnings": [],
-      "status": "unverified"
+      "status": "verified",
+      "imageUrl": "https://lavr.ru/upload/iblock/87a/uh278zlw09smuup7byx4qlve225icsm3.jpg",
+      "targets": [
+        "body",
+        "glass",
+        "plastic"
+      ]
     }
   ]
 }

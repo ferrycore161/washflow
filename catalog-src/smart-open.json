@@ -1,0 +1,1184 @@
+{
+  "brand": "Smart Open",
+  "brandSite": "https://smartopen.pro",
+  "products": [
+    {
+      "id": "smart-open-safe",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Safe"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-safe/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/15011-safe_01_1.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Safe",
+      "subtitle": "Автошампунь для первой стадии бесконтактной мойки",
+      "category": "prewash",
+      "targets": [
+        "body"
+      ],
+      "applications": [
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх (максимальная выдержка 5 мин)",
+            "Расход по данным производителя: 40–70 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-safe/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Пенокомплект — 1:5-1:10",
+          "sourceQuote": "Пенокомплект — 1:5-1:10"
+        },
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх (максимальная выдержка 5 мин)",
+            "Расход по данным производителя: 40–70 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-safe/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Пеногенератор — 1:50-1:100",
+          "sourceQuote": "Пеногенератор — 1:50-1:100"
+        },
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх (максимальная выдержка 5 мин)",
+            "Расход по данным производителя: 40–70 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-safe/",
+          "checkedAt": "2026-10-25",
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Распрыскиватель 1:50-1:100",
+          "sourceQuote": "Распрыскиватель 1:50-1:100"
+        }
+      ]
+    },
+    {
+      "id": "smart-open-ecosafe",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open EcoSafe"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-ecosafe/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/15021-es_02_1.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "EcoSafe",
+      "subtitle": "Бесконтактный автошампунь для предварительной мойки",
+      "category": "prewash",
+      "targets": [
+        "body"
+      ],
+      "applications": [
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх (максимальная выдержка 10 мин)",
+            "Расход по данным производителя: 50–80 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-ecosafe/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Разбавление : пенокомплект от 1:5 до 1:10",
+          "sourceQuote": "Разбавление : пенокомплект от 1:5 до 1:10"
+        },
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх (максимальная выдержка 10 мин)",
+            "Расход по данным производителя: 50–80 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-ecosafe/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пеногенератор, эмульсионный распрыскиватель от 1:50 до 1:100",
+          "sourceQuote": "пеногенератор, эмульсионный распрыскиватель от 1:50 до 1:100"
+        },
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх (максимальная выдержка 10 мин)",
+            "Расход по данным производителя: 50–80 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-ecosafe/",
+          "checkedAt": "2026-10-25",
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пеногенератор, эмульсионный распрыскиватель от 1:50 до 1:100",
+          "sourceQuote": "пеногенератор, эмульсионный распрыскиватель от 1:50 до 1:100"
+        }
+      ]
+    },
+    {
+      "id": "smart-open-multi-safe",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Multi Safe"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-multi-safe/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/multisafe_42_20-kopiya.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Multi Safe",
+      "subtitle": "Концентрат для бесконтактной мойки",
+      "category": "prewash",
+      "targets": [
+        "body"
+      ],
+      "applications": [
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх",
+            "Расход по данным производителя: 70–80 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-multi-safe/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 4,
+            "to": 8,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Разбавление : пенокомплект от 1:4 до 1:8 (125-250 г на 1 л)",
+          "sourceQuote": "Разбавление : пенокомплект от 1:4 до 1:8 (125-250 г на 1 л)"
+        },
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх",
+            "Расход по данным производителя: 70–80 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-multi-safe/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 80,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пеногенератор, эмульсионный распрыскиватель от 1:40 до 1:80",
+          "sourceQuote": "пеногенератор, эмульсионный распрыскиватель от 1:40 до 1:80"
+        },
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх",
+            "Расход по данным производителя: 70–80 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-multi-safe/",
+          "checkedAt": "2026-10-25",
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 80,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пеногенератор, эмульсионный распрыскиватель от 1:40 до 1:80",
+          "sourceQuote": "пеногенератор, эмульсионный распрыскиватель от 1:40 до 1:80"
+        }
+      ]
+    },
+    {
+      "id": "smart-open-power-safe",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Power Safe"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-power-safe/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/powersafe_40_20.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Power Safe",
+      "subtitle": "Бесконтактный шампунь для предварительной мойки",
+      "category": "prewash",
+      "targets": [
+        "body"
+      ],
+      "applications": [
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх",
+            "Расход по данным производителя: 50–60 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-power-safe/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Разбавление : пенокомплект от 1:5 до 1:10 (100-200 г на 1 л)",
+          "sourceQuote": "Разбавление : пенокомплект от 1:5 до 1:10 (100-200 г на 1 л)"
+        },
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх",
+            "Расход по данным производителя: 50–60 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-power-safe/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пеногенератор, эмульсионный распрыскиватель от 1:50 до 1:100",
+          "sourceQuote": "пеногенератор, эмульсионный распрыскиватель от 1:50 до 1:100"
+        },
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх",
+            "Расход по данным производителя: 50–60 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-power-safe/",
+          "checkedAt": "2026-10-25",
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пеногенератор, эмульсионный распрыскиватель от 1:50 до 1:100",
+          "sourceQuote": "пеногенератор, эмульсионный распрыскиватель от 1:50 до 1:100"
+        }
+      ]
+    },
+    {
+      "id": "smart-open-turbo-safe",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Turbo Safe"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-turbo-safe/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/turbosafe_41_20.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Turbo Safe",
+      "subtitle": "Бесконтактный автошампунь для предварительной мойки",
+      "category": "prewash",
+      "targets": [
+        "body"
+      ],
+      "applications": [
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх",
+            "Расход по данным производителя: 30–40 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-turbo-safe/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 20,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Разбавление : пенокомплект от 1:5 до 1:20 (50-100 г на 1 л)",
+          "sourceQuote": "Разбавление : пенокомплект от 1:5 до 1:20 (50-100 г на 1 л)"
+        },
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх",
+            "Расход по данным производителя: 30–40 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-turbo-safe/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 200,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пеногенератор, эмульсионный распрыскиватель от 1:50 до 1:200",
+          "sourceQuote": "пеногенератор, эмульсионный распрыскиватель от 1:50 до 1:200"
+        },
+        {
+          "surface": "dry",
+          "dwellSec": {
+            "from": 90,
+            "to": 180
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Наносить на сухой кузов; значительные загрязнения предварительно сбить водой",
+            "Наносить тонким слоем снизу вверх",
+            "Через 1,5–3 минуты смыть большим количеством воды снизу вверх",
+            "Расход по данным производителя: 30–40 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность ЛКП",
+            "Не давать высыхать на поверхности",
+            "Проверить совместимость с поверхностью"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-turbo-safe/",
+          "checkedAt": "2026-10-25",
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 200,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пеногенератор, эмульсионный распрыскиватель от 1:50 до 1:200",
+          "sourceQuote": "пеногенератор, эмульсионный распрыскиватель от 1:50 до 1:200"
+        }
+      ]
+    },
+    {
+      "id": "smart-open-mystic",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Mystic"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-mystic/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/my_30_1.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Mystic",
+      "subtitle": "Кислотный шампунь для ручной мойки",
+      "category": "contact_shampoo",
+      "targets": [
+        "body"
+      ],
+      "applications": [
+        {
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Предварительно выполнить бесконтактную мойку (линейка SAFE/ECOSAFE)",
+            "Нанести и сразу приступить к мойке крупнопористой губкой, не дожидаясь стекания пены",
+            "Мыть сверху вниз с лёгким нажимом, отжимая и промывая губку после каждого элемента",
+            "Диски, пороги и бамперы — в последнюю очередь",
+            "Смыть водой сверху вниз"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://smartopen.pro/products/smart-mystic/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Разбавление : пенокомплект: 1:10",
+          "sourceQuote": "Разбавление : пенокомплект: 1:10"
+        },
+        {
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Предварительно выполнить бесконтактную мойку (линейка SAFE/ECOSAFE)",
+            "Нанести и сразу приступить к мойке крупнопористой губкой, не дожидаясь стекания пены",
+            "Мыть сверху вниз с лёгким нажимом, отжимая и промывая губку после каждого элемента",
+            "Диски, пороги и бамперы — в последнюю очередь",
+            "Смыть водой сверху вниз"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://smartopen.pro/products/smart-mystic/",
+          "checkedAt": "2026-10-25",
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 10,
+            "to": 10,
+            "basis": "water"
+          },
+          "dilutionText": "Ручная мойка : 100мл/10л",
+          "sourceQuote": "Ручная мойка : 100мл/10л"
+        }
+      ]
+    },
+    {
+      "id": "smart-open-nano-shampoo",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Nano Shampoo"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-nano-shampoo/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/nanoshampoo_04_05.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Nano Shampoo",
+      "subtitle": "Ручной наношампунь для мойки автомобиля",
+      "category": "contact_shampoo",
+      "targets": [
+        "body"
+      ],
+      "applications": [
+        {
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Предварительно выполнить бесконтактную мойку (линейка SAFE/ECOSAFE)",
+            "Нанести и сразу приступить к мойке крупнопористой губкой, не дожидаясь стекания пены",
+            "Мыть сверху вниз с лёгким нажимом, отжимая и промывая губку после каждого элемента",
+            "Диски, пороги и бамперы — в последнюю очередь",
+            "Смыть водой сверху вниз"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://smartopen.pro/products/smart-nano-shampoo/",
+          "checkedAt": "2026-10-25",
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 5,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "При ручном нанесении: развести 50 мл в 10 л воды",
+          "sourceQuote": "При ручном нанесении: развести 50 мл в 10 л воды."
+        },
+        {
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Предварительно выполнить бесконтактную мойку (линейка SAFE/ECOSAFE)",
+            "Нанести и сразу приступить к мойке крупнопористой губкой, не дожидаясь стекания пены",
+            "Мыть сверху вниз с лёгким нажимом, отжимая и промывая губку после каждого элемента",
+            "Диски, пороги и бамперы — в последнюю очередь",
+            "Смыть водой сверху вниз"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://smartopen.pro/products/smart-nano-shampoo/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "При использовании пенокомплекта разбавить средство в пропорции 1:10",
+          "sourceQuote": "При использовании пенокомплекта разбавить средство в пропорции 1:10."
+        }
+      ]
+    },
+    {
+      "id": "smart-open-too-shampoo",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Too Shampoo",
+        "TOO SHAMPOO"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-too-shampoo/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/15031-ts_03_1.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Too Shampoo",
+      "subtitle": "Высокопенный автошампунь для ручной мойки",
+      "category": "contact_shampoo",
+      "targets": [
+        "body"
+      ],
+      "applications": [
+        {
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Предварительно выполнить бесконтактную мойку (линейка SAFE/ECOSAFE)",
+            "Нанести и сразу приступить к мойке крупнопористой губкой, не дожидаясь стекания пены",
+            "Мыть сверху вниз с лёгким нажимом, отжимая и промывая губку после каждого элемента",
+            "Диски, пороги и бамперы — в последнюю очередь",
+            "Смыть водой сверху вниз"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://smartopen.pro/products/smart-too-shampoo/",
+          "checkedAt": "2026-10-25",
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 5,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "При ручном нанесении: развести 50 мл в 10 л воды",
+          "sourceQuote": "При ручном нанесении: развести 50 мл в 10 л воды."
+        },
+        {
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Предварительно выполнить бесконтактную мойку (линейка SAFE/ECOSAFE)",
+            "Нанести и сразу приступить к мойке крупнопористой губкой, не дожидаясь стекания пены",
+            "Мыть сверху вниз с лёгким нажимом, отжимая и промывая губку после каждого элемента",
+            "Диски, пороги и бамперы — в последнюю очередь",
+            "Смыть водой сверху вниз"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://smartopen.pro/products/smart-too-shampoo/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 20,
+            "to": 20,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "При использовании пенокомплекта разбавить средство в пропорции 1:20",
+          "sourceQuote": "При использовании пенокомплекта разбавить средство в пропорции 1:20."
+        }
+      ]
+    },
+    {
+      "id": "smart-open-metal-color",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Metal Color",
+        "Металл Колор"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-metal-color/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/metalcolor_06_1.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Metal Color 06",
+      "subtitle": "Нейтральный очиститель дисков и кузова от частиц металла (индикатор)",
+      "category": "iron_remover",
+      "targets": [
+        "wheels",
+        "body"
+      ],
+      "applications": [
+        {
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": 240
+          },
+          "steps": [
+            "Предварительно вымыть автомобиль (SAFE/ECOSAFE, затем TOO SHAMPOO с губкой)",
+            "Наносить только на остывшую поверхность дисков и кузова",
+            "Спустя 3–4 минуты смыть водой под давлением (для сильно загрязнённых дисков допускается 5–10 минут)",
+            "При необходимости использовать кисть или губку",
+            "Расход по данным производителя: не более 20 мл на 1 колёсный диск, 10–20 мл на 1 м²"
+          ],
+          "restrictions": [
+            "Наносить только на остывшую поверхность",
+            "После длительной заморозки возможен осадок"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-metal-color/",
+          "checkedAt": "2026-10-25",
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство как есть",
+          "methodAssumed": true,
+          "sourceQuote": "Наносить только на остывшую поверхность колёсных дисков и кузова. Спустя 3-4 минуты после нанесения смыть водой под давлением"
+        },
+        {
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": 240
+          },
+          "steps": [
+            "Предварительно вымыть автомобиль (SAFE/ECOSAFE, затем TOO SHAMPOO с губкой)",
+            "Наносить только на остывшую поверхность дисков и кузова",
+            "Спустя 3–4 минуты смыть водой под давлением (для сильно загрязнённых дисков допускается 5–10 минут)",
+            "При необходимости использовать кисть или губку",
+            "Расход по данным производителя: не более 20 мл на 1 колёсный диск, 10–20 мл на 1 м²"
+          ],
+          "restrictions": [
+            "Наносить только на остывшую поверхность",
+            "После длительной заморозки возможен осадок"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-metal-color/",
+          "checkedAt": "2026-10-25",
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство как есть",
+          "methodAssumed": true,
+          "sourceQuote": "Наносить только на остывшую поверхность колёсных дисков и кузова. Спустя 3-4 минуты после нанесения смыть водой под давлением"
+        }
+      ]
+    },
+    {
+      "id": "smart-open-fresh-wheel",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Fresh Wheel"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-fresh-wheel/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/freshwheel_34_05.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Fresh Wheel",
+      "subtitle": "Очиститель колёс и дисков",
+      "category": "wheel_cleaner",
+      "targets": [
+        "wheels",
+        "tires"
+      ],
+      "applications": [
+        {
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": 240
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Предварительно вымыть автомобиль (SAFE/ECOSAFE)",
+            "Нанести на колёса через триггер, выдержать 3–4 минуты (для сильно загрязнённых 5–10 минут)",
+            "Смыть водой из АВД, при необходимости поработать кистью или губкой",
+            "Расход по данным производителя: не более 35 мл на 1 колесо"
+          ],
+          "restrictions": [
+            "Проверить совместимость на малозаметном участке"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-fresh-wheel/",
+          "checkedAt": "2026-10-25",
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство как есть",
+          "sourceQuote": "Нанести средство на поверхность колес через триггер и выдержать 3-4 минуты"
+        }
+      ]
+    },
+    {
+      "id": "smart-open-quartz-energy",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Quartz Energy"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-quartz-energy/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/quartzenergy_33_025.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Quartz Energy",
+      "subtitle": "Быстрое гидрофобное покрытие на мокрый кузов, готовое к применению",
+      "category": "protection",
+      "targets": [
+        "body",
+        "glass"
+      ],
+      "applications": [
+        {
+          "surface": "wet",
+          "dwellSec": {
+            "from": 30,
+            "to": 60
+          },
+          "steps": [
+            "Тщательно перемешать",
+            "Распылить триггером на чистую мокрую поверхность, включая стёкла и зеркала",
+            "Выдержать 0,5–1 минуту",
+            "Смыть остатки водой под высоким давлением",
+            "Расход: 30–50 мл на автомобиль"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава",
+            "Не наносить на недомытую поверхность",
+            "Не наносить под прямыми солнечными лучами"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-quartz-energy/",
+          "checkedAt": "2026-10-25",
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Готов к применению",
+          "consumptionMl": {
+            "from": 30,
+            "to": 50
+          },
+          "sourceQuote": "Распылить с помощью триггера на чистую мокрую поверхность автомобиля, в том числе на стекла и зеркала, выдержать 0,5-1 мин."
+        }
+      ]
+    },
+    {
+      "id": "smart-open-quartz-flash",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Quartz Flash"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-quartz-flash/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/quartzflash_25_025.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Quartz Flash 25",
+      "subtitle": "Кварцевое покрытие для кузова (на мокрую поверхность)",
+      "category": "protection",
+      "targets": [
+        "body",
+        "plastic"
+      ],
+      "applications": [
+        {
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Вымыть в две стадии (SAFE/ECOSAFE и TOO SHAMPOO с губкой)",
+            "Тщательно перемешать",
+            "Распылить триггером на мокрую чистую поверхность — 1 распыление на 1 м²",
+            "Равномерно распределить чистой крупнопористой губкой",
+            "Ополоснуть кузов водой и располировать насухо микрофиброй"
+          ],
+          "restrictions": [
+            "Не наносить на недомытую поверхность",
+            "Исключить попадание пыли и грязи на кузов при нанесении"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-quartz-flash/",
+          "checkedAt": "2026-10-25",
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство как есть",
+          "sourceQuote": "Распылить средство на мокрую чистую поверхность автомобиля при помощи триггера (1 распыление на 1 м²)"
+        }
+      ]
+    },
+    {
+      "id": "smart-open-nano-shine",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Nano Shine"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-nano-shine/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/nanoshine_05_025.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Nano Shine 05",
+      "subtitle": "Защитный состав с гидрофобным эффектом (концентрат)",
+      "category": "protection",
+      "targets": [
+        "body"
+      ],
+      "applications": [
+        {
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Предварительно вымыть автомобиль в две стадии",
+            "Развести 3–5 мл в 1 л воды (на автомобиль)",
+            "Наносить равномерно по всей поверхности"
+          ],
+          "restrictions": [
+            "Разбавленный состав сохраняет свойства в течение недели"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-nano-shine/",
+          "checkedAt": "2026-10-25",
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 3,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "При ручном нанесении через распрыскиватель: развести 3-5 мл в 1 л воды на автомобиль",
+          "sourceQuote": "При ручном нанесении через распрыскиватель: развести 3-5 мл в 1 л воды на автомобиль."
+        },
+        {
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Предварительно вымыть автомобиль в две стадии",
+            "Развести 30–50 мл на 1 л воды",
+            "Наносить равномерно по всей поверхности"
+          ],
+          "restrictions": [
+            "Разбавленный состав сохраняет свойства в течение недели"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-nano-shine/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 30,
+            "to": 50,
+            "basis": "water"
+          },
+          "dilutionText": "При использовании пенокомплекта разбавить средство в пропорции 30-50 мл на 1 л воды",
+          "sourceQuote": "При использовании пенокомплекта разбавить средство в пропорции 30-50 мл на 1 л воды."
+        }
+      ]
+    },
+    {
+      "id": "smart-open-sahara-wax",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Sahara Wax"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-sahara-wax/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/saharawax_43_20.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Sahara Wax 43",
+      "subtitle": "Жидкий воск-осушитель, концентрат",
+      "category": "drying_aid",
+      "targets": [
+        "body"
+      ],
+      "applications": [
+        {
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Тщательно перемешать",
+            "Распылить раствор на кузов после мойки",
+            "Смыть водой из АВД",
+            "Расход по данным производителя: 15–20 мл концентрата на автомобиль"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://smartopen.pro/products/smart-sahara-wax/",
+          "checkedAt": "2026-10-25",
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 200,
+            "to": 500,
+            "basis": "water"
+          },
+          "dilutionText": "Пенокомплект: типовое разведение 250 мл на 1 л воды, подбирается в диапазоне 200–500 мл на 1 л",
+          "sourceQuote": "рекомендовано типовое разведение 250 мл на 1 л воды"
+        },
+        {
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Тщательно перемешать",
+            "Распылить раствор на кузов после мойки",
+            "Смыть водой из АВД",
+            "Расход по данным производителя: 15–20 мл концентрата на автомобиль"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://smartopen.pro/products/smart-sahara-wax/",
+          "checkedAt": "2026-10-25",
+          "method": "trigger",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 20,
+            "to": 50,
+            "basis": "water"
+          },
+          "dilutionText": "С использованием триггера или пульверизатора, развести с водой в пропорции 20-50 мл на 1 л воды",
+          "sourceQuote": "С использованием триггера или пульверизатора, развести с водой в пропорции 20-50 мл на 1 л воды."
+        },
+        {
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Тщательно перемешать",
+            "Распылить раствор на кузов после мойки",
+            "Смыть водой из АВД",
+            "Расход по данным производителя: 15–20 мл концентрата на автомобиль"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://smartopen.pro/products/smart-sahara-wax/",
+          "checkedAt": "2026-10-25",
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 20,
+            "to": 50,
+            "basis": "water"
+          },
+          "dilutionText": "С использованием триггера или пульверизатора, развести с водой в пропорции 20-50 мл на 1 л воды",
+          "sourceQuote": "С использованием триггера или пульверизатора, развести с водой в пропорции 20-50 мл на 1 л воды."
+        }
+      ]
+    },
+    {
+      "id": "smart-open-quick-shine",
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "Smart Open Quick Shine"
+      ],
+      "packages": [],
+      "productUrl": "https://smartopen.pro/products/smart-quick-shine/",
+      "imageUrl": "https://smartopen.pro/wp-content/uploads/2025/03/quickshine_37_05.png",
+      "warnings": [],
+      "status": "verified",
+      "name": "Quick Shine 37",
+      "subtitle": "Полироль-блеск с карнаубой на сухой кузов",
+      "category": "protection",
+      "targets": [
+        "body"
+      ],
+      "applications": [
+        {
+          "surface": "dry",
+          "dwellSec": null,
+          "steps": [
+            "Распылить триггером на чистую сухую поверхность (или на микрофибру)",
+            "Располировать сухой микрофиброй",
+            "Расход: 35–50 мл на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на недомытую и горячую поверхность"
+          ],
+          "sourceUrl": "https://smartopen.pro/products/smart-quick-shine/",
+          "checkedAt": "2026-10-25",
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Средство готово к применению",
+          "consumptionMl": {
+            "from": 35,
+            "to": 50
+          },
+          "sourceQuote": "Средство готово к применению. Не наносить на недомытую и горячую поверхность!"
+        }
+      ]
+    }
+  ]
+}

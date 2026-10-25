@@ -1,0 +1,1931 @@
+{
+  "brand": "LERATON",
+  "brandSite": "https://leraton.ru",
+  "products": [
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON BW1"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-bw1",
+      "name": "BW1 Base Wash",
+      "subtitle": "Шампунь для бесконтактной мойки",
+      "category": "active_foam",
+      "packages": [
+        1000,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw1-base-wash-1-l",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/047/047617/373-bw1-1-l-1.tn-570x700.19ab4cd49f.png",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 3,
+            "to": 7,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта: от 1:3 до 1:7",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw1-base-wash-1-l",
+          "sourceQuote": "Для пенокомплекта: от 1:3 до 1:7"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 30,
+            "to": 70,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пеногенератора: 1:30-1:70",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw1-base-wash-1-l",
+          "sourceQuote": "Для пеногенератора: 1:30-1:70"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 30,
+            "to": 70,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя: 1:30-1:70",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw1-base-wash-1-l",
+          "sourceQuote": "Для помпового опрыскивателя: 1:30-1:70"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON BW2"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-bw2",
+      "name": "BW2 Base Wash",
+      "subtitle": "Шампунь для бесконтактной мойки",
+      "category": "active_foam",
+      "packages": [
+        1000,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw2-base-wash-1l",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/047/047620/557-bw2-1-l-bk-1-1.tn-570x700.e12539f340.png",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 4,
+            "to": 7,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта: от 1:4 до 1:7",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw2-base-wash-1l",
+          "sourceQuote": "Для пенокомплекта: от 1:4 до 1:7"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 70,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пеногенератора: 1:40-1:70",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw2-base-wash-1l",
+          "sourceQuote": "Для пеногенератора: 1:40-1:70"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 70,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя: 1:40-1:70",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw2-base-wash-1l",
+          "sourceQuote": "Для помпового опрыскивателя: 1:40-1:70"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON BW3"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-bw3",
+      "name": "BW3 Base Wash",
+      "subtitle": "Шампунь для бесконтактной мойки",
+      "category": "active_foam",
+      "packages": [
+        1000,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw3-base-wash-1l",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/047/047623/343-bw3-1l-1.tn-570x700.6e1dd58564.png",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 8,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта: от 1:5 до 1:8",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw3-base-wash-1l",
+          "sourceQuote": "Для пенокомплекта: от 1:5 до 1:8"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 80,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пеногенератора: 1:50-1:80",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw3-base-wash-1l",
+          "sourceQuote": "Для пеногенератора: 1:50-1:80"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 80,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя: 1:50-1:80",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw3-base-wash-1l",
+          "sourceQuote": "Для помпового опрыскивателя: 1:50-1:80"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON BW4"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-bw4",
+      "name": "BW4 Base Wash",
+      "subtitle": "Шампунь для бесконтактной мойки",
+      "category": "active_foam",
+      "packages": [
+        1000,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw4-base-wash-1l",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/047/047626/163-bw4-1-l-bk-1-1.tn-570x700.2dba2d0e3d.png",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 6,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта: от 1:6 до 1:10",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw4-base-wash-1l",
+          "sourceQuote": "Для пенокомплекта: от 1:6 до 1:10"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 60,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пеногенератора: 1:60-1:100",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw4-base-wash-1l",
+          "sourceQuote": "Для пеногенератора: 1:60-1:100"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 60,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя: 1:60-1:100",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw4-base-wash-1l",
+          "sourceQuote": "Для помпового опрыскивателя: 1:60-1:100"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON BW5"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-bw5",
+      "name": "BW5 Base Wash",
+      "subtitle": "Шампунь для бесконтактной мойки",
+      "category": "active_foam",
+      "packages": [
+        1000,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw5-base-wash-1l",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/047/047629/796-bw5-1-l-bk-1-1.tn-570x700.d0e8299512.png",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 7,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта: от 1:7 до 1:10",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw5-base-wash-1l",
+          "sourceQuote": "Для пенокомплекта: от 1:7 до 1:10"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 70,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пеногенератора: 1:70-1:100",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw5-base-wash-1l",
+          "sourceQuote": "Для пеногенератора: 1:70-1:100"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 70,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя: 1:70-1:100",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-beskontaktnoj-mojki-leraton-bw5-base-wash-1l",
+          "sourceQuote": "Для помпового опрыскивателя: 1:70-1:100"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON PW1"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-pw1",
+      "name": "PW1",
+      "subtitle": "Шампунь для предварительной мойки",
+      "category": "prewash",
+      "packages": [
+        1000,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-predvaritelnoj-mojki-leraton-pw1-1l",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/045/045813/209-pw1-1-l-bk-1.tn-570x700.d8fcd23000.png",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 4,
+            "to": 6,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта: от 1:4 до 1:6",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением",
+            "Расход по данным производителя: 80–150 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-predvaritelnoj-mojki-leraton-pw1-1l",
+          "sourceQuote": "Для пенокомплекта: от 1:4 до 1:6"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пеногенератора: 1:40-1:60",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением",
+            "Расход по данным производителя: 80–150 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-predvaritelnoj-mojki-leraton-pw1-1l",
+          "sourceQuote": "Для пеногенератора: 1:40-1:60"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 20,
+            "to": 30,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя: 1:20-1:30",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением",
+            "Расход по данным производителя: 80–150 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/shampun-dlya-predvaritelnoj-mojki-leraton-pw1-1l",
+          "sourceQuote": "Для помпового опрыскивателя: 1:20-1:30"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON PW2"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-pw2",
+      "name": "PW2",
+      "subtitle": "Парфюмированный шампунь для предварительной мойки",
+      "category": "prewash",
+      "packages": [
+        1000,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/parfyumirovannyj-shampun-dlya-predvaritelnoj-mojki-leraton-pw2-1l",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/045/045816/778-pw2-1-l-bk-1.tn-570x700.99c43d0747.png",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 7,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта: от 1:5 до 1:7",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением",
+            "Расход по данным производителя: 80–150 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/parfyumirovannyj-shampun-dlya-predvaritelnoj-mojki-leraton-pw2-1l",
+          "sourceQuote": "Для пенокомплекта: от 1:5 до 1:7"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 70,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пеногенератора: 1:50-1:70",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением",
+            "Расход по данным производителя: 80–150 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/parfyumirovannyj-shampun-dlya-predvaritelnoj-mojki-leraton-pw2-1l",
+          "sourceQuote": "Для пеногенератора: 1:50-1:70"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 20,
+            "to": 30,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя: 1:20-1:30",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением",
+            "Расход по данным производителя: 80–150 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/parfyumirovannyj-shampun-dlya-predvaritelnoj-mojki-leraton-pw2-1l",
+          "sourceQuote": "Для помпового опрыскивателя: 1:20-1:30"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON PW3"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-pw3",
+      "name": "PW3",
+      "subtitle": "Цитрусовый шампунь для предварительной мойки",
+      "category": "prewash",
+      "packages": [
+        1000,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/citrusovyj-shampun-dlya-predvaritelnoj-mojki-leraton-pw3-1l",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/045/045818/664-pw3-1-l-bk.tn-570x700.6c58723d3a.png",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 7,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта: от 1:7 до 1:10",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением",
+            "Расход по данным производителя: 80–150 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/citrusovyj-shampun-dlya-predvaritelnoj-mojki-leraton-pw3-1l",
+          "sourceQuote": "Для пенокомплекта: от 1:7 до 1:10"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 70,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пеногенератора: 1:70-1:100",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением",
+            "Расход по данным производителя: 80–150 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/citrusovyj-shampun-dlya-predvaritelnoj-mojki-leraton-pw3-1l",
+          "sourceQuote": "Для пеногенератора: 1:70-1:100"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 35,
+            "to": 50,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя: 1:35-1:50",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Развести с учётом жёсткости воды и степени загрязнения",
+            "Нанести рабочий раствор на загрязнённый автомобиль",
+            "Спустя 2–3 минуты смыть водой под давлением",
+            "Расход по данным производителя: 80–150 мл концентрата на автомобиль"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/citrusovyj-shampun-dlya-predvaritelnoj-mojki-leraton-pw3-1l",
+          "sourceQuote": "Для помпового опрыскивателя: 1:35-1:50"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON A1"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-a1",
+      "name": "A1",
+      "subtitle": "Шампунь для ручной мойки",
+      "category": "contact_shampoo",
+      "packages": [
+        1000,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/shampun-dlya-ruchnoj-mojki-leraton-a1-1l",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/046/046235/508-a1-1-l-1.tn-570x700.f13b9a779d.png",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ratio",
+            "from": 150,
+            "to": 200,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для ведра от 1:150 до 1:200",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести рабочий раствор на автомобиль",
+            "Смыть состав большим количеством воды"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/shampun-dlya-ruchnoj-mojki-leraton-a1-1l",
+          "sourceQuote": "Для ведра от 1:150 до 1:200"
+        },
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 20,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта от 1:10 до 1:20",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести рабочий раствор на автомобиль",
+            "Смыть состав большим количеством воды"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/shampun-dlya-ruchnoj-mojki-leraton-a1-1l",
+          "sourceQuote": "Для пенокомплекта от 1:10 до 1:20"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя от 1:50 до 1:100",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести рабочий раствор на автомобиль",
+            "Смыть состав большим количеством воды"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/shampun-dlya-ruchnoj-mojki-leraton-a1-1l",
+          "sourceQuote": "Для помпового опрыскивателя от 1:50 до 1:100"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON A2"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-a2",
+      "name": "A2 Cationic Shampoo",
+      "subtitle": "Катионный шампунь для ручной мойки",
+      "category": "contact_shampoo",
+      "packages": [
+        473,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/kationnyi-shampun-dlya-ruchnoj-mojki-leraton-a2-473ml",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/000/000052/153-a2-473-1.tn-570x700.edfadbf087.png",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ratio",
+            "from": 150,
+            "to": 200,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для ведра от 1:150 до 1:200",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/kationnyi-shampun-dlya-ruchnoj-mojki-leraton-a2-473ml",
+          "sourceQuote": "Для ведра от 1:150 до 1:200"
+        },
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 20,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта от 1:10 до 1:20",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/kationnyi-shampun-dlya-ruchnoj-mojki-leraton-a2-473ml",
+          "sourceQuote": "Для пенокомплекта от 1:10 до 1:20"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя от 1:50 до 1:100",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/kationnyi-shampun-dlya-ruchnoj-mojki-leraton-a2-473ml",
+          "sourceQuote": "Для помпового опрыскивателя от 1:50 до 1:100"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON A3"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-a3",
+      "name": "A3 Handwash Shampoo",
+      "subtitle": "Суперконцентрированный шампунь для ручной мойки",
+      "category": "contact_shampoo",
+      "packages": [
+        473,
+        3800
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/superkoncentrirovannyj-shampun-dlya-ruchnoj-mojki-leraton-a3-handwash-shampoo-barberry-473ml",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/047/047804/546-a3-mint-473-1.tn-570x700.f9e40fc61b.png",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ratio",
+            "from": 300,
+            "to": 500,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для ведра от 1:300 до 1:500",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/superkoncentrirovannyj-shampun-dlya-ruchnoj-mojki-leraton-a3-handwash-shampoo-barberry-473ml",
+          "sourceQuote": "Для ведра от 1:300 до 1:500"
+        },
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 25,
+            "to": 50,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта от 1:25 до 1:50",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/superkoncentrirovannyj-shampun-dlya-ruchnoj-mojki-leraton-a3-handwash-shampoo-barberry-473ml",
+          "sourceQuote": "Для пенокомплекта от 1:25 до 1:50"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 100,
+            "to": 200,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя от 1:100 до 1:200",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/superkoncentrirovannyj-shampun-dlya-ruchnoj-mojki-leraton-a3-handwash-shampoo-barberry-473ml",
+          "sourceQuote": "Для помпового опрыскивателя от 1:100 до 1:200"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON N1"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-n1",
+      "name": "N1",
+      "subtitle": "Полирующий шампунь для ручной мойки",
+      "category": "contact_shampoo",
+      "packages": [
+        473,
+        1000,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/poliruyushhij-shampun-leraton-n1-473ml",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/000/000058/236-n1-473-1.tn-570x700.382a3a061a.png",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ratio",
+            "from": 150,
+            "to": 200,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для ведра: от 1:150 до 1:200",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Ёмкость не должна содержать остатков других средств"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/poliruyushhij-shampun-leraton-n1-473ml",
+          "sourceQuote": "Для ведра: от 1:150 до 1:200"
+        },
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 8,
+            "to": 12,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта: от 1:8 до 1:12",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Ёмкость не должна содержать остатков других средств"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/poliruyushhij-shampun-leraton-n1-473ml",
+          "sourceQuote": "Для пенокомплекта: от 1:8 до 1:12"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя: от 1:40 до 1:60",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Ёмкость не должна содержать остатков других средств"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/poliruyushhij-shampun-leraton-n1-473ml",
+          "sourceQuote": "Для помпового опрыскивателя: от 1:40 до 1:60"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON N2"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-n2",
+      "name": "N2",
+      "subtitle": "Кислотный шампунь для ручной мойки",
+      "category": "contact_shampoo",
+      "packages": [
+        473,
+        1000,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/kislotnyj-shampun-leraton-n2-473ml",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/002/002826/735-n2-473-1.tn-570x700.f0b4533e75.png",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ratio",
+            "from": 150,
+            "to": 200,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для ведра: от 1:150 до 1:200",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/kislotnyj-shampun-leraton-n2-473ml",
+          "sourceQuote": "Для ведра: от 1:150 до 1:200"
+        },
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 8,
+            "to": 12,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта: от 1:8 до 1:12",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/kislotnyj-shampun-leraton-n2-473ml",
+          "sourceQuote": "Для пенокомплекта: от 1:8 до 1:12"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя: от 1:40 до 1:60",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/kislotnyj-shampun-leraton-n2-473ml",
+          "sourceQuote": "Для помпового опрыскивателя: от 1:40 до 1:60"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON N3"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-n3",
+      "name": "N3",
+      "subtitle": "Керамический шампунь для ручной мойки",
+      "category": "contact_shampoo",
+      "packages": [
+        473,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/keramicheskij-shampun-leraton-n3-473ml",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/045/045928/175-n3-473-1.tn-570x700.1011d5f071.png",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ratio",
+            "from": 150,
+            "to": 200,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для ведра: от 1:150 до 1:200",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/keramicheskij-shampun-leraton-n3-473ml",
+          "sourceQuote": "Для ведра: от 1:150 до 1:200"
+        },
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 8,
+            "to": 12,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта: от 1:8 до 1:12",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/keramicheskij-shampun-leraton-n3-473ml",
+          "sourceQuote": "Для пенокомплекта: от 1:8 до 1:12"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для помпового опрыскивателя: от 1:40 до 1:60",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести по рекомендации",
+            "Нанести шампунь и растереть пену губкой или варежкой",
+            "Смыть остатки пены",
+            "Насухо вытереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов, под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/keramicheskij-shampun-leraton-n3-473ml",
+          "sourceQuote": "Для помпового опрыскивателя: от 1:40 до 1:60"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON M2"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-m2",
+      "name": "M2",
+      "subtitle": "Нейтральный очиститель дисков и кузова с индикацией",
+      "category": "iron_remover",
+      "packages": [
+        473,
+        1000,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/nejtralnyj-ochistitel-diskov-i-kuzova-leraton-m2-473ml",
+      "targets": [
+        "wheels",
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/002/002025/669-m2-473-trigger-1.tn-570x700.da8ed5cc45.png",
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство распылителем как есть",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 240
+          },
+          "steps": [
+            "Нанести на очищаемую поверхность триггерным или помповым распылителем",
+            "Подождать 2–4 минуты",
+            "Смыть обильным количеством воды",
+            "При необходимости повторить; для труднодоступных мест и сильных загрязнений использовать губку, щётку или кисть"
+          ],
+          "restrictions": [
+            "Не оставлять на поверхности более 5 минут и не давать высыхать",
+            "Не использовать на открытом металле, алюминии, анодированных и оксидированных поверхностях",
+            "Не работать под прямыми солнечными лучами",
+            "Не наносить на горячую поверхность"
+          ],
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/nejtralnyj-ochistitel-diskov-i-kuzova-leraton-m2-473ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Нанести на очищаемую поверхность с помощью триггерного или помпового распылителя. Подождать 2-4 минуты"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство распылителем как есть",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 240
+          },
+          "steps": [
+            "Нанести на очищаемую поверхность триггерным или помповым распылителем",
+            "Подождать 2–4 минуты",
+            "Смыть обильным количеством воды",
+            "При необходимости повторить; для труднодоступных мест и сильных загрязнений использовать губку, щётку или кисть"
+          ],
+          "restrictions": [
+            "Не оставлять на поверхности более 5 минут и не давать высыхать",
+            "Не использовать на открытом металле, алюминии, анодированных и оксидированных поверхностях",
+            "Не работать под прямыми солнечными лучами",
+            "Не наносить на горячую поверхность"
+          ],
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/nejtralnyj-ochistitel-diskov-i-kuzova-leraton-m2-473ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Нанести на очищаемую поверхность с помощью триггерного или помпового распылителя. Подождать 2-4 минуты"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON M2 Strong"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-m2-strong",
+      "name": "M2 Strong",
+      "subtitle": "Нейтральный очиститель дисков и кузова с индикацией",
+      "category": "iron_remover",
+      "packages": [
+        473,
+        1000,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/nejtralnyj-ochistitel-diskov-i-kuzova-leraton-m2-strong-473ml",
+      "targets": [
+        "wheels",
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/000/000346/429-m2-strong-473-1.tn-570x700.116f8fdb8b.png",
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство распылителем как есть",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 240
+          },
+          "steps": [
+            "Нанести на очищаемую поверхность триггерным или помповым распылителем",
+            "Подождать 2–4 минуты",
+            "Смыть обильным количеством воды",
+            "При необходимости повторить; для труднодоступных мест и сильных загрязнений использовать губку, щётку или кисть"
+          ],
+          "restrictions": [
+            "Не оставлять на поверхности более 5 минут и не давать высыхать",
+            "Не использовать на открытом металле, алюминии, анодированных и оксидированных поверхностях",
+            "Не работать под прямыми солнечными лучами",
+            "Не наносить на горячую поверхность"
+          ],
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/nejtralnyj-ochistitel-diskov-i-kuzova-leraton-m2-strong-473ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Нанести на очищаемую поверхность с помощью триггерного или помпового распылителя. Подождать 2-4 минуты"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство распылителем как есть",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 240
+          },
+          "steps": [
+            "Нанести на очищаемую поверхность триггерным или помповым распылителем",
+            "Подождать 2–4 минуты",
+            "Смыть обильным количеством воды",
+            "При необходимости повторить; для труднодоступных мест и сильных загрязнений использовать губку, щётку или кисть"
+          ],
+          "restrictions": [
+            "Не оставлять на поверхности более 5 минут и не давать высыхать",
+            "Не использовать на открытом металле, алюминии, анодированных и оксидированных поверхностях",
+            "Не работать под прямыми солнечными лучами",
+            "Не наносить на горячую поверхность"
+          ],
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/nejtralnyj-ochistitel-diskov-i-kuzova-leraton-m2-strong-473ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Нанести на очищаемую поверхность с помощью триггерного или помпового распылителя. Подождать 2-4 минуты"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON C1"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-c1",
+      "name": "C1",
+      "subtitle": "Полирующий нановоск",
+      "category": "protection",
+      "packages": [
+        473,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/voski-dlya-sushki-i-konservacii/poliruyushhij-vosk-leraton-c1-473ml",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/000/000055/450-c1-473-kryshka-1.tn-570x700.9846d5af0a.png",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 20,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Пенокомплект: 1:10–1:20",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Нанести на чистый кузов",
+            "Смыть водой остатки воска",
+            "Протереть кузов микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Ёмкость не должна содержать остатков других средств"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/voski-dlya-sushki-i-konservacii/poliruyushhij-vosk-leraton-c1-473ml",
+          "sourceQuote": "Наносить на чистый кузов автомобиля при помощи пенокомплекта (разведение 1:10-20)"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 100,
+            "to": 200,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Пневмораспылитель: 1:100–1:200",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Нанести на чистый кузов",
+            "Смыть водой остатки воска",
+            "Протереть кузов микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Ёмкость не должна содержать остатков других средств"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/voski-dlya-sushki-i-konservacii/poliruyushhij-vosk-leraton-c1-473ml",
+          "sourceQuote": "или пневмораспылителя (разведение 1:100-200)"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON C2"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-c2",
+      "name": "C2",
+      "subtitle": "Воск для быстрой сушки",
+      "category": "drying_aid",
+      "packages": [
+        473,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/voski-dlya-sushki-i-konservacii/vosk-dlya-bystroj-sushki-leraton-c2-473ml",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/000/000056/354-c2-473-kryshka-1.tn-570x700.41042bc53c.png",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 8,
+            "to": 15,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Пенокомплект: 1:8–1:15",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Нанести на чистый кузов",
+            "Смыть водой остатки воска",
+            "Протереть кузов микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Ёмкость не должна содержать остатков других средств"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/voski-dlya-sushki-i-konservacii/vosk-dlya-bystroj-sushki-leraton-c2-473ml",
+          "sourceQuote": "Наносить на чистый кузов автомобиля при помощи пенокомплекта (разведение 1:8-1:15)"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 75,
+            "to": 150,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Пневмораспылитель: 1:75–1:150",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Нанести на чистый кузов",
+            "Смыть водой остатки воска",
+            "Протереть кузов микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Ёмкость не должна содержать остатков других средств"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/voski-dlya-sushki-i-konservacii/vosk-dlya-bystroj-sushki-leraton-c2-473ml",
+          "sourceQuote": "или пневмораспылителя (разведение 1:75-150)"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON C3"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-c3",
+      "name": "C3",
+      "subtitle": "Водоотталкивающий воск",
+      "category": "protection",
+      "packages": [
+        473,
+        3800,
+        20000
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/voski-dlya-sushki-i-konservacii/vodoottkalkivayushhij-vosk-leraton-c3-473ml",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/000/000353/123-c3-473-1.tn-570x700.c93549ac97.png",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Пенокомплект: 1:5–1:10",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Нанести на чистый кузов",
+            "Смыть водой остатки воска",
+            "Протереть кузов микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Ёмкость не должна содержать остатков других средств"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/voski-dlya-sushki-i-konservacii/vodoottkalkivayushhij-vosk-leraton-c3-473ml",
+          "sourceQuote": "Наносить на чистый кузов автомобиля при помощи пенокомплекта (разведение 1:5-10)"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Пневмораспылитель: 1:50–1:100",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Нанести на чистый кузов",
+            "Смыть водой остатки воска",
+            "Протереть кузов микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Ёмкость не должна содержать остатков других средств"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/voski-dlya-sushki-i-konservacii/vodoottkalkivayushhij-vosk-leraton-c3-473ml",
+          "sourceQuote": "или пневмораспылителя (разведение 1:50-100)"
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON C4"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-c4",
+      "name": "C4",
+      "subtitle": "Горячий воск (в ведре с горячей водой)",
+      "category": "protection",
+      "packages": [
+        473,
+        3800
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/voski-dlya-sushki-i-konservacii/goryachij-vosk-leraton-c4-473ml",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/000/000057/367-c4-473-ml-1.tn-570x700.f9b065c69d.png",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 5,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "50 мл воска на ведро 10 л горячей воды",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Вылить 50 мл воска в ведро (10 л) с горячей водой",
+            "Обработать кузов губкой, ополаскивая её в ведре",
+            "Смыть водой и насухо протереть микрофибровым полотенцем"
+          ],
+          "restrictions": [
+            "Ёмкость не должна содержать остатков других средств"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/voski-dlya-sushki-i-konservacii/goryachij-vosk-leraton-c4-473ml",
+          "sourceQuote": "Вылить 50 мл воска в ведро (емкостью 10 л) с горячей водой."
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON S6",
+        "S6 Grape",
+        "S6 Passion Fruit"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-s6",
+      "name": "S6",
+      "subtitle": "Кварцевый состав для быстрого блеска и гидрофоба (на мокрый кузов)",
+      "category": "protection",
+      "packages": [
+        473,
+        1000,
+        3800
+      ],
+      "productUrl": "https://leraton.ru/katalog/cleaners/mojka/voski-dlya-sushki-i-konservacii/kvarcevyj-sostav-dlya-bystrogo-bleska-i-gidrofoba-leraton-s6-473ml",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/004/004381/885-s6-473-1.tn-570x700.e9275a7e90.png",
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: наносится триггерным распылителем",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Вымыть автомобиль (рекомендуется двухфазная мойка)",
+            "Триггерным распылителем нанести на мокрый автомобиль",
+            "Смыть водой под большим давлением (АВД)",
+            "Высушить микрофибровым полотенцем"
+          ],
+          "restrictions": [],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/voski-dlya-sushki-i-konservacii/kvarcevyj-sostav-dlya-bystrogo-bleska-i-gidrofoba-leraton-s6-473ml",
+          "sourceQuote": "Используя триггерный распылитель, нанести на мокрый автомобиль и смыть под большим давлением водой при помощи АВД."
+        }
+      ]
+    },
+    {
+      "phase": null,
+      "ph": null,
+      "aliases": [
+        "LERATON S3"
+      ],
+      "warnings": [],
+      "status": "verified",
+      "id": "leraton-s3",
+      "name": "S3",
+      "subtitle": "Керамический детейлер-спрей",
+      "category": "protection",
+      "packages": [
+        473,
+        3800
+      ],
+      "productUrl": "https://leraton.ru/katalog/zashhita-poverxnostej/zashhita-poverxnostej-2/bystryj-blesk/keramicheskij-detejler-sprej-leraton-s3-473ml",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/045/045898/283-s3-473-trigger-1.tn-570x700.2328f434cd.png",
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: распылить на микрофибру",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Распылить средство на микрофибру — максимум одно распыление на деталь",
+            "Располировать чистой микрофибровой салфеткой"
+          ],
+          "restrictions": [
+            "Категорически запрещено наносить на стёкла",
+            "Не наносить на открытом воздухе и под прямыми солнечными лучами"
+          ],
+          "checkedAt": "2026-10-25",
+          "sourceUrl": "https://leraton.ru/katalog/zashhita-poverxnostej/zashhita-poverxnostej-2/bystryj-blesk/keramicheskij-detejler-sprej-leraton-s3-473ml",
+          "sourceQuote": "Распылить средство на микрофибру. Максимум - одно распыление для одной детали."
+        }
+      ]
+    }
+  ]
+}

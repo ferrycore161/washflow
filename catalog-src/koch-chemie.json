@@ -39,17 +39,23 @@
           "restrictions": [
             "Do not use on hot surfaces (не наносить на горячие поверхности)",
             "Do not let dry (не допускать высыхания)",
-            "Максимальная концентрация применения 1:3 (VDA), выдержка не более 5 минут"
+            "Максимальная концентрация применения 1:3 (VDA), выдержка не более 5 минут",
+            "VDA класс A: время реакции не более 5 мин, максимальная концентрация 1:3"
           ],
           "sourceUrl": "https://www.koch-chemie.com/en/products/green_star",
           "checkedAt": "2026-10-25",
-          "sourceQuote": "Vehicle exteriors and engines: 1:5 to 1:30 solution"
+          "sourceQuote": "Vehicle exteriors and engines: 1:5 to 1:30 solution",
+          "methodAssumed": true
         }
       ],
       "warnings": [
         "Before using, check suitability and compatibility (проверить совместимость)"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body",
+        "engine"
+      ]
     },
     {
       "id": "koch-chemie-gentle-snow-foam",
@@ -116,7 +122,10 @@
       "warnings": [
         "Before using, check suitability and compatibility (проверить совместимость)"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "koch-chemie-hydro-foam-sealant",
@@ -153,7 +162,8 @@
           ],
           "restrictions": [
             "Разведённый состав – на одно применение, не хранить",
-            "Protect against frost and excessive heat"
+            "Protect against frost and excessive heat",
+            "Разводить на одно применение, не хранить раствор"
           ],
           "sourceUrl": "https://www.koch-chemie.com/en/products/hydro_foam_sealant",
           "checkedAt": "2026-10-25",
@@ -179,7 +189,8 @@
           ],
           "restrictions": [
             "Разведённый состав – на одно применение, не хранить",
-            "Protect against frost and excessive heat"
+            "Protect against frost and excessive heat",
+            "Разводить на одно применение, не хранить раствор"
           ],
           "sourceUrl": "https://www.koch-chemie.com/en/products/hydro_foam_sealant",
           "checkedAt": "2026-10-25",
@@ -187,7 +198,12 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body",
+        "glass",
+        "plastic"
+      ]
     },
     {
       "id": "koch-chemie-reactivation-shampoo",
@@ -195,7 +211,7 @@
       "subtitle": "Кислотный шампунь для реактивации керамических покрытий, pH 3,0",
       "category": "contact_shampoo",
       "phase": 2,
-      "ph": 3.0,
+      "ph": 3,
       "packages": [
         1000
       ],
@@ -229,7 +245,10 @@
         "Check for material compatibility before use",
         "Protect from frost and excessive heat"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "koch-chemie-alkali-wheel-cleaner",
@@ -264,17 +283,25 @@
           "restrictions": [
             "Do not use on hot surfaces",
             "Не для полированного алюминия, хрома и чувствительных к щелочи поверхностей",
-            "Do not let dry"
+            "Do not let dry",
+            "Не наносить на горячие поверхности",
+            "Не давать высохнуть",
+            "Не применять на чувствительных к щелочам поверхностях (полированный алюминий, хром и т.п.)",
+            "Перед применением проверить пригодность и совместимость"
           ],
           "sourceUrl": "https://www.koch-chemie.com/en/products/alkali_wheel_cleaner",
           "checkedAt": "2026-10-25",
-          "sourceQuote": "Depending on the dirt accumulation, apply a 1:2 to 1:10 solution to the whole of the rinsed rim"
+          "sourceQuote": "Depending on the dirt accumulation, apply a 1:2 to 1:10 solution to the whole of the rinsed rim",
+          "methodAssumed": true
         }
       ],
       "warnings": [
         "Before using, check suitability and compatibility"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "wheels"
+      ]
     },
     {
       "id": "koch-chemie-reactive-rust-remover",
@@ -297,7 +324,7 @@
             "kind": "ready"
           },
           "dilutionText": "Spray undiluted product onto surface",
-          "surface": "any",
+          "surface": null,
           "dwellSec": {
             "from": 180,
             "to": 360
@@ -309,7 +336,37 @@
           ],
           "restrictions": [
             "Do not use on hot surfaces",
-            "Do not let dry"
+            "Do not let dry",
+            "Не наносить на горячие поверхности",
+            "Не давать высохнуть",
+            "Чувствительные поверхности (например, полированный алюминий) предварительно проверить на незаметном участке"
+          ],
+          "sourceUrl": "https://www.koch-chemie.com/en/products/reactive_rust_remover",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Spray undiluted product onto surface"
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Spray undiluted product onto surface",
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": 360
+          },
+          "steps": [
+            "Распылить неразбавленный состав",
+            "Дать впитаться ок. 3–6 минут",
+            "Тщательно смыть, стойкие места дочистить щёткой или губкой"
+          ],
+          "restrictions": [
+            "Do not use on hot surfaces",
+            "Do not let dry",
+            "Не наносить на горячие поверхности",
+            "Не давать высохнуть",
+            "Чувствительные поверхности (например, полированный алюминий) предварительно проверить на незаметном участке"
           ],
           "sourceUrl": "https://www.koch-chemie.com/en/products/reactive_rust_remover",
           "checkedAt": "2026-10-25",
@@ -317,7 +374,12 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body",
+        "glass",
+        "wheels"
+      ]
     }
   ]
 }

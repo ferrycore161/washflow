@@ -115,7 +115,11 @@
         "Использовать перчатки и защитные крема",
         "Беречь от детей"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20DelicateWash%20-%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9%20%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%B4%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D1%82%D0%BD%D0%BE%D0%B9%20%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE,%20750%20%D0%BC%D0%BB.png"
     },
     {
       "id": "shine-systems-cherrybomb",
@@ -210,7 +214,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20CherryBomb%20Shampoo%20-%20%D0%90%D0%B2%D1%82%D0%BE%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D1%80%D1%83%D1%87%D0%BD%D0%BE%D0%B9%20%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8,%20750%20%D0%BC%D0%BB.jpg"
     },
     {
       "id": "shine-systems-fastquartz",
@@ -249,14 +257,49 @@
           ],
           "sourceUrl": "https://shinesystems.ru/product/2504bd32-4ca8-11ea-80be-b42e99843e13",
           "checkedAt": "2026-10-25",
-          "sourceQuote": "Применяется в неразведенном виде. С помощью распрыскивателя нанести на чистую мокрую поверхность всего автомобиля 50-100 мл состава."
+          "sourceQuote": "Применяется в неразведенном виде. С помощью распрыскивателя нанести на чистую мокрую поверхность всего автомобиля 50-100 мл состава.",
+          "consumptionMl": {
+            "from": 50,
+            "to": 100
+          }
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Применяется в неразведенном виде.",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "С помощью распрыскивателя нанести 50–100 мл состава на чистую мокрую поверхность всего автомобиля",
+            "Сразу после нанесения смыть остатки высоким давлением воды"
+          ],
+          "restrictions": [
+            "Не допускать подсыхания состава",
+            "Не наносить на недомытую поверхность",
+            "Наносить только на остывшую поверхность, укрытую от солнца, нагревательных элементов и направленного потока воздуха"
+          ],
+          "sourceUrl": "https://shinesystems.ru/product/2504bd32-4ca8-11ea-80be-b42e99843e13",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Применяется в неразведенном виде. С помощью распрыскивателя нанести на чистую мокрую поверхность всего автомобиля 50-100 мл состава.",
+          "consumptionMl": {
+            "from": 50,
+            "to": 100
+          }
         }
       ],
       "warnings": [
         "Перед применением проверить на совместимость с поверхностью",
         "Не замораживать"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body",
+        "glass",
+        "plastic"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20FastQuartz%20-%20%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE%D0%B5%20%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%B3%D0%B8%D0%B4%D1%80%D0%BE%D1%84%D0%BE%D0%B1%D0%BD%D0%BE%D0%B5%20%D0%BF%D0%BE%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5,%20750%20%D0%BC%D0%BB.png"
     },
     {
       "id": "shine-systems-pinkfoam",
@@ -366,7 +409,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20PinkFoam%20-%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9%20%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B5%D1%81%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%BD%D0%BE%D0%B9%20%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8,%20750%20%D0%BC%D0%BB.png"
     },
     {
       "id": "shine-systems-activefoam",
@@ -469,7 +516,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20ActiveFoam%20-%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%B5%D0%BD%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B5%D1%81%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%BD%D0%BE%D0%B9%20%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8,%201%20%D0%BA%D0%B3.png"
     },
     {
       "id": "shine-systems-prewash",
@@ -573,7 +624,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20PreWash%20-%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9%20%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B5%D1%81%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%BD%D0%BE%D0%B9%20%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8,%20900%20%D0%BC%D0%BB%20png.png"
     },
     {
       "id": "shine-systems-light",
@@ -673,7 +728,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Group%20261.png"
     },
     {
       "id": "shine-systems-eurowash",
@@ -777,7 +836,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20EuroWash%20-%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9%20%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B5%D1%81%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%BD%D0%BE%D0%B9%20%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8,%201%20%D0%BA%D0%B3%20png.png"
     },
     {
       "id": "shine-systems-multitec",
@@ -877,7 +940,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20MultiTec%20-%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9%20%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B5%D1%81%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%BD%D0%BE%D0%B9%20%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8,%20900%20%D0%BC%D0%BB%20png.png"
     },
     {
       "id": "shine-systems-superstar",
@@ -980,7 +1047,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Group%20260%20(1).png"
     },
     {
       "id": "shine-systems-activebase",
@@ -1087,7 +1158,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Group%2073.png"
     },
     {
       "id": "shine-systems-ecofoam",
@@ -1193,7 +1268,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/shine-systems-ecofoam---aktivnyy-shampun-dlya-beskontaktnoy-moyki-5-l.jpg"
     },
     {
       "id": "shine-systems-sunnyfoam",
@@ -1300,7 +1379,10 @@
         "Использовать перчатки и защитные крема",
         "Не хранить в разведённом состоянии"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "shine-systems-activegel",
@@ -1403,7 +1485,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/5377434419536268256.jpg"
     },
     {
       "id": "shine-systems-multiwash",
@@ -1507,7 +1593,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/SS742.png"
     },
     {
       "id": "shine-systems-dosatron",
@@ -1611,7 +1701,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/SS779.png"
     },
     {
       "id": "shine-systems-prewash-active",
@@ -1715,7 +1809,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20PreWash%20Active%20-%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9%20%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D0%B5%D1%81%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%BD%D0%BE%D0%B9%20%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8,%2020%20%D0%BA%D0%B3.png"
     },
     {
       "id": "shine-systems-black-line-gentlewash",
@@ -1829,7 +1927,11 @@
         "Использовать перчатки и защитные крема",
         "Беречь от детей"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/%D0%B4%D0%B6%D0%B5%D0%BD%D1%82%D0%BB.jpg"
     },
     {
       "id": "shine-systems-black-line-pinkfoam-aroma",
@@ -1937,7 +2039,10 @@
         "Использовать перчатки и защитные крема",
         "Не замораживать"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "shine-systems-ppf-prewash",
@@ -2044,7 +2149,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/%D0%BF%D1%80%D0%B5%D0%B2%D0%BE%D1%88%20750.jpg"
     },
     {
       "id": "shine-systems-black-line-readyfoam",
@@ -2118,7 +2227,11 @@
         "Использовать перчатки и защитные крема",
         "Не замораживать"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Foam.png"
     },
     {
       "id": "shine-systems-orangebomb",
@@ -2208,7 +2321,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/OrangeBomb_0_75l.jpg"
     },
     {
       "id": "shine-systems-tropicbomb",
@@ -2298,7 +2415,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Frame%2059.png"
     },
     {
       "id": "shine-systems-duchessbomb",
@@ -2388,7 +2509,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/DuchessBomb%20_0_75l.jpg"
     },
     {
       "id": "shine-systems-cationicshampoo",
@@ -2482,7 +2607,11 @@
         "Использовать перчатки и защитные крема",
         "Не замораживать"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20CationicShampoo%20-%20%D0%BD%D0%B0%D0%BD%D0%BE%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D1%80%D1%83%D1%87%D0%BD%D0%BE%D0%B9%20%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F,%20750%20%D0%BC%D0%BB.png"
     },
     {
       "id": "shine-systems-acidshampoo",
@@ -2561,7 +2690,11 @@
         "Использовать перчатки и защитные крема",
         "Беречь от детей"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20AcidShampoo%20-%20%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B9%20%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D1%80%D1%83%D1%87%D0%BD%D0%BE%D0%B9%20%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8,%20750%20%D0%BC%D0%BB.png"
     },
     {
       "id": "shine-systems-lollipopshampoo",
@@ -2664,7 +2797,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20LollipopShampoo%20-%20%D1%80%D1%83%D1%87%D0%BD%D0%BE%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8C%20%D1%81%20%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82%D0%BE%D0%BC%20%D0%BB%D0%B5%D0%B4%D0%B5%D0%BD%D1%86%D0%B0,%20750%20%D0%BC%D0%BB.png"
     },
     {
       "id": "shine-systems-ppf-shampoo",
@@ -2759,7 +2896,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/PPF_Shampoo_0_75l.jpg"
     },
     {
       "id": "shine-systems-black-line-slideshampoo-apple",
@@ -2857,7 +2998,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20BL%20SlideShampoo%20Apple%20-%20%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D1%80%D1%83%D1%87%D0%BD%D0%BE%D0%B9%20%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F,%20400%20%D0%BC%D0%BB.jpg"
     },
     {
       "id": "shine-systems-black-line-readyshampoo",
@@ -2946,7 +3091,11 @@
         "Использовать перчатки и защитные крема",
         "Не замораживать"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shampoo.png"
     },
     {
       "id": "shine-systems-bubblewax",
@@ -3026,7 +3175,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Group%2068.png"
     },
     {
       "id": "shine-systems-universalwax",
@@ -3099,7 +3252,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20UniversalWax%20-%20%D0%B2%D0%BE%D1%81%D0%BA%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D0%B8%20%D1%80%D1%83%D1%87%D0%BD%D1%8B%D1%85%20%D0%BC%D0%BE%D0%B5%D0%BA,%205%20%D0%BB.jpg"
     },
     {
       "id": "shine-systems-glossprotection",
@@ -3180,16 +3337,21 @@
         "Использовать перчатки и защитные крема",
         "Не замораживать"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20GlossProtection%20-%20%D0%BD%D0%B0%D0%BD%D0%BE%D0%BA%D0%BE%D0%BD%D1%81%D0%B5%D1%80%D0%B2%D0%B0%D0%BD%D1%82%20%D0%B4%D0%BB%D1%8F%20%D1%81%D1%83%D1%88%D0%BA%D0%B8%20%D0%B8%20%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D1%8B%20%D0%BA%D1%83%D0%B7%D0%BE%D0%B2%D0%B0,%20750%20%D0%BC%D0%BB.png"
     },
     {
       "id": "shine-systems-ironoff",
       "name": "IronOFF",
       "subtitle": "Бескислотный pH-нейтральный очиститель дисков с индикатором (металлические вкрапления, колодочная пыль)",
       "aliases": [
-        "Iron OFF"
+        "Iron OFF",
+        "очиститель металлических вкраплений"
       ],
-      "category": "wheel_cleaner",
+      "category": "iron_remover",
       "phase": null,
       "ph": "нейтральный",
       "packages": [
@@ -3223,19 +3385,49 @@
           "sourceUrl": "https://shinesystems.ru/product/24d5dbc5-d732-11e6-b661-74d4350ba0d8",
           "checkedAt": "2026-10-25",
           "sourceQuote": "Применяется в неразведенном виде. Распылить на обрабатываемую поверхность с помощью распрыскивателя."
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Применяется в неразведенном виде.",
+          "surface": null,
+          "dwellSec": {
+            "from": 300,
+            "to": 480
+          },
+          "steps": [
+            "Распылить на поверхность",
+            "Выдержать 5–8 минут, не дожидаясь подсыхания",
+            "Тщательно промыть водой под высоким давлением",
+            "При сильных загрязнениях после выдержки использовать кисти и щётки"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность",
+            "Не наносить под прямыми солнечными лучами"
+          ],
+          "sourceUrl": "https://shinesystems.ru/product/24d5dbc5-d732-11e6-b661-74d4350ba0d8",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Применяется в неразведенном виде. Распылить на обрабатываемую поверхность с помощью распрыскивателя."
         }
       ],
       "warnings": [
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body",
+        "wheels"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20IronOFF%20-%20%D0%B1%D0%B5%D1%81%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%B4%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%20%D1%81%20%D0%B8%D0%BD%D0%B4%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%BC,%20750%20%D0%BC%D0%BB.png"
     },
     {
       "id": "shine-systems-ironoff-gel",
       "name": "IronOFF Gel",
       "subtitle": "Нейтральный гелевый очиститель дисков с индикатором",
-      "category": "wheel_cleaner",
+      "category": "iron_remover",
       "phase": null,
       "ph": 6,
       "packages": [
@@ -3268,19 +3460,52 @@
           "sourceUrl": "https://shinesystems.ru/product/123ba8c3-8099-11ea-80c6-b42e99843e13",
           "checkedAt": "2026-10-25",
           "sourceQuote": "Применяется в неразведенном виде. Распылить на обрабатываемую поверхность с помощью распрыскивателя."
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Применяется в неразведенном виде.",
+          "surface": null,
+          "dwellSec": {
+            "from": 300,
+            "to": 480
+          },
+          "steps": [
+            "Распылить на поверхность",
+            "Выдержать 5–8 минут, не дожидаясь подсыхания",
+            "Тщательно промыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность",
+            "Не наносить под прямыми солнечными лучами",
+            "Не наносить на незащищенные элементы из железа и его сплавов"
+          ],
+          "sourceUrl": "https://shinesystems.ru/product/123ba8c3-8099-11ea-80c6-b42e99843e13",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Применяется в неразведенном виде. Распылить на обрабатываемую поверхность с помощью распрыскивателя."
         }
       ],
       "warnings": [
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body",
+        "wheels"
+      ],
+      "aliases": [
+        "очиститель металлических вкраплений"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20IronOFF%20Gel%20-%20%D0%BD%D0%B5%D0%B9%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%B4%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%20%D1%81%20%D0%B8%D0%BD%D0%B4%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%BC,%20750%20%D0%BC%D0%BB.png"
     },
     {
       "id": "shine-systems-black-line-ironoff-pro",
       "name": "Black Line IronOFF Pro",
       "subtitle": "Нейтральный очиститель дисков с индикатором",
-      "category": "wheel_cleaner",
+      "category": "iron_remover",
       "phase": null,
       "ph": "нейтральный",
       "packages": [
@@ -3315,6 +3540,33 @@
           "sourceUrl": "https://shinesystems.ru/product/fcc36d4e-d4f5-11ec-810a-b42e99843e13",
           "checkedAt": "2026-10-25",
           "sourceQuote": "Применяется в неразведенном виде. Распылить на обрабатываемую поверхность."
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Применяется в неразведенном виде.",
+          "surface": null,
+          "dwellSec": {
+            "from": 300,
+            "to": 420
+          },
+          "steps": [
+            "Распылить на поверхность",
+            "Выдержать 5–7 минут, не дожидаясь подсыхания",
+            "Тщательно смыть водой"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность",
+            "Не наносить под прямыми солнечными лучами",
+            "Не наносить на незащищенные элементы из железа и его сплавов",
+            "Избегать попадания на тормозной диск и суппорта без покрытий",
+            "Перед применением взболтать"
+          ],
+          "sourceUrl": "https://shinesystems.ru/product/fcc36d4e-d4f5-11ec-810a-b42e99843e13",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Применяется в неразведенном виде. Распылить на обрабатываемую поверхность."
         }
       ],
       "warnings": [
@@ -3322,7 +3574,15 @@
         "Использовать перчатки и защитные крема",
         "Беречь от детей"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body",
+        "wheels"
+      ],
+      "aliases": [
+        "очиститель металлических вкраплений"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/magnific_.-.-.-.-._p8vaVvkehw%201.png"
     },
     {
       "id": "shine-systems-tire-wheel-cleaner",
@@ -3360,7 +3620,34 @@
           ],
           "sourceUrl": "https://shinesystems.ru/product/afd3c89b-153d-11ec-80fe-b42e99843e13",
           "checkedAt": "2026-10-25",
-          "sourceQuote": "Разбавление: Применяется в неразведенном виде."
+          "sourceQuote": "Разбавление: Применяется в неразведенном виде.",
+          "methodAssumed": true
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Применяется в неразведенном виде.",
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": 240
+          },
+          "steps": [
+            "Предварительно смыть сильные загрязнения напором воды",
+            "Нанести на остывшую резину и диск",
+            "Через 3–4 минуты тщательно смыть высоким давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность",
+            "Не допускать высыхания состава",
+            "Не применять на анодированных и не покрытых лаком алюминиевых дисках"
+          ],
+          "sourceUrl": "https://shinesystems.ru/product/afd3c89b-153d-11ec-80fe-b42e99843e13",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Разбавление: Применяется в неразведенном виде.",
+          "methodAssumed": true
         }
       ],
       "warnings": [
@@ -3368,7 +3655,12 @@
         "Использовать перчатки и защитные крема",
         "Предварительно проверить на совместимость с нештатными дисками или покрытиями"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "wheels",
+        "tires"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/shine-systems-tirewheel-cleaner-ochistitel-reziny-i-koles-900-ml.jpg"
     },
     {
       "id": "shine-systems-acidcleaner",
@@ -3420,7 +3712,11 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "wheels"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20AcidCleaner-%20%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C,%20750%20%D0%BC%D0%BB.png"
     },
     {
       "id": "shine-systems-black-line-wheelcleanton",
@@ -3435,7 +3731,11 @@
       "productUrl": "https://shinesystems.ru/product/dd13824f-3c8b-11f1-b89a-08bfb8a4e514",
       "applications": [],
       "warnings": [],
-      "status": "unverified"
+      "status": "unverified",
+      "targets": [
+        "wheels"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Group%2067.png"
     },
     {
       "id": "shine-systems-insectoff",
@@ -3478,13 +3778,45 @@
           "sourceUrl": "https://shinesystems.ru/product/54e62df0-94c5-11ea-80c7-b42e99843e13",
           "checkedAt": "2026-10-25",
           "sourceQuote": "Применяется в неразведенном виде. Распылить состав с помощью распрыскивателя"
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Применяется в неразведенном виде.",
+          "surface": "wet",
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Обильно смочить поверхность и сбить основные загрязнения АВД",
+            "Распылить состав",
+            "Выдержать 2–3 минуты",
+            "Не дожидаясь подсыхания промыть губкой",
+            "Тщательно смыть АВД"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность",
+            "Не наносить под прямыми солнечными лучами"
+          ],
+          "sourceUrl": "https://shinesystems.ru/product/54e62df0-94c5-11ea-80c7-b42e99843e13",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Применяется в неразведенном виде. Распылить состав с помощью распрыскивателя"
         }
       ],
       "warnings": [
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body",
+        "glass",
+        "plastic"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20InsectOFF%20-%20%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%20%D0%BD%D0%B0%D1%81%D0%B5%D0%BA%D0%BE%D0%BC%D1%8B%D1%85,%20750%20%D0%BC%D0%BB.png"
     },
     {
       "id": "shine-systems-mosquitoff-concentrate",
@@ -3532,7 +3864,13 @@
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body",
+        "glass",
+        "plastic"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20MosquitOFF%20Concentrate%20-%20%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%20%D0%BD%D0%B0%D1%81%D0%B5%D0%BA%D0%BE%D0%BC%D1%8B%D1%85,%205%20%D0%BB.jpg"
     },
     {
       "id": "shine-systems-black-line-zhukoff",
@@ -3570,6 +3908,31 @@
           "sourceUrl": "https://shinesystems.ru/product/c958ca7f-9634-11f1-b8c1-08bfb8a4e514",
           "checkedAt": "2026-10-25",
           "sourceQuote": "Разбавление: Применяется в неразведенном виде."
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Применяется в неразведенном виде.",
+          "surface": "wet",
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Обильно смочить поверхность и сбить основные загрязнения АВД",
+            "Равномерно распылить состав",
+            "Оставить на 2–3 минуты, не допуская высыхания",
+            "Тщательно смыть АВД"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава",
+            "Не наносить на горячие поверхности и под прямыми солнечными лучами"
+          ],
+          "sourceUrl": "https://shinesystems.ru/product/c958ca7f-9634-11f1-b8c1-08bfb8a4e514",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Разбавление: Применяется в неразведенном виде."
         }
       ],
       "warnings": [
@@ -3578,7 +3941,13 @@
         "Беречь от детей",
         "Перед применением взболтать"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body",
+        "glass",
+        "plastic"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/magnific_.-.-.-.-._3zT1EdCREY%20(1).jpeg"
     },
     {
       "id": "shine-systems-bitumfree",
@@ -3617,6 +3986,31 @@
           "sourceUrl": "https://shinesystems.ru/product/4c04cff2-450f-11f0-b850-08bfb8a4e514",
           "checkedAt": "2026-10-25",
           "sourceQuote": "Применяется в неразведенном виде. Распределите равномерно или точечно (с помощью распылителя или губки)."
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Применяется в неразведенном виде.",
+          "surface": null,
+          "dwellSec": {
+            "from": 30,
+            "to": 180
+          },
+          "steps": [
+            "Встряхнуть флакон",
+            "Нанести непосредственно на загрязнение (распылителем или губкой)",
+            "Выдержать 30–60 секунд (до 3 минут при сложных загрязнениях)",
+            "Смыть высоким давлением, затем губкой с шампунем"
+          ],
+          "restrictions": [
+            "Температура поверхности от +5 до +30 °C",
+            "Избегать обработки под прямыми солнечными лучами"
+          ],
+          "sourceUrl": "https://shinesystems.ru/product/4c04cff2-450f-11f0-b850-08bfb8a4e514",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Применяется в неразведенном виде. Распределите равномерно или точечно (с помощью распылителя или губки)."
         }
       ],
       "warnings": [
@@ -3625,7 +4019,11 @@
         "Перед применением проверить на совместимость с поверхностью",
         "С осторожностью на виниловых и полиуретановых плёнках"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20BitumFree%20-%20%D0%B4%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0%D1%82%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%B1%D0%B8%D1%82%D1%83%D0%BC%D0%BD%D1%8B%D1%85%20%D0%BF%D1%8F%D1%82%D0%B5%D0%BD%20%D0%B8%20%D0%B4%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D1%8B%D1%85%20%D1%80%D0%B5%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D0%BE%D0%B2,%20750%20%D0%BC%D0%BB.jpg"
     },
     {
       "id": "shine-systems-bitumoff",
@@ -3658,14 +4056,41 @@
           "restrictions": [],
           "sourceUrl": "https://shinesystems.ru/product/5c8d1398-b545-11e6-ba0c-74d4350ba0d8",
           "checkedAt": "2026-10-25",
-          "sourceQuote": "Применяется в неразведенном виде. Нанести на губку и обработать загрязнение либо сразу нанести на поверхность."
+          "sourceQuote": "Применяется в неразведенном виде. Нанести на губку и обработать загрязнение либо сразу нанести на поверхность.",
+          "methodAssumed": true
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Применяется в неразведенном виде.",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 600
+          },
+          "steps": [
+            "Нанести на губку и обработать загрязнение либо сразу нанести на поверхность",
+            "Выдержать до растворения пятна 1–10 минут",
+            "Смыть высоким давлением, затем губкой с шампунем"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://shinesystems.ru/product/5c8d1398-b545-11e6-ba0c-74d4350ba0d8",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Применяется в неразведенном виде. Нанести на губку и обработать загрязнение либо сразу нанести на поверхность.",
+          "methodAssumed": true
         }
       ],
       "warnings": [
         "При попадании в глаза либо на кожу – промыть большим количеством воды",
         "Использовать перчатки и защитные крема"
       ],
-      "status": "verified"
+      "status": "verified",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20BitumOFF%20-%20%D1%82%D0%B5%D1%80%D0%BF%D0%B5%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B0%D0%BD%D1%82%D0%B8%D0%B1%D0%B8%D1%82%D1%83%D0%BC,%20750%20%D0%BC%D0%BB.png"
     },
     {
       "id": "shine-systems-black-line-taroff",
@@ -3700,7 +4125,91 @@
           "restrictions": [],
           "sourceUrl": "https://shinesystems.ru/product/f6de252b-e592-11ed-811f-b42e99843e13",
           "checkedAt": "2026-10-25",
-          "sourceQuote": "Применяется в неразведенном виде. Нанести на губку и обработать загрязнение либо сразу нанести на поверхность."
+          "sourceQuote": "Применяется в неразведенном виде. Нанести на губку и обработать загрязнение либо сразу нанести на поверхность.",
+          "methodAssumed": true
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Применяется в неразведенном виде.",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 600
+          },
+          "steps": [
+            "Взболтать",
+            "Нанести на губку и обработать загрязнение либо сразу нанести на поверхность",
+            "Выдержать до растворения пятна 1–10 минут",
+            "Смыть высоким давлением",
+            "Помыть автомобиль ручным шампунем"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://shinesystems.ru/product/f6de252b-e592-11ed-811f-b42e99843e13",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Применяется в неразведенном виде. Нанести на губку и обработать загрязнение либо сразу нанести на поверхность.",
+          "methodAssumed": true
+        }
+      ],
+      "warnings": [
+        "При попадании в глаза либо на кожу – промыть большим количеством воды",
+        "Использовать перчатки и защитные крема"
+      ],
+      "status": "verified",
+      "targets": [
+        "body",
+        "glass",
+        "wheels"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Group%20260%20(3).png"
+    },
+    {
+      "id": "shine-systems-black-line-quickdrop",
+      "name": "Black Line QuickDrop",
+      "subtitle": "Гидрофобный квик-детейлер для экстерьера (полимеры + SiO2), на сухой кузов",
+      "aliases": [
+        "Quick Drop",
+        "КвикДроп"
+      ],
+      "category": "protection",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        400
+      ],
+      "productUrl": "https://shinesystems.ru/product/aaf4274b-fb49-11f0-b882-08bfb8a4e514",
+      "targets": [
+        "body",
+        "plastic"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/BL_QuickDrop_400ml.jpg",
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Применяется в неразведенном виде",
+          "surface": "dry",
+          "dwellSec": null,
+          "steps": [
+            "Наносить на чистый, сухой, охлаждённый кузов после ручной мойки",
+            "Распылить 1–2 нажатия триггера исключительно на мягкую микрофибру",
+            "Равномерно распределить тонким слоем",
+            "Располировать сухой чистой микрофиброй до полного исчезновения разводов",
+            "Состав полностью полимеризуется в течение 24 часов"
+          ],
+          "restrictions": [
+            "Не работать под прямыми солнечными лучами",
+            "Оптимальная температура нанесения от +10 °C до +25 °C",
+            "Не распылять прямо на кузов — только на микрофибру",
+            "Использовать минимальное количество продукта"
+          ],
+          "sourceUrl": "https://shinesystems.ru/product/aaf4274b-fb49-11f0-b882-08bfb8a4e514",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Распылите небольшое количество состава (1–2 нажатия на триггер) исключительно на мягкую микрофибру и равномерно распределите по поверхности тонким слоем"
         }
       ],
       "warnings": [

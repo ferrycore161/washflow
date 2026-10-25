@@ -124,8 +124,9 @@ export function ProductScreen() {
                   <div className="src">
                     {a.sourceQuote && <div className="src-quote">«{a.sourceQuote}»</div>}
                     <a className="src-link" href={a.sourceUrl} target="_blank" rel="noreferrer">
-                      Источник <ExternalLink size={13} />
+                      {a.sourceType === 'retailer' ? 'Инструкция со страницы магазина' : 'Источник'} <ExternalLink size={13} />
                     </a>
+                    {a.sourceType === 'retailer' && <div className="muted" style={{ marginTop: 4 }}>Не с сайта производителя — сверяйтесь с этикеткой.</div>}
                     <span className="muted"> · проверено {new Date(a.checkedAt).toLocaleDateString('ru-RU')}</span>
                   </div>
                 )}

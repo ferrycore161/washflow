@@ -193,6 +193,9 @@
 .store-link.direct.s-yandex_market {
   color: #ffd257;
 }
+.store-link.direct.s-time2detailing {
+  color: #9fe870;
+}
 .store-link.direct.s-official {
   color: var(--accent);
 }

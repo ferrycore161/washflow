@@ -1,7 +1,7 @@
 import { z } from 'zod';
 
 /** Данные раздела «Покупки»: проверенные ссылки на магазины и аксессуары (shop-src/offers.json). */
-export const storeSchema = z.enum(['official', 'ozon', 'wildberries', 'yandex_market']);
+export const storeSchema = z.enum(['official', 'time2detailing', 'ozon', 'wildberries', 'yandex_market']);
 export type Store = z.infer<typeof storeSchema>;
 
 const isoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);

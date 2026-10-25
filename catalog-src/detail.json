@@ -74,7 +74,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/5f0/1600_1200_0/bqzghxo1n1mpalcc5xm6ximw9lwxkr8u.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "detail-ultra-safe-adapted",
@@ -148,7 +152,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/71e/1600_1200_0/0pz6l7lapnt7cfg7w2u5affx4s7x3eho.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "detail-ultra-safe-us",
@@ -210,7 +218,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/c63/1600_1200_0/tpy7jb7zrrr8chhboecj5yom1qjziplq.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "detail-easy-safe",
@@ -278,7 +290,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/a71/1600_1200_0/namsp56go1llk5zq6yco25v83ego4gq3.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "detail-second-phase",
@@ -345,7 +361,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/fba/1600_1200_0/q3sc0b8e6iz2arsnmmb6n8n97okaew7b.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "detail-second-phase-adapted",
@@ -403,7 +423,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/bcb/1600_1200_0/fmzg86th4pngr3xd4vtx5m6xep3ljmkd.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "detail-acid-shampoo",
@@ -443,7 +467,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/986/1600_1200_0/xorv9cffqro1xbmkqfh2ltdeiypejv0d.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "detail-iron",
@@ -479,14 +507,48 @@
             "Через 3–5 минут (при окрашивании в малиновый) тщательно промыть мощной струёй воды",
             "Для тяжёлых загрязнений выдержать 5 минут и поработать кистью"
           ],
-          "restrictions": [],
+          "restrictions": [
+            "Перед нанесением выполнить двухфазную мойку шампунем без силиконов и усилителей блеска"
+          ],
           "sourceUrl": "https://grass.su/product/ochistitel_diskov_ir_iron_500ml/",
           "checkedAt": "2026-10-25",
-          "sourceQuote": "Нанесите состав Iron (IR) на диски или загрязненные участки кузова автомобиля. Через 3-5 минут"
+          "sourceQuote": "Нанесите состав Iron (IR) на диски или загрязненные участки кузова автомобиля. Через 3-5 минут",
+          "methodAssumed": true
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": 300
+          },
+          "steps": [
+            "Выполнить двухфазную мойку",
+            "Нанести состав на диски или загрязнённые участки",
+            "Через 3–5 минут (при окрашивании в малиновый) тщательно промыть мощной струёй воды",
+            "Для тяжёлых загрязнений выдержать 5 минут и поработать кистью"
+          ],
+          "restrictions": [
+            "Перед нанесением выполнить двухфазную мойку шампунем без силиконов и усилителей блеска"
+          ],
+          "sourceUrl": "https://grass.su/product/ochistitel_diskov_ir_iron_500ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Нанесите состав Iron (IR) на диски или загрязненные участки кузова автомобиля. Через 3-5 минут",
+          "methodAssumed": true
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/7db/1600_1200_0/zeem67ii7fifw0pt8wm9odegyy6zmiy8.jpg",
+      "targets": [
+        "body",
+        "wheels",
+        "glass"
+      ]
     },
     {
       "id": "detail-bug-cleaner",
@@ -528,7 +590,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/a1f/1600_1200_0/ct8o0tynhnpaha4c23f8zzooauotsmte.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "detail-super-wax",
@@ -602,7 +668,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/147/1600_1200_0/wgejgtqeqnhq0hv7sl2ep9uziqvjb41x.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "detail-hydro-wet-coat",
@@ -639,10 +709,38 @@
           "sourceUrl": "https://grass.su/product/kvartsevoe_pokrytie_hw_hydro_wet_coat_500ml/",
           "checkedAt": "2026-10-25",
           "sourceQuote": "Не дожидаясь высыхания автомобиля, распылите состав Hydro Wet Coat (HW) по всей его поверхности"
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Выполнить двухфазную мойку",
+            "Не дожидаясь высыхания авто распылить состав по всей поверхности",
+            "Не дожидаясь высыхания состава промыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава"
+          ],
+          "sourceUrl": "https://grass.su/product/kvartsevoe_pokrytie_hw_hydro_wet_coat_500ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Не дожидаясь высыхания автомобиля, распылите состав Hydro Wet Coat (HW) по всей его поверхности"
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/a28/1600_1200_0/mawlg40qnj2ybrq9y0lfsqvx1h98no3l.jpg",
+      "targets": [
+        "body",
+        "plastic",
+        "glass",
+        "tires",
+        "wheels"
+      ]
     },
     {
       "id": "detail-hydro-fast-coat",
@@ -683,7 +781,96 @@
           ],
           "sourceUrl": "https://grass.su/product/kvartsevoe_pokrytie_hf_hydro_fast_coat_500ml/",
           "checkedAt": "2026-10-25",
-          "sourceQuote": "Состав готов к применению и не требует разведения."
+          "sourceQuote": "Состав готов к применению и не требует разведения.",
+          "methodAssumed": true
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению и не требует разведения",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Выполнить двухфазную мойку",
+            "Не дожидаясь высыхания нанести небольшое количество на отдельный элемент",
+            "Сразу смыть водой под давлением",
+            "Повторить для всех элементов",
+            "Высушить микрофиброй"
+          ],
+          "restrictions": [
+            "Охладить поверхность перед применением",
+            "Не наносить на горячие поверхности",
+            "Перед применением обязательно взболтать",
+            "Не наносить на стёкла с антидождём",
+            "Не допускать высыхания состава"
+          ],
+          "sourceUrl": "https://grass.su/product/kvartsevoe_pokrytie_hf_hydro_fast_coat_500ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Состав готов к применению и не требует разведения.",
+          "methodAssumed": true
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/6c8/1600_1200_0/ra0ll6wpnfkferhzrenzbm1mrnlls1s3.jpg",
+      "targets": [
+        "body",
+        "plastic",
+        "glass",
+        "tires",
+        "wheels"
+      ]
+    },
+    {
+      "id": "detail-iron-adapted",
+      "name": "Iron (Adapted Series)",
+      "subtitle": "Нейтральный очиститель металлических вкраплений для дисков и кузова (индикатор)",
+      "aliases": [
+        "Iron Adapted",
+        "Айрон"
+      ],
+      "category": "iron_remover",
+      "phase": null,
+      "ph": 5.7,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://grass.su/product/ochistitel_diskov_iron_500ml_adapted_series_detail/",
+      "targets": [
+        "wheels",
+        "body"
+      ],
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/860/1600_1200_0/p9kizrdo1uvdplon1wvowvkk0khweapa.jpg",
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Помыть авто бесконтактным и ручным шампунями (ручной шампунь — без силиконов и усилителей блеска)",
+            "Встряхнуть флакон и нанести состав триггером на диски и загрязнённые участки кузова на 2–3 минуты",
+            "Не дожидаясь высыхания проработать диски кистью",
+            "Тщательно смыть под давлением",
+            "При неполном удалении повторить обработку"
+          ],
+          "restrictions": [
+            "Охладить поверхность перед применением",
+            "Не наносить на горячие поверхности",
+            "Не допускать высыхания состава",
+            "Перед применением обязательно взболтать"
+          ],
+          "sourceUrl": "https://grass.su/product/ochistitel_diskov_iron_500ml_adapted_series_detail/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "нанесите состав на диски и загрязненные участки кузова автомобиля на 2-3 минуты при помощи триггера"
         }
       ],
       "warnings": [],

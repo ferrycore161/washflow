@@ -38,7 +38,8 @@ const ROLE_CATEGORIES: Record<Role, ProductCategory[]> = {
   phase1: ['prewash', 'active_foam', 'universal_shampoo'],
   phase2: ['contact_shampoo', 'universal_shampoo'],
   protection: ['protection'],
-  wheels: ['wheel_cleaner'],
+  // Iron с разрешением производителя для дисков подходит и для этапа дисков (если нет отдельного очистителя)
+  wheels: ['wheel_cleaner', 'iron_remover'],
   insects: ['insect_remover'],
   iron: ['iron_remover'],
 };
@@ -65,7 +66,10 @@ function pickProduct(role: Role, items: { product: Product; owned: OwnedChemical
         : true,
     )
     .filter((i) => (role === 'phase1' && i.product.phase === 2 ? false : true))
-    .filter((i) => (role === 'phase2' && i.product.phase === 1 ? false : true));
+    .filter((i) => (role === 'phase2' && i.product.phase === 1 ? false : true))
+    .filter((i) =>
+      role === 'wheels' && i.product.category === 'iron_remover' ? !!i.product.targets?.includes('wheels') : true,
+    );
   candidates.sort((a, b) => {
     // точная категория роли важнее; проверенные карточки важнее непроверенных; больше остаток — лучше
     const ca = cats.indexOf(a.product.category);

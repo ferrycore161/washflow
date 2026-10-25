@@ -106,7 +106,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb032.webp",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "foam-heroes-citrus-buddy",
@@ -197,7 +201,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb033.webp",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "foam-heroes-gentle-soap-amber",
@@ -288,7 +296,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb003.webp",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "foam-heroes-gentle-soap-cloudberry",
@@ -379,7 +391,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb102.webp",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "foam-heroes-cola-bay",
@@ -467,7 +483,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb001.webp",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "foam-heroes-slick-ice",
@@ -530,7 +550,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb014.webp",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "foam-heroes-slimy-foam",
@@ -569,7 +593,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb070.webp",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "foam-heroes-acid-shock",
@@ -657,7 +685,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb062.webp",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "foam-heroes-acid-citrus",
@@ -748,7 +780,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb116.webp",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "foam-heroes-pure-wheels",
@@ -782,10 +818,36 @@
           "sourceUrl": "https://foam-heroes.ru/product-fhb031.html",
           "checkedAt": "2026-10-25",
           "sourceQuote": "в зависимости от степени загрязнения используйте готовый состав или разведите его с водой 1:1"
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "используйте готовый состав или разведите его с водой 1:1",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Предварительно удалить поверхностные загрязнения водой под давлением",
+            "Нанести на колёса в виде эмульсии или пены",
+            "Подождать несколько минут, при необходимости поработать кистями",
+            "Смыть обильно водой под давлением"
+          ],
+          "restrictions": [
+            "Не распылять на горячую поверхность дисков"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb031.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "в зависимости от степени загрязнения используйте готовый состав или разведите его с водой 1:1"
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb031.webp",
+      "targets": [
+        "wheels",
+        "tires"
+      ]
     },
     {
       "id": "foam-heroes-pure-wheels-plus",
@@ -829,7 +891,12 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb097.webp",
+      "targets": [
+        "wheels",
+        "tires"
+      ]
     },
     {
       "id": "foam-heroes-double-iron",
@@ -867,10 +934,40 @@
           "sourceUrl": "https://foam-heroes.ru/product-fhb076.html",
           "checkedAt": "2026-10-25",
           "sourceQuote": "Double Iron от Foam Heroes - готовый к применению эффективный очиститель кузова"
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готовый к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": 300
+          },
+          "steps": [
+            "Тщательно вымыть автомобиль",
+            "Нанести состав и оставить на 3–5 минут",
+            "При сильных загрязнениях использовать кисти и щётки",
+            "Смыть обильно водой под давлением"
+          ],
+          "restrictions": [
+            "Не распылять на горячую поверхность",
+            "Не наносить на незащищённые элементы из железа и его сплавов"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb076.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Double Iron от Foam Heroes - готовый к применению эффективный очиститель кузова"
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb076.webp",
+      "targets": [
+        "body",
+        "wheels"
+      ]
     },
     {
       "id": "foam-heroes-mad-drops",
@@ -905,6 +1002,128 @@
           "sourceUrl": "https://foam-heroes.ru/product-fhb015.html",
           "checkedAt": "2026-10-25",
           "sourceQuote": "поэлементно нанесите состав на мокрый кузов автомобиля (1 распыление на элемент, 2 на капот и крышу)"
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готовое к применению",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Тщательно вымыть авто и сбить остатки моющих средств водой",
+            "Поэлементно нанести на мокрый кузов: 1 распыление на элемент, 2 на капот и крышу",
+            "По желанию разнести губкой/падом/влажной микрофиброй",
+            "Не допуская высыхания смыть водой под высоким давлением",
+            "Высушить"
+          ],
+          "restrictions": [
+            "Избегать прямых солнечных лучей и температуры воздуха выше 25 °C"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb015.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "поэлементно нанесите состав на мокрый кузов автомобиля (1 распыление на элемент, 2 на капот и крышу)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb015.webp",
+      "targets": [
+        "body"
+      ]
+    },
+    {
+      "id": "foam-heroes-blaze-booster",
+      "name": "Blaze Booster",
+      "subtitle": "Керамический экспресс детейлер-спрей для кузова (на мокрую или сухую поверхность)",
+      "aliases": [
+        "Blaze Booster Mango",
+        "Blaze Booster Cherry Bone",
+        "Блейз Бустер"
+      ],
+      "category": "protection",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        500,
+        3000
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb082.html",
+      "targets": [
+        "body",
+        "glass",
+        "plastic"
+      ],
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb082.webp",
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готовый детейлер-спрей, без разведения",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Тщательно вымыть автомобиль",
+            "Взболтать перед использованием",
+            "Наносить поэлементно на мокрую или сухую поверхность: распылить состав на микрофибру и распределить по поверхности",
+            "Располировать сухой чистой микрофиброй"
+          ],
+          "restrictions": [
+            "Не применять на горячих поверхностях и под прямыми солнечными лучами",
+            "Не допускать полного высыхания состава на поверхности"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb082.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "распылите состав на микрофибру и распределите по поверхности"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "foam-heroes-silk-finish",
+      "name": "Silk Finish",
+      "subtitle": "Квик-детейлер для экстерьера (на мокрую или сухую поверхность)",
+      "aliases": [
+        "Силк Финиш"
+      ],
+      "category": "protection",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb119.html",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb119.webp",
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": "any",
+          "dwellSec": null,
+          "methodAssumed": true,
+          "steps": [
+            "Тщательно вымыть автомобиль",
+            "Взболтать перед использованием",
+            "Наносить состав поэлементно на мокрую или сухую поверхность",
+            "Аккуратно протереть обрабатываемую поверхность"
+          ],
+          "restrictions": [
+            "Не применять на горячих поверхностях и под прямыми солнечными лучами",
+            "Не применять на поверхностях, покрытых натуральными восками"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb119.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "наносите состав поэлементно на мокрую или сухую поверхность"
         }
       ],
       "warnings": [],

@@ -45,6 +45,7 @@ export const applicationSchema = z.object({
   sourceQuote: z.string().optional(),
   consumptionMl: z.object({ from: positive, to: positive }).optional(),
   methodAssumed: z.boolean().optional(),
+  sourceType: z.enum(['official', 'retailer']).optional(),
 });
 
 /**

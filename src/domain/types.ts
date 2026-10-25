@@ -66,6 +66,8 @@ export interface Application {
   sourceQuote?: string;
   /** Расход готового раствора/средства на один автомобиль, мл (если указан производителем). */
   consumptionMl?: Range;
+  /** official — сайт производителя; retailer — копия инструкции на странице магазина (например, time2detailing). */
+  sourceType?: 'official' | 'retailer';
   /** Производитель не назвал устройство; способ выбран по смыслу инструкции. */
   methodAssumed?: boolean;
 }

@@ -76,7 +76,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/faf/1600_1200_0/tfd2gjhlqamq142ytn21gqr8g68i7fff.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-active-foam-effect",
@@ -148,7 +152,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/2ab/1600_1200_0/0dbb8grg0jlsgopyqphaiacjnkp7o6m1.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-active-foam-light",
@@ -221,7 +229,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/174/1600_1200_0/om7c3zj6luk3vijhpyiasbvsprxmgo4z.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-active-foam-gel-plus",
@@ -297,7 +309,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/100/1600_1200_0/6jq1u1gkwichq5dwqjayqdugk67l59p1.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-active-foam-magic",
@@ -369,7 +385,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/249/1600_1200_0/29zf107eiy4tmfyqa7lm130wym5pwwlt.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-active-foam-balance",
@@ -441,7 +461,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/f70/1600_1200_0/6742kaykvjlfkeumyzuboeckqjxbj3nx.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-active-foam-power",
@@ -515,7 +539,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/178/1600_1200_0/w07was1sd5y3jnk08vtdrkdhp15bdn03.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-active-foam-truck",
@@ -589,7 +617,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/dec/1600_1200_0/9t292o6e29m573ov1oor75bourmui5u0.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-active-foam-extra",
@@ -661,7 +693,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/05e/1600_1200_0/smaw12x2rbxcm1weyq4j901ynbieqdt2.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-active-foam-red",
@@ -733,7 +769,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/5fc/1600_1200_0/mjo51g3qc56pb7m2w9aw2l7pyxaq5ejb.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-nano-shampoo",
@@ -795,7 +835,11 @@
       "warnings": [
         "При частой работе использовать перчатки"
       ],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/d4e/1600_1200_0/wa6efc9lufbfd498x6rbt2vqnbksfiyy.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-auto-shampoo",
@@ -834,10 +878,35 @@
           "sourceUrl": "https://grass.su/product/avtoshampun_universal_s_aromatom_apelsina_flakon_1_l/",
           "checkedAt": "2026-10-25",
           "sourceQuote": "Растворить 30-50г шампуня в 10 л воды."
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 3,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "Растворить 30-50г шампуня в 10 л воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Растворить 30–50 г шампуня в 10 л воды",
+            "Залить раствор в пеногенератор и нанести пену",
+            "Смыть водой"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/avtoshampun_universal_s_aromatom_apelsina_flakon_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Растворить 30-50г шампуня в 10 л воды. Можно наносить пену как вручную, так и с помощью пеногенератора."
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/970/1600_1200_0/somwrzdpzl8kcqk9wsxannmgu0nqvyh1.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-carwash-foam",
@@ -917,7 +986,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/2c0/1600_1200_0/13u0p6qw74yp4yykh7cck18warjkf4tu.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-wash-wax",
@@ -954,10 +1027,35 @@
           "sourceUrl": "https://grass.su/product/avtoshampun_s_karnaubskim_voskom_wash_wax_flakon_1l/",
           "checkedAt": "2026-10-25",
           "sourceQuote": "Растворить 30-50г шампуня в 10 л воды."
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 3,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "Растворить 30-50г шампуня в 10 л воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Растворить 30–50 г шампуня в 10 л воды",
+            "Залить раствор в пеногенератор и нанести пену",
+            "Смыть водой"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/avtoshampun_s_karnaubskim_voskom_wash_wax_flakon_1l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Растворить 30-50г шампуня в 10 л воды. Можно наносить пену как вручную, так и с помощью пеногенератора."
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/e9f/1600_1200_0/vehyo91jpbpouv1cwbdn3i0avlws1qw6.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-fast-wax",
@@ -1022,7 +1120,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/cab/1600_1200_0/27om7dxonbk4xdgifnpqldgbk80pfx1k.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-cherry-wax",
@@ -1082,7 +1184,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/481/1600_1200_0/3hfcoquumhqxk1gobi4852o1kccphf2m.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-nano-wax",
@@ -1149,7 +1255,11 @@
       "warnings": [
         "Для разбавления рекомендуется очищенная или осмотическая вода"
       ],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/bd8/1600_1200_0/qujfcz9w7beu2pf0i718gkl5tyjw2d3r.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-disk",
@@ -1190,13 +1300,17 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/fe9/1600_1200_0/vionohmv8x8s7oezjbgjd9qpq09m1wsk.jpg",
+      "targets": [
+        "wheels"
+      ]
     },
     {
       "id": "grass-disk-cleaner-super",
       "name": "Disk Cleaner Super",
       "subtitle": "Нейтральный очиститель дисков от металлических вкраплений (индикатор)",
-      "category": "wheel_cleaner",
+      "category": "iron_remover",
       "phase": null,
       "ph": 7,
       "packages": [
@@ -1222,14 +1336,52 @@
             "При тяжёлых загрязнениях выдержать не менее 3 минут, затем поработать щёткой/кистью/губкой",
             "Тщательно промыть мощной струёй воды"
           ],
-          "restrictions": [],
+          "restrictions": [
+            "Охладить поверхность перед нанесением",
+            "Взболтать перед применением"
+          ],
           "sourceUrl": "https://grass.su/product/chistyashchee_sredstvo_disk_cleaner_super_flakon_600_ml/",
           "checkedAt": "2026-10-25",
-          "sourceQuote": "Нанесите состав Disk Cleaner Super на загрязненные участки. Дождитесь окраски состава в малиновый цвет."
+          "sourceQuote": "Нанесите состав Disk Cleaner Super на загрязненные участки. Дождитесь окраски состава в малиновый цвет.",
+          "methodAssumed": true
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": null
+          },
+          "steps": [
+            "Охладить поверхность, взболтать средство",
+            "Помыть авто бесконтактным шампунем",
+            "Нанести состав на загрязнённые участки, дождаться малинового окрашивания",
+            "При тяжёлых загрязнениях выдержать не менее 3 минут, затем поработать щёткой/кистью/губкой",
+            "Тщательно промыть мощной струёй воды"
+          ],
+          "restrictions": [
+            "Охладить поверхность перед нанесением",
+            "Взболтать перед применением"
+          ],
+          "sourceUrl": "https://grass.su/product/chistyashchee_sredstvo_disk_cleaner_super_flakon_600_ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Нанесите состав Disk Cleaner Super на загрязненные участки. Дождитесь окраски состава в малиновый цвет.",
+          "methodAssumed": true
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/334/1600_1200_0/1o7nzgenzb0u2wq2yoqksm8f2cct0zr3.jpg",
+      "targets": [
+        "wheels"
+      ],
+      "aliases": [
+        "очиститель металлических вкраплений"
+      ]
     },
     {
       "id": "grass-antibitum",
@@ -1266,10 +1418,37 @@
           "sourceUrl": "https://grass.su/product/ochistitel_bitumnykh_pyaten_antibitum_flakon_500_ml_/",
           "checkedAt": "2026-10-25",
           "sourceQuote": "Распылить состав Antibitum на загрязненную поверхность. Выдержать состав на поверхности не более 5 минут."
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 0,
+            "to": 300
+          },
+          "steps": [
+            "Помыть авто бесконтактным шампунем",
+            "Распылить состав на загрязнение",
+            "Выдержать не более 5 минут",
+            "Смыть струёй воды или протереть чистой микрофиброй",
+            "При необходимости повторить"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/ochistitel_bitumnykh_pyaten_antibitum_flakon_500_ml_/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Распылить состав Antibitum на загрязненную поверхность. Выдержать состав на поверхности не более 5 минут."
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/b11/1600_1200_0/an0px7xx1lmitxlofukb1vzvmguqhcrc.jpg",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "grass-mosquitos-cleaner-rtu",
@@ -1305,11 +1484,43 @@
           ],
           "sourceUrl": "https://grass.su/product/sredstvo_dlya_udaleniya_sledov_nasekomykh_mosquitos_cleaner_flakon_600_ml/",
           "checkedAt": "2026-10-25",
-          "sourceQuote": "Перед основной мойкой автомобиля следует обильно нанести средство на загрязненные области с близкого расстояния."
+          "sourceQuote": "Перед основной мойкой автомобиля следует обильно нанести средство на загрязненные области с близкого расстояния.",
+          "methodAssumed": true
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Охладить поверхность",
+            "Обильно нанести на загрязнения с близкого расстояния",
+            "Через 2–3 минуты потереть губкой",
+            "Смыть водой"
+          ],
+          "restrictions": [
+            "Не допускать высыхания на поверхности"
+          ],
+          "sourceUrl": "https://grass.su/product/sredstvo_dlya_udaleniya_sledov_nasekomykh_mosquitos_cleaner_flakon_600_ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Перед основной мойкой автомобиля следует обильно нанести средство на загрязненные области с близкого расстояния.",
+          "methodAssumed": true
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/548/1600_1200_0/dq7ejucoh46p40l4lqip652zp96xbv1y.jpg",
+      "targets": [
+        "body",
+        "glass",
+        "plastic"
+      ]
     },
     {
       "id": "grass-mosquitos-cleaner-concentrate",
@@ -1356,6 +1567,63 @@
       "warnings": [
         "В составе щелочь – использовать перчатки"
       ],
+      "status": "verified",
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/7c0/1600_1200_0/ftqxxl90ssxgzv8oggpkod5l4orh8cv3.jpg",
+      "targets": [
+        "body",
+        "glass",
+        "plastic"
+      ]
+    },
+    {
+      "id": "grass-hydro-polymer",
+      "name": "Hydro Polymer professional",
+      "subtitle": "Жидкий полимер-консервант с карнаубским воском, на влажный кузов после мойки",
+      "aliases": [
+        "Hydro polymer",
+        "Гидро полимер"
+      ],
+      "category": "protection",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://grass.su/product/zhidkiy_polimer_hydro_polymer_professional_flakon_500_ml/",
+      "targets": [
+        "body",
+        "plastic"
+      ],
+      "imageUrl": "https://grass.su/upload/resize_cache/iblock/435/1600_1200_0/mlkdh8wxogwc1svatyzkhhko3ifkoox6.jpg",
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": "wet",
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Взболтать перед применением",
+            "С помощью триггера нанести небольшое количество средства на чистую влажную губку",
+            "Равномерно распределить по влажной поверхности тонким слоем",
+            "Подождать 1–2 минуты",
+            "Смыть водой под высоким давлением",
+            "Для максимального эффекта располировать кузов сухой микрофиброй"
+          ],
+          "restrictions": [
+            "Допускается расслоение продукта — взболтать"
+          ],
+          "sourceUrl": "https://grass.su/product/zhidkiy_polimer_hydro_polymer_professional_flakon_500_ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "нанести небольшое количество средства на чистую влажную губку с помощью триггера, равномерно распределить по поверхности тонким слоем. Подождать 1-2 минуты."
+        }
+      ],
+      "warnings": [],
       "status": "verified"
     }
   ]

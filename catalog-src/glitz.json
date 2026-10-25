@@ -69,7 +69,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://leraton.ru/images/product/048/048387/515-frame-1-12.tn-570x700.bca94988f4.png",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "glitz-02-argent",
@@ -157,7 +161,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://leraton.ru/images/product/048/048388/694-frame-1-13.tn-570x700.2186e2a220.png",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "glitz-03-ruby",
@@ -223,7 +231,11 @@
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://leraton.ru/images/product/048/048389/291-frame-1-14.tn-570x700.213c964cd8.png",
+      "targets": [
+        "body"
+      ]
     },
     {
       "id": "glitz-08-purpur",
@@ -236,9 +248,39 @@
         500
       ],
       "productUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/glitz-nejtralnyj-ochistitel-diskov-i-kuzova-08-purpur-500ml-g0805",
-      "applications": [],
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Без разведения: инструкция предписывает наносить средство триггером как есть",
+          "surface": null,
+          "dwellSec": {
+            "from": 240,
+            "to": 360
+          },
+          "steps": [
+            "Нанести средство на обрабатываемую поверхность с помощью триггера",
+            "Подождать 4–6 минут",
+            "Смыть, не дожидаясь высыхания на поверхности",
+            "При стойких загрязнениях дополнительно обработать губкой или щёткой"
+          ],
+          "restrictions": [
+            "Не допускать высыхания средства на поверхности"
+          ],
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/glitz-nejtralnyj-ochistitel-diskov-i-kuzova-08-purpur-500ml-g0805",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Нанесите средство на обрабатываемую поверхность с помощью триггера. Подождите 4-6 минут и смойте средство"
+        }
+      ],
       "warnings": [],
-      "status": "unverified"
+      "status": "verified",
+      "imageUrl": "https://leraton.ru/images/product/048/048393/877-frame-1-17.tn-570x700.61388b275a.png",
+      "targets": [
+        "wheels",
+        "body"
+      ]
     },
     {
       "id": "glitz-13-wheely",
@@ -277,11 +319,42 @@
           ],
           "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/glitz-ochistitel-shin-i-diskov-13-wheely-500-ml-g1305",
           "checkedAt": "2026-10-25",
-          "sourceQuote": "Способ разведения: готово к применению. Допускается разведение 1:1 – 1:3"
+          "sourceQuote": "Способ разведения: готово к применению. Допускается разведение 1:1 – 1:3",
+          "methodAssumed": true
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готово к применению. Допускается разведение 1:1 – 1:3",
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": 300
+          },
+          "steps": [
+            "Смыть водой основные загрязнения с колёс",
+            "Нанести средство (готовое или разбавленное)",
+            "Оставить на 3–5 минут, при необходимости обработать щёткой",
+            "Смыть водой"
+          ],
+          "restrictions": [
+            "Не для анодированных и покрытых лаком алюминиевых дисков"
+          ],
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/glitz-ochistitel-shin-i-diskov-13-wheely-500-ml-g1305",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Способ разведения: готово к применению. Допускается разведение 1:1 – 1:3",
+          "methodAssumed": true
         }
       ],
       "warnings": [],
-      "status": "verified"
+      "status": "verified",
+      "imageUrl": "https://leraton.ru/images/product/048/048397/319-frame-1-21.tn-570x700.f9e86cd8ee.png",
+      "targets": [
+        "wheels",
+        "tires"
+      ]
     }
   ]
 }

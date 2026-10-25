@@ -146,6 +146,7 @@ export function analyzeNeeds(input: {
 
 export const STORE_LABEL: Record<Store, string> = {
   official: 'Официальный сайт',
+  time2detailing: 'time2detailing',
   ozon: 'Ozon',
   wildberries: 'Wildberries',
   yandex_market: 'Яндекс Маркет',

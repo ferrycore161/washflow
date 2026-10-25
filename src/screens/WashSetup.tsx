@@ -36,13 +36,20 @@ export function WashSetup() {
 
   return (
     <div className="screen">
-      <div className="wash-hero-art" aria-hidden="true">
-        <CarImage selection={selectionFromCar(car)} width={300} paintName={car?.color} />
+      <div className="wash-head">
+        <BackHeader
+          right={
+            car ? (
+              <div className="wash-head-car" aria-hidden="true">
+                <CarImage selection={selectionFromCar(car)} width={210} paintName={car.color} />
+              </div>
+            ) : undefined
+          }
+        />
       </div>
-      <BackHeader />
       <div className="eyebrow">Сценарий мойки</div>
-      <h1 className="h1" style={{ marginTop: 6, maxWidth: '85%' }} data-testid="scenario-title">{scenario.title}</h1>
-      <p className="lead" style={{ maxWidth: '80%' }}>{scenario.subtitle}</p>
+      <h1 className="h1" style={{ marginTop: 6 }} data-testid="scenario-title">{scenario.title}</h1>
+      <p className="lead">{scenario.subtitle}</p>
 
       <div className="kind-grid" style={{ marginTop: 18 }} role="radiogroup" aria-label="Тип мойки">
         {KINDS.map((k) => (

@@ -401,13 +401,6 @@
   width: 100%;
   height: auto;
 }
-/* контейнеры с абсолютным позиционированием задают ширину картинке явно */
-.car-card-art {
-  width: 230px;
-}
-.wash-hero-art {
-  width: 300px;
-}
 .car-pop .car-image {
   max-width: 132px;
 }

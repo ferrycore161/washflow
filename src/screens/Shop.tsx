@@ -246,9 +246,11 @@ export function Shop() {
           </svg>
           <b className="num">{covered}/{needs.length}</b>
         </div>
-        <div style={{ flex: 1 }}>
+        <div style={{ flex: 1, minWidth: 0 }}>
           <div className="h3">Этапов закрыто</div>
-          <div className="row" style={{ gap: 6, flexWrap: 'wrap', marginTop: 8 }}>
+          <div className="muted" style={{ fontSize: 13, marginTop: 2 }}>Нажмите на этап, чтобы перейти к нему</div>
+        </div>
+          <div className="mini-needs">
             {needs.map((n) => (
               <button
                 key={n.def.id}
@@ -263,7 +265,6 @@ export function Shop() {
               </button>
             ))}
           </div>
-        </div>
       </div>
 
       <div className="stack" style={{ marginTop: 14 }}>

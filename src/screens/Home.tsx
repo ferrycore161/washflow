@@ -59,32 +59,32 @@ export function Home() {
       )}
 
       <button className="card press car-card" onClick={() => nav('/car')} aria-label="Профиль автомобиля">
-        <div className="car-card-text">
-          <div className="eyebrow">Мой автомобиль</div>
-          {car ? (
-            <>
-              <div className="h1" style={{ fontSize: 30, marginTop: 6 }}>
-                {car.make} {car.model}
-              </div>
-              <div className="row" style={{ gap: 6, marginTop: 12, flexWrap: 'wrap' }}>
-                <span className="tag">{BODY_LABEL[car.body]}</span>
-                {car.engine && <span className="tag">{car.engine}</span>}
-                {car.color && <span className="tag">{car.color}</span>}
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="h2" style={{ marginTop: 6 }}>Добавить авто</div>
-              <div className="muted" style={{ fontSize: 13.5, marginTop: 4 }}>По желанию — для точного объёма раствора</div>
-            </>
-          )}
+        <div className="car-card-head">
+          <span className="eyebrow">Мой автомобиль</span>
+          <span className="car-card-edit">
+            {car ? 'Изменить' : 'Добавить'} <ChevronRight size={16} />
+          </span>
         </div>
-        <div className="car-card-art">
-          {car ? <CarImage selection={selectionFromCar(car)} width={230} paintName={car.color} eager /> : <CarArt width={230} />}
-        </div>
-        <span className="car-card-edit">
-          {car ? 'Изменить' : 'Добавить'} <ChevronRight size={16} />
-        </span>
+        {car ? (
+          <>
+            <div className="car-card-title">{car.make} {car.model}</div>
+            {car.years && <div className="car-card-sub">{car.years}</div>}
+            <div className="car-card-art">
+              <CarImage selection={selectionFromCar(car)} width={320} paintName={car.color} eager />
+            </div>
+            <div className="car-card-specs">
+              <span className="tag">{BODY_LABEL[car.body]}</span>
+              {car.engine && <span className="tag">{car.engine}</span>}
+              {car.color && <span className="tag">{car.color}</span>}
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="car-card-title">Добавить авто</div>
+            <div className="car-card-sub">По желанию — для точного объёма раствора</div>
+            <div className="car-card-art"><CarArt width={280} /></div>
+          </>
+        )}
       </button>
 
       <div style={{ marginTop: 16 }}>

@@ -83,20 +83,18 @@ export function EquipmentList() {
             <button className="icon-btn eq-more" aria-label={`Действия: ${e.name}`} onClick={() => setMenu(e)}>
               <MoreHorizontal size={18} />
             </button>
-            {e.isDefault && (
-              <span className="tag c-ok eq-default">
-                <Star size={11} fill="currentColor" /> Основной
-              </span>
-            )}
             <button className="eq-art" onClick={() => nav(`/equipment/${e.id}`)} aria-label={`Открыть ${e.name}`}>
-              <EquipmentArt type={e.type} size={112} />
+              <EquipmentArt type={e.type} size={104} />
             </button>
             <div className="eq-name">{e.name}</div>
-            <div className="muted" style={{ fontSize: 12.5, marginTop: 2 }}>{EQUIPMENT_META[e.type].label}</div>
-            <div className="row" style={{ marginTop: 10, gap: 6 }}>
+            <div className="eq-type">
+              {e.isDefault && <Star size={12} fill="currentColor" className="accent" aria-label="Основной" />}
+              <span>{EQUIPMENT_META[e.type].label}</span>
+            </div>
+            <div className="eq-foot">
               <span className="tag num eq-vol">{equipmentSubtitle(e, productMap)}</span>
-              <button className="btn btn-secondary eq-edit" onClick={() => nav(`/equipment/${e.id}`)}>
-                <Pencil size={15} /> Изменить
+              <button className="icon-btn eq-edit" aria-label={`Изменить ${e.name}`} onClick={() => nav(`/equipment/${e.id}`)}>
+                <Pencil size={16} />
               </button>
             </div>
           </div>
@@ -341,6 +339,6 @@ function Box() {
 
 /** Подпись под оборудованием: объём или флакон, на который накручен распылитель. */
 export function equipmentSubtitle(e: Equipment, products: Map<string, { name: string }>): string {
-  if (e.type === 'bottle_trigger') return e.productId ? `на ${products.get(e.productId)?.name ?? 'флакон'}` : 'на любой флакон';
+  if (e.type === 'bottle_trigger') return e.productId ? products.get(e.productId)?.name ?? 'Флакон' : 'Любой флакон';
   return formatVolume(e.volumeMl);
 }

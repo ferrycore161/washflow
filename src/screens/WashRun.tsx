@@ -269,7 +269,6 @@ export function WashRun() {
                   <div className="mix-eq">
                     <EquipmentArt type={eq.type} size={92} />
                     <div>
-                      <div className="muted" style={{ fontSize: 12 }}>Моё оборудование</div>
                       <b style={{ fontSize: 15 }}>{eq.name}</b>
                       <div className="muted" style={{ fontSize: 12.5 }}>{formatVolume(eq.volumeMl)}</div>
                     </div>
@@ -306,7 +305,6 @@ export function WashRun() {
                 <div className="mix-eq">
                   <EquipmentArt type={eq.type} size={92} />
                   <div>
-                    <div className="muted" style={{ fontSize: 12 }}>Моё оборудование</div>
                     <b style={{ fontSize: 15 }}>{eq.name}</b>
                     <div className="muted" style={{ fontSize: 12.5 }}>прямо на флакон</div>
                   </div>

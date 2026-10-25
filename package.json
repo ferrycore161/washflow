@@ -18,7 +18,8 @@
     "catalog:push": "tsx scripts/catalog-push.ts",
     "icons": "tsx scripts/icons.ts",
     "shots": "tsx scripts/shots.ts",
-    "demo:check": "tsx scripts/demo-check.ts"
+    "demo:check": "tsx scripts/demo-check.ts",
+    "audit:ui": "tsx scripts/ui-audit.ts http://localhost:5173 ui-audit"
   },
   "dependencies": {
     "@fontsource-variable/manrope": "^5.3.0",

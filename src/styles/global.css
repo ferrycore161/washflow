@@ -409,12 +409,13 @@ a {
 }
 .grid-2 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* minmax(0, 1fr): колонка не растягивается под содержимое и не вылезает за экран */
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
 }
 .grid-3 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
 }
 .spacer {
@@ -431,6 +432,8 @@ a {
   margin: 0 -20px;
   padding: 2px 20px 4px;
   scroll-snap-type: x proximity;
+  /* без этого привязка прокрутки прижимает первый чип к краю экрана */
+  scroll-padding-inline: 20px;
 }
 .chips::-webkit-scrollbar {
   display: none;

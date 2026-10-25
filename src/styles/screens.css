@@ -2,37 +2,58 @@
 
 .car-card {
   position: relative;
+  display: block;
   width: 100%;
-  min-height: 176px;
   text-align: left;
   overflow: hidden;
-  padding: 20px;
+  padding: 16px 18px 18px;
   background:
-    radial-gradient(80% 90% at 85% 60%, rgba(51, 227, 212, 0.1), transparent 70%),
+    radial-gradient(85% 60% at 50% 68%, rgba(51, 227, 212, 0.11), transparent 70%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent),
     var(--surface);
 }
-.car-card-text {
-  position: relative;
-  z-index: 1;
-  max-width: 58%;
-}
-.car-card-art {
-  position: absolute;
-  right: -14px;
-  bottom: 6px;
-  pointer-events: none;
+.car-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 28px;
 }
 .car-card-edit {
-  position: absolute;
-  top: 18px;
-  right: 16px;
   display: inline-flex;
   align-items: center;
   gap: 2px;
   font-size: 13.5px;
   font-weight: 650;
   color: var(--text-2);
+  flex-shrink: 0;
+}
+.car-card-title {
+  margin-top: 6px;
+  font-size: clamp(26px, 7.4vw, 32px);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.08;
+  overflow-wrap: anywhere;
+}
+.car-card-sub {
+  margin-top: 4px;
+  font-size: 13.5px;
+  color: var(--muted);
+}
+.car-card-art {
+  display: flex;
+  justify-content: center;
+
+  margin: 0 -6px;
+  pointer-events: none;
+}
+.car-card-specs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 6px;
 }
 
 .h-scroll {
@@ -43,6 +64,7 @@
   margin: 0 -16px;
   padding: 0 16px 2px;
   scroll-snap-type: x mandatory;
+  scroll-padding-inline: 16px;
 }
 .h-scroll::-webkit-scrollbar {
   display: none;
@@ -106,6 +128,7 @@
 
 .eq-card {
   position: relative;
+  min-width: 0;
   padding: 12px;
   display: flex;
   flex-direction: column;
@@ -114,41 +137,67 @@
   position: absolute;
   top: 8px;
   right: 8px;
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   z-index: 1;
 }
-.eq-default {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  z-index: 1;
-  font-size: 11px;
-  padding: 3px 8px;
-}
 .eq-art {
-  height: 122px;
+  height: 112px;
   display: grid;
   place-items: center;
-  margin-top: 6px;
+  margin-top: 4px;
+}
+.eq-art svg {
+  max-width: 100%;
+  height: auto;
 }
 .eq-name {
   font-weight: 750;
   font-size: 15px;
   line-height: 1.2;
   min-height: 2.4em;
+  margin-top: 4px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  overflow-wrap: anywhere;
+}
+.eq-type {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 3px;
+  font-size: 12.5px;
+  color: var(--muted);
+  min-width: 0;
+}
+.eq-type span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.eq-type svg {
+  flex-shrink: 0;
+}
+.eq-foot {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 10px;
+  min-width: 0;
+}
+.eq-foot .eq-vol {
+  flex: 1;
+  min-width: 0;
+  justify-content: flex-start;
 }
 .eq-edit {
-  flex: 1;
-  min-height: 40px;
-  padding: 0 10px;
-  font-size: 13.5px;
-  border-radius: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
 }
 .eq-add {
   display: flex;
@@ -156,7 +205,7 @@
   align-items: center;
   justify-content: center;
   gap: 14px;
-  min-height: 250px;
+  min-height: 200px;
   border: 1.5px dashed var(--accent-line);
   background: transparent;
   color: var(--text-2);
@@ -329,9 +378,10 @@
 
 .wash-hero-art {
   position: absolute;
-  top: calc(var(--safe-top) + 40px);
-  right: -110px;
-  opacity: 0.55;
+  top: calc(var(--safe-top) + 34px);
+  right: 0;
+  width: min(62%, 270px);
+  opacity: 0.5;
   pointer-events: none;
   mask-image: linear-gradient(90deg, transparent, #000 40%);
   -webkit-mask-image: linear-gradient(90deg, transparent, #000 40%);
@@ -790,8 +840,10 @@
   background: var(--accent-soft);
 }
 .eq-vol {
+  display: block;
   max-width: 100%;
   overflow: hidden;
+  white-space: nowrap;
   text-overflow: ellipsis;
 }
 
@@ -843,4 +895,15 @@
   font-weight: 700;
   font-size: 14px;
   padding: 0 4px;
+}
+
+/* Сценарий: машина пользователя в шапке, справа от «Назад», не перекрывает заголовок */
+.wash-head .topbar {
+  align-items: center;
+  margin-bottom: 4px;
+}
+.wash-head-car {
+  width: min(56vw, 210px);
+  margin: -6px -8px -10px 0;
+  pointer-events: none;
 }

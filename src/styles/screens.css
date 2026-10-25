@@ -19,8 +19,8 @@
 }
 .car-card-art {
   position: absolute;
-  right: -46px;
-  bottom: 4px;
+  right: -14px;
+  bottom: 6px;
   pointer-events: none;
 }
 .car-card-edit {
@@ -831,4 +831,16 @@
 }
 .kind-grid .kind-tile b {
   margin-top: 0;
+}
+
+.tips.warn li.more {
+  background: transparent;
+  padding: 0;
+}
+.tips.warn li.more button {
+  min-height: 40px;
+  color: var(--warn);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0 4px;
 }

@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { BarChart3, ShoppingBag, Box, ChevronRight, Clock, Droplet, FlaskConical, Play, Plus, Sparkles } from 'lucide-react';
 import { BrandHeader, Cta } from '../components/ui';
-import { CarArt } from '../components/art/CarArt';
+import { CarArt, carPaintFromName } from '../components/art/CarArt';
 import { EquipmentArt } from '../components/art/EquipmentArt';
 import { ProductBottle } from '../components/art/Bottle';
 import { useStore } from '../store/useStore';
@@ -13,6 +13,8 @@ import { buildScenario } from '../domain/scenario';
 import { analyzeNeeds } from '../domain/shopping';
 import { SHOP } from '../store/shop';
 import { useProducts } from '../store/catalog';
+
+const SHORT_NEED = { phase1: '1 фаза', phase2: '2 фаза', wheels: 'диски', iron: 'Iron', protection: 'защита', drying: 'сушка' } as const;
 
 export function Home() {
   const nav = useNavigate();
@@ -77,7 +79,7 @@ export function Home() {
           )}
         </div>
         <div className="car-card-art">
-          <CarArt width={250} />
+          <CarArt width={230} body={car?.body} paint={carPaintFromName(car?.color)} />
         </div>
         <span className="car-card-edit">
           {car ? 'Изменить' : 'Добавить'} <ChevronRight size={16} />
@@ -153,7 +155,7 @@ export function Home() {
           </div>
           <div style={{ flex: 1, textAlign: 'left', minWidth: 0 }}>
             <div className="muted" style={{ fontSize: 13.5 }}>Покупки</div>
-            <div className="h3" style={{ fontSize: 17, marginTop: 2 }}>Не хватает: {missing.slice(0, 3).map((n) => n.def.title.toLowerCase()).join(', ')}</div>
+            <div className="h3" style={{ fontSize: 17, marginTop: 2 }}>Не хватает: {missing.map((n) => SHORT_NEED[n.def.id]).join(', ')}</div>
             <div className="muted" style={{ fontSize: 13, marginTop: 4 }}>Подберём составы под ваше оборудование</div>
           </div>
           <ChevronRight size={20} className="muted" />

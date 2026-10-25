@@ -1,0 +1,254 @@
+/* ───────── Экран «Мой автомобиль» ───────── */
+
+.car-screen .car-block {
+  margin-top: 18px;
+}
+
+.car-stage {
+  position: relative;
+  margin: 2px 0 0;
+  padding: 18px 16px 18px;
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--line);
+  background:
+    radial-gradient(90% 70% at 50% 100%, rgba(51, 227, 212, 0.09), transparent 70%),
+    radial-gradient(120% 90% at 50% 0%, rgba(255, 255, 255, 0.045), transparent 60%),
+    linear-gradient(180deg, #111a1f 0%, #0c1317 100%);
+  overflow: hidden;
+}
+.car-stage-art {
+  display: grid;
+  place-items: center;
+  animation: car-swap 0.45s var(--ease) both;
+}
+.car-stage-svg {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  display: block;
+}
+@keyframes car-swap {
+  from {
+    opacity: 0;
+    transform: translateX(-14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.car-stage-meta {
+  margin-top: 4px;
+  text-align: center;
+}
+.car-stage-title {
+  margin-top: 6px;
+  font-size: 26px;
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  overflow-wrap: anywhere;
+}
+.car-stage-sub {
+  margin-top: 6px;
+  font-size: 14px;
+  color: var(--text-2);
+  font-weight: 600;
+}
+
+/* поиск */
+.car-search input[type='search']::-webkit-search-cancel-button {
+  display: none;
+}
+.car-results {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 6px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  display: grid;
+  gap: 2px;
+}
+.car-result {
+  width: 100%;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 4px 10px 4px 4px;
+  border-radius: 14px;
+  text-align: left;
+  transition: background 0.15s;
+}
+.car-result:active,
+.car-result:hover {
+  background: var(--surface-2);
+}
+.car-result-art {
+  flex: none;
+  width: 86px;
+  display: grid;
+  place-items: center;
+}
+.car-result-art svg {
+  display: block;
+}
+.car-result-text {
+  display: grid;
+  gap: 1px;
+  min-width: 0;
+}
+.car-result-text b {
+  font-weight: 750;
+  font-size: 15.5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.car-result-text small {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+}
+.car-hint {
+  margin: 10px 2px 0;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 550;
+}
+.car-quick,
+.car-gens {
+  margin-top: 10px;
+}
+.car-gens {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.car-quick .chip,
+.car-gens .chip {
+  flex: none;
+  white-space: nowrap;
+  scroll-snap-align: start;
+}
+
+/* подписи блоков */
+.car-label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.car-label > span {
+  font-size: 13.5px;
+  color: var(--muted);
+  font-weight: 650;
+}
+.car-label > small {
+  font-size: 13px;
+  color: var(--text-2);
+  font-weight: 600;
+  text-align: right;
+}
+
+/* кузова */
+.car-bodies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.car-body {
+  min-height: 88px;
+  padding: 12px 8px 10px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0)), var(--surface);
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 2px;
+  color: var(--text-2);
+  font-weight: 650;
+  font-size: 13.5px;
+  transition: border-color 0.2s, background 0.2s, transform 0.18s var(--ease);
+}
+.car-body:active {
+  transform: scale(0.97);
+}
+.car-body-svg {
+  width: 100%;
+  max-width: 112px;
+  height: auto;
+  display: block;
+  opacity: 0.75;
+  transition: opacity 0.2s;
+}
+.car-body[aria-checked='true'] {
+  border-color: var(--accent-line);
+  background:
+    radial-gradient(80% 60% at 50% 90%, rgba(51, 227, 212, 0.12), transparent 70%),
+    var(--surface-2);
+  color: var(--accent);
+}
+.car-body[aria-checked='true'] .car-body-svg {
+  opacity: 1;
+}
+
+/* цвета */
+.car-paints {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px 6px;
+  justify-items: center;
+}
+.car-paint {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border: 2px solid transparent;
+  transition: border-color 0.2s, transform 0.18s var(--ease);
+}
+.car-paint:active {
+  transform: scale(0.92);
+}
+.car-paint i {
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 34% 28%, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0) 42%),
+    radial-gradient(circle at 60% 85%, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0) 60%),
+    var(--paint);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14), 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.car-paint svg {
+  position: relative;
+  color: #fff;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.7));
+}
+.car-paint[aria-checked='true'] {
+  border-color: var(--accent);
+}
+
+.car-actions {
+  display: grid;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+@media (max-width: 360px) {
+  .car-paints {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .car-body {
+    font-size: 12.5px;
+  }
+}
+
+.car-gens {
+  margin-bottom: 8px;
+}

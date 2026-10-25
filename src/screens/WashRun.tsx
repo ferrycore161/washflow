@@ -176,10 +176,14 @@ export function WashRun() {
   const [menu, setMenu] = useState(false);
   const [confirmExit, setConfirmExit] = useState(false);
   const [why, setWhy] = useState(false);
+  const [allWarn, setAllWarn] = useState(false);
   useWakeLock();
   const now = useNow(!!active, 1000);
 
-  useEffect(() => setWhy(false), [active?.index]);
+  useEffect(() => {
+    setWhy(false);
+    setAllWarn(false);
+  }, [active?.index]);
 
   if (!active) return <Navigate to="/wash" replace />;
   const { scenario, index } = active;
@@ -189,6 +193,8 @@ export function WashRun() {
   const eq = step.equipmentId ? equipment.find((e) => e.id === step.equipmentId) : undefined;
   const Icon = KIND_ICON[step.kind];
   const isLast = index === total - 1;
+  // карточка оборудования уже на экране — плашка «Чем» не нужна
+  const showsEquipment = !!product && ((step.kind === 'prepare' && !!eq) || step.recipe?.mode === 'consumption');
   const elapsed = (now - active.startedAt) / 1000;
 
   const next = () => {
@@ -341,9 +347,9 @@ export function WashRun() {
 
         {step.timerSec ? <StepTimer step={step} /> : null}
 
-        {(step.method || step.timerRange) && (
+        {((step.method && eq && !showsEquipment) || step.timerRange) && (
           <div className="facts">
-            {step.method && eq && (
+            {step.method && eq && !showsEquipment && (
               <div className="fact">
                 <span className="muted">Чем</span>
                 <b>
@@ -377,9 +383,14 @@ export function WashRun() {
         )}
         {!step.noVerifiedRecipe && step.warnings.length > 0 && (
           <ul className="tips warn">
-            {step.warnings.map((t, i) => (
+            {(allWarn ? step.warnings : step.warnings.slice(0, 2)).map((t, i) => (
               <li key={i}><AlertTriangle size={16} /> {t}</li>
             ))}
+            {step.warnings.length > 2 && !allWarn && (
+              <li className="more">
+                <button onClick={() => setAllWarn(true)}>Ещё ограничения · {step.warnings.length - 2}</button>
+              </li>
+            )}
           </ul>
         )}
 

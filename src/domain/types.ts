@@ -62,7 +62,12 @@ export interface Application {
   sourceQuote?: string;
   /** Расход готового раствора/средства на один автомобиль, мл (если указан производителем). */
   consumptionMl?: Range;
+  /** Производитель не назвал устройство; способ выбран по смыслу инструкции. */
+  methodAssumed?: boolean;
 }
+
+/** На какие поверхности производитель разрешает наносить средство. */
+export type Target = 'body' | 'wheels' | 'glass' | 'tires' | 'plastic' | 'engine';
 
 export interface Product {
   id: string;
@@ -78,6 +83,9 @@ export interface Product {
   warnings: string[];
   status: VerificationStatus;
   productUrl?: string;
+  targets?: Target[];
+  /** Фото с официального сайта производителя (показывается онлайн, офлайн — иллюстрация). */
+  imageUrl?: string;
   /** Пользовательская карточка (добавлена вручную, не из каталога). */
   custom?: boolean;
 }

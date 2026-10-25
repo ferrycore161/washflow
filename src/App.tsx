@@ -9,7 +9,8 @@ import { CustomProduct, ProductScreen } from './screens/Product';
 import { WashSetup } from './screens/WashSetup';
 import { WashRun } from './screens/WashRun';
 import { WashDone } from './screens/WashDone';
-import { CarScreen, Profile } from './screens/Profile';
+import { Profile } from './screens/Profile';
+import { CarScreen } from './screens/Car';
 import { Welcome } from './screens/Welcome';
 import { useStore } from './store/useStore';
 

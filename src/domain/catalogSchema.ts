@@ -44,6 +44,7 @@ export const applicationSchema = z.object({
   checkedAt: isoDate,
   sourceQuote: z.string().optional(),
   consumptionMl: z.object({ from: positive, to: positive }).optional(),
+  methodAssumed: z.boolean().optional(),
 });
 
 /**
@@ -90,6 +91,8 @@ export const productSourceSchema = z
     warnings: z.array(z.string()).default([]),
     status: z.enum(['verified', 'unverified']),
     productUrl: z.string().url().optional(),
+    targets: z.array(z.enum(['body', 'wheels', 'glass', 'tires', 'plastic', 'engine'])).optional(),
+    imageUrl: z.string().url().optional(),
   })
   .superRefine((p, ctx) => {
     if (p.status === 'verified' && p.applications.length === 0) {
@@ -132,6 +135,8 @@ export function brandFileToProducts(file: BrandFile): Product[] {
     warnings: p.warnings,
     status: p.status,
     productUrl: p.productUrl,
+    targets: p.targets,
+    imageUrl: p.imageUrl,
   }));
 }
 

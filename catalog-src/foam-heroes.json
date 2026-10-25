@@ -1128,6 +1128,224 @@
       ],
       "warnings": [],
       "status": "verified"
+    },
+    {
+      "id": "foam-heroes-power-wheels",
+      "name": "Power Wheels",
+      "subtitle": "высокоэффективный очиститель шин и дисков",
+      "aliases": [],
+      "category": "wheel_cleaner",
+      "phase": null,
+      "ph": 13.5,
+      "packages": [
+        500,
+        5000
+      ],
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ratio",
+            "from": 1,
+            "to": 5,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "готовый состав или разведение с водой до 1:5",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Предварительно удалите с колёс поверхностные загрязнения водой под высоким давлением",
+            "Нанесите состав на колёса в виде эмульсии или пены",
+            "Оставьте на 2–3 минуты, при необходимости используйте щётки",
+            "Смойте обильным количеством воды под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на оголённые металлические поверхности",
+            "Не распылять на горячую поверхность дисков"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb147.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "в зависимости от степени загрязнения используйте готовый состав или разведите его с водой до 1:5",
+          "sourceType": "official"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://foam-heroes.ru/product-fhb147.html",
+      "targets": [
+        "wheels",
+        "tires"
+      ],
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb147.webp"
+    },
+    {
+      "id": "foam-heroes-pro-600",
+      "name": "PRO 600",
+      "subtitle": "низкопенный шампунь для бесконтактной мойки",
+      "aliases": [],
+      "category": "active_foam",
+      "phase": 1,
+      "ph": 12.6,
+      "packages": [
+        5000,
+        20000
+      ],
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 15,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пенокомплект: 1:10-1:15",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 300
+          },
+          "steps": [
+            "Нанести раствор на поверхность",
+            "Выдержать 2–5 минут, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhp002.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "пенокомплект: 1:10-1:15",
+          "sourceType": "official"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "ручной помповый опрыскиватель: 1:50-1:100",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 300
+          },
+          "steps": [
+            "Нанести раствор на поверхность",
+            "Выдержать 2–5 минут, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhp002.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "ручной помповый опрыскиватель: 1:50-1:100",
+          "sourceType": "official"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 100,
+            "to": 150,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пеногенератор: 1:100 - 1:150",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 300
+          },
+          "steps": [
+            "Нанести раствор на поверхность",
+            "Выдержать 2–5 минут, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhp002.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "пеногенератор: 1:100 - 1:150",
+          "sourceType": "official"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://foam-heroes.ru/product-fhp002.html",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhp002.webp"
+    },
+    {
+      "id": "foam-heroes-pro-t1000",
+      "name": "PRO T1000",
+      "subtitle": "готовый удалитель металлических вкраплений",
+      "aliases": [],
+      "category": "iron_remover",
+      "phase": null,
+      "ph": 7,
+      "packages": [
+        5000,
+        20000
+      ],
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": 300
+          },
+          "steps": [
+            "Тщательно вымойте автомобиль",
+            "Нанесите состав и оставьте на 3–5 минут — он изменит цвет",
+            "При сильных загрязнениях используйте кисти, щётки и скрабы",
+            "Смойте большим количеством воды под давлением"
+          ],
+          "restrictions": [
+            "Не распылять на горячую поверхность",
+            "Не наносить на незащищённые металлические элементы"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhp005.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "готовый к применению эффективный очиститель металлических вкраплений, следов коррозии и ржавчины",
+          "sourceType": "official",
+          "methodAssumed": true
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://foam-heroes.ru/product-fhp005.html",
+      "targets": [
+        "body",
+        "wheels"
+      ],
+      "imageUrl": "https://foam-heroes.ru/assets/img/products/fhp005.webp"
+    },
+    {
+      "id": "foam-heroes-pro-gap",
+      "name": "PRO GAP",
+      "subtitle": "высококонцентрированный шампунь для ручной мойки",
+      "aliases": [],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": null,
+      "packages": [
+        5000
+      ],
+      "applications": [],
+      "warnings": [],
+      "status": "unverified",
+      "productUrl": "https://time2detailing.ru/product/fhp004-foam-heroes-pro-gap-shampun-dlya-ruchnoy-moyki-avtomobilya-5l",
+      "targets": [
+        "body"
+      ]
     }
   ]
 }

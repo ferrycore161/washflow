@@ -1926,6 +1926,208 @@
           "sourceQuote": "Распылить средство на микрофибру. Максимум - одно распыление для одной детали."
         }
       ]
+    },
+    {
+      "id": "leraton-m1",
+      "name": "M1",
+      "subtitle": "кислотный очиститель дисков",
+      "aliases": [],
+      "category": "wheel_cleaner",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        473,
+        3800,
+        20000
+      ],
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "473 мл — без разведения",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 180
+          },
+          "steps": [
+            "Нанести триггерным или помповым распылителем",
+            "Подождать 1–3 минуты",
+            "Смыть обильным количеством воды, при необходимости повторить"
+          ],
+          "restrictions": [
+            "Не использовать на неокрашенном пластике, резине, открытом металле, алюминии и хроме",
+            "Запрещено для автомобилей с керамической тормозной системой",
+            "Не оставлять более 5 минут и не давать высыхать"
+          ],
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/ochistitel-diskov-leraton-m1-473ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для 473 мл: Продукт использовать без разведения.",
+          "sourceType": "official"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 3,
+            "to": 5,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "3,8 л и 20 л: 1:3-5 с водой",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 180
+          },
+          "steps": [
+            "Нанести помповым распылителем",
+            "Подождать 1–3 минуты",
+            "Смыть обильным количеством воды"
+          ],
+          "restrictions": [
+            "Не использовать на неокрашенном пластике, резине, открытом металле, алюминии и хроме",
+            "Запрещено для автомобилей с керамической тормозной системой"
+          ],
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/ochistitel-diskov-leraton-m1-473ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для 3,8 л и 20 л: Развести водой в соотношении 1:3-5.",
+          "sourceType": "official"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/ochistitel-diskov-leraton-m1-473ml",
+      "targets": [
+        "wheels"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/000/000054/477-m1-473-trigger-1.tn-570x700.3736a5a76f.png"
+    },
+    {
+      "id": "leraton-g11",
+      "name": "G11",
+      "subtitle": "очиститель покрышек и колёсных дисков",
+      "aliases": [],
+      "category": "wheel_cleaner",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        473,
+        3800
+      ],
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "наносится триггерным распылителем без указания разведения (473 мл)",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Нанести на резину и диски",
+            "Очистить щёткой для шин и ершиками",
+            "Смыть обильным количеством воды"
+          ],
+          "restrictions": [
+            "Не оставлять более 5 минут и не давать высыхать",
+            "Не наносить на горячую поверхность"
+          ],
+          "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/ochistitel-pokryshek-i-kolesnyx-diskov-leraton-g11-473ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "нанесите состав на очищаемую область резины и диски с помощью триггерного распылителя.",
+          "sourceType": "official"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/ochistitel-pokryshek-i-kolesnyx-diskov-leraton-g11-473ml",
+      "targets": [
+        "wheels",
+        "tires"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/006/006310/619-g11-473-1.tn-570x700.08946b4de5.png"
+    },
+    {
+      "id": "leraton-z3-green",
+      "name": "Z3 GREEN",
+      "subtitle": "pH-нейтральная пена для бесконтактной мойки",
+      "aliases": [],
+      "category": "prewash",
+      "phase": 1,
+      "ph": null,
+      "packages": [
+        473
+      ],
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 3,
+            "to": 5,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пенокомплект: от 1:3 до 1:5",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Нанести раствор на загрязнённый автомобиль",
+            "Через 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов и под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "sourceUrl": "https://time2detailing.ru/product/leraton-z3-green-neytralnaya-pena-dlya-beskontaktnoy-moyki-473-ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Разведение для пенокомплекта от 1:3 до 1:5",
+          "sourceType": "retailer",
+          "consumptionMl": {
+            "from": 80,
+            "to": 150
+          }
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 30,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пеногенератор: 1:30–1:60",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Нанести раствор на загрязнённый автомобиль",
+            "Через 2–3 минуты смыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячий (более 60 °С) кузов и под прямыми солнечными лучами, не допускать высыхания"
+          ],
+          "sourceUrl": "https://time2detailing.ru/product/leraton-z3-green-neytralnaya-pena-dlya-beskontaktnoy-moyki-473-ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для пеногенератора 1:30–1:60",
+          "sourceType": "retailer",
+          "consumptionMl": {
+            "from": 80,
+            "to": 150
+          }
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://time2detailing.ru/product/leraton-z3-green-neytralnaya-pena-dlya-beskontaktnoy-moyki-473-ml",
+      "targets": [
+        "body"
+      ]
     }
   ]
 }

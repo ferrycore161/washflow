@@ -355,6 +355,49 @@
         "wheels",
         "tires"
       ]
+    },
+    {
+      "id": "glitz-15-candy",
+      "name": "15 Candy",
+      "subtitle": "кварцевое покрытие с полимером на основе SiO2",
+      "aliases": [],
+      "category": "protection",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        500,
+        5000
+      ],
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "распыление на мокрый кузов, 1–2 распыления на элемент",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Нанести на чистый мокрый кузов",
+            "При необходимости распределить микрофиброй без давления",
+            "Смыть сильным напором воды"
+          ],
+          "restrictions": [
+            "Не допускать высыхания средства на поверхности"
+          ],
+          "sourceUrl": "https://leraton.ru/katalog/zashhita-poverxnostej/zashhita-poverxnostej-2/bystryj-blesk/glitz-kvarcevoe-pokrytie-s-polimerom-na-osnove-sio2-15-candy-sa-500-ml-g1505ca",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Равномерно нанесите средство на чистый, мокрый кузов (1-2 распыления на элемент).",
+          "sourceType": "official"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://leraton.ru/katalog/zashhita-poverxnostej/zashhita-poverxnostej-2/bystryj-blesk/glitz-kvarcevoe-pokrytie-s-polimerom-na-osnove-sio2-15-candy-sa-500-ml-g1505ca",
+      "targets": [
+        "body"
+      ],
+      "imageUrl": "https://leraton.ru/images/product/050/050310/344-1.tn-570x700.5b077e2935.jpg"
     }
   ]
 }

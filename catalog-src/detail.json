@@ -875,6 +875,53 @@
       ],
       "warnings": [],
       "status": "verified"
+    },
+    {
+      "id": "detail-hydro-shampoo",
+      "name": "Hydro Shampoo (HS)",
+      "subtitle": "шампунь второй фазы с гидрофобным эффектом",
+      "aliases": [
+        "HS"
+      ],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": null,
+      "packages": [
+        500,
+        1000,
+        5000
+      ],
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 100,
+            "to": 150,
+            "basis": "solution"
+          },
+          "dilutionText": "100–150 мл на литровую ёмкость пенокомплекта",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Перед разведением взболтать",
+            "Нанести на автомобиль после Active Safe или Ultra Safe",
+            "Обработать крупнопористой губкой или микрофибровой варежкой сверху вниз",
+            "Смыть водой при помощи АВД"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/shampun_vtoraya_faza_hs_hydro_shampoo_5_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для нанесения используйте пенокомплект - пропорция разведения - 100 - 150 мл на литровую емкость пенокомплекта.",
+          "sourceType": "official"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://grass.su/product/shampun_vtoraya_faza_hs_hydro_shampoo_5_l/",
+      "targets": [
+        "body"
+      ]
     }
   ]
 }

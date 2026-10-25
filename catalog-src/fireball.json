@@ -1,0 +1,358 @@
+{
+  "brand": "Fireball",
+  "products": [
+    {
+      "id": "fireball-snow-foam",
+      "name": "Snow Foam",
+      "subtitle": "нейтральная пена для предварительной мойки",
+      "aliases": [],
+      "category": "prewash",
+      "phase": 1,
+      "ph": 7,
+      "packages": [
+        500
+      ],
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 30,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:30–1:60, пенокомплект",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Встряхнуть",
+            "Нанести на остывший кузов через пенокомплект",
+            "Через несколько минут смыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячие поверхности и не давать высохнуть"
+          ],
+          "sourceUrl": "https://time2detailing.ru/product/fireball-neytralnaya-pena-dlya-beskontaktnoy-moyki-snow-foam-130-ph7-500ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Разбавьте водой в пропорции 1:30–1:60;",
+          "sourceType": "retailer"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://time2detailing.ru/product/fireball-neytralnaya-pena-dlya-beskontaktnoy-moyki-snow-foam-130-ph7-500ml",
+      "targets": [
+        "body"
+      ]
+    },
+    {
+      "id": "fireball-emerald-green",
+      "name": "Emerald Green",
+      "subtitle": "нейтральный шампунь для ручной мойки",
+      "aliases": [],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": 7.5,
+      "packages": [
+        500
+      ],
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ratio",
+            "from": 800,
+            "to": 1200,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:800–1:1200 в ведро",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Выполнить предварительную мойку",
+            "Мыть мягкой микрофибровой рукавицей, регулярно промывая её",
+            "Смыть водой под давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://time2detailing.ru/product/fireball-shampun-dlya-ruchnoy-moyki-emerald-green-11000-ph75-500ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Добавьте в ведро с водой в пропорции 1:800–1:1200 и вспеньте под давлением;",
+          "sourceType": "retailer"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://time2detailing.ru/product/fireball-shampun-dlya-ruchnoy-moyki-emerald-green-11000-ph75-500ml",
+      "targets": [
+        "body"
+      ]
+    },
+    {
+      "id": "fireball-hydro-shampoo",
+      "name": "Hydro Shampoo",
+      "subtitle": "ручной шампунь с SiO2 и гидрофобным эффектом",
+      "aliases": [],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": 7,
+      "packages": [
+        500
+      ],
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ratio",
+            "from": 300,
+            "to": 500,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:300–1:500 в ведро",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Выполнить предварительную мойку",
+            "Мыть мягкой микрофибровой рукавицей",
+            "Ополоснуть и высушить"
+          ],
+          "restrictions": [
+            "Не наносить на горячие поверхности и не давать высохнуть"
+          ],
+          "sourceUrl": "https://time2detailing.ru/product/fireball-ruchnoy-shampun-sio2-gidrofob-i-zaschita-hydro-shampoo-1500-ph7-500ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Добавьте в ведро с водой в пропорции 1:300–1:500 и вспеньте под давлением;",
+          "sourceType": "retailer"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://time2detailing.ru/product/fireball-ruchnoy-shampun-sio2-gidrofob-i-zaschita-hydro-shampoo-1500-ph7-500ml",
+      "targets": [
+        "body"
+      ]
+    },
+    {
+      "id": "fireball-hydro-foam",
+      "name": "Hydro Foam",
+      "subtitle": "концентрат гидрофобной пены с SiO2",
+      "aliases": [],
+      "category": "protection",
+      "phase": null,
+      "ph": 7,
+      "packages": [
+        500
+      ],
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 15,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:10–1:15, пенокомплект на мокрый автомобиль",
+          "surface": "wet",
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Вымыть автомобиль, не сушить",
+            "Нанести пену",
+            "Через 1–2 минуты смыть чистой водой"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://time2detailing.ru/product/fireball-kontsentrat-gidrofobnoy-peny-s-sio2-hydro-foam-115-500ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Смешайте состав 1:10–1:15 с водой и нанесите на мокрый автомобиль с помощью пенокомплекта;",
+          "sourceType": "retailer"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://time2detailing.ru/product/fireball-kontsentrat-gidrofobnoy-peny-s-sio2-hydro-foam-115-500ml",
+      "targets": [
+        "body"
+      ]
+    },
+    {
+      "id": "fireball-ph3-shampoo",
+      "name": "Shampoo pH3",
+      "subtitle": "кислотный шампунь",
+      "aliases": [],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": 3,
+      "packages": [
+        500
+      ],
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пенокомплект: 1:5–1:10",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Нанести на весь автомобиль",
+            "Оставить на несколько минут, при необходимости проработать рукавицей",
+            "Смыть водой под давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://time2detailing.ru/product/fireball-kislotnyy-shampun-ph3-shampoo-11000-500ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "можно использовать пенокомплект в концентрации 1:5–1:10;",
+          "sourceType": "retailer"
+        },
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ratio",
+            "from": 600,
+            "to": 1000,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "ручная мойка: 1:600–1:1000",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Мыть мягкой микрофибровой рукавицей",
+            "Смыть водой под давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://time2detailing.ru/product/fireball-kislotnyy-shampun-ph3-shampoo-11000-500ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Добавьте в ведро с водой в пропорции 1:600–1:1000 и вспеньте под давлением;",
+          "sourceType": "retailer"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 15,
+            "to": 25,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "колёса: накачной пенник или эмульсия 1:15–1:25",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Нанести на охлаждённую поверхность",
+            "Проработать щёткой или кистью",
+            "Обильно промыть водой"
+          ],
+          "restrictions": [
+            "Не позволять составу подсыхать"
+          ],
+          "sourceUrl": "https://time2detailing.ru/product/fireball-kislotnyy-shampun-ph3-shampoo-11000-500ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для обработки колес используйте накачной пенник, либо эмульсию в концентрации 1:15–1:25;",
+          "sourceType": "retailer"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://time2detailing.ru/product/fireball-kislotnyy-shampun-ph3-shampoo-11000-500ml",
+      "targets": [
+        "body",
+        "wheels"
+      ]
+    },
+    {
+      "id": "fireball-pirouette",
+      "name": "Pirouette",
+      "subtitle": "лёгкое кварцевое покрытие (квик-детейлер с SiO2)",
+      "aliases": [],
+      "category": "protection",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        100,
+        500
+      ],
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению, около 30 мл на автомобиль",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Вымыть и высушить автомобиль (допускается влажная поверхность)",
+            "Встряхнуть",
+            "Распылить на микрофибру или деталь",
+            "Распределить и располировать"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://time2detailing.ru/product/fireball-legkoe-kvartsevoe-pokrytie-sio2-pirouette-500ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Распылите его на микрофибру или непосредственно на деталь;",
+          "sourceType": "retailer",
+          "consumptionMl": {
+            "from": 30,
+            "to": 30
+          },
+          "methodAssumed": true
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://time2detailing.ru/product/fireball-legkoe-kvartsevoe-pokrytie-sio2-pirouette-500ml",
+      "targets": [
+        "body",
+        "glass",
+        "wheels"
+      ]
+    },
+    {
+      "id": "fireball-easy-coat-extra",
+      "name": "Easy Coat Extra",
+      "subtitle": "ультраконцентрат моментального гидрофоба с SiO2",
+      "aliases": [],
+      "category": "protection",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        100
+      ],
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 25,
+            "to": 25,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:25, распыление на мокрый автомобиль",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Развести 1:25",
+            "Распылить на мокрый автомобиль",
+            "Сразу смыть водой и удалить оставшиеся капли"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://time2detailing.ru/product/fireball-ultrakontsentrat-momentalnogo-gidrofoba-c-sio2-easy-coat-extra-125-100-ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Предварительно разбавленный 1:25 состав наносится методом распыления еще на мокрый автомобиль и сразу же смывается водой.",
+          "sourceType": "retailer"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://time2detailing.ru/product/fireball-ultrakontsentrat-momentalnogo-gidrofoba-c-sio2-easy-coat-extra-125-100-ml",
+      "targets": [
+        "body"
+      ]
+    }
+  ]
+}

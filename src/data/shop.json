@@ -1898,6 +1898,1474 @@
    "seller": "Shine Systems — официальный интернет-магазин",
    "packageMl": 400,
    "productId": "shine-systems-black-line-quickdrop"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shampun-pervaya-faza-detail-active-safe-1l-dt-0158",
+   "title": "Detail Active Safe (Первая фаза)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "detail-active-safe"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shampun-pervaya-faza-detail-active-safe-5l-dt-0113",
+   "title": "Detail Active Safe (Первая фаза)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "detail-active-safe"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/detail-active-safe-20l-pervaya-faza",
+   "title": "Detail Active Safe (Первая фаза)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 20000,
+   "productId": "detail-active-safe"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/moyuschee-sredstvo-ultra-safe-dt-0280-5kg",
+   "title": "DT Detail Ultra Safe (Первая фаза)",
+   "checkedAt": "2026-10-25",
+   "productId": "detail-ultra-safe-us"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/moyuschee-sredstvo-detail-ultra-safe-dt-0281-20kg",
+   "title": "Detail Ultra Safe (Первая фаза)",
+   "checkedAt": "2026-10-25",
+   "productId": "detail-ultra-safe-us"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/detail-beskontaktnyy-shampun-ultra-safe-1000ml-adapted-series-dt-0520",
+   "title": "Detail Ultra Safe (Первая фаза)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "detail-ultra-safe-adapted"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shampun-vtoraya-faza-detail-second-phase-1-l-dt",
+   "title": "Detail Second Phase (Вторая фаза)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "detail-second-phase"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shampun-vtoraya-faza-detail-second-phase-5l-dt-0152",
+   "title": "Detail Second Phase (Вторая фаза)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "detail-second-phase"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shampun-vtoraya-faza-second-phase-detail-20l-dt-0153",
+   "title": "DT Detail Second Phase (Вторая фаза)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 20000,
+   "productId": "detail-second-phase"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shampun-dlya-ruchnoy-moyki-second-phase-500ml-adapted-series-detail",
+   "title": "DT ШАМПУНЬ ДЛЯ РУЧНОЙ МОЙКИ «SECOND PHASE» ADAPTED SERIES DETAIL",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "detail-second-phase-adapted"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/kislotnyy-shampun-acid-shampoo-detail-1l",
+   "title": "Detail Acid Shampoo(Кислотный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "detail-acid-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/kislotnyy-shampun-acid-shampoo-detail-5l",
+   "title": "Detail Acid Shampoo(Кислотный шампунь) DT",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "detail-acid-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/ochistitel-diskov-detail-iron-ir-500ml-dt-0132",
+   "title": "Detail Iron IR(Очиститель дисков)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "detail-iron"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/ochistitel-diskov-iron-detail-1000ml-dt-0162",
+   "title": "Detail Iron(Очиститель дисков)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "detail-iron"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/ochistitel-diskov-detail-iron-ir-5l-dt-0133",
+   "title": "DT-0133 Detail Iron IR(Очиститель дисков)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "detail-iron"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/dt-ochistitel-diskov-iron-500ml-adapted-series-detail-dt-0518",
+   "title": "DT-0518 Detail Iron Adapted Series(Очиститель дисков)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "detail-iron-adapted"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/detail-ochistitel-sledov-nasekomyh-bug-cleaner-500ml-dt-0177",
+   "title": "Detail Bug Cleaner(Очиститель следов насекомых)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "detail-bug-cleaner"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/detail-bug-cleaner-5l-ochistitel-sledov-nasekomyh-dt-0179",
+   "title": "Detail Bug Cleaner(Очиститель следов насекомых)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "detail-bug-cleaner"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/zhidkiy-vosk-detail-super-wax-sw-1l-dt-0160",
+   "title": "Detail Super Wax SW (Жидкий воск)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "detail-super-wax"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/zhidkiy-vosk-super-wax-detail-5l-dt-0125",
+   "title": "Detail Super Wax (Жидкий воск)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "detail-super-wax"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/kvartsevoe-pokrytie-ot-kompanii-detail-hydro-wet-coat-hw-250ml-dt-0186",
+   "title": "Detail Hydro Wet Coat HW(Кварцевое покрытие)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 250,
+   "productId": "detail-hydro-wet-coat"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/kvartsevoe-pokrytie-ot-kompanii-detail-hydro-wet-coat-hw-500ml-dt-0104",
+   "title": "Detail Hydro Wet Coat HW(Кварцевое покрытие)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "detail-hydro-wet-coat"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/kvartsevoe-pokrytie-hf-hydro-fast-coat-500ml",
+   "title": "Detail Кварцевое покрытие HF «Hydro Fast Coat»",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "detail-hydro-fast-coat"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-citrus-buddy-shampun-na-osnove-tsitrusovyh-dlya-predvaritelnoy-moyki-500-ml",
+   "title": "FHB033 Foam Heroes Citrus Buddy(Предварительная мойка)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-citrus-buddy"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fhb034-foam-heroes-citrus-buddy-shampun-na-osnove-tsitrusovyh-dlya-predvaritelnoy-moyki-3l",
+   "title": "FHB034 Foam Heroes Citrus Buddy шампунь на основе цитрусовых для предварительной мойки",
+   "checkedAt": "2026-10-25",
+   "packageMl": 3000,
+   "productId": "foam-heroes-citrus-buddy"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-gentle-soap-amber-delikatnyy-sostav-dlya-predvaritelnoy-moyki-500ml-amber-tabaco",
+   "title": "FHB003 Foam Heroes Gentle Soap Amber(Предварительная мойка)(Amber Tabaco)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-gentle-soap-amber"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-gentle-soap-sloudberry-delikatnyy-shampun-dlya-predvaritelnoy-moyki-500ml",
+   "title": "FHB102 Foam Heroes Gentle Soap Сloudberry деликатный шампунь для предварительной мойки(морошковое варенье)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-gentle-soap-cloudberry"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-cola-bay-shampun-dlya-ruchnoy-moyki-avtomobilya-500ml-ta-samaya-gazirovka",
+   "title": "FHB001 Foam Heroes Cola Bay(Шампунь для ручной мойки автомобиля) Cola",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-cola-bay"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-cola-bay-shampun-dlya-ruchnoy-moyki-avtomobilya-3l",
+   "title": "FHB028 Foam Heroes Cola Bay(Шампунь для ручной мойки автомобиля)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 3000,
+   "productId": "foam-heroes-cola-bay"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-slimy-foam-shampun-dlya-ruchnoy-moyki-avtomobilya-500ml",
+   "title": "Foam Heroes Slimy Foam(Шампунь для ручной мойки автомобиля)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-slimy-foam"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-acid-shock-kislotnyy-shampun-dlya-ruchnoy-moyki-avtomobilya-500ml-fhb062",
+   "title": "FHB062 Foam Heroes Acid Shock(Кислотный шампунь для ручной мойки автомобиля)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-acid-shock"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-acid-shock-kislotnyy-shampun-dlya-ruchnoy-moyki-avtomobilya-3l",
+   "title": "FHB063 Foam Heroes Acid Shock(Кислотный шампунь для ручной мойки автомобиля)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 3000,
+   "productId": "foam-heroes-acid-shock"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-acid-shock-kislotnyy-shampun-dlya-ruchnoy-moyki-avtomobilya-5l",
+   "title": "FHB135 Foam Heroes Acid Shock кислотный шампунь для ручной мойки автомобиля",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "foam-heroes-acid-shock"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fhb116-foam-heroes-acid-citrus-kislotnyy-shampun-dlya-ruchnoy-moyki-avtomobilya-500ml",
+   "title": "FHB116 Foam Heroes Acid Citrus кислотный шампунь для ручной мойки автомобиля",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-acid-citrus"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-acid-citrus-kislotnyy-shampun-dlya-ruchnoy-moyki-avtomobilya-3l",
+   "title": "Foam Heroes — Acid Citrus кислотный шампунь для ручной мойки автомобиля",
+   "checkedAt": "2026-10-25",
+   "packageMl": 3000,
+   "productId": "foam-heroes-acid-citrus"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-pure-wheels-kontsentrirovannyy-ochistitel-shin-i-diskov-500-ml",
+   "title": "FHB031 Foam Heroes Pure Wheels(Концентрированный очиститель шин и дисков)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-pure-wheels"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-pure-wheels-kontsentrirovannyy-ochistitel-shin-i-diskov-3l",
+   "title": "Foam Heroes Pure Wheels(Концентрированный очиститель шин и дисков)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 3000,
+   "productId": "foam-heroes-pure-wheels"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fhb097-foam-heroes-pure-wheels-kontsentrat-ochistitelya-shin-i-diskov-500ml",
+   "title": "FHB097 Foam Heroes Pure Wheels+ концентрат очистителя шин и дисков",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-pure-wheels-plus"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fhb099-foam-heroes-pure-wheels-kontsentrat-ochistitelya-shin-i-diskov-3l",
+   "title": "FHB099 Foam Heroes Pure Wheels+ концентрат очистителя шин и дисков",
+   "checkedAt": "2026-10-25",
+   "packageMl": 3000,
+   "productId": "foam-heroes-pure-wheels-plus"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-double-iron-ochistitel-metallicheskih-vkrapleniy-500ml",
+   "title": "FHB076 Foam Heroes Double Iron(Очиститель металлических вкраплений)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-double-iron"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fhb077-foam-heroes-double-iron-ochistitel-metallicheskih-vkrapleniy-3l",
+   "title": "FHB077 Foam Heroes Double Iron(Очиститель металлических вкраплений)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 3000,
+   "productId": "foam-heroes-double-iron"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-mad-drops-raspberry-bystroe-gidrofobnoe-pokrytie-dlya-lkp-500ml-malinovoe-frappe",
+   "title": "FHB015 Foam Heroes Mad Drops Raspberry(Быстрое гидрофобное покрытие) (малиновое фраппе)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-mad-drops"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-mad-drops-raspberry-bystroe-gidrofobnoe-pokrytie-dlya-lkp-3l",
+   "title": "FHB037 Foam Heroes Mad Drops Raspberry(Быстрое гидрофобное покрытие)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 3000,
+   "productId": "foam-heroes-mad-drops"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-mad-drops-bystroe-gidrofobnoe-pokrytie-dlya-lkp-malinovoe-frappe-5l",
+   "title": "Foam Heroes Mad Drops быстрое гидрофобное покрытие для ЛКП малиновое фраппе",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "foam-heroes-mad-drops"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-mad-drops-raspberry-8l-bystroe-gidrofobnoe-pokrytie",
+   "title": "FHB090 Foam Heroes Mad Drops Raspberry(Быстрое гидрофобное покрытие)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 8000,
+   "productId": "foam-heroes-mad-drops"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-blaze-booster-mango-keramicheskiy-deteyler-sprey-500ml",
+   "title": "FHB082 Foam Heroes Blaze Booster Mango керамический детейлер-спрей",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-blaze-booster"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-ochistitel-kvik-deteyler-dlya-eksteriera-so-svezhim-aromatom-morkovnogo-fresha-silk-finish-500ml",
+   "title": "Foam Heroes Очиститель квик-детейлер для экстерьера со свежим ароматом морковного фреша Silk Finish",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-silk-finish"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/glitz-01-goldie-tabak-i-vishnya-beskontaktnyy-avtomobilnyy-shampun-500ml",
+   "title": "Glitz 01 Goldie, «Табак и Вишня» Бесконтактный автомобильный шампунь",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "glitz-01-goldie"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/glitz-02-argent-morskaya-svezhest-shampun-dlya-ruchnoy-moyki-avtomobilya-500ml",
+   "title": "Glitz 02 Argent “Морская свежесть”, Шампунь для ручной мойки автомобиля",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "glitz-02-argent"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/glitz-03-ruby-kislaya-svezhest-kislotnyy-shampun-dlya-ruchnoy-moyki-avtomobilya-500ml",
+   "title": "Glitz 03 Ruby «Кислая свежесть», Кислотный шампунь для ручной мойки автомобиля",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "glitz-03-ruby"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/glitz-08-purpur-neytralnyy-ochistitel-diskov-i-kuzova-500-ml",
+   "title": "Glitz 08 PurPur, Нейтральный очиститель дисков и кузова",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "glitz-08-purpur"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/glitz-13-wheely-ochistitel-shin-i-diskov-500-ml",
+   "title": "Glitz 13 Wheely, Очиститель шин и дисков",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "glitz-13-wheely"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/koch-universalnoe-chistyaschee-sredstvo-green-star-1l",
+   "title": "Koch Green Star(Универсальное чистящее средство)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "koch-chemie-green-star"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/reactivation-shampoo-shampun-dlya-glubokoy-ochistki-keramicheskih-zaschitnyh-pokrytiy-1-l-ruchnoy-shampun",
+   "title": "Koch Reactivation Shampoo Шампунь для глубокой очистки керамических защитных покрытий (1 л) Ручной шампунь",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "koch-chemie-reactivation-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/parfyumirovannyy-shampun-dlya-predvaritelnoy-moyki-leraton-pw2-1l",
+   "title": "Парфюмированный шампунь для предварительной мойки LERATON PW2",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "leraton-pw2"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/leraton-pw3-tsitrusovyy-shampun-dlya-predvaritelnoy-moyki-1l",
+   "title": "Leraton — PW3, Цитрусовый шампунь для предварительной мойки",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "leraton-pw3"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/kislotnyy-shampun-leraton-n2-473ml",
+   "title": "LERATON N2(Кислотный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 473,
+   "productId": "leraton-n2"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/neytralnyy-ochistitel-diskov-i-kuzova-leraton-m2-473ml",
+   "title": "LERATON M2(Нейтральный очиститель дисков и кузова)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 473,
+   "productId": "leraton-m2"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/neytralnyy-ochistitel-diskov-i-kuzova-s-indikatsiey-leraton-m2-1l",
+   "title": "Нейтральный очиститель дисков и кузова(с индикацией) LERATON M2 1л",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "leraton-m2"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/neytralnyy-ochistitel-diskov-i-kuzova-leraton-m2-38l",
+   "title": "LERATON M2(Нейтральный очиститель дисков и кузова)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 3800,
+   "productId": "leraton-m2"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/leraton-neytralnyy-ochistitel-diskov-i-kuzova-m2-strong-473ml",
+   "title": "Leraton M2 STRONG(Нейтральный очиститель дисков и кузова)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 473,
+   "productId": "leraton-m2-strong"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/vodoottkalkivayuschiy-vosk-leraton-c3-473ml",
+   "title": "LERATON C3(Водоотткалкивающий воск)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 473,
+   "productId": "leraton-c3"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/kvartsevyy-sostav-dlya-bystrogo-bleska-i-gidrofoba-leraton-s6-473ml",
+   "title": "Leraton S6(Кварцевый состав для быстрого блеска и гидрофоба)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 473,
+   "productId": "leraton-s6"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/kvartsevyy-sostav-dlya-bystrogo-bleska-i-gidrofoba-leraton-s6-passion-fruit-1l",
+   "title": "Кварцевый состав для быстрого блеска и гидрофоба LERATON S6 PASSION FRUIT",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "leraton-s6"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/keramicheskiy-deteyler-sprey-leraton-s3-473ml",
+   "title": "Керамический детейлер-спрей LERATON S3",
+   "checkedAt": "2026-10-25",
+   "packageMl": 473,
+   "productId": "leraton-s3"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/grass-zhidkiy-polimer-hydro-polymer-500ml",
+   "title": "GRASS Hydro Polymer(Жидкий полимер)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "grass-hydro-polymer"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-delicatewash-aktivnyy-shampun-dlya-delikatnoy-moyki-avto-20-kg",
+   "title": "Shine Systems DelicateWash(Деликатный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-delicatewash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-delicatewash-aktivnyy-shampun-dlya-delikatnoy-moyki-avto-5-l",
+   "title": "Shine Systems DelicateWash(Деликатный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-delicatewash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-delicatewash-aktivnyy-shampun-dlya-delikatnoy-moyki-avto-750-ml",
+   "title": "Shine Systems DelicateWash(Деликатный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-delicatewash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/avtoshampun-dlya-ruchnoy-moyki-shine-systems-cherrybomb-10-l",
+   "title": "Shine Systems CherryBomb Shampoo(Автошампунь для ручной мойки)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 10000,
+   "productId": "shine-systems-cherrybomb"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-cherrybomb-shampoo-avtoshampun-dlya-ruchnoy-moyki-20-l",
+   "title": "Shine Systems CherryBomb Shampoo(Автошампунь для ручной мойки)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 20000,
+   "productId": "shine-systems-cherrybomb"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-cherrybomb-shampoo-avtoshampun-dlya-ruchnoy-moyki-5-l",
+   "title": "Shine Systems CherryBomb Shampoo(Автошампунь для ручной мойки)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-cherrybomb"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/avtoshampun-dlya-ruchnoy-moyki-shine-systems-cherrybomb-750ml",
+   "title": "Shine Systems CherryBomb Shampoo(Автошампунь для ручной мойки)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-cherrybomb"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-fastquartz-bystroe-supergidrofobnoe-pokrytie-5l",
+   "title": "Shine Systems FastQuartz(Быстрое супергидрофобное покрытие)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-fastquartz"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-fastquartz-bystroe-supergidrofobnoe-pokrytie-750-ml",
+   "title": "Shine Systems FastQuartz(Быстрое супергидрофобное покрытие)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-fastquartz"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-pinkfoam-aktivnyy-shampun-dlya-beskontaktnoy-moyki-20kg",
+   "title": "Shine Systems PinkFoam(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-pinkfoam"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-pinkfoam-aktivnyy-shampun-dlya-beskontaktnoy-moyki-5l",
+   "title": "Shine Systems PinkFoam(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-pinkfoam"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-pinkfoam-aktivnyy-shampun-dlya-beskontaktnoy-moyki-750ml",
+   "title": "Shine Systems PinkFoam(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-pinkfoam"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-activefoam-aktivnaya-pena-dlya-beskontaktnoy-moyki-900-ml",
+   "title": "Shine Systems ActiveFoam (Активная пена)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 900,
+   "productId": "shine-systems-activefoam"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-activefoam-aktivnaya-pena-dlya-beskontaktnoy-moyki-20kg",
+   "title": "Shine Systems ActiveFoam (Активная пена)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-activefoam"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-prewash-active-aktivnyy-shampun-dlya-beskontaktnoy-moyki-20-kg",
+   "title": "Shine Systems PreWash Active(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-prewash-active"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-prewash-aktivnyy-shampun-dlya-beskontaktnoy-moyki-60-kg",
+   "title": "Shine Systems PreWash активный шампунь для бесконтактной мойки, 60 кг",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-prewash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-prewash-aktivnyy-shampun-dlya-beskontaktnoy-moyki-20-kg",
+   "title": "Shine Systems PreWash(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-prewash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-prewash-aktivnyy-shampun-dlya-beskontaktnoy-moyki-5-l",
+   "title": "Shine Systems PreWash(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-prewash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-prewash-aktivnyy-shampun-dlya-beskontaktnoy-moyki-900-ml",
+   "title": "Shine Systems PreWash(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 900,
+   "productId": "shine-systems-prewash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-light-aktivnyy-shampun-dlya-beskontaktnoy-moyki-900-ml",
+   "title": "Shine Systems Light(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 900,
+   "productId": "shine-systems-light"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-eurowash-aktivnyy-shampun-dlya-beskontaktnoy-moyki-20-kg",
+   "title": "Shine Systems EuroWash(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-eurowash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-eurowash-aktivnyy-shampun-dlya-beskontaktnoy-moyki-5-l",
+   "title": "Shine Systems EuroWash(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-eurowash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-eurowash-aktivnyy-shampun-dlya-beskontaktnoy-moyki-60-kg",
+   "title": "Shine Systems EuroWash(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-eurowash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-eurowash-aktivnyy-shampun-dlya-beskontaktnoy-moyki-900-ml",
+   "title": "Shine Systems EuroWash(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 900,
+   "productId": "shine-systems-eurowash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-multitec-aktivnyy-shampun-dlya-beskontaktnoy-moyki-1-l",
+   "title": "Shine Systems MultiTec(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "shine-systems-multitec"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-multitec-aktivnyy-shampun-dlya-beskontaktnoy-moyki-20-kg",
+   "title": "Shine Systems MultiTec(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-multitec"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-superstar-aktivnyy-shampun-dlya-beskontaktnoy-moyki-20-kg",
+   "title": "Shine Systems SuperStar(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-superstar"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-superstar-aktivnyy-shampun-dlya-beskontaktnoy-moyki-900-ml",
+   "title": "Shine Systems SuperStar(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 900,
+   "productId": "shine-systems-superstar"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-activebase-aktivnyy-shampun-dlya-beskontaktnoy-moyki-20-kg",
+   "title": "Shine Systems ActiveBase(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-activebase"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-ecofoam-aktivnyy-shampun-dlya-beskontaktnoy-moyki-20-kg-ss244",
+   "title": "Shine Systems EcoFoam активный шампунь для бесконтактной мойки, 20кг",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-ecofoam"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-multiwash-aktivnyy-shampun-dlya-beskontaktnoy-moyki-20kg",
+   "title": "Shine Systems MultiWash(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-multiwash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-dosatron-aktivnyy-shampun-dlya-beskontaktnoy-moyki-20-kg",
+   "title": "Shine Systems Dosatron(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-dosatron"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-dosatron-aktivnyy-shampun-dlya-beskontaktnoy-moyki-60-kg",
+   "title": "Shine Systems Dosatron(Активный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-dosatron"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-bl-gentlewash-delikatnyy-shampun-dlya-beskontaktnoy-moyki-5l",
+   "title": "Shine Systems BL GentleWash(Деликатный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-black-line-gentlewash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-bl-gentlewash-delikatnyy-shampun-dlya-beskontaktnoy-moyki-750-ml",
+   "title": "Shine Systems BL GentleWash(Деликатный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-black-line-gentlewash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-orangebomb-shampoo-avtoshampun-dlya-ruchnoy-moyki-750-ml-ss771",
+   "title": "Shine Systems OrangeBomb Shampoo — автошампунь для ручной мойки, 750 мл",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-orangebomb"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-duchessbomb-shampoo-avtoshampun-dlya-ruchnoy-moyki-750-ml-ss883",
+   "title": "Shine Systems DuchessBomb Shampoo — автошампунь для ручной мойки, 750 мл",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-duchessbomb"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-cationicshampoo-nanoshampun-dlya-ruchnoy-moyki-avtomobilya-20-kg",
+   "title": "Shine Systems CationicShampoo(Нано-шампунь для ручной мойки)",
+   "checkedAt": "2026-10-25",
+   "productId": "shine-systems-cationicshampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-cationicshampoo-nanoshampun-dlya-ruchnoy-moyki-avtomobilya-750-ml",
+   "title": "Shine Systems CationicShampoo(Нано-шампунь для ручной мойки)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-cationicshampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-acidshampoo-5l",
+   "title": "Shine Systems Acid Shampoo(Кислотный шампунь для ручной мойки)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-acidshampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-acidshampoo-kislotnyy-shampun-dlya-ruchnoy-moyki-750ml",
+   "title": "Shine Systems Acid Shampoo(Кислотный шампунь для ручной мойки)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-acidshampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-lollipopshampoo-ruchnoy-avtoshampun-s-effektom-ledentsa-20-l",
+   "title": "Shine Systems LollipopShampoo(Ручной автошампунь с эффектом леденца)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 20000,
+   "productId": "shine-systems-lollipopshampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-lollipopshampoo-ruchnoy-avtoshampun-s-effektom-ledentsa-5l",
+   "title": "Shine Systems LollipopShampoo(Ручной автошампунь с эффектом леденца)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-lollipopshampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-lollipopshampoo-ruchnoy-avtoshampun-s-effektom-ledentsa-750ml",
+   "title": "Shine Systems LollipopShampoo(Ручной автошампунь с эффектом леденца)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-lollipopshampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-universalwax-vosk-dlya-avtomaticheskih-i-ruchnyh-moek-20-l-artss437",
+   "title": "Shine Systems UniversalWax(Воск для автоматических и ручных моек)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 20000,
+   "productId": "shine-systems-universalwax"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-universalwax-vosk-dlya-avtomaticheskih-i-ruchnyh-moek-5-l",
+   "title": "Shine Systems UniversalWax(Воск для автоматических и ручных моек)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-universalwax"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-system-glossprotection-nanokonservant-dlya-sushki-i-zaschity-kuzova-200-ml-ss693",
+   "title": "Shine System GlossProtection — наноконсервант для сушки и защиты кузова, 200 мл",
+   "checkedAt": "2026-10-25",
+   "packageMl": 200,
+   "productId": "shine-systems-glossprotection"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-glossprotection-nanokonservant-dlya-sushki-i-zaschity-kuzova-5-l",
+   "title": "Shine Systems GlossProtection(Наноконсервант для сушки и защиты кузова)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-glossprotection"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-glossprotection-nanokonservant-dlya-sushki-i-zaschity-kuzova-750-ml",
+   "title": "Shine Systems GlossProtection(Наноконсервант для сушки и защиты кузова)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-glossprotection"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-ironoff-gel-neytralnyy-ochistitel-diskov-s-indikatorom-5l",
+   "title": "Shine Systems IronOFF Gel(Нейтральный очиститель дисков с индикатором)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-ironoff-gel"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-ironoff-gel-neytralnyy-ochistitel-diskov-s-indikatorom-750-ml",
+   "title": "Shine Systems IronOFF Gel(Нейтральный очиститель дисков с индикатором)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-ironoff-gel"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-black-line-ironoff-pro-neytralnyy-ochistitel-diskov-s-indikatorom-400-ml",
+   "title": "Shine Systems Black Line IronOFF Pro нейтральный очиститель дисков с индикатором, 400 мл",
+   "checkedAt": "2026-10-25",
+   "packageMl": 400,
+   "productId": "shine-systems-black-line-ironoff-pro"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-ironoff-beskislotnyy-ochistitel-diskov-s-indikatorom-20-l",
+   "title": "Shine Systems IronOFF(Бескислотный очиститель дисков с индикатором)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 20000,
+   "productId": "shine-systems-ironoff"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-ironoff-beskislotnyy-ochistitel-diskov-s-indikatorom-5l",
+   "title": "Shine Systems IronOFF(Бескислотный очиститель дисков с индикатором)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-ironoff"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-ironoff-beskislotnyy-ochistitel-diskov-s-indikatorom-750-ml",
+   "title": "Shine Systems IronOFF(Бескислотный очиститель дисков с индикатором)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-ironoff"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-tirewheel-cleaner-ochistitel-reziny-i-koles-5l",
+   "title": "Shine Systems Tire&Wheel Cleaner(Очиститель резины и колес)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-tire-wheel-cleaner"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-tirewheel-cleaner-ochistitel-reziny-i-koles-900ml",
+   "title": "Shine Systems Tire&Wheel Cleaner(Очиститель резины и колес)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 900,
+   "productId": "shine-systems-tire-wheel-cleaner"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-acidcleaner-universalnyy-kislotnyy-ochistitel-5l",
+   "title": "Shine Systems AcidCleaner(Универсальный кислотный очиститель)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-acidcleaner"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-acidcleaner-universalnyy-kislotnyy-ochistitel-750ml",
+   "title": "Shine Systems AcidCleaner(Универсальный кислотный очиститель)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-acidcleaner"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-insectoff-ochistitel-sledov-nasekomyh-5l",
+   "title": "Shine Systems InsectOFF(Очиститель следов насекомых)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-insectoff"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-insectoff-ochistitel-sledov-nasekomyh-750ml",
+   "title": "Shine Systems InsectOFF(Очиститель следов насекомых)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-insectoff"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-mosquitoff-concentrate-ochistitel-sledov-nasekomyh-5-l",
+   "title": "Shine Systems MosquitOFF Concentrate(Очиститель следов насекомых)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-mosquitoff-concentrate"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-mosquitoff-concentrate-ochistitel-sledov-nasekomyh-20l",
+   "title": "Shine Systems MosquitOFF(Очиститель следов насекомых)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 20000,
+   "productId": "shine-systems-mosquitoff-concentrate"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-bitumfree-delikatnyy-ochistitel-bitumnyh-pyaten-i-dorozhnyh-reagentov-5-l",
+   "title": "Shine Systems BitumFree деликатный очиститель битумных пятен и дорожных реагентов, 5 л",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-bitumfree"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-bitumfree-delikatnyy-ochistitel-bitumnyh-pyaten-i-dorozhnyh-reagentov-750-ml",
+   "title": "Shine Systems BitumFree деликатный очиститель битумных пятен и дорожных реагентов, 750 мл",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-bitumfree"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/antibitum-terpenovyy-shine-systems-bitumoff-750-ml",
+   "title": "Shine Systems BitumOFF терпеновый антибитум, 750 мл",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "shine-systems-bitumoff"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/antibitum-terpenovyy-shine-systems-bitumoff-5-l",
+   "title": "Shine Systems BitumOff(Антибитум терпеновый)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "shine-systems-bitumoff"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-black-line-taroff-professionalnyy-ochistitel-bitumnyh-pyaten-400-ml",
+   "title": "Shine Systems Black Line TarOFF(Очиститель битумных пятен)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 400,
+   "productId": "shine-systems-black-line-taroff"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fhb147-foam-heroes-power-wheels-vysokoeffektivnyy-ochistitel-shin-i-diskov-500ml",
+   "title": "FHB147 Foam Heroes Power Wheels высокоэффективный очиститель шин и дисков",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "foam-heroes-power-wheels"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-power-wheels-vysokoeffektivnyy-ochistitel-shin-i-diskov-5l",
+   "title": "Foam Heroes Power Wheels высокоэффективный очиститель шин и дисков",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "foam-heroes-power-wheels"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fhp002-foam-heroes-pro-600-shampun-dlya-beskontaktnoy-moyki-avtomobilya-5l",
+   "title": "FHP002 Foam Heroes PRO 600 шампунь для бесконтактной мойки автомобиля",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "foam-heroes-pro-600"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fhp004-foam-heroes-pro-gap-shampun-dlya-ruchnoy-moyki-avtomobilya-5l",
+   "title": "FHP004 Foam Heroes PRO GAP шампунь для ручной мойки автомобиля",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "foam-heroes-pro-gap"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fhp005-foam-heroes-pro-t1000-udalitel-metallicheskih-vkrapleniy-20l",
+   "title": "FHP005 Foam Heroes PRO T1000 удалитель металлических вкраплений",
+   "checkedAt": "2026-10-25",
+   "packageMl": 20000,
+   "productId": "foam-heroes-pro-t1000"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/foam-heroes-pro-t1000-udalitel-metallicheskih-vkrapleniy-5l",
+   "title": "FHP006 Foam Heroes PRO T1000 удалитель металлических вкраплений",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "foam-heroes-pro-t1000"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/detail-shampun-vtoraya-faza-s-gidrofobnym-effektom-hydro-shampoo-hs-1000ml-dt-0159",
+   "title": "Detail Hydro Shampoo(Вторая фаза с гидрофобным эффектом)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "detail-hydro-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shampun-vtoraya-faza-s-gidrofobnym-effektom-detail-hydro-shampoo-hs-500ml",
+   "title": "Detail Hydro Shampoo(Вторая фаза с гидрофобным эффектом)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "detail-hydro-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shampun-vtoraya-faza-s-gidrofobnym-effektom-hydro-shampoo-5000ml",
+   "title": "Detail Hydro Shampoo(Вторая фаза с гидрофобным эффектом)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "detail-hydro-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/avtoshampun-koch-acid-shampoo-sio2-aas-1kg",
+   "title": "Koch Acid Shampoo SIO2(Кислотный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "koch-chemie-acid-shampoo-sio2"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/acid-shampoo-sio2-ruchnoy-shampun-11-kg",
+   "title": "Koch Acid Shampoo SIO2(Кислотный шампунь)",
+   "checkedAt": "2026-10-25",
+   "productId": "koch-chemie-acid-shampoo-sio2"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/nanomagic-shampoo-nano-shampun-750ml",
+   "title": "Koch Nanomagic Shampoo (Нано-шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 750,
+   "productId": "koch-chemie-nanomagic-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/koch-chemie-avtoshampun-dlya-ruchnoy-moyki-bez-opolaskivaniya-ceramic-effect-shampoo-1l-811001",
+   "title": "Koch Chemie Автошампунь для ручной мойки без ополаскивания Ceramic Effect Shampoo 811001",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "koch-chemie-ceramic-effect-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/konserviruyuschiy-vosk-p-koch-protectorwax-pw-1l",
+   "title": "Koch ProtectorWax Pw(Консервирующий воск)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "koch-chemie-protectorwax"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/leraton-ochistitel-diskov-m1-473ml",
+   "title": "Leraton M1(Очиститель дисков)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 473,
+   "productId": "leraton-m1"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/ochistitel-pokryshek-i-kolesnyh-diskov-leraton-g11-473ml",
+   "title": "LERATON G11(Очиститель покрышек и колесных дисков)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 473,
+   "productId": "leraton-g11"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/leraton-z3-green-neytralnaya-pena-dlya-beskontaktnoy-moyki-473-ml",
+   "title": "Leraton Z3 GREEN(Нейтральная пена)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 473,
+   "productId": "leraton-z3-green"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/glitz-15-candy-kvartsevoe-pokrytie-s-polimerom-na-osnove-sio2-500ml",
+   "title": "Glitz 15 Candy Кварцевое покрытие с полимером на основе SiO2 500мл",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "glitz-15-candy"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-airline-wheelcleaner-ochistitel-koles-400-ml",
+   "title": "Shine Systems AirLine WheelCleaner очиститель колес, 400 мл",
+   "checkedAt": "2026-10-25",
+   "packageMl": 400,
+   "productId": "shine-systems-airline-wheelcleaner"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/shine-systems-airline-quartzfoam-pennoe-kvartsevoe-pokrytie-400-ml",
+   "title": "Shine Systems AirLine QuartzFoam пенное кварцевое покрытие, 400 мл",
+   "checkedAt": "2026-10-25",
+   "packageMl": 400,
+   "productId": "shine-systems-airline-quartzfoam"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/avtoshampun-smart-open-safe-01-pervichnyy-beskontaktnyy-sostav-s-zaschitoy-hroma-i-alyuminiya-1l",
+   "title": "Smart Open SAFE 01 (Первая фаза)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "smart-open-safe"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/avtoshampun-smart-open-safe-01-pervichnyy-beskontaktnyy-sostav-s-zaschitoy-hroma-i-alyuminiya-6kg5l",
+   "title": "Smart Open SAFE 01 (Первая фаза)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "smart-open-safe"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/avtoshampun-smart-open-safe-01-pervichnyy-beskontaktnyy-sostav-s-zaschitoy-hroma-i-alyuminiya-24kg20l",
+   "title": "Smart Open SAFE 01 (Первая фаза)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 20000,
+   "productId": "smart-open-safe"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-ecosafe-02-pervichnyy-beskontaktnyy-sostav-bez-fosfata-i-rastvoriteley-1kg",
+   "title": "Smart Open ECOSAFE 02 (Первая фаза)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "smart-open-ecosafe"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-ecosafe-02-pervichnyy-beskontaktnyy-sostav-bez-fosfata-i-rastvoriteley-5kg",
+   "title": "Smart Open ECOSAFE 02 (Первая фаза)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "smart-open-ecosafe"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-too-shampoo-03-vysokopennyy-ruchnoy-shampun-bez-fosfata-i-rastvoriteley-05l",
+   "title": "SMART OPEN TOO SHAMPOO 03(Высокопенный ручной шампунь без фосфатов и растворителей)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "smart-open-too-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-too-shampoo-03-vysokopennyy-ruchnoy-shampun-bez-fosfata-i-rastvoriteley1l",
+   "title": "Smart Open TOO SHAMPOO 03(Высокопенный ручной шампунь без фосфатов и растворителей)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "smart-open-too-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-too-shampoo-03-vysokopennyy-ruchnoy-shampun-bez-fosfata-i-rastvoriteley-5l",
+   "title": "SMART OPEN TOO SHAMPOO 03(Высокопенный ручной шампунь без фосфатов и растворителей)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "smart-open-too-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-nano-shampoo-04-nanoshampun-dlya-ruchnoy-moyki-05l",
+   "title": "Smart Open Nano Shampoo 04(Нано-шампунь для ручной мойки)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "smart-open-nano-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-nano-shampoo-04-nanoshampun-dlya-ruchnoy-moyki-1l",
+   "title": "Smart Open NANO SHAMPOO 04(Нано-шампунь для ручной мойки)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "smart-open-nano-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-nano-shampoo-04-nanoshampun-dlya-ruchnoy-moyki-5-l",
+   "title": "Smart Open Nano Shampoo 04(Нано-шампунь для ручной мойки)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "smart-open-nano-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-mystic-30-kislotnyy-ruchnoy-shampun-1l",
+   "title": "Smart Open Mystic 30(Кислотный ручной шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "smart-open-mystic"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-mystic-30-kislotnyy-ruchnoy-shampun-5l",
+   "title": "Smart Open — Mystic 30, Кислотный ручной шампунь",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "smart-open-mystic"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-metal-color-06-neytralnyy-ochistitel-diskov-i-kuzova-s-indikatorom-05-l",
+   "title": "Smart Open METAL COLOR 06(Нейтральный очиститель дисков и кузова с индикатором)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "smart-open-metal-color"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-acid-clean-18-ochistitel-diskov-na-mineralnyh-kislotah-1l",
+   "title": "Smart Open Acid Clean 18(Очиститель дисков на минеральных кислотах)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "smart-open-acid-clean-18"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-33-bystryy-gidrofobnyy-sostav-gotov-k-primeneniyu-quartz-energy-500ml",
+   "title": "Smart Open 33 Quartz Energy(Быстрый гидрофобный состав)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "smart-open-quartz-energy"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-quartz-energybystryy-gidrofobnyy-sostav-025l",
+   "title": "Smart Open — 33 Quartz Energy,Быстрый гидрофобный состав",
+   "checkedAt": "2026-10-25",
+   "packageMl": 250,
+   "productId": "smart-open-quartz-energy"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-bystryy-gidrofobnyy-sostav-gotov-k-primeneniyu-quartz-energy-5l",
+   "title": "Smart Open Быстрый гидрофобный состав(готов к применению) Quartz Energy 5л",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "smart-open-quartz-energy"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-nano-shine-05-nano-konservant-dlya-kuzova-avtomobilya-s-glubokim-bleskom-05l",
+   "title": "Smart Open Nano Shine 05(Нано-консервант для кузова автомобиля с глубоким блеском)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "smart-open-nano-shine"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-nano-shine-05-nano-konservant-dlya-kuzova-avtomobilya-s-glubokim-bleskom-1l",
+   "title": "Smart Open Nano Shine 05(Нано-консервант для кузова автомобиля с глубоким блеском)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 1000,
+   "productId": "smart-open-nano-shine"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-nano-shine-nano-konservant-dlya-kuzova-avtomobilya-s-glubokim-bleskom-5-l",
+   "title": "Smart Open Nano Shine 05(Нано-консервант для кузова автомобиля с глубоким блеском)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "smart-open-nano-shine"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/smart-open-kvartsevoe-pokrytie-dlya-kuzova-avtomobilya-quartz-flash-25-025l",
+   "title": "Smart Open Quartz Flash 25 Кварцевое покрытие для кузова автомобиля",
+   "checkedAt": "2026-10-25",
+   "packageMl": 250,
+   "productId": "smart-open-quartz-flash"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fireball-neytralnaya-pena-dlya-beskontaktnoy-moyki-snow-foam-130-ph7-500ml",
+   "title": "FIREBALL Snow Foam(Нейтральная пена)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "fireball-snow-foam"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fireball-shampun-dlya-ruchnoy-moyki-emerald-green-11000-ph75-500ml",
+   "title": "FIREBALL Emerald Green(Шампунь для ручной мойки)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "fireball-emerald-green"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fireball-ruchnoy-shampun-sio2-gidrofob-i-zaschita-hydro-shampoo-1500-ph7-500ml",
+   "title": "FIREBALL Ручной Шампунь SiO2 гидрофоб и защита Hydro Shampoo(Ручной Шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "fireball-hydro-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fireball-kontsentrat-gidrofobnoy-peny-s-sio2-hydro-foam-115-500ml",
+   "title": "FIREBALL Концентрат гидрофобной пены с SiO2 Hydro Foam(Концентрат гидрофобной пены)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "fireball-hydro-foam"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fireball-kislotnyy-shampun-ph3-shampoo-11000-500ml",
+   "title": "FIREBALL Shampoo Ph3(Кислотный шампунь)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "fireball-ph3-shampoo"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fireball-legkoe-kvartsevoe-pokrytie-sio2-pirouette-500ml",
+   "title": "FIREBALL Pirouette(Легкое кварцевое покрытие)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "fireball-pirouette"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fireball-mini-legkoe-kvartsevoe-pokrytie-sio2-pirouette-100ml",
+   "title": "FIREBALL mini Легкое кварцевое покрытие SiO2 Pirouette",
+   "checkedAt": "2026-10-25",
+   "packageMl": 100,
+   "productId": "fireball-pirouette"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/fireball-ultrakontsentrat-momentalnogo-gidrofoba-c-sio2-easy-coat-extra-125-100-ml",
+   "title": "FIREBALL Ультраконцентрат моментального гидрофоба c SiO2 Easy Coat Extra 1:25",
+   "checkedAt": "2026-10-25",
+   "packageMl": 100,
+   "productId": "fireball-easy-coat-extra"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/space-cocmetics-wasp-500-ml-ochistitel-diskov-s-indikatorom",
+   "title": "Space Cosmetics Wasp .(очиститель дисков с индикатором)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 500,
+   "productId": "space-cosmetics-wasp"
+  },
+  {
+   "store": "time2detailing",
+   "url": "https://time2detailing.ru/product/space-cosmetics-wasp-5l-ochistitel-diskov-s-indikatorom",
+   "title": "Space Cosmetics Wasp .(очиститель дисков с индикатором)",
+   "checkedAt": "2026-10-25",
+   "packageMl": 5000,
+   "productId": "space-cosmetics-wasp"
   }
  ],
  "accessories": [
@@ -1914,6 +3382,12 @@
      "store": "official",
      "url": "https://shinesystems.ru/product/1ee4ea2f-16c3-11ec-80fe-b42e99843e13",
      "title": "Easy Dry Max Towel - супервпитывающая микрофибра для сушки кузова 50*80 см",
+     "checkedAt": "2026-10-25"
+    },
+    {
+     "store": "time2detailing",
+     "url": "https://time2detailing.ru/product/shine-systems-easy-dry-max-supervpityvayuschaya-mikrofibra-dlya-sushki-kuzova-50h80sm",
+     "title": "Shine Systems Easy Dry MAX Towel супервпитывающая микрофибра для сушки кузова 50х80см",
      "checkedAt": "2026-10-25"
     }
    ]
@@ -1938,6 +3412,12 @@
      "url": "https://www.wildberries.ru/catalog/297810150/detail.aspx",
      "title": "Шенилловая рукавица для мойки кузова Chenille WashMitt SS821",
      "checkedAt": "2026-10-25"
+    },
+    {
+     "store": "time2detailing",
+     "url": "https://time2detailing.ru/product/shenillovaya-rukavitsa-dlya-moyki-kuzova-varezhka-shine-systems-chenille-wash-mitt",
+     "title": "Шенилловая рукавица для мойки кузова(варежка) Shine Systems Chenille Wash Mitt",
+     "checkedAt": "2026-10-25"
     }
    ]
   },
@@ -1954,6 +3434,12 @@
      "store": "official",
      "url": "https://shinesystems.ru/product/f1a9ac3b-5706-11eb-80ed-b42e99843e13",
      "title": "Sand Filter - грязевой сепаратор для ведра 268*52мм",
+     "checkedAt": "2026-10-25"
+    },
+    {
+     "store": "time2detailing",
+     "url": "https://time2detailing.ru/product/shine-systems-sand-filter-gryazevoy-separator-dlya-vedra-26563mm",
+     "title": "Shine Systems Sand Filter - грязевой сепаратор для ведра 265*63мм",
      "checkedAt": "2026-10-25"
     }
    ]
@@ -1972,6 +3458,12 @@
      "url": "https://shinesystems.ru/product/1000489e-8680-11ed-811e-b42e99843e13",
      "title": "Bucket + Filter - ведро для мойки автомобиля c сепаратором, 20 л",
      "checkedAt": "2026-10-25"
+    },
+    {
+     "store": "time2detailing",
+     "url": "https://time2detailing.ru/product/shine-systems-bucket-filter-vedro-dlya-moyki-avtomobilya-c-separatorom-20-ls",
+     "title": "Shine Systems Bucket + Filter ведро для мойки автомобиля c сепаратором, 20 л",
+     "checkedAt": "2026-10-25"
     }
    ]
   },
@@ -1988,6 +3480,12 @@
      "store": "official",
      "url": "https://shinesystems.ru/product/691c03b0-571f-11ec-8103-b42e99843e13",
      "title": "Rim Brush L - щетка для чистки дисков 43*6,5 см",
+     "checkedAt": "2026-10-25"
+    },
+    {
+     "store": "time2detailing",
+     "url": "https://time2detailing.ru/product/shine-systems-rim-brush-l-schetka-ershik-dlya-chistki-diskov-4365-sm",
+     "title": "Shine Systems Rim Brush L щетка (ершик) для чистки дисков 43*6,5 см",
      "checkedAt": "2026-10-25"
     }
    ]
@@ -2023,6 +3521,12 @@
      "url": "https://shinesystems.ru/product/ae9ff47e-b2ec-11f0-b85e-08bfb8a4e514",
      "title": "AeroPump Alkaline - пенно-эмульсионный помповый распылитель для щелочных составов, 2л",
      "checkedAt": "2026-10-25"
+    },
+    {
+     "store": "time2detailing",
+     "url": "https://time2detailing.ru/product/aeropump-alkaline-penno-emulsionnyy-pompovyy-raspylitel-dlya-schelochnyh-sostavov-2l",
+     "title": "AeroPump Alkaline пенно-эмульсионный помповый распылитель для щелочных составов, 2л",
+     "checkedAt": "2026-10-25"
     }
    ]
   },
@@ -2040,6 +3544,12 @@
      "url": "https://shinesystems.ru/product/595d9143-1140-11e8-ab58-74d4350ba0d8",
      "title": "Microfiber Sponge - микрофибровый аппликатор для нанесения составов",
      "checkedAt": "2026-10-25"
+    },
+    {
+     "store": "time2detailing",
+     "url": "https://time2detailing.ru/product/shine-systems-microfiber-sponge-mikrofibrovyy-applikator-dlya-naneseniya-sostavov",
+     "title": "Shine Systems Microfiber Sponge микрофибровый аппликатор для нанесения составов",
+     "checkedAt": "2026-10-25"
     }
    ]
   },
@@ -2056,6 +3566,12 @@
      "store": "official",
      "url": "https://grass.su/product/mikrofibrovoe_polotentse_dlya_sushki_kuzova_ed_extra_dry_50_60_sm/",
      "title": "Микрофибровое полотенце для сушки кузова ED \"Extra Dry\" 50*60 см",
+     "checkedAt": "2026-10-25"
+    },
+    {
+     "store": "time2detailing",
+     "url": "https://time2detailing.ru/product/detail-mikrofibrovoe-polotentse-dlya-sushki-kuzova-extra-dry-5060-dt-0226",
+     "title": "Detail Микрофибровое полотенце для сушки кузова Extra Dry 50*60",
      "checkedAt": "2026-10-25"
     }
    ]
@@ -2124,6 +3640,12 @@
      "store": "official",
      "url": "https://foam-heroes.ru/product-fha056.html",
      "title": "Foam Heroes The Collector — Микрофибры",
+     "checkedAt": "2026-10-25"
+    },
+    {
+     "store": "time2detailing",
+     "url": "https://time2detailing.ru/product/fha056-foam-heroes-the-collector-dvuhstoronnee-polotentse-dlya-sushki-avtomobilya-70h90sm-1100gm2",
+     "title": "FHA056 Foam Heroes The Collector двухстороннее полотенце для сушки автомобиля 70х90см",
      "checkedAt": "2026-10-25"
     }
    ]

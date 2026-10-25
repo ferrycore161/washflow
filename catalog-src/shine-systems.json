@@ -4217,6 +4217,99 @@
         "Использовать перчатки и защитные крема"
       ],
       "status": "verified"
+    },
+    {
+      "id": "shine-systems-airline-wheelcleaner",
+      "name": "AirLine WheelCleaner",
+      "subtitle": "аэрозольный очиститель колёс",
+      "aliases": [],
+      "category": "wheel_cleaner",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        400
+      ],
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "аэрозоль, применяется в неразведённом виде",
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": 240
+          },
+          "steps": [
+            "Встряхнуть баллон",
+            "Нанести на отмытую от основных загрязнений остывшую резину и диск",
+            "Через 3–4 минуты смыть высоким давлением"
+          ],
+          "restrictions": [
+            "Не наносить на горячую поверхность",
+            "Не допускать высыхания",
+            "Использовать при температуре баллона выше +5 °С"
+          ],
+          "sourceUrl": "https://shinesystems.ru/product/176e16c8-5068-11ee-8123-b42e99843e13",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Применяется в неразведенном виде.",
+          "sourceType": "official",
+          "methodAssumed": true
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://shinesystems.ru/product/176e16c8-5068-11ee-8123-b42e99843e13",
+      "targets": [
+        "wheels",
+        "tires"
+      ],
+      "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20AirLine%20WheelCleaner%20-%20%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%BA%D0%BE%D0%BB%D0%B5%D1%81%2C%20400%20%D0%BC%D0%BB.jpg"
+    },
+    {
+      "id": "shine-systems-airline-quartzfoam",
+      "name": "AirLine QuartzFoam",
+      "subtitle": "аэрозольное пенное кварцевое покрытие",
+      "aliases": [],
+      "category": "protection",
+      "phase": null,
+      "ph": 4,
+      "packages": [
+        400
+      ],
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "аэрозоль, наносится на мокрый кузов",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Нанести на чистую мокрую поверхность",
+            "Сразу смыть остатки высоким давлением воды"
+          ],
+          "restrictions": [
+            "Не допускать подсыхания",
+            "Не наносить на недомытую или нагретую поверхность"
+          ],
+          "sourceUrl": "https://shinesystems.ru/product/8153a539-44bc-11ef-b829-08bfb8a4e514",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Нанести равномерно на чистую мокрую поверхность всего автомобиля.",
+          "sourceType": "official",
+          "methodAssumed": true
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://shinesystems.ru/product/8153a539-44bc-11ef-b829-08bfb8a4e514",
+      "targets": [
+        "body",
+        "glass",
+        "plastic"
+      ]
     }
   ]
 }

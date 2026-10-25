@@ -380,6 +380,259 @@
         "glass",
         "wheels"
       ]
+    },
+    {
+      "id": "koch-chemie-nanomagic-shampoo",
+      "name": "NanoMagic Shampoo",
+      "subtitle": "нано-шампунь для ручной мойки",
+      "aliases": [],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": null,
+      "packages": [
+        750
+      ],
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 5,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "около 50 мл на 10 л тёплой воды",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Вымыть автомобиль губкой или падом",
+            "Смыть мягкой струёй воды и вытереть остатки воды"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://www.koch-chemie.com/en/products/nanomagic_shampoo",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Add about 50 ml of shampoo (5 capfuls) to 10 l of warm water.",
+          "sourceType": "official"
+        },
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 15,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пенокомплект: 1:10–1:15",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Нанести пену пенокомплектом",
+            "Промыть поверхность губкой сверху вниз, пороги — в последнюю очередь"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://time2detailing.ru/product/nanomagic-shampoo-nano-shampun-750ml",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Пенокомплект: 1:10–1:15 до образования устойчивой пены на поверхности.",
+          "sourceType": "retailer"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://www.koch-chemie.com/en/products/nanomagic_shampoo",
+      "targets": [
+        "body"
+      ]
+    },
+    {
+      "id": "koch-chemie-ceramic-effect-shampoo",
+      "name": "Ceramic Effect Shampoo",
+      "subtitle": "шампунь для ручной мойки с керамическим эффектом",
+      "aliases": [],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": null,
+      "packages": [
+        1000
+      ],
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ratio",
+            "from": 200,
+            "to": 200,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:200 (50 мл на 10 л воды)",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Сильно загрязнённые поверхности предварительно очистить",
+            "Мыть губкой или рукавицей, затем тщательно смыть большим количеством воды",
+            "Высушить полотенцем"
+          ],
+          "restrictions": [
+            "Не допускать высыхания",
+            "Не применять на тёплых поверхностях и на солнце"
+          ],
+          "sourceUrl": "https://www.koch-chemie.com/en/products/ceramic_effect_shampoo",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Dilute the shampoo for hand washing in a wash bucket 1:200 (50 ml to 10 l of water) and lather briefly.",
+          "sourceType": "official"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://www.koch-chemie.com/en/products/ceramic_effect_shampoo",
+      "targets": [
+        "body"
+      ]
+    },
+    {
+      "id": "koch-chemie-acid-shampoo-sio2",
+      "name": "Acid Shampoo SiO2",
+      "subtitle": "кислотный шампунь для ручного и портального нанесения",
+      "aliases": [
+        "AAS"
+      ],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": null,
+      "packages": [],
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ratio",
+            "from": 300,
+            "to": 300,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "ручная мойка: до 1:300",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [],
+          "restrictions": [],
+          "sourceUrl": "https://time2detailing.ru/product/avtoshampun-koch-acid-shampoo-sio2-aas-1kg",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Ручная мойкадо 1:300.",
+          "sourceType": "retailer"
+        },
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 20,
+            "to": 50,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пенокомплект: 1:20–1:50",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [],
+          "restrictions": [],
+          "sourceUrl": "https://time2detailing.ru/product/avtoshampun-koch-acid-shampoo-sio2-aas-1kg",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Пенокомплект: 1:20–1:50.",
+          "sourceType": "retailer"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 300,
+            "to": 500,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пеногенераторы: 1:300–1:500",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [],
+          "restrictions": [],
+          "sourceUrl": "https://time2detailing.ru/product/avtoshampun-koch-acid-shampoo-sio2-aas-1kg",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для пеногенераторов 1:300–1:500.",
+          "sourceType": "retailer"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://time2detailing.ru/product/avtoshampun-koch-acid-shampoo-sio2-aas-1kg",
+      "targets": [
+        "body"
+      ]
+    },
+    {
+      "id": "koch-chemie-protectorwax",
+      "name": "ProtectorWax",
+      "subtitle": "консервирующий воск для мокрого кузова",
+      "aliases": [
+        "PW"
+      ],
+      "category": "protection",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        1000
+      ],
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 50,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пенокомплект: 1:50",
+          "surface": "wet",
+          "dwellSec": {
+            "from": 60,
+            "to": 60
+          },
+          "steps": [
+            "Нанести на влажное чистое авто",
+            "Через 1 минуту смыть потоком воды",
+            "Просушить кузов"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://time2detailing.ru/product/konserviruyuschiy-vosk-p-koch-protectorwax-pw-1l",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Пенокомплект1:50, расход: 3–4 а/м;",
+          "sourceType": "retailer"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 500,
+            "to": 500,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "триггер или накачная помпа: 1:500",
+          "surface": "wet",
+          "dwellSec": {
+            "from": 60,
+            "to": 60
+          },
+          "steps": [
+            "Нанести на влажное чистое авто",
+            "Через 1 минуту смыть потоком воды",
+            "Просушить кузов"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://time2detailing.ru/product/konserviruyuschiy-vosk-p-koch-protectorwax-pw-1l",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Триггер или накачная помпа1:500",
+          "sourceType": "retailer"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://time2detailing.ru/product/konserviruyuschiy-vosk-p-koch-protectorwax-pw-1l",
+      "targets": [
+        "body"
+      ]
     }
   ]
 }

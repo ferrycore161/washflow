@@ -54,12 +54,13 @@ describe('ссылки на магазины', () => {
 });
 
 describe('несколько фасовок', () => {
-  it('подписывает ссылки объёмом и не дублирует', () => {
+  it('одна кнопка на магазин — с наименьшей фасовкой', () => {
     const links = shopLinks('X', [
-      { store: 'official', url: 'https://a.ru/750', title: '', checkedAt: '2026-10-25', packageMl: 750 },
       { store: 'official', url: 'https://a.ru/5000', title: '', checkedAt: '2026-10-25', packageMl: 5000 },
+      { store: 'official', url: 'https://a.ru/750', title: '', checkedAt: '2026-10-25', packageMl: 750 },
     ]);
     const off = links.filter((l) => l.store === 'official');
-    expect(off.map((l) => l.label)).toEqual(['Офиц. · 750 мл', 'Офиц. · 5 л']);
+    expect(off).toHaveLength(1);
+    expect(off[0].url).toBe('https://a.ru/750');
   });
 });

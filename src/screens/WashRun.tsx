@@ -405,7 +405,7 @@ export function WashRun() {
                 {step.sourceUrl && (
                   <>
                     {' '}
-                    <a href={step.sourceUrl} target="_blank" rel="noreferrer" className="src-link">Методика производителя</a>
+                    <a href={step.sourceUrl} target="_blank" rel="noreferrer" className="src-link">{/time2detailing.ru/.test(step.sourceUrl) ? "Инструкция со страницы магазина time2detailing" : "Методика производителя"}</a>
                     {step.checkedAt && <span>, проверено {new Date(step.checkedAt).toLocaleDateString('ru-RU')}</span>}
                   </>
                 )}

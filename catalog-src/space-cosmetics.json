@@ -1,0 +1,26 @@
+{
+  "brand": "Space Cosmetics",
+  "products": [
+    {
+      "id": "space-cosmetics-wasp",
+      "name": "Wasp",
+      "subtitle": "pH-нейтральный очиститель дисков с индикатором",
+      "aliases": [],
+      "category": "iron_remover",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        500,
+        5000
+      ],
+      "applications": [],
+      "warnings": [],
+      "status": "unverified",
+      "productUrl": "https://time2detailing.ru/product/space-cocmetics-wasp-500-ml-ochistitel-diskov-s-indikatorom",
+      "targets": [
+        "wheels",
+        "body"
+      ]
+    }
+  ]
+}

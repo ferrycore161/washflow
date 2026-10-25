@@ -1,0 +1,1965 @@
+[
+  {
+    "brand": "Foam Heroes",
+    "brandSite": "https://foam-heroes.ru",
+    "products": [
+      {
+        "id": "foam-heroes-power-wheels",
+        "name": "Power Wheels",
+        "subtitle": "высокоэффективный очиститель шин и дисков",
+        "aliases": [],
+        "category": "wheel_cleaner",
+        "phase": null,
+        "ph": 13.5,
+        "packages": [
+          500,
+          5000
+        ],
+        "applications": [
+          {
+            "method": "trigger",
+            "dilution": {
+              "kind": "ratio",
+              "from": 1,
+              "to": 5,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "готовый состав или разведение с водой до 1:5",
+            "surface": null,
+            "dwellSec": {
+              "from": 120,
+              "to": 180
+            },
+            "steps": [
+              "Предварительно удалите с колёс поверхностные загрязнения водой под высоким давлением",
+              "Нанесите состав на колёса в виде эмульсии или пены",
+              "Оставьте на 2–3 минуты, при необходимости используйте щётки",
+              "Смойте обильным количеством воды под давлением"
+            ],
+            "restrictions": [
+              "Не наносить на оголённые металлические поверхности",
+              "Не распылять на горячую поверхность дисков"
+            ],
+            "sourceUrl": "https://foam-heroes.ru/product-fhb147.html",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "в зависимости от степени загрязнения используйте готовый состав или разведите его с водой до 1:5",
+            "sourceType": "official"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://foam-heroes.ru/product-fhb147.html",
+        "targets": [
+          "wheels",
+          "tires"
+        ],
+        "imageUrl": "https://foam-heroes.ru/assets/img/products/fhb147.webp"
+      },
+      {
+        "id": "foam-heroes-pro-600",
+        "name": "PRO 600",
+        "subtitle": "низкопенный шампунь для бесконтактной мойки",
+        "aliases": [],
+        "category": "active_foam",
+        "phase": 1,
+        "ph": 12.6,
+        "packages": [
+          5000,
+          20000
+        ],
+        "applications": [
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ratio",
+              "from": 10,
+              "to": 15,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пенокомплект: 1:10-1:15",
+            "surface": null,
+            "dwellSec": {
+              "from": 120,
+              "to": 300
+            },
+            "steps": [
+              "Нанести раствор на поверхность",
+              "Выдержать 2–5 минут, не допуская высыхания",
+              "Тщательно смыть водой под высоким давлением"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://foam-heroes.ru/product-fhp002.html",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "пенокомплект: 1:10-1:15",
+            "sourceType": "official"
+          },
+          {
+            "method": "sprayer",
+            "dilution": {
+              "kind": "ratio",
+              "from": 50,
+              "to": 100,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "ручной помповый опрыскиватель: 1:50-1:100",
+            "surface": null,
+            "dwellSec": {
+              "from": 120,
+              "to": 300
+            },
+            "steps": [
+              "Нанести раствор на поверхность",
+              "Выдержать 2–5 минут, не допуская высыхания",
+              "Тщательно смыть водой под высоким давлением"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://foam-heroes.ru/product-fhp002.html",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "ручной помповый опрыскиватель: 1:50-1:100",
+            "sourceType": "official"
+          },
+          {
+            "method": "foam_generator",
+            "dilution": {
+              "kind": "ratio",
+              "from": 100,
+              "to": 150,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пеногенератор: 1:100 - 1:150",
+            "surface": null,
+            "dwellSec": {
+              "from": 120,
+              "to": 300
+            },
+            "steps": [
+              "Нанести раствор на поверхность",
+              "Выдержать 2–5 минут, не допуская высыхания",
+              "Тщательно смыть водой под высоким давлением"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://foam-heroes.ru/product-fhp002.html",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "пеногенератор: 1:100 - 1:150",
+            "sourceType": "official"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://foam-heroes.ru/product-fhp002.html",
+        "targets": [
+          "body"
+        ],
+        "imageUrl": "https://foam-heroes.ru/assets/img/products/fhp002.webp"
+      },
+      {
+        "id": "foam-heroes-pro-t1000",
+        "name": "PRO T1000",
+        "subtitle": "готовый удалитель металлических вкраплений",
+        "aliases": [],
+        "category": "iron_remover",
+        "phase": null,
+        "ph": 7,
+        "packages": [
+          5000,
+          20000
+        ],
+        "applications": [
+          {
+            "method": "trigger",
+            "dilution": {
+              "kind": "ready"
+            },
+            "dilutionText": "готов к применению",
+            "surface": null,
+            "dwellSec": {
+              "from": 180,
+              "to": 300
+            },
+            "steps": [
+              "Тщательно вымойте автомобиль",
+              "Нанесите состав и оставьте на 3–5 минут — он изменит цвет",
+              "При сильных загрязнениях используйте кисти, щётки и скрабы",
+              "Смойте большим количеством воды под давлением"
+            ],
+            "restrictions": [
+              "Не распылять на горячую поверхность",
+              "Не наносить на незащищённые металлические элементы"
+            ],
+            "sourceUrl": "https://foam-heroes.ru/product-fhp005.html",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "готовый к применению эффективный очиститель металлических вкраплений, следов коррозии и ржавчины",
+            "sourceType": "official",
+            "methodAssumed": true
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://foam-heroes.ru/product-fhp005.html",
+        "targets": [
+          "body",
+          "wheels"
+        ],
+        "imageUrl": "https://foam-heroes.ru/assets/img/products/fhp005.webp"
+      },
+      {
+        "id": "foam-heroes-pro-gap",
+        "name": "PRO GAP",
+        "subtitle": "высококонцентрированный шампунь для ручной мойки",
+        "aliases": [],
+        "category": "contact_shampoo",
+        "phase": 2,
+        "ph": null,
+        "packages": [
+          5000
+        ],
+        "applications": [],
+        "warnings": [],
+        "status": "unverified",
+        "productUrl": "https://time2detailing.ru/product/fhp004-foam-heroes-pro-gap-shampun-dlya-ruchnoy-moyki-avtomobilya-5l",
+        "targets": [
+          "body"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Detail",
+    "brandSite": "https://grass.su",
+    "products": [
+      {
+        "id": "detail-hydro-shampoo",
+        "name": "Hydro Shampoo (HS)",
+        "subtitle": "шампунь второй фазы с гидрофобным эффектом",
+        "aliases": [
+          "HS"
+        ],
+        "category": "contact_shampoo",
+        "phase": 2,
+        "ph": null,
+        "packages": [
+          500,
+          1000,
+          5000
+        ],
+        "applications": [
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ml_per_l",
+              "from": 100,
+              "to": 150,
+              "basis": "solution"
+            },
+            "dilutionText": "100–150 мл на литровую ёмкость пенокомплекта",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Перед разведением взболтать",
+              "Нанести на автомобиль после Active Safe или Ultra Safe",
+              "Обработать крупнопористой губкой или микрофибровой варежкой сверху вниз",
+              "Смыть водой при помощи АВД"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://grass.su/product/shampun_vtoraya_faza_hs_hydro_shampoo_5_l/",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Для нанесения используйте пенокомплект - пропорция разведения - 100 - 150 мл на литровую емкость пенокомплекта.",
+            "sourceType": "official"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://grass.su/product/shampun_vtoraya_faza_hs_hydro_shampoo_5_l/",
+        "targets": [
+          "body"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Koch-Chemie",
+    "brandSite": "https://www.koch-chemie.com",
+    "products": [
+      {
+        "id": "koch-chemie-nanomagic-shampoo",
+        "name": "NanoMagic Shampoo",
+        "subtitle": "нано-шампунь для ручной мойки",
+        "aliases": [],
+        "category": "contact_shampoo",
+        "phase": 2,
+        "ph": null,
+        "packages": [
+          750
+        ],
+        "applications": [
+          {
+            "method": "bucket",
+            "dilution": {
+              "kind": "ml_per_l",
+              "from": 5,
+              "to": 5,
+              "basis": "water"
+            },
+            "dilutionText": "около 50 мл на 10 л тёплой воды",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Вымыть автомобиль губкой или падом",
+              "Смыть мягкой струёй воды и вытереть остатки воды"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://www.koch-chemie.com/en/products/nanomagic_shampoo",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Add about 50 ml of shampoo (5 capfuls) to 10 l of warm water.",
+            "sourceType": "official"
+          },
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ratio",
+              "from": 10,
+              "to": 15,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пенокомплект: 1:10–1:15",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Нанести пену пенокомплектом",
+              "Промыть поверхность губкой сверху вниз, пороги — в последнюю очередь"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/nanomagic-shampoo-nano-shampun-750ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Пенокомплект: 1:10–1:15 до образования устойчивой пены на поверхности.",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://www.koch-chemie.com/en/products/nanomagic_shampoo",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "koch-chemie-ceramic-effect-shampoo",
+        "name": "Ceramic Effect Shampoo",
+        "subtitle": "шампунь для ручной мойки с керамическим эффектом",
+        "aliases": [],
+        "category": "contact_shampoo",
+        "phase": 2,
+        "ph": null,
+        "packages": [
+          1000
+        ],
+        "applications": [
+          {
+            "method": "bucket",
+            "dilution": {
+              "kind": "ratio",
+              "from": 200,
+              "to": 200,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "1:200 (50 мл на 10 л воды)",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Сильно загрязнённые поверхности предварительно очистить",
+              "Мыть губкой или рукавицей, затем тщательно смыть большим количеством воды",
+              "Высушить полотенцем"
+            ],
+            "restrictions": [
+              "Не допускать высыхания",
+              "Не применять на тёплых поверхностях и на солнце"
+            ],
+            "sourceUrl": "https://www.koch-chemie.com/en/products/ceramic_effect_shampoo",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Dilute the shampoo for hand washing in a wash bucket 1:200 (50 ml to 10 l of water) and lather briefly.",
+            "sourceType": "official"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://www.koch-chemie.com/en/products/ceramic_effect_shampoo",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "koch-chemie-multi-star-nta-frei",
+        "name": "Multi Star NTA Frei",
+        "subtitle": "щелочной высокопенный состав для бесконтактной мойки",
+        "aliases": [
+          "Multi Star"
+        ],
+        "category": "active_foam",
+        "phase": 1,
+        "ph": null,
+        "packages": [],
+        "applications": [
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ratio",
+              "from": 3,
+              "to": 6,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пенокомплект: 1:3–1:6",
+            "surface": null,
+            "dwellSec": {
+              "from": 120,
+              "to": 120
+            },
+            "steps": [
+              "Нанести на всю поверхность",
+              "Через 2 минуты смыть мойкой высокого давления"
+            ],
+            "restrictions": [
+              "Не использовать на горячих поверхностях",
+              "Не доводить до высыхания"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/avtoshampun-universalnoe-beskontaktnoe-sredstvo-multi-star-5l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Бесконтактная мойка (пенокомплект): 1:3–1:6.",
+            "sourceType": "retailer"
+          },
+          {
+            "method": "foam_generator",
+            "dilution": {
+              "kind": "ratio",
+              "from": 30,
+              "to": 60,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пеногенератор: 1:30–1:60",
+            "surface": null,
+            "dwellSec": {
+              "from": 120,
+              "to": 120
+            },
+            "steps": [
+              "Нанести на всю поверхность",
+              "Через 2 минуты смыть мойкой высокого давления"
+            ],
+            "restrictions": [
+              "Не использовать на горячих поверхностях",
+              "Не доводить до высыхания"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/avtoshampun-universalnoe-beskontaktnoe-sredstvo-multi-star-5l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Пеногенератор: 1:30–1:60.",
+            "sourceType": "retailer"
+          },
+          {
+            "method": "hpw_injector",
+            "dilution": {
+              "kind": "ratio",
+              "from": 50,
+              "to": 100,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "мойка самообслуживания высоким давлением: 1:50–1:100",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [],
+            "restrictions": [
+              "Не использовать на горячих поверхностях",
+              "Не доводить до высыхания"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/avtoshampun-universalnoe-beskontaktnoe-sredstvo-multi-star-5l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Мойка самообслуживания высоким давлением: 1:50–1:100.",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/avtoshampun-universalnoe-beskontaktnoe-sredstvo-multi-star-5l",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "koch-chemie-acid-shampoo-sio2",
+        "name": "Acid Shampoo SiO2",
+        "subtitle": "кислотный шампунь для ручного и портального нанесения",
+        "aliases": [
+          "AAS"
+        ],
+        "category": "contact_shampoo",
+        "phase": 2,
+        "ph": null,
+        "packages": [],
+        "applications": [
+          {
+            "method": "bucket",
+            "dilution": {
+              "kind": "ratio",
+              "from": 300,
+              "to": 300,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "ручная мойка: до 1:300",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/avtoshampun-koch-acid-shampoo-sio2-aas-1kg",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Ручная мойкадо 1:300.",
+            "sourceType": "retailer"
+          },
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ratio",
+              "from": 20,
+              "to": 50,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пенокомплект: 1:20–1:50",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/avtoshampun-koch-acid-shampoo-sio2-aas-1kg",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Пенокомплект: 1:20–1:50.",
+            "sourceType": "retailer"
+          },
+          {
+            "method": "foam_generator",
+            "dilution": {
+              "kind": "ratio",
+              "from": 300,
+              "to": 500,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пеногенераторы: 1:300–1:500",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/avtoshampun-koch-acid-shampoo-sio2-aas-1kg",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Для пеногенераторов 1:300–1:500.",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/avtoshampun-koch-acid-shampoo-sio2-aas-1kg",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "koch-chemie-protectorwax",
+        "name": "ProtectorWax",
+        "subtitle": "консервирующий воск для мокрого кузова",
+        "aliases": [
+          "PW"
+        ],
+        "category": "protection",
+        "phase": null,
+        "ph": null,
+        "packages": [
+          1000
+        ],
+        "applications": [
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ratio",
+              "from": 50,
+              "to": 50,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пенокомплект: 1:50",
+            "surface": "wet",
+            "dwellSec": {
+              "from": 60,
+              "to": 60
+            },
+            "steps": [
+              "Нанести на влажное чистое авто",
+              "Через 1 минуту смыть потоком воды",
+              "Просушить кузов"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/konserviruyuschiy-vosk-p-koch-protectorwax-pw-1l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Пенокомплект1:50, расход: 3–4 а/м;",
+            "sourceType": "retailer"
+          },
+          {
+            "method": "sprayer",
+            "dilution": {
+              "kind": "ratio",
+              "from": 500,
+              "to": 500,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "триггер или накачная помпа: 1:500",
+            "surface": "wet",
+            "dwellSec": {
+              "from": 60,
+              "to": 60
+            },
+            "steps": [
+              "Нанести на влажное чистое авто",
+              "Через 1 минуту смыть потоком воды",
+              "Просушить кузов"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/konserviruyuschiy-vosk-p-koch-protectorwax-pw-1l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Триггер или накачная помпа1:500",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/konserviruyuschiy-vosk-p-koch-protectorwax-pw-1l",
+        "targets": [
+          "body"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "LERATON",
+    "brandSite": "https://leraton.ru",
+    "products": [
+      {
+        "id": "leraton-m1",
+        "name": "M1",
+        "subtitle": "кислотный очиститель дисков",
+        "aliases": [],
+        "category": "wheel_cleaner",
+        "phase": null,
+        "ph": null,
+        "packages": [
+          473,
+          3800,
+          20000
+        ],
+        "applications": [
+          {
+            "method": "trigger",
+            "dilution": {
+              "kind": "ready"
+            },
+            "dilutionText": "473 мл — без разведения",
+            "surface": null,
+            "dwellSec": {
+              "from": 60,
+              "to": 180
+            },
+            "steps": [
+              "Нанести триггерным или помповым распылителем",
+              "Подождать 1–3 минуты",
+              "Смыть обильным количеством воды, при необходимости повторить"
+            ],
+            "restrictions": [
+              "Не использовать на неокрашенном пластике, резине, открытом металле, алюминии и хроме",
+              "Запрещено для автомобилей с керамической тормозной системой",
+              "Не оставлять более 5 минут и не давать высыхать"
+            ],
+            "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/ochistitel-diskov-leraton-m1-473ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Для 473 мл: Продукт использовать без разведения.",
+            "sourceType": "official"
+          },
+          {
+            "method": "sprayer",
+            "dilution": {
+              "kind": "ratio",
+              "from": 3,
+              "to": 5,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "3,8 л и 20 л: 1:3-5 с водой",
+            "surface": null,
+            "dwellSec": {
+              "from": 60,
+              "to": 180
+            },
+            "steps": [
+              "Нанести помповым распылителем",
+              "Подождать 1–3 минуты",
+              "Смыть обильным количеством воды"
+            ],
+            "restrictions": [
+              "Не использовать на неокрашенном пластике, резине, открытом металле, алюминии и хроме",
+              "Запрещено для автомобилей с керамической тормозной системой"
+            ],
+            "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/ochistitel-diskov-leraton-m1-473ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Для 3,8 л и 20 л: Развести водой в соотношении 1:3-5.",
+            "sourceType": "official"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/ochistitel-diskov-leraton-m1-473ml",
+        "targets": [
+          "wheels"
+        ],
+        "imageUrl": "https://leraton.ru/images/product/000/000054/477-m1-473-trigger-1.tn-570x700.3736a5a76f.png"
+      },
+      {
+        "id": "leraton-g11",
+        "name": "G11",
+        "subtitle": "очиститель покрышек и колёсных дисков",
+        "aliases": [],
+        "category": "wheel_cleaner",
+        "phase": null,
+        "ph": null,
+        "packages": [
+          473,
+          3800
+        ],
+        "applications": [
+          {
+            "method": "trigger",
+            "dilution": {
+              "kind": "ready"
+            },
+            "dilutionText": "наносится триггерным распылителем без указания разведения (473 мл)",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Нанести на резину и диски",
+              "Очистить щёткой для шин и ершиками",
+              "Смыть обильным количеством воды"
+            ],
+            "restrictions": [
+              "Не оставлять более 5 минут и не давать высыхать",
+              "Не наносить на горячую поверхность"
+            ],
+            "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/ochistitel-pokryshek-i-kolesnyx-diskov-leraton-g11-473ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "нанесите состав на очищаемую область резины и диски с помощью триггерного распылителя.",
+            "sourceType": "official"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/ochistitel-pokryshek-i-kolesnyx-diskov-leraton-g11-473ml",
+        "targets": [
+          "wheels",
+          "tires"
+        ],
+        "imageUrl": "https://leraton.ru/images/product/006/006310/619-g11-473-1.tn-570x700.08946b4de5.png"
+      },
+      {
+        "id": "leraton-z3-green",
+        "name": "Z3 GREEN",
+        "subtitle": "pH-нейтральная пена для бесконтактной мойки",
+        "aliases": [],
+        "category": "prewash",
+        "phase": 1,
+        "ph": null,
+        "packages": [
+          473
+        ],
+        "applications": [
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ratio",
+              "from": 3,
+              "to": 5,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пенокомплект: от 1:3 до 1:5",
+            "surface": null,
+            "dwellSec": {
+              "from": 120,
+              "to": 180
+            },
+            "steps": [
+              "Нанести раствор на загрязнённый автомобиль",
+              "Через 2–3 минуты смыть водой под давлением"
+            ],
+            "restrictions": [
+              "Не наносить на горячий (более 60 °С) кузов и под прямыми солнечными лучами, не допускать высыхания"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/leraton-z3-green-neytralnaya-pena-dlya-beskontaktnoy-moyki-473-ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Разведение для пенокомплекта от 1:3 до 1:5",
+            "sourceType": "retailer",
+            "consumptionMl": {
+              "from": 80,
+              "to": 150
+            }
+          },
+          {
+            "method": "foam_generator",
+            "dilution": {
+              "kind": "ratio",
+              "from": 30,
+              "to": 60,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пеногенератор: 1:30–1:60",
+            "surface": null,
+            "dwellSec": {
+              "from": 120,
+              "to": 180
+            },
+            "steps": [
+              "Нанести раствор на загрязнённый автомобиль",
+              "Через 2–3 минуты смыть водой под давлением"
+            ],
+            "restrictions": [
+              "Не наносить на горячий (более 60 °С) кузов и под прямыми солнечными лучами, не допускать высыхания"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/leraton-z3-green-neytralnaya-pena-dlya-beskontaktnoy-moyki-473-ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "для пеногенератора 1:30–1:60",
+            "sourceType": "retailer",
+            "consumptionMl": {
+              "from": 80,
+              "to": 150
+            }
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/leraton-z3-green-neytralnaya-pena-dlya-beskontaktnoy-moyki-473-ml",
+        "targets": [
+          "body"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Glitz",
+    "brandSite": "https://leraton.ru",
+    "products": [
+      {
+        "id": "glitz-15-candy",
+        "name": "15 Candy",
+        "subtitle": "кварцевое покрытие с полимером на основе SiO2",
+        "aliases": [],
+        "category": "protection",
+        "phase": null,
+        "ph": null,
+        "packages": [
+          500,
+          5000
+        ],
+        "applications": [
+          {
+            "method": "trigger",
+            "dilution": {
+              "kind": "ready"
+            },
+            "dilutionText": "распыление на мокрый кузов, 1–2 распыления на элемент",
+            "surface": "wet",
+            "dwellSec": null,
+            "steps": [
+              "Нанести на чистый мокрый кузов",
+              "При необходимости распределить микрофиброй без давления",
+              "Смыть сильным напором воды"
+            ],
+            "restrictions": [
+              "Не допускать высыхания средства на поверхности"
+            ],
+            "sourceUrl": "https://leraton.ru/katalog/zashhita-poverxnostej/zashhita-poverxnostej-2/bystryj-blesk/glitz-kvarcevoe-pokrytie-s-polimerom-na-osnove-sio2-15-candy-sa-500-ml-g1505ca",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Равномерно нанесите средство на чистый, мокрый кузов (1-2 распыления на элемент).",
+            "sourceType": "official"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://leraton.ru/katalog/zashhita-poverxnostej/zashhita-poverxnostej-2/bystryj-blesk/glitz-kvarcevoe-pokrytie-s-polimerom-na-osnove-sio2-15-candy-sa-500-ml-g1505ca",
+        "targets": [
+          "body"
+        ],
+        "imageUrl": "https://leraton.ru/images/product/050/050310/344-1.tn-570x700.5b077e2935.jpg"
+      }
+    ]
+  },
+  {
+    "brand": "Shine Systems",
+    "brandSite": "https://shinesystems.ru",
+    "products": [
+      {
+        "id": "shine-systems-airline-wheelcleaner",
+        "name": "AirLine WheelCleaner",
+        "subtitle": "аэрозольный очиститель колёс",
+        "aliases": [],
+        "category": "wheel_cleaner",
+        "phase": null,
+        "ph": null,
+        "packages": [
+          400
+        ],
+        "applications": [
+          {
+            "method": "trigger",
+            "dilution": {
+              "kind": "ready"
+            },
+            "dilutionText": "аэрозоль, применяется в неразведённом виде",
+            "surface": null,
+            "dwellSec": {
+              "from": 180,
+              "to": 240
+            },
+            "steps": [
+              "Встряхнуть баллон",
+              "Нанести на отмытую от основных загрязнений остывшую резину и диск",
+              "Через 3–4 минуты смыть высоким давлением"
+            ],
+            "restrictions": [
+              "Не наносить на горячую поверхность",
+              "Не допускать высыхания",
+              "Использовать при температуре баллона выше +5 °С"
+            ],
+            "sourceUrl": "https://shinesystems.ru/product/176e16c8-5068-11ee-8123-b42e99843e13",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Применяется в неразведенном виде.",
+            "sourceType": "official",
+            "methodAssumed": true
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://shinesystems.ru/product/176e16c8-5068-11ee-8123-b42e99843e13",
+        "targets": [
+          "wheels",
+          "tires"
+        ],
+        "imageUrl": "https://s3.regru.cloud/shine-storage/photos/products/Shine%20Systems%20AirLine%20WheelCleaner%20-%20%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%BA%D0%BE%D0%BB%D0%B5%D1%81%2C%20400%20%D0%BC%D0%BB.jpg"
+      },
+      {
+        "id": "shine-systems-airline-quartzfoam",
+        "name": "AirLine QuartzFoam",
+        "subtitle": "аэрозольное пенное кварцевое покрытие",
+        "aliases": [],
+        "category": "protection",
+        "phase": null,
+        "ph": 4,
+        "packages": [
+          400
+        ],
+        "applications": [
+          {
+            "method": "trigger",
+            "dilution": {
+              "kind": "ready"
+            },
+            "dilutionText": "аэрозоль, наносится на мокрый кузов",
+            "surface": "wet",
+            "dwellSec": null,
+            "steps": [
+              "Нанести на чистую мокрую поверхность",
+              "Сразу смыть остатки высоким давлением воды"
+            ],
+            "restrictions": [
+              "Не допускать подсыхания",
+              "Не наносить на недомытую или нагретую поверхность"
+            ],
+            "sourceUrl": "https://shinesystems.ru/product/8153a539-44bc-11ef-b829-08bfb8a4e514",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Нанести равномерно на чистую мокрую поверхность всего автомобиля.",
+            "sourceType": "official",
+            "methodAssumed": true
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://shinesystems.ru/product/8153a539-44bc-11ef-b829-08bfb8a4e514",
+        "targets": [
+          "body",
+          "glass",
+          "plastic"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Smart Open",
+    "products": [
+      {
+        "id": "smart-open-safe-01",
+        "name": "SAFE 01",
+        "subtitle": "слабощелочной шампунь для бесконтактной мойки",
+        "aliases": [],
+        "category": "active_foam",
+        "phase": 1,
+        "ph": null,
+        "packages": [
+          1000,
+          5000,
+          20000
+        ],
+        "applications": [
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ratio",
+              "from": 3,
+              "to": 6,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "1:3–1:6 — пенокомплект",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [],
+            "restrictions": [
+              "Не наносить на горячую поверхность, не давать высыхать"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/avtoshampun-smart-open-safe-01-pervichnyy-beskontaktnyy-sostav-s-zaschitoy-hroma-i-alyuminiya-1l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "1:3–1:6 — пенокомплект",
+            "sourceType": "retailer"
+          },
+          {
+            "method": "foam_generator",
+            "dilution": {
+              "kind": "ratio",
+              "from": 30,
+              "to": 60,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "1:30–1:60 — пеногенератор",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [],
+            "restrictions": [
+              "Не наносить на горячую поверхность, не давать высыхать"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/avtoshampun-smart-open-safe-01-pervichnyy-beskontaktnyy-sostav-s-zaschitoy-hroma-i-alyuminiya-1l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "1:30–1:60 — пеногенератор",
+            "sourceType": "retailer"
+          },
+          {
+            "method": "sprayer",
+            "dilution": {
+              "kind": "ratio",
+              "from": 30,
+              "to": 60,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "1:30–1:60 — распрыскиватель",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [],
+            "restrictions": [
+              "Не наносить на горячую поверхность, не давать высыхать"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/avtoshampun-smart-open-safe-01-pervichnyy-beskontaktnyy-sostav-s-zaschitoy-hroma-i-alyuminiya-1l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "1:30–1:60 — распрыскиватель",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/avtoshampun-smart-open-safe-01-pervichnyy-beskontaktnyy-sostav-s-zaschitoy-hroma-i-alyuminiya-1l",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "smart-open-ecosafe-02",
+        "name": "ECOSAFE 02",
+        "subtitle": "нейтральный состав для первой фазы",
+        "aliases": [],
+        "category": "prewash",
+        "phase": 1,
+        "ph": null,
+        "packages": [
+          1000,
+          5000
+        ],
+        "applications": [
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ratio",
+              "from": 3,
+              "to": 6,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пенокомплект: от 1:3 до 1:6",
+            "surface": null,
+            "dwellSec": {
+              "from": 90,
+              "to": 180
+            },
+            "steps": [
+              "Наносить тонким слоем снизу вверх",
+              "Через 1,5–3 минуты смыть большим количеством воды"
+            ],
+            "restrictions": [
+              "Не наносить на горячую поверхность, не давать высыхать",
+              "Максимальное время выдержки — 15 минут"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/smart-open-ecosafe-02-pervichnyy-beskontaktnyy-sostav-bez-fosfata-i-rastvoriteley-1kg",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Для пенокомплекта — от 1:3 до 1:6;",
+            "sourceType": "retailer"
+          },
+          {
+            "method": "foam_generator",
+            "dilution": {
+              "kind": "ratio",
+              "from": 30,
+              "to": 60,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пеногенератор: от 1:30 до 1:60",
+            "surface": null,
+            "dwellSec": {
+              "from": 90,
+              "to": 180
+            },
+            "steps": [
+              "Наносить тонким слоем снизу вверх",
+              "Через 1,5–3 минуты смыть большим количеством воды"
+            ],
+            "restrictions": [
+              "Не наносить на горячую поверхность, не давать высыхать",
+              "Максимальное время выдержки — 15 минут"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/smart-open-ecosafe-02-pervichnyy-beskontaktnyy-sostav-bez-fosfata-i-rastvoriteley-1kg",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Для пеногенератора — от 1:30 до 1:60;",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/smart-open-ecosafe-02-pervichnyy-beskontaktnyy-sostav-bez-fosfata-i-rastvoriteley-1kg",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "smart-open-too-shampoo-03",
+        "name": "TOO SHAMPOO 03",
+        "subtitle": "высокопенный ручной шампунь без фосфатов и растворителей",
+        "aliases": [],
+        "category": "contact_shampoo",
+        "phase": 2,
+        "ph": null,
+        "packages": [
+          500,
+          1000,
+          5000
+        ],
+        "applications": [],
+        "warnings": [],
+        "status": "unverified",
+        "productUrl": "https://time2detailing.ru/product/smart-open-too-shampoo-03-vysokopennyy-ruchnoy-shampun-bez-fosfata-i-rastvoriteley-05l",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "smart-open-nano-shampoo-04",
+        "name": "NANO SHAMPOO 04",
+        "subtitle": "наношампунь для ручной мойки",
+        "aliases": [],
+        "category": "contact_shampoo",
+        "phase": 2,
+        "ph": null,
+        "packages": [
+          500,
+          1000,
+          5000
+        ],
+        "applications": [
+          {
+            "method": "bucket",
+            "dilution": {
+              "kind": "ml_per_l",
+              "from": 5,
+              "to": 5,
+              "basis": "water"
+            },
+            "dilutionText": "50 мл на 10 л воды",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Мыть крупнопористой губкой снизу вверх с лёгким нажимом",
+              "Смыть водой сверху вниз"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/smart-open-nano-shampoo-04-nanoshampun-dlya-ruchnoy-moyki-05l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "При ручном нанесенииразвести 50 мл в 10 л воды.",
+            "sourceType": "retailer"
+          },
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ratio",
+              "from": 10,
+              "to": 10,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пенокомплект: 1:10",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Нанести и сразу приступить к мойке губкой",
+              "Смыть водой сверху вниз"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/smart-open-nano-shampoo-04-nanoshampun-dlya-ruchnoy-moyki-05l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "При использовании пенокомплекта разбавить средство в пропорции 1:10.",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/smart-open-nano-shampoo-04-nanoshampun-dlya-ruchnoy-moyki-05l",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "smart-open-mystic-30",
+        "name": "MYSTIC 30",
+        "subtitle": "кислотный ручной шампунь",
+        "aliases": [],
+        "category": "contact_shampoo",
+        "phase": 2,
+        "ph": null,
+        "packages": [
+          1000,
+          5000
+        ],
+        "applications": [
+          {
+            "method": "bucket",
+            "dilution": {
+              "kind": "ml_per_l",
+              "from": 10,
+              "to": 10,
+              "basis": "water"
+            },
+            "dilutionText": "100 мл на 10 л воды",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Мыть крупнопористой губкой сверху вниз",
+              "Смыть водой сверху вниз"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/smart-open-mystic-30-kislotnyy-ruchnoy-shampun-1l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "При ручном нанесенииразвести 100 мл в 10 л воды.",
+            "sourceType": "retailer"
+          },
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ratio",
+              "from": 10,
+              "to": 10,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пенокомплект: 1:10",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Нанести и сразу приступить к мойке губкой",
+              "Смыть водой сверху вниз"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/smart-open-mystic-30-kislotnyy-ruchnoy-shampun-1l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "При использовании пенокомлекта разбавить средство в пропорции 1:10;",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/smart-open-mystic-30-kislotnyy-ruchnoy-shampun-1l",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "smart-open-metal-color-06",
+        "name": "METAL COLOR 06",
+        "subtitle": "нейтральный очиститель дисков и кузова с индикатором",
+        "aliases": [],
+        "category": "iron_remover",
+        "phase": null,
+        "ph": null,
+        "packages": [
+          500
+        ],
+        "applications": [
+          {
+            "method": "trigger",
+            "dilution": {
+              "kind": "ready"
+            },
+            "dilutionText": "наносится без разведения (разведение не указано), до 20 мл на 1 диск",
+            "surface": null,
+            "dwellSec": {
+              "from": 180,
+              "to": 240
+            },
+            "steps": [
+              "Нанести на очищенную от пыли и песка поверхность",
+              "Оставить на 3–4 минуты, при необходимости обработать губкой",
+              "Смыть водой"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/smart-open-metal-color-06-neytralnyy-ochistitel-diskov-i-kuzova-s-indikatorom-05-l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Нанесите состав на поверхность и оставьте на 3–4 мин для реакции.",
+            "sourceType": "retailer",
+            "methodAssumed": true
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/smart-open-metal-color-06-neytralnyy-ochistitel-diskov-i-kuzova-s-indikatorom-05-l",
+        "targets": [
+          "wheels",
+          "body"
+        ]
+      },
+      {
+        "id": "smart-open-acid-clean-18",
+        "name": "ACID CLEAN 18",
+        "subtitle": "очиститель дисков на минеральных кислотах",
+        "aliases": [],
+        "category": "wheel_cleaner",
+        "phase": null,
+        "ph": null,
+        "packages": [
+          1000
+        ],
+        "applications": [
+          {
+            "method": "sprayer",
+            "dilution": {
+              "kind": "ratio",
+              "from": 4,
+              "to": 10,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "1:4–1:10 (90–250 мл до 1 л)",
+            "surface": null,
+            "dwellSec": {
+              "from": 60,
+              "to": 120
+            },
+            "steps": [
+              "Нанести распрыскивателем",
+              "Через 1–2 минуты обильно смыть водой"
+            ],
+            "restrictions": [
+              "Не применять на алюминиевых, хромированных, никелированных поверхностях и повреждённом лаке",
+              "Не наносить на горячую поверхность, не давать высыхать"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/smart-open-acid-clean-18-ochistitel-diskov-na-mineralnyh-kislotah-1l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Перед применением разбавить средство водой в соотношении 1:4–1:10 (90–250 мл до 1л).",
+            "sourceType": "retailer"
+          },
+          {
+            "method": "trigger",
+            "dilution": {
+              "kind": "ratio",
+              "from": 4,
+              "to": 10,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "1:4–1:10 (90–250 мл до 1 л)",
+            "surface": null,
+            "dwellSec": {
+              "from": 60,
+              "to": 120
+            },
+            "steps": [
+              "Нанести триггером",
+              "Через 1–2 минуты обильно смыть водой"
+            ],
+            "restrictions": [
+              "Не применять на алюминиевых, хромированных, никелированных поверхностях и повреждённом лаке",
+              "Не наносить на горячую поверхность, не давать высыхать"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/smart-open-acid-clean-18-ochistitel-diskov-na-mineralnyh-kislotah-1l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Нанести на поверхность при помощи распрыскивателя или триггера.",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/smart-open-acid-clean-18-ochistitel-diskov-na-mineralnyh-kislotah-1l",
+        "targets": [
+          "wheels"
+        ]
+      },
+      {
+        "id": "smart-open-quartz-energy-33",
+        "name": "QUARTZ ENERGY 33",
+        "subtitle": "быстрый гидрофобный состав, готов к применению",
+        "aliases": [],
+        "category": "protection",
+        "phase": null,
+        "ph": 6,
+        "packages": [
+          250,
+          500,
+          5000
+        ],
+        "applications": [
+          {
+            "method": "trigger",
+            "dilution": {
+              "kind": "ready"
+            },
+            "dilutionText": "готов к применению, на мокрый кузов",
+            "surface": "wet",
+            "dwellSec": {
+              "from": 30,
+              "to": 60
+            },
+            "steps": [
+              "Перемешать",
+              "Распылить на мокрый кузов",
+              "Выдержать 0,5–1 минуту",
+              "Смыть водой под высоким давлением"
+            ],
+            "restrictions": [
+              "Не допускать высыхания, не наносить на недомытую поверхность и под прямыми солнечными лучами"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/smart-open-33-bystryy-gidrofobnyy-sostav-gotov-k-primeneniyu-quartz-energy-500ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Распылить с помощью триггера на мокрую поверхность автомобиля, в том числе на стекла и зеркала, выдержать 0,5–1 мин;",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/smart-open-33-bystryy-gidrofobnyy-sostav-gotov-k-primeneniyu-quartz-energy-500ml",
+        "targets": [
+          "body",
+          "glass"
+        ]
+      },
+      {
+        "id": "smart-open-nano-shine-05",
+        "name": "NANO SHINE 05",
+        "subtitle": "нано-консервант для кузова с глубоким блеском",
+        "aliases": [],
+        "category": "drying_aid",
+        "phase": null,
+        "ph": null,
+        "packages": [
+          500,
+          1000,
+          5000
+        ],
+        "applications": [
+          {
+            "method": "sprayer",
+            "dilution": {
+              "kind": "ml_per_l",
+              "from": 2,
+              "to": 4,
+              "basis": "water"
+            },
+            "dilutionText": "2–4 мл на 1 л воды (распрыскиватель)",
+            "surface": "wet",
+            "dwellSec": null,
+            "steps": [
+              "Нанести на чистую влажную поверхность"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/smart-open-nano-shine-05-nano-konservant-dlya-kuzova-avtomobilya-s-glubokim-bleskom-05l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "При ручном нанесении через распрыскиватель: развести 2–4 мл в 1 л воды.",
+            "sourceType": "retailer",
+            "consumptionMl": {
+              "from": 4,
+              "to": 4
+            }
+          },
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ml_per_l",
+              "from": 20,
+              "to": 30,
+              "basis": "water"
+            },
+            "dilutionText": "20–30 мл на 1 л воды (пенокомплект)",
+            "surface": "wet",
+            "dwellSec": null,
+            "steps": [
+              "Нанести на чистую влажную поверхность пенным пистолетом"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/smart-open-nano-shine-05-nano-konservant-dlya-kuzova-avtomobilya-s-glubokim-bleskom-05l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "При использовании пенокомплекта разбавить средство в пропорции 20–30 мл на 1 л воды.",
+            "sourceType": "retailer",
+            "consumptionMl": {
+              "from": 4,
+              "to": 4
+            }
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/smart-open-nano-shine-05-nano-konservant-dlya-kuzova-avtomobilya-s-glubokim-bleskom-05l",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "smart-open-quartz-flash-25",
+        "name": "QUARTZ FLASH 25",
+        "subtitle": "кварцевое покрытие для кузова",
+        "aliases": [],
+        "category": "protection",
+        "phase": null,
+        "ph": null,
+        "packages": [
+          250
+        ],
+        "applications": [
+          {
+            "method": "trigger",
+            "dilution": {
+              "kind": "ready"
+            },
+            "dilutionText": "распыление на мокрый кузов, 1 распыление на деталь",
+            "surface": "wet",
+            "dwellSec": null,
+            "steps": [
+              "Перемешать",
+              "Распылить на мокрую чистую поверхность и распределить губкой",
+              "Ополоснуть кузов и располировать насухо"
+            ],
+            "restrictions": [
+              "Не наносить на недомытую поверхность",
+              "3–5 часов исключить попадание пыли и грязи"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/smart-open-kvartsevoe-pokrytie-dlya-kuzova-avtomobilya-quartz-flash-25-025l",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Распылить средство на мокрую чистую поверхность автомобиля при помощи триггера (1 распыление на 1 деталь)",
+            "sourceType": "retailer",
+            "consumptionMl": {
+              "from": 35,
+              "to": 50
+            }
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/smart-open-kvartsevoe-pokrytie-dlya-kuzova-avtomobilya-quartz-flash-25-025l",
+        "targets": [
+          "body"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Fireball",
+    "products": [
+      {
+        "id": "fireball-snow-foam",
+        "name": "Snow Foam",
+        "subtitle": "нейтральная пена для предварительной мойки",
+        "aliases": [],
+        "category": "prewash",
+        "phase": 1,
+        "ph": 7,
+        "packages": [
+          500
+        ],
+        "applications": [
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ratio",
+              "from": 30,
+              "to": 60,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "1:30–1:60, пенокомплект",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Встряхнуть",
+              "Нанести на остывший кузов через пенокомплект",
+              "Через несколько минут смыть водой под высоким давлением"
+            ],
+            "restrictions": [
+              "Не наносить на горячие поверхности и не давать высохнуть"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/fireball-neytralnaya-pena-dlya-beskontaktnoy-moyki-snow-foam-130-ph7-500ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Разбавьте водой в пропорции 1:30–1:60;",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/fireball-neytralnaya-pena-dlya-beskontaktnoy-moyki-snow-foam-130-ph7-500ml",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "fireball-emerald-green",
+        "name": "Emerald Green",
+        "subtitle": "нейтральный шампунь для ручной мойки",
+        "aliases": [],
+        "category": "contact_shampoo",
+        "phase": 2,
+        "ph": 7.5,
+        "packages": [
+          500
+        ],
+        "applications": [
+          {
+            "method": "bucket",
+            "dilution": {
+              "kind": "ratio",
+              "from": 800,
+              "to": 1200,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "1:800–1:1200 в ведро",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Выполнить предварительную мойку",
+              "Мыть мягкой микрофибровой рукавицей, регулярно промывая её",
+              "Смыть водой под давлением"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/fireball-shampun-dlya-ruchnoy-moyki-emerald-green-11000-ph75-500ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Добавьте в ведро с водой в пропорции 1:800–1:1200 и вспеньте под давлением;",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/fireball-shampun-dlya-ruchnoy-moyki-emerald-green-11000-ph75-500ml",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "fireball-hydro-shampoo",
+        "name": "Hydro Shampoo",
+        "subtitle": "ручной шампунь с SiO2 и гидрофобным эффектом",
+        "aliases": [],
+        "category": "contact_shampoo",
+        "phase": 2,
+        "ph": 7,
+        "packages": [
+          500
+        ],
+        "applications": [
+          {
+            "method": "bucket",
+            "dilution": {
+              "kind": "ratio",
+              "from": 300,
+              "to": 500,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "1:300–1:500 в ведро",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Выполнить предварительную мойку",
+              "Мыть мягкой микрофибровой рукавицей",
+              "Ополоснуть и высушить"
+            ],
+            "restrictions": [
+              "Не наносить на горячие поверхности и не давать высохнуть"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/fireball-ruchnoy-shampun-sio2-gidrofob-i-zaschita-hydro-shampoo-1500-ph7-500ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Добавьте в ведро с водой в пропорции 1:300–1:500 и вспеньте под давлением;",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/fireball-ruchnoy-shampun-sio2-gidrofob-i-zaschita-hydro-shampoo-1500-ph7-500ml",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "fireball-hydro-foam",
+        "name": "Hydro Foam",
+        "subtitle": "концентрат гидрофобной пены с SiO2",
+        "aliases": [],
+        "category": "protection",
+        "phase": null,
+        "ph": 7,
+        "packages": [
+          500
+        ],
+        "applications": [
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ratio",
+              "from": 10,
+              "to": 15,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "1:10–1:15, пенокомплект на мокрый автомобиль",
+            "surface": "wet",
+            "dwellSec": {
+              "from": 60,
+              "to": 120
+            },
+            "steps": [
+              "Вымыть автомобиль, не сушить",
+              "Нанести пену",
+              "Через 1–2 минуты смыть чистой водой"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/fireball-kontsentrat-gidrofobnoy-peny-s-sio2-hydro-foam-115-500ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Смешайте состав 1:10–1:15 с водой и нанесите на мокрый автомобиль с помощью пенокомплекта;",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/fireball-kontsentrat-gidrofobnoy-peny-s-sio2-hydro-foam-115-500ml",
+        "targets": [
+          "body"
+        ]
+      },
+      {
+        "id": "fireball-ph3-shampoo",
+        "name": "Shampoo pH3",
+        "subtitle": "кислотный шампунь",
+        "aliases": [],
+        "category": "contact_shampoo",
+        "phase": 2,
+        "ph": 3,
+        "packages": [
+          500
+        ],
+        "applications": [
+          {
+            "method": "foam_lance",
+            "dilution": {
+              "kind": "ratio",
+              "from": 5,
+              "to": 10,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "пенокомплект: 1:5–1:10",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Нанести на весь автомобиль",
+              "Оставить на несколько минут, при необходимости проработать рукавицей",
+              "Смыть водой под давлением"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/fireball-kislotnyy-shampun-ph3-shampoo-11000-500ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "можно использовать пенокомплект в концентрации 1:5–1:10;",
+            "sourceType": "retailer"
+          },
+          {
+            "method": "bucket",
+            "dilution": {
+              "kind": "ratio",
+              "from": 600,
+              "to": 1000,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "ручная мойка: 1:600–1:1000",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Мыть мягкой микрофибровой рукавицей",
+              "Смыть водой под давлением"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/fireball-kislotnyy-shampun-ph3-shampoo-11000-500ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Добавьте в ведро с водой в пропорции 1:600–1:1000 и вспеньте под давлением;",
+            "sourceType": "retailer"
+          },
+          {
+            "method": "sprayer",
+            "dilution": {
+              "kind": "ratio",
+              "from": 15,
+              "to": 25,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "колёса: накачной пенник или эмульсия 1:15–1:25",
+            "surface": null,
+            "dwellSec": null,
+            "steps": [
+              "Нанести на охлаждённую поверхность",
+              "Проработать щёткой или кистью",
+              "Обильно промыть водой"
+            ],
+            "restrictions": [
+              "Не позволять составу подсыхать"
+            ],
+            "sourceUrl": "https://time2detailing.ru/product/fireball-kislotnyy-shampun-ph3-shampoo-11000-500ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Для обработки колес используйте накачной пенник, либо эмульсию в концентрации 1:15–1:25;",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/fireball-kislotnyy-shampun-ph3-shampoo-11000-500ml",
+        "targets": [
+          "body",
+          "wheels"
+        ]
+      },
+      {
+        "id": "fireball-pirouette",
+        "name": "Pirouette",
+        "subtitle": "лёгкое кварцевое покрытие (квик-детейлер с SiO2)",
+        "aliases": [],
+        "category": "protection",
+        "phase": null,
+        "ph": null,
+        "packages": [
+          100,
+          500
+        ],
+        "applications": [
+          {
+            "method": "trigger",
+            "dilution": {
+              "kind": "ready"
+            },
+            "dilutionText": "готов к применению, около 30 мл на автомобиль",
+            "surface": "any",
+            "dwellSec": null,
+            "steps": [
+              "Вымыть и высушить автомобиль (допускается влажная поверхность)",
+              "Встряхнуть",
+              "Распылить на микрофибру или деталь",
+              "Распределить и располировать"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/fireball-legkoe-kvartsevoe-pokrytie-sio2-pirouette-500ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Распылите его на микрофибру или непосредственно на деталь;",
+            "sourceType": "retailer",
+            "consumptionMl": {
+              "from": 30,
+              "to": 30
+            },
+            "methodAssumed": true
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/fireball-legkoe-kvartsevoe-pokrytie-sio2-pirouette-500ml",
+        "targets": [
+          "body",
+          "glass",
+          "wheels"
+        ]
+      },
+      {
+        "id": "fireball-easy-coat-extra",
+        "name": "Easy Coat Extra",
+        "subtitle": "ультраконцентрат моментального гидрофоба с SiO2",
+        "aliases": [],
+        "category": "protection",
+        "phase": null,
+        "ph": null,
+        "packages": [
+          100
+        ],
+        "applications": [
+          {
+            "method": "sprayer",
+            "dilution": {
+              "kind": "ratio",
+              "from": 25,
+              "to": 25,
+              "ratioBasis": "water"
+            },
+            "dilutionText": "1:25, распыление на мокрый автомобиль",
+            "surface": "wet",
+            "dwellSec": null,
+            "steps": [
+              "Развести 1:25",
+              "Распылить на мокрый автомобиль",
+              "Сразу смыть водой и удалить оставшиеся капли"
+            ],
+            "restrictions": [],
+            "sourceUrl": "https://time2detailing.ru/product/fireball-ultrakontsentrat-momentalnogo-gidrofoba-c-sio2-easy-coat-extra-125-100-ml",
+            "checkedAt": "2026-10-25",
+            "sourceQuote": "Предварительно разбавленный 1:25 состав наносится методом распыления еще на мокрый автомобиль и сразу же смывается водой.",
+            "sourceType": "retailer"
+          }
+        ],
+        "warnings": [],
+        "status": "verified",
+        "productUrl": "https://time2detailing.ru/product/fireball-ultrakontsentrat-momentalnogo-gidrofoba-c-sio2-easy-coat-extra-125-100-ml",
+        "targets": [
+          "body"
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Space Cosmetics",
+    "products": [
+      {
+        "id": "space-cosmetics-wasp",
+        "name": "Wasp",
+        "subtitle": "pH-нейтральный очиститель дисков с индикатором",
+        "aliases": [],
+        "category": "iron_remover",
+        "phase": null,
+        "ph": null,
+        "packages": [
+          500,
+          5000
+        ],
+        "applications": [],
+        "warnings": [],
+        "status": "unverified",
+        "productUrl": "https://time2detailing.ru/product/space-cocmetics-wasp-500-ml-ochistitel-diskov-s-indikatorom",
+        "targets": [
+          "wheels",
+          "body"
+        ]
+      }
+    ]
+  }
+]

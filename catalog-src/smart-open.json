@@ -1179,6 +1179,80 @@
           "sourceQuote": "Средство готово к применению. Не наносить на недомытую и горячую поверхность!"
         }
       ]
+    },
+    {
+      "id": "smart-open-acid-clean-18",
+      "name": "ACID CLEAN 18",
+      "subtitle": "очиститель дисков на минеральных кислотах",
+      "aliases": [],
+      "category": "wheel_cleaner",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        1000
+      ],
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 4,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:4–1:10 (90–250 мл до 1 л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Нанести распрыскивателем",
+            "Через 1–2 минуты обильно смыть водой"
+          ],
+          "restrictions": [
+            "Не применять на алюминиевых, хромированных, никелированных поверхностях и повреждённом лаке",
+            "Не наносить на горячую поверхность, не давать высыхать"
+          ],
+          "sourceUrl": "https://time2detailing.ru/product/smart-open-acid-clean-18-ochistitel-diskov-na-mineralnyh-kislotah-1l",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Перед применением разбавить средство водой в соотношении 1:4–1:10 (90–250 мл до 1л).",
+          "sourceType": "retailer"
+        },
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ratio",
+            "from": 4,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:4–1:10 (90–250 мл до 1 л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Нанести триггером",
+            "Через 1–2 минуты обильно смыть водой"
+          ],
+          "restrictions": [
+            "Не применять на алюминиевых, хромированных, никелированных поверхностях и повреждённом лаке",
+            "Не наносить на горячую поверхность, не давать высыхать"
+          ],
+          "sourceUrl": "https://time2detailing.ru/product/smart-open-acid-clean-18-ochistitel-diskov-na-mineralnyh-kislotah-1l",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Нанести на поверхность при помощи распрыскивателя или триггера.",
+          "sourceType": "retailer"
+        }
+      ],
+      "warnings": [],
+      "status": "verified",
+      "productUrl": "https://time2detailing.ru/product/smart-open-acid-clean-18-ochistitel-diskov-na-mineralnyh-kislotah-1l",
+      "targets": [
+        "wheels"
+      ]
     }
   ]
 }

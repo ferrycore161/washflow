@@ -28,12 +28,14 @@ CATALOG = ROOT / 'src' / 'data' / 'vehicleCatalog.ts'
 W, H = 960, 540
 MAX_W, MAX_H = 900, 470  # габарит машины на холсте
 GROUND = 512  # нижняя точка колёс
-COLORS = ['black', 'white', 'silver', 'gray', 'blue', 'red', 'green', 'brown', 'beige', 'orange']
+COLORS = ['graphite', 'black', 'white', 'silver', 'gray', 'blue', 'red', 'green', 'brown', 'beige', 'orange']
 BODIES = ['sedan', 'hatchback', 'wagon', 'crossover', 'suv', 'minivan']
 
 
-def normalize(img: Image.Image) -> Image.Image:
+def normalize(img: Image.Image, mirror: bool = False) -> Image.Image:
     img = img.convert('RGBA')
+    if mirror:  # единое направление: все машины носом влево
+        img = img.transpose(Image.FLIP_LEFT_RIGHT)
     bbox = img.getchannel('A').point(lambda a: 255 if a > 12 else 0).getbbox()
     if not bbox:
         raise ValueError('пустое изображение')
@@ -58,7 +60,6 @@ def parse_asset_id(asset_id: str):
 
 def main(only: list[str]):
     manifest = json.loads(MANIFEST.read_text(encoding='utf-8')) if MANIFEST.exists() else {}
-    catalog_src = CATALOG.read_text(encoding='utf-8')
     dirs = sorted(d for d in SRC.iterdir() if d.is_dir()) if SRC.exists() else []
     for d in dirs:
         if only and d.name not in only:
@@ -74,7 +75,12 @@ def main(only: list[str]):
             out_dir = OUT / d.name
             out_dir.mkdir(parents=True, exist_ok=True)
             out = out_dir / f'{c}.webp'
-            normalize(Image.open(f)).save(out, 'WEBP', quality=82, method=6)
+            img = normalize(Image.open(f), bool(meta.get('mirror')))
+            # после отражения возвращаем надписи (эмблемы) в читаемый вид: участки в координатах холста
+            for box in meta.get('unmirrorBoxes', []):
+                patch = img.crop(tuple(box)).transpose(Image.FLIP_LEFT_RIGHT)
+                img.paste(patch, tuple(box[:2]))
+            img.save(out, 'WEBP', quality=82, method=6)
             colors[c] = f'cars/{d.name}/{c}.webp'
             size_total += out.stat().st_size
         if not colors:
@@ -93,9 +99,9 @@ def main(only: list[str]):
             'source': meta.get('source', ''),
             'license': meta.get('license', ''),
             'createdAt': meta.get('createdAt', date.today().isoformat()),
+            **({'mirrored': True} if meta.get('mirror') else {}),
         }
-        known = f"'{gen.split('-')[-1]}'" in catalog_src or gen in catalog_src
-        print(f'  ✓ {d.name}: {len(colors)} цв., {size_total // 1024} КБ' + ('' if known else '  (! поколение не найдено в каталоге)'))
+        print(f'  ✓ {d.name}: {len(colors)} цв., {size_total // 1024} КБ')
     MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding='utf-8')
     print(f'Манифест: {len(manifest)} ассетов')
 

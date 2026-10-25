@@ -11,12 +11,14 @@ const g = (
   years: string,
   bodies: (BodyType | [BodyType, string] | [BodyType, string, string])[],
   renderYear?: number,
+  imageNote?: string,
 ): VehicleGeneration => ({
   id: `${modelId}-${code.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
   code,
   years,
   bodies: bodies.map((b) => (Array.isArray(b) ? { body: b[0], label: b[1], variant: b[2] } : { body: b })),
   renderYear,
+  imageNote,
 });
 
 const model = (
@@ -44,7 +46,7 @@ export const VEHICLE_MODELS: VehicleModel[] = [
   ], { alias: ['мазда сх5', 'cx5', 'сх-5'], popular: true }),
 
   model('Kia', 'Rio', (id) => [
-    g(id, 'IV', '2017–2023', ['sedan', ['hatchback', 'X-Line']], 2019),
+    g(id, 'IV', '2017–2023', ['sedan', ['hatchback', 'X-Line']], 2019, 'Изображение — Kia Rio той же генерации для рынка США: фары и бампер отличаются от российской версии'),
     g(id, 'III', '2011–2017', ['sedan', 'hatchback'], 2015),
   ], { alias: ['киа рио'], popular: true }),
   model('Kia', 'K5', (id) => [g(id, 'DL3', '2020–', ['sedan'], 2021)], { alias: ['киа к5'], popular: true }),
@@ -56,7 +58,7 @@ export const VEHICLE_MODELS: VehicleModel[] = [
   model('Kia', 'Ceed', (id) => [g(id, 'CD', '2018–', ['hatchback', 'wagon'], 2020)], { alias: ['киа сид', 'cee d'] }),
 
   model('Hyundai', 'Solaris', (id) => [
-    g(id, 'HCr', '2017–2022', ['sedan'], 2019),
+    g(id, 'HCr', '2017–2022', ['sedan'], 2019, 'Hyundai Solaris нет в каталоге изображений Car Image API'),
     g(id, 'RB', '2010–2017', ['sedan', 'hatchback'], 2015),
   ], { alias: ['хендай солярис', 'солярис'], popular: true }),
   model('Hyundai', 'Elantra', (id) => [
@@ -94,7 +96,7 @@ export const VEHICLE_MODELS: VehicleModel[] = [
     g(id, 'FL', '2018–', ['sedan', ['hatchback', 'Лифтбек'], 'wagon'], 2020),
     g(id, 'I', '2011–2018', ['sedan', ['hatchback', 'Лифтбек']], 2016),
   ], { alias: ['лада гранта', 'гранта'], popular: true }),
-  model('Lada', 'Niva Travel', (id) => [g(id, '2020', '2020–', ['suv'], 2021)], {
+  model('Lada', 'Niva Travel', (id) => [g(id, '2020', '2020–', ['suv'], 2021, 'Niva Travel нет в каталоге изображений Car Image API')], {
     alias: ['нива тревел', 'шевроле нива', 'chevrolet niva'],
     popular: true,
   }),
@@ -104,11 +106,11 @@ export const VEHICLE_MODELS: VehicleModel[] = [
   }),
 
   model('Volkswagen', 'Polo', (id) => [
-    g(id, 'Liftback', '2020–', [['hatchback', 'Лифтбек']], 2021),
-    g(id, 'Sedan', '2010–2020', ['sedan'], 2016),
+    g(id, 'Liftback', '2020–', [['hatchback', 'Лифтбек']], 2021, 'В каталоге изображений есть только европейский хэтчбек Polo, а не российский лифтбек'),
+    g(id, 'Sedan', '2010–2020', ['sedan'], 2016, 'Российского Polo Sedan нет в каталоге изображений'),
   ], { alias: ['фольксваген поло', 'поло'], popular: true }),
   model('Volkswagen', 'Tiguan', (id) => [g(id, 'II', '2016–', ['crossover'], 2021)], { alias: ['фольксваген тигуан', 'тигуан'], popular: true }),
-  model('Volkswagen', 'Passat', (id) => [g(id, 'B8', '2014–', ['sedan', 'wagon'], 2018)], { alias: ['фольксваген пассат', 'пассат'] }),
+  model('Volkswagen', 'Passat', (id) => [g(id, 'B8', '2014–', ['sedan', 'wagon'], 2018, 'В каталоге изображений есть только американский Passat, внешне отличающийся от европейского B8')], { alias: ['фольксваген пассат', 'пассат'] }),
 
   model('Skoda', 'Octavia', (id) => [
     g(id, 'A8', '2020–', [['hatchback', 'Лифтбек'], 'wagon'], 2021),

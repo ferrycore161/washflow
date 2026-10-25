@@ -7,7 +7,7 @@ import { useStore } from '../store/useStore';
 import { useProductMap } from '../store/catalog';
 import { buildScenario } from '../domain/scenario';
 import type { ScenarioKind } from '../domain/types';
-import { CarArt, carPaintFromName } from '../components/art/CarArt';
+import { CarImage, selectionFromCar } from '../components/CarImage';
 
 const KINDS: { value: ScenarioKind; label: string; hint: string; icon: JSX.Element }[] = [
   { value: 'quick', label: 'Быстрая', hint: 'без варежки', icon: <Zap size={20} /> },
@@ -37,7 +37,7 @@ export function WashSetup() {
   return (
     <div className="screen">
       <div className="wash-hero-art" aria-hidden="true">
-        <CarArt width={330} wet body={car?.body} paint={carPaintFromName(car?.color)} />
+        <CarImage selection={selectionFromCar(car)} width={300} paintName={car?.color} />
       </div>
       <BackHeader />
       <div className="eyebrow">Сценарий мойки</div>

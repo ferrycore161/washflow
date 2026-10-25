@@ -1,1 +1,376 @@
-{}
+{
+ "bmw-3-series-g20-sedan": {
+  "assetId": "bmw-3-series-g20-sedan",
+  "generationId": "bmw-3-series-g20",
+  "body": "sedan",
+  "colors": {
+   "graphite": "cars/bmw-3-series-g20-sedan/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2020 BMW 3 Series, vehicle veh_be71g4js886rx, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "bmw-5-series-g30-sedan": {
+  "assetId": "bmw-5-series-g30-sedan",
+  "generationId": "bmw-5-series-g30",
+  "body": "sedan",
+  "colors": {
+   "graphite": "cars/bmw-5-series-g30-sedan/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2018 BMW 5 Series, vehicle veh_0y609jrf3m6hj, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "haval-jolion-i-crossover": {
+  "assetId": "haval-jolion-i-crossover",
+  "generationId": "haval-jolion-i",
+  "body": "crossover",
+  "colors": {
+   "graphite": "cars/haval-jolion-i-crossover/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2022 Haval Jolion, vehicle veh_anweryx2f1b3g, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "hyundai-elantra-cn7-sedan": {
+  "assetId": "hyundai-elantra-cn7-sedan",
+  "generationId": "hyundai-elantra-cn7",
+  "body": "sedan",
+  "colors": {
+   "graphite": "cars/hyundai-elantra-cn7-sedan/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2021 Hyundai Elantra, vehicle veh_ahm9z585m7ffz, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "hyundai-sonata-dn8-sedan": {
+  "assetId": "hyundai-sonata-dn8-sedan",
+  "generationId": "hyundai-sonata-dn8",
+  "body": "sedan",
+  "colors": {
+   "graphite": "cars/hyundai-sonata-dn8-sedan/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2021 Hyundai Sonata, vehicle veh_fb99ap1e8hz0m, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "hyundai-tucson-nx4-crossover": {
+  "assetId": "hyundai-tucson-nx4-crossover",
+  "generationId": "hyundai-tucson-nx4",
+  "body": "crossover",
+  "colors": {
+   "graphite": "cars/hyundai-tucson-nx4-crossover/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2022 Hyundai Tucson, vehicle veh_3kxpaajmrk5ys, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "kia-ceed-cd-hatchback": {
+  "assetId": "kia-ceed-cd-hatchback",
+  "generationId": "kia-ceed-cd",
+  "body": "hatchback",
+  "colors": {
+   "graphite": "cars/kia-ceed-cd-hatchback/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2020 Kia Ceed, vehicle veh_71774ekt12whh, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25",
+  "mirrored": true
+ },
+ "kia-k5-dl3-sedan": {
+  "assetId": "kia-k5-dl3-sedan",
+  "generationId": "kia-k5-dl3",
+  "body": "sedan",
+  "colors": {
+   "graphite": "cars/kia-k5-dl3-sedan/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2021 Kia K5, vehicle veh_7qw7589xn5tb8, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "kia-rio-iv-sedan": {
+  "assetId": "kia-rio-iv-sedan",
+  "generationId": "kia-rio-iv",
+  "body": "sedan",
+  "colors": {
+   "graphite": "cars/kia-rio-iv-sedan/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2019 Kia Rio (американская версия), vehicle veh_b89p5kzken7fs, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "kia-seltos-sp2-crossover": {
+  "assetId": "kia-seltos-sp2-crossover",
+  "generationId": "kia-seltos-sp2",
+  "body": "crossover",
+  "colors": {
+   "graphite": "cars/kia-seltos-sp2-crossover/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2021 Kia Seltos, vehicle veh_9sv1b78t54961, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "kia-sportage-nq5-crossover": {
+  "assetId": "kia-sportage-nq5-crossover",
+  "generationId": "kia-sportage-nq5",
+  "body": "crossover",
+  "colors": {
+   "graphite": "cars/kia-sportage-nq5-crossover/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2023 Kia Sportage, vehicle veh_2nwh9achcmd24, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "lada-granta-fl-sedan": {
+  "assetId": "lada-granta-fl-sedan",
+  "generationId": "lada-granta-fl",
+  "body": "sedan",
+  "colors": {
+   "graphite": "cars/lada-granta-fl-sedan/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2019 Lada Granta, vehicle veh_40d21yfjtzjs9, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25",
+  "mirrored": true
+ },
+ "lada-niva-legend-2021-suv-3d": {
+  "assetId": "lada-niva-legend-2021-suv-3d",
+  "generationId": "lada-niva-legend-2021",
+  "body": "suv",
+  "variant": "3d",
+  "colors": {
+   "graphite": "cars/lada-niva-legend-2021-suv-3d/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2021 Lada Niva (Legend, 3 дв.), vehicle veh_f8pp3qam7j2f9, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "lada-vesta-2015-sedan": {
+  "assetId": "lada-vesta-2015-sedan",
+  "generationId": "lada-vesta-2015",
+  "body": "sedan",
+  "colors": {
+   "graphite": "cars/lada-vesta-2015-sedan/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2020 Lada Vesta, vehicle veh_6vacfr7mht45n, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "mazda-3-bm-sedan": {
+  "assetId": "mazda-3-bm-sedan",
+  "generationId": "mazda-3-bm",
+  "body": "sedan",
+  "colors": {
+   "graphite": "cars/mazda-3-bm-sedan/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2016 Mazda 3, vehicle veh_ft2hthjwpdjvc, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "mazda-6-gj-sedan": {
+  "assetId": "mazda-6-gj-sedan",
+  "generationId": "mazda-6-gj",
+  "body": "sedan",
+  "colors": {
+   "graphite": "cars/mazda-6-gj-sedan/graphite.webp",
+   "black": "cars/mazda-6-gj-sedan/black.webp",
+   "white": "cars/mazda-6-gj-sedan/white.webp",
+   "silver": "cars/mazda-6-gj-sedan/silver.webp",
+   "blue": "cars/mazda-6-gj-sedan/blue.webp",
+   "red": "cars/mazda-6-gj-sedan/red.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2019 Mazda 6, vehicle veh_5kcwnbkt115wm, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "mazda-cx-5-kf-crossover": {
+  "assetId": "mazda-cx-5-kf-crossover",
+  "generationId": "mazda-cx-5-kf",
+  "body": "crossover",
+  "colors": {
+   "graphite": "cars/mazda-cx-5-kf-crossover/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2021 Mazda CX-5, vehicle veh_1cs8rk1kgd39r, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "mercedes-benz-e-class-w213-sedan": {
+  "assetId": "mercedes-benz-e-class-w213-sedan",
+  "generationId": "mercedes-benz-e-class-w213",
+  "body": "sedan",
+  "colors": {
+   "graphite": "cars/mercedes-benz-e-class-w213-sedan/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2018 Mercedes-Benz E-Class, vehicle veh_c4d0zyrzkfgpa, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25",
+  "mirrored": true
+ },
+ "skoda-kodiaq-i-crossover": {
+  "assetId": "skoda-kodiaq-i-crossover",
+  "generationId": "skoda-kodiaq-i",
+  "body": "crossover",
+  "colors": {
+   "graphite": "cars/skoda-kodiaq-i-crossover/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2021 Skoda Kodiaq, vehicle veh_3jbevbc92q6mv, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "skoda-octavia-a8-hatchback": {
+  "assetId": "skoda-octavia-a8-hatchback",
+  "generationId": "skoda-octavia-a8",
+  "body": "hatchback",
+  "colors": {
+   "graphite": "cars/skoda-octavia-a8-hatchback/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2021 Skoda Octavia, vehicle veh_e3f660sb4jscn, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "skoda-rapid-ii-hatchback": {
+  "assetId": "skoda-rapid-ii-hatchback",
+  "generationId": "skoda-rapid-ii",
+  "body": "hatchback",
+  "colors": {
+   "graphite": "cars/skoda-rapid-ii-hatchback/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2021 Skoda Rapid, vehicle veh_0r8yg6qfa78fj, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "toyota-camry-xv70-sedan": {
+  "assetId": "toyota-camry-xv70-sedan",
+  "generationId": "toyota-camry-xv70",
+  "body": "sedan",
+  "colors": {
+   "graphite": "cars/toyota-camry-xv70-sedan/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2020 Toyota Camry, vehicle veh_b0z1r4mkxbnxb, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "toyota-corolla-e210-sedan": {
+  "assetId": "toyota-corolla-e210-sedan",
+  "generationId": "toyota-corolla-e210",
+  "body": "sedan",
+  "colors": {
+   "graphite": "cars/toyota-corolla-e210-sedan/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2020 Toyota Corolla, vehicle veh_c2b80t4h383gv, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "toyota-land-cruiser-200-suv": {
+  "assetId": "toyota-land-cruiser-200-suv",
+  "generationId": "toyota-land-cruiser-200",
+  "body": "suv",
+  "colors": {
+   "graphite": "cars/toyota-land-cruiser-200-suv/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2016 Toyota Land Cruiser, vehicle veh_0t04e7t8czmph, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "toyota-rav4-xa50-crossover": {
+  "assetId": "toyota-rav4-xa50-crossover",
+  "generationId": "toyota-rav4-xa50",
+  "body": "crossover",
+  "colors": {
+   "graphite": "cars/toyota-rav4-xa50-crossover/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2021 Toyota RAV4, vehicle veh_ct2pthtmvjssw, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25"
+ },
+ "volkswagen-tiguan-ii-crossover": {
+  "assetId": "volkswagen-tiguan-ii-crossover",
+  "generationId": "volkswagen-tiguan-ii",
+  "body": "crossover",
+  "colors": {
+   "graphite": "cars/volkswagen-tiguan-ii-crossover/graphite.webp"
+  },
+  "defaultColor": "graphite",
+  "width": 960,
+  "height": 540,
+  "source": "Car Image API (carimage.dev), 2021 Volkswagen Tiguan, vehicle veh_cts9c0kq770mg, front-3-4, paint #3a4045",
+  "license": "Car Image API Free plan — personal, non-commercial use",
+  "createdAt": "2026-10-25",
+  "mirrored": true
+ }
+}

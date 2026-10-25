@@ -26,6 +26,8 @@ export interface VehicleGeneration {
   bodies: VehicleBody[];
   /** Год, по которому рендерится изображение (типичный для поколения в РФ). */
   renderYear?: number;
+  /** Пояснение к изображению: отличие от версии для РФ или причина, почему изображения нет. */
+  imageNote?: string;
 }
 
 export interface VehicleModel {
@@ -39,6 +41,7 @@ export interface VehicleModel {
 }
 
 export type CarColorKey =
+  | 'graphite'
   | 'black'
   | 'white'
   | 'silver'
@@ -58,6 +61,7 @@ export interface CarColor {
 
 /** Палитра, в которой подготовлены изображения моделей. */
 export const CAR_COLORS: CarColor[] = [
+  { key: 'graphite', name: 'Графит', hex: '#3a4045' },
   { key: 'black', name: 'Чёрный', hex: '#14181b' },
   { key: 'white', name: 'Белый', hex: '#eef1f2' },
   { key: 'silver', name: 'Серебристый', hex: '#b9c0c4' },

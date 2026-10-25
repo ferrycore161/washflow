@@ -45,7 +45,8 @@ export function CarScreen() {
   const generation = vehicle?.generations.find((g) => g.id === generationId);
   const selection: CarSelection = { generationId: manual ? undefined : generationId, body, variant, color };
   const asset = generationId ? CAR_MANIFEST[assetIdFor(generationId, body, variant)] : undefined;
-  const colors = asset ? CAR_COLORS.filter((c) => asset.colors[c.key]) : CAR_COLORS;
+  // все цвета палитры; готовые изображения — с отметкой, остальные сохраняются и догенерируются
+  const colors = CAR_COLORS;
   const colorName = CAR_COLORS.find((c) => c.key === color)?.name ?? '';
 
   const results = useMemo(() => (q.trim() ? searchCars(q, 8) : []), [q]);
@@ -113,7 +114,13 @@ export function CarScreen() {
             {[generation && !manual ? `${generation.code} · ${generation.years}` : null, bodyLabel, colorName].filter(Boolean).join(' · ')}
           </div>
           {!asset && (vehicle || manual) && (
-            <div className="car-stage-note">Иллюстрация по типу кузова — изображения этой модели пока нет в библиотеке</div>
+            <div className="car-stage-note">
+              Иллюстрация по типу кузова — изображения этой модели пока нет.{generation?.imageNote ? ` ${generation.imageNote}.` : ''}
+            </div>
+          )}
+          {asset && generation?.imageNote && <div className="car-stage-note">{generation.imageNote}</div>}
+          {asset && !asset.colors[color] && (
+            <div className="car-stage-note">Цвет «{colorName}» для этой модели ещё не подготовлен — показан {CAR_COLORS.find((c) => c.key === asset.defaultColor)?.name.toLowerCase()}</div>
           )}
         </div>
       </section>
@@ -188,6 +195,7 @@ export function CarScreen() {
                   onClick={() => setColor(c.key)}
                 >
                   {c.key === color && <Check size={16} />}
+                  {asset && asset.colors[c.key] && c.key !== color && <span className="car-swatch-ready" aria-hidden="true" />}
                 </button>
               ))}
             </div>

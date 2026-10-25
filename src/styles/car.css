@@ -384,3 +384,30 @@
 .car-swatch svg {
   filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
 }
+.car-swatch {
+  position: relative;
+}
+.car-swatch-ready {
+  position: absolute;
+  right: -1px;
+  bottom: -1px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 2px var(--bg);
+}
+.car-image.fallback svg {
+  width: 100%;
+  height: auto;
+}
+/* контейнеры с абсолютным позиционированием задают ширину картинке явно */
+.car-card-art {
+  width: 230px;
+}
+.wash-hero-art {
+  width: 300px;
+}
+.car-pop .car-image {
+  max-width: 132px;
+}

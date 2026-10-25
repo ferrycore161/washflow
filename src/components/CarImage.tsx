@@ -54,7 +54,7 @@ export function CarImage({
 
   if (r.kind === 'fallback' || !r.src || failed === r.src) {
     return (
-      <span className={`car-image fallback ${className}`} style={{ width }}>
+      <span className={`car-image fallback ${className}`} style={{ width: '100%', maxWidth: width }}>
         <CarArt width={width} body={selection.body} paint={carPaintFromName(paintName)} key={`${selection.body}-${paintName}`} />
       </span>
     );
@@ -62,7 +62,7 @@ export function CarImage({
   const a = r.asset!;
   const src = import.meta.env.BASE_URL + r.src.replace(/^\//, '');
   return (
-    <span className={`car-image ${className}`} style={{ width, aspectRatio: `${a.width} / ${a.height}` }}>
+    <span className={`car-image ${className}`} style={{ width: '100%', maxWidth: width, aspectRatio: `${a.width} / ${a.height}` }}>
       <img
         key={src}
         src={src}

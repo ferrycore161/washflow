@@ -9,3 +9,4 @@ playwright-report/
 shots/
 .claude/settings.local.json
 *.tsbuildinfo
+car-src/

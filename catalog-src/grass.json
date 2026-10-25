@@ -1,0 +1,1362 @@
+{
+  "brand": "GRASS",
+  "brandSite": "https://grass.su",
+  "products": [
+    {
+      "id": "grass-active-foam-pink",
+      "name": "Active Foam Pink",
+      "subtitle": "Активная пена для бесконтактной мойки, розовая пена, щелочная",
+      "aliases": [
+        "Грасс Пинк",
+        "Active Foam Pink Grass"
+      ],
+      "category": "active_foam",
+      "phase": 1,
+      "ph": 12,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_pink_kanistra_1_l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:5-1:10 (90-170г) в пенокомплект (1л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_pink_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:5-1:10 (90-170г) в пенокомплект (1л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 60,
+            "to": 120,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:60-1:120 (8-17 г/л) для пеногенератора (25,50,100 л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_pink_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:60-1:120 (8-17 г/л) для пеногенератора (25,50,100 л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-active-foam-effect",
+      "name": "Active Foam Effect",
+      "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+      "category": "active_foam",
+      "phase": 1,
+      "ph": 11.8,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_effect_kanistra_1_l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:5-1:10 (90-170 г/л) в пенокомплект (1л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_effect_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:5-1:10 (90-170 г/л) в пенокомплект (1л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 60,
+            "to": 120,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:60-1:120 (8-25г) для пеногенератора (25,50,100 л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_effect_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:60-1:120 (8-25г) для пеногенератора (25,50,100 л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-active-foam-light",
+      "name": "Active Foam Light",
+      "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+      "category": "active_foam",
+      "phase": 1,
+      "ph": 11.8,
+      "packages": [
+        1000,
+        5000
+      ],
+      "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_light_kanistra_1_l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 1,
+            "to": 2,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:1-1:2 (330-500г) в пенокомплект (1л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_light_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:1-1:2 (330-500г) в пенокомплект (1л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 20,
+            "to": 40,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:20-1:40 (25-48 г/л) для пеногенератора (25,50,100 л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_light_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:20-1:40 (25-48 г/л) для пеногенератора (25,50,100 л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-active-foam-gel-plus",
+      "name": "Active Foam Gel +",
+      "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+      "aliases": [
+        "Active Foam Gel+",
+        "Active Foam Gel"
+      ],
+      "category": "active_foam",
+      "phase": 1,
+      "ph": 12,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_gel_kanistra_1_l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 6,
+            "to": 12,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:6-1:12 (75-145г) в пенокомплект (1л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_gel_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:6-1:12 (75-145г) в пенокомплект (1л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 70,
+            "to": 140,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:70-1:140 (7-14г/л) для пеногенератора (25,50,100 л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_gel_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:70-1:140 (7-14г/л) для пеногенератора (25,50,100 л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-active-foam-magic",
+      "name": "Active Foam Magic",
+      "subtitle": "Активная пена для бесконтактной мойки, фиолетовая пена",
+      "category": "active_foam",
+      "phase": 1,
+      "ph": 11,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_magic_kanistra_1_l_maxima/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 7,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:5-1:7 (125-170г) в пенокомплект (1л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_magic_kanistra_1_l_maxima/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:5-1:7 (125-170г) в пенокомплект (1л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 60,
+            "to": 90,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:60-1:90 (10-16 г/л) для пеногенератора (25,50,100 л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_magic_kanistra_1_l_maxima/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:60-1:90 (10-16 г/л) для пеногенератора (25,50,100 л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-active-foam-balance",
+      "name": "Active Foam Balance",
+      "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+      "category": "active_foam",
+      "phase": 1,
+      "ph": 11.7,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_balance_kanistra_1_l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 1,
+            "to": 2,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:1-1:2 (330-500 г) в пенокомплект (1л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_balance_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:1-1:2 (330-500 г) в пенокомплект (1л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 20,
+            "to": 30,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:20-1:30 (32-48 г/л) для пеногенератора (25,50,100 л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_balance_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:20-1:30 (32-48 г/л) для пеногенератора (25,50,100 л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-active-foam-power",
+      "name": "Active Foam Power",
+      "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+      "category": "active_foam",
+      "phase": 1,
+      "ph": 11.7,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_power_kanistra_1_l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 4,
+            "to": 7,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:4-1:7 (125- 200г) в пенокомплект (1л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания",
+            "Взболтать канистру"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_power_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:4-1:7 (125- 200г) в пенокомплект (1л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 90,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:50-1:90 (10-20 г/л) для пеногенератора (25,50,100 л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания",
+            "Взболтать канистру"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_power_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:50-1:90 (10-20 г/л) для пеногенератора (25,50,100 л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-active-foam-truck",
+      "name": "Active Foam Truck",
+      "subtitle": "Активная пена для бесконтактной мойки грузового и легкового транспорта",
+      "category": "active_foam",
+      "phase": 1,
+      "ph": 12,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_truck_kanistra_1_l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 8,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:5-1:8 (110- 170г) в пенокомплект (1л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания",
+            "Взболтать канистру"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_truck_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:5-1:8 (110- 170г) в пенокомплект (1л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 60,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:60-1:100 (10-16 г/л) для пеногенератора (25,50,100 л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания",
+            "Взболтать канистру"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_truck_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:60-1:100 (10-16 г/л) для пеногенератора (25,50,100 л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-active-foam-extra",
+      "name": "Active Foam Extra",
+      "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+      "category": "active_foam",
+      "phase": 1,
+      "ph": 11.9,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_extra_kanistra_1_l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 4,
+            "to": 7,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:4-1:7 (125-200г) в пенокомплект (1л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_extra_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:4-1:7 (125-200г) в пенокомплект (1л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 90,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:50-1:90 (10-20 г/л) для пеногенератора (25,50,100 л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_extra_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:50-1:90 (10-20 г/л) для пеногенератора (25,50,100 л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-active-foam-red",
+      "name": "Active Foam Red",
+      "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+      "category": "active_foam",
+      "phase": 1,
+      "ph": 12,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_red_kanistra_1l/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 2,
+            "to": 4,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:2-1:4 (200-330г) в пенокомплект (1л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_red_kanistra_1l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:2-1:4 (200-330г) в пенокомплект (1л)"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 30,
+            "to": 50,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:30-1:50 (20-32 г/л) для пеногенератора (25,50,100 л)",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Разбавить в указанной пропорции",
+            "Остудить кузов, при необходимости сбить верхний слой грязи",
+            "Нанести разбавленный состав снизу вверх",
+            "Выдержать 1–2 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_red_kanistra_1l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:30-1:50 (20-32 г/л) для пеногенератора (25,50,100 л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-nano-shampoo",
+      "name": "Nano Shampoo",
+      "subtitle": "Наношампунь для ручной мойки с защитным эффектом",
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": 8,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://grass.su/product/nanoshampun_nano_shampoo_kanistra_1_l/",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 5,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "50 мл на 10 л теплой воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Предварительно помыть авто бесконтактным средством",
+            "Нанести наношампунь губкой или пенокомплектом",
+            "Распределить губкой или варежкой",
+            "Смыть водой"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/nanoshampun_nano_shampoo_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для ручной мойки необходимо развести концентрат из расчета 50 мл на 10 л теплой воды"
+        },
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 100,
+            "to": 100,
+            "basis": "solution"
+          },
+          "dilutionText": "для пенокомплекта (1 л) потребуется 100 мл концентрата",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Предварительно помыть авто бесконтактным средством",
+            "Нанести наношампунь губкой или пенокомплектом",
+            "Распределить губкой или варежкой",
+            "Смыть водой"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/nanoshampun_nano_shampoo_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для нанесения с помощью пенокомплекта (1 л) потребуется 100 мл концентрата"
+        }
+      ],
+      "warnings": [
+        "При частой работе использовать перчатки"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "grass-auto-shampoo",
+      "name": "Auto Shampoo",
+      "subtitle": "Автошампунь для ручной мойки, нейтральный (апельсин / зелёное яблоко)",
+      "aliases": [
+        "Auto Shampoo апельсин",
+        "Auto Shampoo яблоко"
+      ],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": 7,
+      "packages": [
+        500,
+        1000
+      ],
+      "productUrl": "https://grass.su/product/avtoshampun_universal_s_aromatom_apelsina_flakon_1_l/",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 3,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "Растворить 30-50г шампуня в 10 л воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Растворить шампунь в воде",
+            "Нанести вручную",
+            "Смыть водой"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/avtoshampun_universal_s_aromatom_apelsina_flakon_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Растворить 30-50г шампуня в 10 л воды."
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-carwash-foam",
+      "name": "Carwash Foam",
+      "subtitle": "Автошампунь для ручной мойки с повышенным пенообразованием",
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": 9,
+      "packages": [],
+      "productUrl": "https://grass.su/product/shampun_dlya_ruchnoy_moyki_avtomobilya_carwash_foam_kanistra_20_kg/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 20,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для пенокомплекта в пропорции 1:10-1:20 или 50-100 г на 1 л воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Тщательно перемешать шампунь с водой",
+            "Нанести на кузов",
+            "Потереть губкой",
+            "Смыть"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/shampun_dlya_ruchnoy_moyki_avtomobilya_carwash_foam_kanistra_20_kg/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для пенокомплекта в пропорции 1:10-1:20 или 50-100 г на 1 л воды"
+        },
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ratio",
+            "from": 500,
+            "to": 500,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для ручного нанесения 1:500 или 20 г шампуня на 10 л воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Тщательно перемешать шампунь с водой",
+            "Нанести на кузов",
+            "Потереть губкой",
+            "Смыть"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/shampun_dlya_ruchnoy_moyki_avtomobilya_carwash_foam_kanistra_20_kg/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для ручного нанесения 1:500 или 20 г шампуня на 10 л воды"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 200,
+            "to": 250,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для пеногенератора 1:200-1:250 или 4-5 г шампуня на 1 л воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Тщательно перемешать шампунь с водой",
+            "Нанести на кузов",
+            "Потереть губкой",
+            "Смыть"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/shampun_dlya_ruchnoy_moyki_avtomobilya_carwash_foam_kanistra_20_kg/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для пеногенератора 1:200-1:250 или 4-5 г шампуня на 1 л воды"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-wash-wax",
+      "name": "Wash & Wax",
+      "subtitle": "Автошампунь с карнаубским воском для ручной мойки",
+      "aliases": [
+        "Wash and Wax"
+      ],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": 7,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://grass.su/product/avtoshampun_s_karnaubskim_voskom_wash_wax_flakon_1l/",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 3,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "Растворить 30-50г шампуня в 10 л воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Растворить шампунь в воде",
+            "Нанести вручную",
+            "Смыть водой"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/avtoshampun_s_karnaubskim_voskom_wash_wax_flakon_1l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Растворить 30-50г шампуня в 10 л воды."
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-fast-wax",
+      "name": "Fast Wax",
+      "subtitle": "Холодный воск для быстрой сушки и защиты",
+      "category": "protection",
+      "phase": null,
+      "ph": 6,
+      "packages": [
+        1000,
+        5000
+      ],
+      "productUrl": "https://grass.su/product/kholodnyy_vosk_fast_wax_kanistra_1_l_/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 20,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта разбавьте с водой в пропорции 1:10-1:20 (90-47 г/л)",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Помыть авто бесконтактным шампунем, затем ручным шампунем",
+            "Развести в указанной пропорции",
+            "Нанести на поверхность",
+            "Смыть остатки водой под давлением"
+          ],
+          "restrictions": [
+            "Не допускать смешивания с бесконтактными шампунями"
+          ],
+          "sourceUrl": "https://grass.su/product/kholodnyy_vosk_fast_wax_kanistra_1_l_/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для пенокомплекта разбавьте с водой в пропорции 1:10-1:20 (90-47 г/л)"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для распылителя концентрат разбавьте с водой в пропорции 1:50-1:100 (10-5 г/л)",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Помыть авто бесконтактным шампунем, затем ручным шампунем",
+            "Развести в указанной пропорции",
+            "Нанести на поверхность",
+            "Смыть остатки водой под давлением"
+          ],
+          "restrictions": [
+            "Не допускать смешивания с бесконтактными шампунями"
+          ],
+          "sourceUrl": "https://grass.su/product/kholodnyy_vosk_fast_wax_kanistra_1_l_/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для распылителя концентрат разбавьте с водой в пропорции 1:50-1:100 (10-5 г/л)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-cherry-wax",
+      "name": "Cherry Wax",
+      "subtitle": "Холодный воск для защиты и ускорения сушки",
+      "category": "protection",
+      "phase": null,
+      "ph": 6,
+      "packages": [
+        1000,
+        5000,
+        20000
+      ],
+      "productUrl": "https://grass.su/product/kholodnyy_vosk_cherry_wax_kanistra_1_l_/",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 25,
+            "to": 50,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для распылителя концентрат разбавить с водой в пропорции 1:25 (1:50) или 20-40 г/л",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Развести в указанной пропорции",
+            "Нанести на предварительно очищенную поверхность",
+            "Излишки смыть водой под давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/kholodnyy_vosk_cherry_wax_kanistra_1_l_/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для распылителя концентрат разбавить с водой в пропорции 1:25 (1:50) или 20-40 г/л"
+        },
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 3,
+            "to": 5,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта разбавить с водой в пропорции 1:3 (1:5) или 300-200 г/л",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Развести в указанной пропорции",
+            "Нанести на предварительно очищенную поверхность",
+            "Излишки смыть водой под давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/kholodnyy_vosk_cherry_wax_kanistra_1_l_/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для пенокомплекта разбавить с водой в пропорции 1:3 (1:5) или 300-200 г/л"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-nano-wax",
+      "name": "Nano Wax",
+      "subtitle": "Нановоск с защитным эффектом для консервации после мойки",
+      "category": "protection",
+      "phase": null,
+      "ph": 6,
+      "packages": [
+        1000,
+        5000
+      ],
+      "productUrl": "https://grass.su/product/nanovosk_s_zashchitnym_effektom_nano_wax_kanistra_1_l_/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 30,
+            "to": 50,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для пенокомплекта разбавьте с водой в пропорции 1:30-1:50 (20-30 г/л)",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Помыть авто бесконтактным шампунем, затем ручным шампунем",
+            "Развести в указанной пропорции",
+            "Нанести на поверхность",
+            "Смыть остатки водой под давлением"
+          ],
+          "restrictions": [
+            "Не допускать смешивания с бесконтактными шампунями"
+          ],
+          "sourceUrl": "https://grass.su/product/nanovosk_s_zashchitnym_effektom_nano_wax_kanistra_1_l_/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для пенокомплекта разбавьте с водой в пропорции 1:30-1:50 (20-30 г/л)"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 300,
+            "to": 500,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Для распылителя концентрат разбавьте с водой в пропорции 1:300-1:500 (2-3 г/л)",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Помыть авто бесконтактным шампунем, затем ручным шампунем",
+            "Развести в указанной пропорции",
+            "Нанести на поверхность",
+            "Смыть остатки водой под давлением"
+          ],
+          "restrictions": [
+            "Не допускать смешивания с бесконтактными шампунями"
+          ],
+          "sourceUrl": "https://grass.su/product/nanovosk_s_zashchitnym_effektom_nano_wax_kanistra_1_l_/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для распылителя концентрат разбавьте с водой в пропорции 1:300-1:500 (2-3 г/л)"
+        }
+      ],
+      "warnings": [
+        "Для разбавления рекомендуется очищенная или осмотическая вода"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "grass-disk",
+      "name": "Disk",
+      "subtitle": "Кислотное средство для очистки колёсных дисков (кислотостойкие материалы)",
+      "category": "wheel_cleaner",
+      "phase": null,
+      "ph": 3,
+      "packages": [
+        600
+      ],
+      "productUrl": "https://grass.su/product/sredstvo_dlya_ochistki_kolesnykh_diskov_disk_flakon_600_ml/",
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 0,
+            "to": 60
+          },
+          "steps": [
+            "Охладить поверхность",
+            "Распылителем в положении «SPRAY» нанести средство",
+            "Оставить не более чем на 1 минуту, не допуская высыхания",
+            "Смыть водой"
+          ],
+          "restrictions": [
+            "Не допускать высыхания",
+            "Только для кислотостойких материалов"
+          ],
+          "sourceUrl": "https://grass.su/product/sredstvo_dlya_ochistki_kolesnykh_diskov_disk_flakon_600_ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Повернуть распылитель в положение «SPRAY», нанести средство на очищаемую поверхность, оставить не более, чем на 1 минуту"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-disk-cleaner-super",
+      "name": "Disk Cleaner Super",
+      "subtitle": "Нейтральный очиститель дисков от металлических вкраплений (индикатор)",
+      "category": "wheel_cleaner",
+      "phase": null,
+      "ph": 7,
+      "packages": [
+        600
+      ],
+      "productUrl": "https://grass.su/product/chistyashchee_sredstvo_disk_cleaner_super_flakon_600_ml/",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": null
+          },
+          "steps": [
+            "Охладить поверхность, взболтать средство",
+            "Помыть авто бесконтактным шампунем",
+            "Нанести состав на загрязнённые участки, дождаться малинового окрашивания",
+            "При тяжёлых загрязнениях выдержать не менее 3 минут, затем поработать щёткой/кистью/губкой",
+            "Тщательно промыть мощной струёй воды"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/chistyashchee_sredstvo_disk_cleaner_super_flakon_600_ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Нанесите состав Disk Cleaner Super на загрязненные участки. Дождитесь окраски состава в малиновый цвет."
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-antibitum",
+      "name": "Antibitum",
+      "subtitle": "Очиститель битумных пятен, смол, нефтепродуктов",
+      "category": "tar_remover",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        500,
+        5000
+      ],
+      "productUrl": "https://grass.su/product/ochistitel_bitumnykh_pyaten_antibitum_flakon_500_ml_/",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 0,
+            "to": 300
+          },
+          "steps": [
+            "Помыть авто бесконтактным шампунем",
+            "Распылить состав на загрязнение",
+            "Выдержать не более 5 минут",
+            "Смыть струёй воды или протереть чистой микрофиброй",
+            "При необходимости повторить"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/ochistitel_bitumnykh_pyaten_antibitum_flakon_500_ml_/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Распылить состав Antibitum на загрязненную поверхность. Выдержать состав на поверхности не более 5 минут."
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-mosquitos-cleaner-rtu",
+      "name": "Mosquitos Cleaner (флакон 600 мл)",
+      "subtitle": "Готовое средство для удаления следов насекомых",
+      "category": "insect_remover",
+      "phase": null,
+      "ph": 8,
+      "packages": [
+        600
+      ],
+      "productUrl": "https://grass.su/product/sredstvo_dlya_udaleniya_sledov_nasekomykh_mosquitos_cleaner_flakon_600_ml/",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Охладить поверхность",
+            "Обильно нанести на загрязнения с близкого расстояния",
+            "Через 2–3 минуты потереть губкой",
+            "Смыть водой"
+          ],
+          "restrictions": [
+            "Не допускать высыхания на поверхности"
+          ],
+          "sourceUrl": "https://grass.su/product/sredstvo_dlya_udaleniya_sledov_nasekomykh_mosquitos_cleaner_flakon_600_ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Перед основной мойкой автомобиля следует обильно нанести средство на загрязненные области с близкого расстояния."
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "grass-mosquitos-cleaner-concentrate",
+      "name": "Mosquitos Cleaner (концентрат)",
+      "subtitle": "Концентрат для удаления следов насекомых",
+      "category": "insect_remover",
+      "phase": null,
+      "ph": 11,
+      "packages": [
+        1000,
+        5000
+      ],
+      "productUrl": "https://grass.su/product/sredstvo_dlya_udaleniya_sledov_nasekomykh_mosquitos_cleaner_kanistra_1_l/",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 100,
+            "to": 200,
+            "basis": "solution"
+          },
+          "dilutionText": "Для распылителя концентрат разбавить с водой в пропорции 100-200 г/л",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Охладить поверхность",
+            "Сбить верхний слой пыли водой под давлением",
+            "Нанести раствор распылителем",
+            "Выдержать 2–3 минуты, не допуская высыхания",
+            "Тщательно смыть водой"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/sredstvo_dlya_udaleniya_sledov_nasekomykh_mosquitos_cleaner_kanistra_1_l/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Для распылителя концентрат разбавить с водой в пропорции 100-200 г/л в зависимости от степени загрязнения."
+        }
+      ],
+      "warnings": [
+        "В составе щелочь – использовать перчатки"
+      ],
+      "status": "verified"
+    }
+  ]
+}

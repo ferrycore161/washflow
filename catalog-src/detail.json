@@ -1,0 +1,693 @@
+{
+  "brand": "Detail (GRASS)",
+  "brandSite": "https://grass.su",
+  "products": [
+    {
+      "id": "detail-active-safe",
+      "name": "Active Safe (AS)",
+      "subtitle": "Щадящий щелочной шампунь первой фазы (предварительная мойка)",
+      "aliases": [
+        "AS",
+        "Актив Сейф"
+      ],
+      "category": "prewash",
+      "phase": 1,
+      "ph": 11.5,
+      "packages": [
+        1000,
+        5000,
+        20000
+      ],
+      "productUrl": "https://grass.su/product/shampun_pervaya_faza_as_active_safe_1000_ml/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 100,
+            "to": 300,
+            "basis": "solution"
+          },
+          "dilutionText": "100 - 300 мл на литровую ёмкость пенокомплекта",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Нанести состав на автомобиль снизу вверх",
+            "Подождать 1–2 минуты",
+            "Смыть водой АВД"
+          ],
+          "restrictions": [
+            "Перед разведением обязательно взболтать"
+          ],
+          "sourceUrl": "https://grass.su/product/shampun_pervaya_faza_as_active_safe_1000_ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Концентрация состава для пенокомплекта: 100 - 300 мл на литровую ёмкость пенокомплекта"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Концентрация состава для дозирующего устройства/пеногенератора: 1:50 - 1:100",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Нанести состав на автомобиль снизу вверх",
+            "Подождать 1–2 минуты",
+            "Смыть водой АВД"
+          ],
+          "restrictions": [
+            "Перед разведением обязательно взболтать"
+          ],
+          "sourceUrl": "https://grass.su/product/shampun_pervaya_faza_as_active_safe_1000_ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Концентрация состава для дозирующего устройства/пеногенератора: 1:50 - 1:100"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "detail-ultra-safe-adapted",
+      "name": "Ultra Safe (Adapted Series)",
+      "subtitle": "Бесконтактный шампунь для предварительной мойки, щелочной",
+      "category": "prewash",
+      "phase": 1,
+      "ph": 12,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://grass.su/product/beskontaktnyy_shampun_ultra_safe_1000ml_adapted_series_detail/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 125,
+            "to": 125,
+            "basis": "solution"
+          },
+          "dilutionText": "пенокомплект, пропорция разведения - 125 мл на литровую емкость пенокомплекта",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Охладить поверхность",
+            "Нанести состав снизу вверх",
+            "Подождать 2–3 минуты, не допуская высыхания",
+            "Смыть водой АВД"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава",
+            "Не наносить на горячие поверхности",
+            "Перед разведением обязательно взболтать"
+          ],
+          "sourceUrl": "https://grass.su/product/beskontaktnyy_shampun_ultra_safe_1000ml_adapted_series_detail/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "пенокомплект, пропорция разведения - 125 мл на литровую емкость пенокомплекта"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 30,
+            "to": 80,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "пеногенератор (расчет концентрации состава в воде от 1:30 до 1:80)",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Охладить поверхность",
+            "Нанести состав снизу вверх",
+            "Подождать 2–3 минуты, не допуская высыхания",
+            "Смыть водой АВД"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава",
+            "Не наносить на горячие поверхности",
+            "Перед разведением обязательно взболтать"
+          ],
+          "sourceUrl": "https://grass.su/product/beskontaktnyy_shampun_ultra_safe_1000ml_adapted_series_detail/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "пеногенератор (расчет концентрации состава в воде от 1:30 до 1:80)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "detail-ultra-safe-us",
+      "name": "Ultra Safe (US)",
+      "subtitle": "Шампунь первой фазы для предварительной мойки, щелочной, бесфосфатный",
+      "category": "prewash",
+      "phase": 1,
+      "ph": 11.5,
+      "packages": [],
+      "productUrl": "https://grass.su/product/shampun_pervaya_faza_us_ultra_safe_5_kg/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "расчет концентрации состава в воде 1:10 для пенокомплекта",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Нанести состав снизу вверх",
+            "Подождать 1–2 минуты",
+            "Смыть водой АВД"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/shampun_pervaya_faza_us_ultra_safe_5_kg/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "расчет концентрации состава в воде 1:10 для пенокомплекта"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "от 1:50 до 1:100 для пеногенератора",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Нанести состав снизу вверх",
+            "Подождать 1–2 минуты",
+            "Смыть водой АВД"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/shampun_pervaya_faza_us_ultra_safe_5_kg/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "от 1:50 до 1:100 для пеногенератора"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "detail-easy-safe",
+      "name": "Easy Safe (ES)",
+      "subtitle": "Шампунь первой фазы, щелочной, бесфосфатный (летний период)",
+      "category": "prewash",
+      "phase": 1,
+      "ph": "щелочной",
+      "packages": [],
+      "productUrl": "https://grass.su/product/shampun_pervaya_faza_es_easy_safe_20_kg/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "расчет концентрации состава в воде 1:10 для пенокомплекта",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Нанести состав снизу вверх",
+            "Подождать 1–2 минуты",
+            "Смыть водой АВД"
+          ],
+          "restrictions": [
+            "Не наносить на горячие поверхности",
+            "Перед разведением обязательно взболтать"
+          ],
+          "sourceUrl": "https://grass.su/product/shampun_pervaya_faza_es_easy_safe_20_kg/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "расчет концентрации состава в воде 1:10 для пенокомплекта"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 100,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "от 1:50 до 1:100 для пеногенератора",
+          "surface": null,
+          "dwellSec": {
+            "from": 60,
+            "to": 120
+          },
+          "steps": [
+            "Нанести состав снизу вверх",
+            "Подождать 1–2 минуты",
+            "Смыть водой АВД"
+          ],
+          "restrictions": [
+            "Не наносить на горячие поверхности",
+            "Перед разведением обязательно взболтать"
+          ],
+          "sourceUrl": "https://grass.su/product/shampun_pervaya_faza_es_easy_safe_20_kg/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "от 1:50 до 1:100 для пеногенератора"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "detail-second-phase",
+      "name": "Second Phase (SP)",
+      "subtitle": "Шампунь второй фазы для ручной мойки, без восков и силиконов",
+      "aliases": [
+        "SP"
+      ],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": 6,
+      "packages": [
+        1000,
+        5000,
+        20000
+      ],
+      "productUrl": "https://grass.su/product/shampun_vtoraya_faza_sp_second_phase_1000ml/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 120,
+            "to": 200,
+            "basis": "solution"
+          },
+          "dilutionText": "120 - 200 мл на литровую емкость пенокомплекта",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести разведённый шампунь на авто после первой фазы",
+            "Обработать крупнопористой губкой или варежкой сверху вниз, ополаскивая её",
+            "Смыть водой АВД"
+          ],
+          "restrictions": [
+            "Перед разведением обязательно взболтать"
+          ],
+          "sourceUrl": "https://grass.su/product/shampun_vtoraya_faza_sp_second_phase_1000ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "пропорция разведения - 120 - 200 мл на литровую емкость пенокомплекта"
+        },
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 5,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "40 мл состава на 8 литров воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести разведённый шампунь на авто после первой фазы",
+            "Обработать крупнопористой губкой или варежкой сверху вниз, ополаскивая её",
+            "Смыть водой АВД"
+          ],
+          "restrictions": [
+            "Перед разведением обязательно взболтать"
+          ],
+          "sourceUrl": "https://grass.su/product/shampun_vtoraya_faza_sp_second_phase_1000ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "ручное нанесение при помощи ведра, пропорция разведения - 40 мл состава на 8 литров воды"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "detail-second-phase-adapted",
+      "name": "Second Phase (Adapted Series)",
+      "subtitle": "Гидрофобный шампунь для ручной мойки (катионные ПАВ)",
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": 7,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://grass.su/product/gidrofobnyy_shampun_second_phase_500ml_adapted_series_detail/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 125,
+            "to": 125,
+            "basis": "solution"
+          },
+          "dilutionText": "125 мл на литровую емкость пенокомплекта",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести разведённый шампунь на авто после первой фазы",
+            "Обработать крупнопористой губкой или варежкой сверху вниз, ополаскивая её",
+            "Смыть водой АВД"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/gidrofobnyy_shampun_second_phase_500ml_adapted_series_detail/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "пенокомплекта, пропорция разведения - 125 мл на литровую емкость пенокомплекта"
+        },
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 6.25,
+            "to": 6.25,
+            "basis": "water"
+          },
+          "dilutionText": "50 мл состава на 8 литров воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести разведённый шампунь на авто после первой фазы",
+            "Обработать крупнопористой губкой или варежкой сверху вниз, ополаскивая её",
+            "Смыть водой АВД"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/gidrofobnyy_shampun_second_phase_500ml_adapted_series_detail/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "ведра и губки, пропорция разведения - 50 мл состава на 8 литров воды"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "detail-acid-shampoo",
+      "name": "Acid Shampoo (AD)",
+      "subtitle": "Кислотный шампунь второй фазы для ручной мойки",
+      "aliases": [
+        "AD"
+      ],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": 2,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://grass.su/product/moyushchee_sredstvo_ad_acid_shampoo_1000_ml/",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:10 (30 мл на одну машину средних размеров)",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести на охлаждённую поверхность после первой фазы пенокомплектом",
+            "Протереть губкой или варежкой сверху вниз, не продавливая губку",
+            "Смыть водой"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/moyushchee_sredstvo_ad_acid_shampoo_1000_ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Используйте пенокомплект. Пропорции разведения: 1:10 (30 мл на одну машину средних размеров)."
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "detail-iron",
+      "name": "Iron (IR)",
+      "subtitle": "Нейтральный очиститель дисков и кузова от металлических вкраплений (индикатор)",
+      "aliases": [
+        "IR"
+      ],
+      "category": "iron_remover",
+      "phase": null,
+      "ph": 6,
+      "packages": [
+        500,
+        1000,
+        5000
+      ],
+      "productUrl": "https://grass.su/product/ochistitel_diskov_ir_iron_500ml/",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": 300
+          },
+          "steps": [
+            "Выполнить двухфазную мойку",
+            "Нанести состав на диски или загрязнённые участки",
+            "Через 3–5 минут (при окрашивании в малиновый) тщательно промыть мощной струёй воды",
+            "Для тяжёлых загрязнений выдержать 5 минут и поработать кистью"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://grass.su/product/ochistitel_diskov_ir_iron_500ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Нанесите состав Iron (IR) на диски или загрязненные участки кузова автомобиля. Через 3-5 минут"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "detail-bug-cleaner",
+      "name": "Bug Cleaner (BC)",
+      "subtitle": "Очиститель следов от насекомых",
+      "aliases": [
+        "BC"
+      ],
+      "category": "insect_remover",
+      "phase": null,
+      "ph": 10,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://grass.su/product/ochistitel_sledov_ot_nasekomykh_bc_bug_cleaner_500ml/",
+      "applications": [
+        {
+          "method": "trigger",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Нанести триггерным распылителем",
+            "Подождать 2–3 минуты",
+            "Не дожидаясь высыхания промыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://grass.su/product/ochistitel_sledov_ot_nasekomykh_bc_bug_cleaner_500ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "При помощи триггерного распылителя нанесите состав Bug Cleaner (BC) на обрабатываемую поверхность."
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "detail-super-wax",
+      "name": "Super Wax (SW)",
+      "subtitle": "Жидкий воск с защитным эффектом, суперконцентрат",
+      "aliases": [
+        "SW"
+      ],
+      "category": "protection",
+      "phase": null,
+      "ph": 6,
+      "packages": [
+        1000,
+        5000
+      ],
+      "productUrl": "https://grass.su/product/zhidkiy_vosk_sw_super_wax_1000ml/",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 300,
+            "to": 500,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:300-1:500 для распылителя",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Выполнить двухфазную мойку",
+            "Нанести распылителем или пенокомплектом",
+            "Подождать 2–3 минуты",
+            "Смыть водой АВД и высушить микрофиброй"
+          ],
+          "restrictions": [
+            "Перед разведением обязательно взболтать"
+          ],
+          "sourceUrl": "https://grass.su/product/zhidkiy_vosk_sw_super_wax_1000ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "расчет концентрации в воде: 1:300-1:500 для распылителя"
+        },
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 30,
+            "to": 50,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "1:30-1:50 для пенокомплекта",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 180
+          },
+          "steps": [
+            "Выполнить двухфазную мойку",
+            "Нанести распылителем или пенокомплектом",
+            "Подождать 2–3 минуты",
+            "Смыть водой АВД и высушить микрофиброй"
+          ],
+          "restrictions": [
+            "Перед разведением обязательно взболтать"
+          ],
+          "sourceUrl": "https://grass.su/product/zhidkiy_vosk_sw_super_wax_1000ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "1:30-1:50 для пенокомплекта"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "detail-hydro-wet-coat",
+      "name": "Hydro Wet Coat (HW)",
+      "subtitle": "Кварцевое покрытие на мокрый кузов, готовый раствор",
+      "aliases": [
+        "HW"
+      ],
+      "category": "protection",
+      "phase": null,
+      "ph": 4,
+      "packages": [
+        250,
+        500
+      ],
+      "productUrl": "https://grass.su/product/kvartsevoe_pokrytie_hw_hydro_wet_coat_500ml/",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Выполнить двухфазную мойку",
+            "Не дожидаясь высыхания авто распылить состав по всей поверхности",
+            "Не дожидаясь высыхания состава промыть водой под давлением"
+          ],
+          "restrictions": [
+            "Не допускать высыхания состава"
+          ],
+          "sourceUrl": "https://grass.su/product/kvartsevoe_pokrytie_hw_hydro_wet_coat_500ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Не дожидаясь высыхания автомобиля, распылите состав Hydro Wet Coat (HW) по всей его поверхности"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "detail-hydro-fast-coat",
+      "name": "Hydro Fast Coat (HF)",
+      "subtitle": "Кварцевое покрытие (SiO2), готово к применению, на мокрый кузов",
+      "aliases": [
+        "HF"
+      ],
+      "category": "protection",
+      "phase": null,
+      "ph": 8,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://grass.su/product/kvartsevoe_pokrytie_hf_hydro_fast_coat_500ml/",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готов к применению и не требует разведения",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Выполнить двухфазную мойку",
+            "Не дожидаясь высыхания нанести небольшое количество на отдельный элемент",
+            "Сразу смыть водой под давлением",
+            "Повторить для всех элементов",
+            "Высушить микрофиброй"
+          ],
+          "restrictions": [
+            "Охладить поверхность перед применением",
+            "Не наносить на горячие поверхности",
+            "Перед применением обязательно взболтать",
+            "Не наносить на стёкла с антидождём",
+            "Не допускать высыхания состава"
+          ],
+          "sourceUrl": "https://grass.su/product/kvartsevoe_pokrytie_hf_hydro_fast_coat_500ml/",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Состав готов к применению и не требует разведения."
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    }
+  ]
+}

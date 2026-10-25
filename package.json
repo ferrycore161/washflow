@@ -1,0 +1,49 @@
+{
+  "name": "washflow",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "WASHFLOW — помощник на мойке самообслуживания (offline-first PWA)",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "npm run catalog:build && tsc -b && vite build",
+    "preview": "vite preview --host --port 4173",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "catalog:build": "tsx scripts/catalog-build.ts",
+    "catalog:import": "tsx scripts/catalog-import.ts",
+    "catalog:report": "tsx scripts/catalog-build.ts --report",
+    "catalog:push": "tsx scripts/catalog-push.ts",
+    "icons": "tsx scripts/icons.ts",
+    "shots": "tsx scripts/shots.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@fontsource/unbounded": "^5.3.0",
+    "@supabase/supabase-js": "^2.118.0",
+    "lucide-react": "^1.61.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6",
+    "zod": "^3.25.76",
+    "zustand": "^4.5.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.8",
+    "@types/node": "^26.6.5",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "jsdom": "^25.0.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21",
+    "vite-plugin-pwa": "^0.20.5",
+    "vitest": "^2.1.9"
+  }
+}

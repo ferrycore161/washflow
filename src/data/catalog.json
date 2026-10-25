@@ -1,0 +1,6174 @@
+{
+ "version": "2026-10-25",
+ "builtAt": "2026-10-25T09:53:30.727Z",
+ "products": [
+  {
+   "id": "detail-acid-shampoo",
+   "brand": "Detail (GRASS)",
+   "name": "Acid Shampoo (AD)",
+   "subtitle": "Кислотный шампунь второй фазы для ручной мойки",
+   "aliases": [
+    "AD"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": 2,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:10 (30 мл на одну машину средних размеров)",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести на охлаждённую поверхность после первой фазы пенокомплектом",
+      "Протереть губкой или варежкой сверху вниз, не продавливая губку",
+      "Смыть водой"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/moyushchee_sredstvo_ad_acid_shampoo_1000_ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Используйте пенокомплект. Пропорции разведения: 1:10 (30 мл на одну машину средних размеров)."
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/moyushchee_sredstvo_ad_acid_shampoo_1000_ml/"
+  },
+  {
+   "id": "detail-active-safe",
+   "brand": "Detail (GRASS)",
+   "name": "Active Safe (AS)",
+   "subtitle": "Щадящий щелочной шампунь первой фазы (предварительная мойка)",
+   "aliases": [
+    "AS",
+    "Актив Сейф"
+   ],
+   "category": "prewash",
+   "phase": 1,
+   "ph": 11.5,
+   "packages": [
+    1000,
+    5000,
+    20000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 100,
+      "to": 300,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "100 - 300 мл на литровую ёмкость пенокомплекта",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Нанести состав на автомобиль снизу вверх",
+      "Подождать 1–2 минуты",
+      "Смыть водой АВД"
+     ],
+     "restrictions": [
+      "Перед разведением обязательно взболтать"
+     ],
+     "sourceUrl": "https://grass.su/product/shampun_pervaya_faza_as_active_safe_1000_ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Концентрация состава для пенокомплекта: 100 - 300 мл на литровую ёмкость пенокомплекта"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Концентрация состава для дозирующего устройства/пеногенератора: 1:50 - 1:100",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Нанести состав на автомобиль снизу вверх",
+      "Подождать 1–2 минуты",
+      "Смыть водой АВД"
+     ],
+     "restrictions": [
+      "Перед разведением обязательно взболтать"
+     ],
+     "sourceUrl": "https://grass.su/product/shampun_pervaya_faza_as_active_safe_1000_ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Концентрация состава для дозирующего устройства/пеногенератора: 1:50 - 1:100"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/shampun_pervaya_faza_as_active_safe_1000_ml/"
+  },
+  {
+   "id": "detail-bug-cleaner",
+   "brand": "Detail (GRASS)",
+   "name": "Bug Cleaner (BC)",
+   "subtitle": "Очиститель следов от насекомых",
+   "aliases": [
+    "BC"
+   ],
+   "category": "insect_remover",
+   "phase": null,
+   "ph": 10,
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "trigger",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "готов к применению",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Нанести триггерным распылителем",
+      "Подождать 2–3 минуты",
+      "Не дожидаясь высыхания промыть водой под давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/ochistitel_sledov_ot_nasekomykh_bc_bug_cleaner_500ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "При помощи триггерного распылителя нанесите состав Bug Cleaner (BC) на обрабатываемую поверхность."
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/ochistitel_sledov_ot_nasekomykh_bc_bug_cleaner_500ml/"
+  },
+  {
+   "id": "detail-easy-safe",
+   "brand": "Detail (GRASS)",
+   "name": "Easy Safe (ES)",
+   "subtitle": "Шампунь первой фазы, щелочной, бесфосфатный (летний период)",
+   "aliases": [],
+   "category": "prewash",
+   "phase": 1,
+   "ph": "щелочной",
+   "packages": [],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "расчет концентрации состава в воде 1:10 для пенокомплекта",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Нанести состав снизу вверх",
+      "Подождать 1–2 минуты",
+      "Смыть водой АВД"
+     ],
+     "restrictions": [
+      "Не наносить на горячие поверхности",
+      "Перед разведением обязательно взболтать"
+     ],
+     "sourceUrl": "https://grass.su/product/shampun_pervaya_faza_es_easy_safe_20_kg/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "расчет концентрации состава в воде 1:10 для пенокомплекта"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "от 1:50 до 1:100 для пеногенератора",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Нанести состав снизу вверх",
+      "Подождать 1–2 минуты",
+      "Смыть водой АВД"
+     ],
+     "restrictions": [
+      "Не наносить на горячие поверхности",
+      "Перед разведением обязательно взболтать"
+     ],
+     "sourceUrl": "https://grass.su/product/shampun_pervaya_faza_es_easy_safe_20_kg/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "от 1:50 до 1:100 для пеногенератора"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/shampun_pervaya_faza_es_easy_safe_20_kg/"
+  },
+  {
+   "id": "detail-hydro-fast-coat",
+   "brand": "Detail (GRASS)",
+   "name": "Hydro Fast Coat (HF)",
+   "subtitle": "Кварцевое покрытие (SiO2), готово к применению, на мокрый кузов",
+   "aliases": [
+    "HF"
+   ],
+   "category": "protection",
+   "phase": null,
+   "ph": 8,
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "готов к применению и не требует разведения",
+     "surface": "wet",
+     "dwellSec": null,
+     "steps": [
+      "Выполнить двухфазную мойку",
+      "Не дожидаясь высыхания нанести небольшое количество на отдельный элемент",
+      "Сразу смыть водой под давлением",
+      "Повторить для всех элементов",
+      "Высушить микрофиброй"
+     ],
+     "restrictions": [
+      "Охладить поверхность перед применением",
+      "Не наносить на горячие поверхности",
+      "Перед применением обязательно взболтать",
+      "Не наносить на стёкла с антидождём",
+      "Не допускать высыхания состава"
+     ],
+     "sourceUrl": "https://grass.su/product/kvartsevoe_pokrytie_hf_hydro_fast_coat_500ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Состав готов к применению и не требует разведения."
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/kvartsevoe_pokrytie_hf_hydro_fast_coat_500ml/"
+  },
+  {
+   "id": "detail-hydro-wet-coat",
+   "brand": "Detail (GRASS)",
+   "name": "Hydro Wet Coat (HW)",
+   "subtitle": "Кварцевое покрытие на мокрый кузов, готовый раствор",
+   "aliases": [
+    "HW"
+   ],
+   "category": "protection",
+   "phase": null,
+   "ph": 4,
+   "packages": [
+    250,
+    500
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "готов к применению",
+     "surface": "wet",
+     "dwellSec": null,
+     "steps": [
+      "Выполнить двухфазную мойку",
+      "Не дожидаясь высыхания авто распылить состав по всей поверхности",
+      "Не дожидаясь высыхания состава промыть водой под давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава"
+     ],
+     "sourceUrl": "https://grass.su/product/kvartsevoe_pokrytie_hw_hydro_wet_coat_500ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Не дожидаясь высыхания автомобиля, распылите состав Hydro Wet Coat (HW) по всей его поверхности"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/kvartsevoe_pokrytie_hw_hydro_wet_coat_500ml/"
+  },
+  {
+   "id": "detail-iron",
+   "brand": "Detail (GRASS)",
+   "name": "Iron (IR)",
+   "subtitle": "Нейтральный очиститель дисков и кузова от металлических вкраплений (индикатор)",
+   "aliases": [
+    "IR"
+   ],
+   "category": "iron_remover",
+   "phase": null,
+   "ph": 6,
+   "packages": [
+    500,
+    1000,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "готов к применению",
+     "surface": null,
+     "dwellSec": {
+      "from": 180,
+      "to": 300
+     },
+     "steps": [
+      "Выполнить двухфазную мойку",
+      "Нанести состав на диски или загрязнённые участки",
+      "Через 3–5 минут (при окрашивании в малиновый) тщательно промыть мощной струёй воды",
+      "Для тяжёлых загрязнений выдержать 5 минут и поработать кистью"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/ochistitel_diskov_ir_iron_500ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Нанесите состав Iron (IR) на диски или загрязненные участки кузова автомобиля. Через 3-5 минут"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/ochistitel_diskov_ir_iron_500ml/"
+  },
+  {
+   "id": "detail-second-phase-adapted",
+   "brand": "Detail (GRASS)",
+   "name": "Second Phase (Adapted Series)",
+   "subtitle": "Гидрофобный шампунь для ручной мойки (катионные ПАВ)",
+   "aliases": [],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": 7,
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 125,
+      "to": 125,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "125 мл на литровую емкость пенокомплекта",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести разведённый шампунь на авто после первой фазы",
+      "Обработать крупнопористой губкой или варежкой сверху вниз, ополаскивая её",
+      "Смыть водой АВД"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/gidrofobnyy_shampun_second_phase_500ml_adapted_series_detail/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "пенокомплекта, пропорция разведения - 125 мл на литровую емкость пенокомплекта"
+    },
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 6.25,
+      "to": 6.25,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "50 мл состава на 8 литров воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести разведённый шампунь на авто после первой фазы",
+      "Обработать крупнопористой губкой или варежкой сверху вниз, ополаскивая её",
+      "Смыть водой АВД"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/gidrofobnyy_shampun_second_phase_500ml_adapted_series_detail/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "ведра и губки, пропорция разведения - 50 мл состава на 8 литров воды"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/gidrofobnyy_shampun_second_phase_500ml_adapted_series_detail/"
+  },
+  {
+   "id": "detail-second-phase",
+   "brand": "Detail (GRASS)",
+   "name": "Second Phase (SP)",
+   "subtitle": "Шампунь второй фазы для ручной мойки, без восков и силиконов",
+   "aliases": [
+    "SP"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": 6,
+   "packages": [
+    1000,
+    5000,
+    20000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 120,
+      "to": 200,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "120 - 200 мл на литровую емкость пенокомплекта",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести разведённый шампунь на авто после первой фазы",
+      "Обработать крупнопористой губкой или варежкой сверху вниз, ополаскивая её",
+      "Смыть водой АВД"
+     ],
+     "restrictions": [
+      "Перед разведением обязательно взболтать"
+     ],
+     "sourceUrl": "https://grass.su/product/shampun_vtoraya_faza_sp_second_phase_1000ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "пропорция разведения - 120 - 200 мл на литровую емкость пенокомплекта"
+    },
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 5,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "40 мл состава на 8 литров воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести разведённый шампунь на авто после первой фазы",
+      "Обработать крупнопористой губкой или варежкой сверху вниз, ополаскивая её",
+      "Смыть водой АВД"
+     ],
+     "restrictions": [
+      "Перед разведением обязательно взболтать"
+     ],
+     "sourceUrl": "https://grass.su/product/shampun_vtoraya_faza_sp_second_phase_1000ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "ручное нанесение при помощи ведра, пропорция разведения - 40 мл состава на 8 литров воды"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/shampun_vtoraya_faza_sp_second_phase_1000ml/"
+  },
+  {
+   "id": "detail-super-wax",
+   "brand": "Detail (GRASS)",
+   "name": "Super Wax (SW)",
+   "subtitle": "Жидкий воск с защитным эффектом, суперконцентрат",
+   "aliases": [
+    "SW"
+   ],
+   "category": "protection",
+   "phase": null,
+   "ph": 6,
+   "packages": [
+    1000,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 300,
+      "to": 500,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:300-1:500 для распылителя",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Выполнить двухфазную мойку",
+      "Нанести распылителем или пенокомплектом",
+      "Подождать 2–3 минуты",
+      "Смыть водой АВД и высушить микрофиброй"
+     ],
+     "restrictions": [
+      "Перед разведением обязательно взболтать"
+     ],
+     "sourceUrl": "https://grass.su/product/zhidkiy_vosk_sw_super_wax_1000ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "расчет концентрации в воде: 1:300-1:500 для распылителя"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 30,
+      "to": 50,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:30-1:50 для пенокомплекта",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Выполнить двухфазную мойку",
+      "Нанести распылителем или пенокомплектом",
+      "Подождать 2–3 минуты",
+      "Смыть водой АВД и высушить микрофиброй"
+     ],
+     "restrictions": [
+      "Перед разведением обязательно взболтать"
+     ],
+     "sourceUrl": "https://grass.su/product/zhidkiy_vosk_sw_super_wax_1000ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:30-1:50 для пенокомплекта"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/zhidkiy_vosk_sw_super_wax_1000ml/"
+  },
+  {
+   "id": "detail-ultra-safe-adapted",
+   "brand": "Detail (GRASS)",
+   "name": "Ultra Safe (Adapted Series)",
+   "subtitle": "Бесконтактный шампунь для предварительной мойки, щелочной",
+   "aliases": [],
+   "category": "prewash",
+   "phase": 1,
+   "ph": 12,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 125,
+      "to": 125,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "пенокомплект, пропорция разведения - 125 мл на литровую емкость пенокомплекта",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Охладить поверхность",
+      "Нанести состав снизу вверх",
+      "Подождать 2–3 минуты, не допуская высыхания",
+      "Смыть водой АВД"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава",
+      "Не наносить на горячие поверхности",
+      "Перед разведением обязательно взболтать"
+     ],
+     "sourceUrl": "https://grass.su/product/beskontaktnyy_shampun_ultra_safe_1000ml_adapted_series_detail/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "пенокомплект, пропорция разведения - 125 мл на литровую емкость пенокомплекта"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 30,
+      "to": 80,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "пеногенератор (расчет концентрации состава в воде от 1:30 до 1:80)",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Охладить поверхность",
+      "Нанести состав снизу вверх",
+      "Подождать 2–3 минуты, не допуская высыхания",
+      "Смыть водой АВД"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава",
+      "Не наносить на горячие поверхности",
+      "Перед разведением обязательно взболтать"
+     ],
+     "sourceUrl": "https://grass.su/product/beskontaktnyy_shampun_ultra_safe_1000ml_adapted_series_detail/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "пеногенератор (расчет концентрации состава в воде от 1:30 до 1:80)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/beskontaktnyy_shampun_ultra_safe_1000ml_adapted_series_detail/"
+  },
+  {
+   "id": "detail-ultra-safe-us",
+   "brand": "Detail (GRASS)",
+   "name": "Ultra Safe (US)",
+   "subtitle": "Шампунь первой фазы для предварительной мойки, щелочной, бесфосфатный",
+   "aliases": [],
+   "category": "prewash",
+   "phase": 1,
+   "ph": 11.5,
+   "packages": [],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "расчет концентрации состава в воде 1:10 для пенокомплекта",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Нанести состав снизу вверх",
+      "Подождать 1–2 минуты",
+      "Смыть водой АВД"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/shampun_pervaya_faza_us_ultra_safe_5_kg/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "расчет концентрации состава в воде 1:10 для пенокомплекта"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "от 1:50 до 1:100 для пеногенератора",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Нанести состав снизу вверх",
+      "Подождать 1–2 минуты",
+      "Смыть водой АВД"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/shampun_pervaya_faza_us_ultra_safe_5_kg/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "от 1:50 до 1:100 для пеногенератора"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/shampun_pervaya_faza_us_ultra_safe_5_kg/"
+  },
+  {
+   "id": "glitz-01-goldie",
+   "brand": "Glitz (LERATON)",
+   "name": "01 Goldie",
+   "subtitle": "Бесконтактный шампунь первой фазы, аромат «Табак и Вишня»",
+   "aliases": [
+    "Goldie",
+    "Glitz Goldie",
+    "Глитц Голди"
+   ],
+   "category": "prewash",
+   "phase": 1,
+   "ph": 11.5,
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 8,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Пенокомплект: 1:8 - 1:10",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 240
+     },
+     "steps": [
+      "Равномерно нанести пенокомплектом или накачным распылителем",
+      "Подождать 2–4 минуты",
+      "Тщательно смыть под высоким напором воды"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/glitz-beskontaktnyj-avtomobilnyj-shampun-01-goldie-500-ml",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Рекомендации по разведению: Пенокомплект: 1:8 - 1:10"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 40,
+      "to": 60,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Накачной распылитель: 1:40 - 1:60",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 240
+     },
+     "steps": [
+      "Равномерно нанести пенокомплектом или накачным распылителем",
+      "Подождать 2–4 минуты",
+      "Тщательно смыть под высоким напором воды"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/glitz-beskontaktnyj-avtomobilnyj-shampun-01-goldie-500-ml",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Накачной распылитель: 1:40 - 1:60"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://leraton.ru/katalog/cleaners/mojka/bubblefoam/glitz-beskontaktnyj-avtomobilnyj-shampun-01-goldie-500-ml"
+  },
+  {
+   "id": "glitz-02-argent",
+   "brand": "Glitz (LERATON)",
+   "name": "02 Argent",
+   "subtitle": "Шампунь для ручной мойки (2 фаза), pH 8,5, аромат «Морская свежесть»",
+   "aliases": [
+    "Argent",
+    "Glitz Argent",
+    "Leraton Glitz Argent",
+    "Глитц Аржент"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": 8.5,
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 6,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Пенокомплект: 1:6 – 1:10",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Разбавить шампунь водой",
+      "Нанести губкой, варежкой или падом (или пенокомплектом / ручным распылителем)",
+      "Протереть авто сверху вниз",
+      "Тщательно смыть под высоким напором воды"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/glitz-shampun-dlya-ruchnoj-mojki-avtomobilya-02-argent-500-ml-g0205",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Рекомендации по разведению: Пенокомплект: 1:6 – 1:10"
+    },
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 10,
+      "to": 15,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "Ведро: 100-150 мл на 10 л воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Разбавить шампунь водой",
+      "Нанести губкой, варежкой или падом (или пенокомплектом / ручным распылителем)",
+      "Протереть авто сверху вниз",
+      "Тщательно смыть под высоким напором воды"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/glitz-shampun-dlya-ruchnoj-mojki-avtomobilya-02-argent-500-ml-g0205",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Ведро: 100-150 мл на 10 л воды"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 50,
+      "to": 60,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Накачной распылитель: 1:50 – 1:60",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Разбавить шампунь водой",
+      "Нанести губкой, варежкой или падом (или пенокомплектом / ручным распылителем)",
+      "Протереть авто сверху вниз",
+      "Тщательно смыть под высоким напором воды"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/glitz-shampun-dlya-ruchnoj-mojki-avtomobilya-02-argent-500-ml-g0205",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Накачной распылитель: 1:50 – 1:60"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/glitz-shampun-dlya-ruchnoj-mojki-avtomobilya-02-argent-500-ml-g0205"
+  },
+  {
+   "id": "glitz-03-ruby",
+   "brand": "Glitz (LERATON)",
+   "name": "03 Ruby",
+   "subtitle": "Кислотный шампунь для ручной мойки (2 фаза), «Кислая свежесть»",
+   "aliases": [
+    "Ruby",
+    "Glitz Ruby"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "кислотный",
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 7,
+      "to": 12,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Пеногенератор: 1:7 – 1:12",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Разбавить водой и равномерно нанести",
+      "Без давления протереть крупнопористой губкой сверху вниз",
+      "Смыть водой под высоким напором"
+     ],
+     "restrictions": [
+      "Не допускайте высыхания средства на поверхности"
+     ],
+     "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/glitz-kislotnyj-shampun-dlya-ruchnoj-mojki-avtomobilya-03-ruby-500",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Способ разведения: Пеногенератор: 1:7 – 1:12"
+    },
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 5,
+      "to": 7,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "Ведро: 50-70 мл на 10 л",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Разбавить водой и равномерно нанести",
+      "Без давления протереть крупнопористой губкой сверху вниз",
+      "Смыть водой под высоким напором"
+     ],
+     "restrictions": [
+      "Не допускайте высыхания средства на поверхности"
+     ],
+     "sourceUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/glitz-kislotnyj-shampun-dlya-ruchnoj-mojki-avtomobilya-03-ruby-500",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Ведро: 50-70 мл на 10 л"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://leraton.ru/katalog/cleaners/mojka/handwash/glitz-kislotnyj-shampun-dlya-ruchnoj-mojki-avtomobilya-03-ruby-500"
+  },
+  {
+   "id": "glitz-08-purpur",
+   "brand": "Glitz (LERATON)",
+   "name": "08 PurPur",
+   "subtitle": "Нейтральный очиститель дисков и кузова",
+   "aliases": [],
+   "category": "iron_remover",
+   "phase": null,
+   "ph": "нейтральный",
+   "packages": [
+    500
+   ],
+   "applications": [],
+   "warnings": [],
+   "status": "unverified",
+   "productUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/glitz-nejtralnyj-ochistitel-diskov-i-kuzova-08-purpur-500ml-g0805"
+  },
+  {
+   "id": "glitz-13-wheely",
+   "brand": "Glitz (LERATON)",
+   "name": "13 Wheely",
+   "subtitle": "Очиститель шин и дисков с D-лимоненом",
+   "aliases": [
+    "Wheely"
+   ],
+   "category": "wheel_cleaner",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    500
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "готово к применению. Допускается разведение 1:1 – 1:3",
+     "surface": null,
+     "dwellSec": {
+      "from": 180,
+      "to": 300
+     },
+     "steps": [
+      "Смыть водой основные загрязнения с колёс",
+      "Нанести средство (готовое или разбавленное)",
+      "Оставить на 3–5 минут, при необходимости обработать щёткой",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не для анодированных и покрытых лаком алюминиевых дисков"
+     ],
+     "sourceUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/glitz-ochistitel-shin-i-diskov-13-wheely-500-ml-g1305",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Способ разведения: готово к применению. Допускается разведение 1:1 – 1:3"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://leraton.ru/katalog/cleaners/yeksterer/ochistiteli-diskov/glitz-ochistitel-shin-i-diskov-13-wheely-500-ml-g1305"
+  },
+  {
+   "id": "grass-active-foam-balance",
+   "brand": "GRASS",
+   "name": "Active Foam Balance",
+   "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 11.7,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 1,
+      "to": 2,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:1-1:2 (330-500 г) в пенокомплект (1л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_balance_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:1-1:2 (330-500 г) в пенокомплект (1л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 20,
+      "to": 30,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:20-1:30 (32-48 г/л) для пеногенератора (25,50,100 л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_balance_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:20-1:30 (32-48 г/л) для пеногенератора (25,50,100 л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_balance_kanistra_1_l/"
+  },
+  {
+   "id": "grass-active-foam-effect",
+   "brand": "GRASS",
+   "name": "Active Foam Effect",
+   "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 11.8,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:5-1:10 (90-170 г/л) в пенокомплект (1л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_effect_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:5-1:10 (90-170 г/л) в пенокомплект (1л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 60,
+      "to": 120,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:60-1:120 (8-25г) для пеногенератора (25,50,100 л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_effect_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:60-1:120 (8-25г) для пеногенератора (25,50,100 л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_effect_kanistra_1_l/"
+  },
+  {
+   "id": "grass-active-foam-extra",
+   "brand": "GRASS",
+   "name": "Active Foam Extra",
+   "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 11.9,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 4,
+      "to": 7,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:4-1:7 (125-200г) в пенокомплект (1л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_extra_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:4-1:7 (125-200г) в пенокомплект (1л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 90,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50-1:90 (10-20 г/л) для пеногенератора (25,50,100 л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_extra_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50-1:90 (10-20 г/л) для пеногенератора (25,50,100 л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_extra_kanistra_1_l/"
+  },
+  {
+   "id": "grass-active-foam-gel-plus",
+   "brand": "GRASS",
+   "name": "Active Foam Gel +",
+   "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+   "aliases": [
+    "Active Foam Gel+",
+    "Active Foam Gel"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 12,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 6,
+      "to": 12,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:6-1:12 (75-145г) в пенокомплект (1л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_gel_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:6-1:12 (75-145г) в пенокомплект (1л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 70,
+      "to": 140,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:70-1:140 (7-14г/л) для пеногенератора (25,50,100 л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_gel_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:70-1:140 (7-14г/л) для пеногенератора (25,50,100 л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_gel_kanistra_1_l/"
+  },
+  {
+   "id": "grass-active-foam-light",
+   "brand": "GRASS",
+   "name": "Active Foam Light",
+   "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 11.8,
+   "packages": [
+    1000,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 1,
+      "to": 2,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:1-1:2 (330-500г) в пенокомплект (1л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_light_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:1-1:2 (330-500г) в пенокомплект (1л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 20,
+      "to": 40,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:20-1:40 (25-48 г/л) для пеногенератора (25,50,100 л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_light_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:20-1:40 (25-48 г/л) для пеногенератора (25,50,100 л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_light_kanistra_1_l/"
+  },
+  {
+   "id": "grass-active-foam-magic",
+   "brand": "GRASS",
+   "name": "Active Foam Magic",
+   "subtitle": "Активная пена для бесконтактной мойки, фиолетовая пена",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 11,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 7,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:5-1:7 (125-170г) в пенокомплект (1л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_magic_kanistra_1_l_maxima/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:5-1:7 (125-170г) в пенокомплект (1л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 60,
+      "to": 90,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:60-1:90 (10-16 г/л) для пеногенератора (25,50,100 л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_magic_kanistra_1_l_maxima/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:60-1:90 (10-16 г/л) для пеногенератора (25,50,100 л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_magic_kanistra_1_l_maxima/"
+  },
+  {
+   "id": "grass-active-foam-pink",
+   "brand": "GRASS",
+   "name": "Active Foam Pink",
+   "subtitle": "Активная пена для бесконтактной мойки, розовая пена, щелочная",
+   "aliases": [
+    "Грасс Пинк",
+    "Active Foam Pink Grass"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 12,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:5-1:10 (90-170г) в пенокомплект (1л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_pink_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:5-1:10 (90-170г) в пенокомплект (1л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 60,
+      "to": 120,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:60-1:120 (8-17 г/л) для пеногенератора (25,50,100 л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_pink_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:60-1:120 (8-17 г/л) для пеногенератора (25,50,100 л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_pink_kanistra_1_l/"
+  },
+  {
+   "id": "grass-active-foam-power",
+   "brand": "GRASS",
+   "name": "Active Foam Power",
+   "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 11.7,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 4,
+      "to": 7,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:4-1:7 (125- 200г) в пенокомплект (1л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания",
+      "Взболтать канистру"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_power_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:4-1:7 (125- 200г) в пенокомплект (1л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 90,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50-1:90 (10-20 г/л) для пеногенератора (25,50,100 л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания",
+      "Взболтать канистру"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_power_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50-1:90 (10-20 г/л) для пеногенератора (25,50,100 л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_power_kanistra_1_l/"
+  },
+  {
+   "id": "grass-active-foam-red",
+   "brand": "GRASS",
+   "name": "Active Foam Red",
+   "subtitle": "Активная пена для бесконтактной мойки, щелочная",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 12,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 2,
+      "to": 4,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:2-1:4 (200-330г) в пенокомплект (1л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_red_kanistra_1l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:2-1:4 (200-330г) в пенокомплект (1л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 30,
+      "to": 50,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:30-1:50 (20-32 г/л) для пеногенератора (25,50,100 л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_red_kanistra_1l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:30-1:50 (20-32 г/л) для пеногенератора (25,50,100 л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_red_kanistra_1l/"
+  },
+  {
+   "id": "grass-active-foam-truck",
+   "brand": "GRASS",
+   "name": "Active Foam Truck",
+   "subtitle": "Активная пена для бесконтактной мойки грузового и легкового транспорта",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 12,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 8,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:5-1:8 (110- 170г) в пенокомплект (1л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания",
+      "Взболтать канистру"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_truck_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:5-1:8 (110- 170г) в пенокомплект (1л)"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 60,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:60-1:100 (10-16 г/л) для пеногенератора (25,50,100 л)",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 120
+     },
+     "steps": [
+      "Разбавить в указанной пропорции",
+      "Остудить кузов, при необходимости сбить верхний слой грязи",
+      "Нанести разбавленный состав снизу вверх",
+      "Выдержать 1–2 минуты, не допуская высыхания",
+      "Тщательно смыть водой под высоким давлением с 15–20 см снизу вверх"
+     ],
+     "restrictions": [
+      "Не допускать высыхания",
+      "Взболтать канистру"
+     ],
+     "sourceUrl": "https://grass.su/product/aktivnaya_pena_active_foam_truck_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:60-1:100 (10-16 г/л) для пеногенератора (25,50,100 л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/aktivnaya_pena_active_foam_truck_kanistra_1_l/"
+  },
+  {
+   "id": "grass-antibitum",
+   "brand": "GRASS",
+   "name": "Antibitum",
+   "subtitle": "Очиститель битумных пятен, смол, нефтепродуктов",
+   "aliases": [],
+   "category": "tar_remover",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    500,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "готов к применению",
+     "surface": null,
+     "dwellSec": {
+      "from": 0,
+      "to": 300
+     },
+     "steps": [
+      "Помыть авто бесконтактным шампунем",
+      "Распылить состав на загрязнение",
+      "Выдержать не более 5 минут",
+      "Смыть струёй воды или протереть чистой микрофиброй",
+      "При необходимости повторить"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/ochistitel_bitumnykh_pyaten_antibitum_flakon_500_ml_/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Распылить состав Antibitum на загрязненную поверхность. Выдержать состав на поверхности не более 5 минут."
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/ochistitel_bitumnykh_pyaten_antibitum_flakon_500_ml_/"
+  },
+  {
+   "id": "grass-auto-shampoo",
+   "brand": "GRASS",
+   "name": "Auto Shampoo",
+   "subtitle": "Автошампунь для ручной мойки, нейтральный (апельсин / зелёное яблоко)",
+   "aliases": [
+    "Auto Shampoo апельсин",
+    "Auto Shampoo яблоко"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": 7,
+   "packages": [
+    500,
+    1000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 3,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "Растворить 30-50г шампуня в 10 л воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Растворить шампунь в воде",
+      "Нанести вручную",
+      "Смыть водой"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/avtoshampun_universal_s_aromatom_apelsina_flakon_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Растворить 30-50г шампуня в 10 л воды."
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/avtoshampun_universal_s_aromatom_apelsina_flakon_1_l/"
+  },
+  {
+   "id": "grass-carwash-foam",
+   "brand": "GRASS",
+   "name": "Carwash Foam",
+   "subtitle": "Автошампунь для ручной мойки с повышенным пенообразованием",
+   "aliases": [],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": 9,
+   "packages": [],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 20,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для пенокомплекта в пропорции 1:10-1:20 или 50-100 г на 1 л воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Тщательно перемешать шампунь с водой",
+      "Нанести на кузов",
+      "Потереть губкой",
+      "Смыть"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/shampun_dlya_ruchnoy_moyki_avtomobilya_carwash_foam_kanistra_20_kg/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для пенокомплекта в пропорции 1:10-1:20 или 50-100 г на 1 л воды"
+    },
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 500,
+      "to": 500,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для ручного нанесения 1:500 или 20 г шампуня на 10 л воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Тщательно перемешать шампунь с водой",
+      "Нанести на кузов",
+      "Потереть губкой",
+      "Смыть"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/shampun_dlya_ruchnoy_moyki_avtomobilya_carwash_foam_kanistra_20_kg/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для ручного нанесения 1:500 или 20 г шампуня на 10 л воды"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 200,
+      "to": 250,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "для пеногенератора 1:200-1:250 или 4-5 г шампуня на 1 л воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Тщательно перемешать шампунь с водой",
+      "Нанести на кузов",
+      "Потереть губкой",
+      "Смыть"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/shampun_dlya_ruchnoy_moyki_avtomobilya_carwash_foam_kanistra_20_kg/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "для пеногенератора 1:200-1:250 или 4-5 г шампуня на 1 л воды"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/shampun_dlya_ruchnoy_moyki_avtomobilya_carwash_foam_kanistra_20_kg/"
+  },
+  {
+   "id": "grass-cherry-wax",
+   "brand": "GRASS",
+   "name": "Cherry Wax",
+   "subtitle": "Холодный воск для защиты и ускорения сушки",
+   "aliases": [],
+   "category": "protection",
+   "phase": null,
+   "ph": 6,
+   "packages": [
+    1000,
+    5000,
+    20000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 25,
+      "to": 50,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Для распылителя концентрат разбавить с водой в пропорции 1:25 (1:50) или 20-40 г/л",
+     "surface": null,
+     "dwellSec": null,
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на предварительно очищенную поверхность",
+      "Излишки смыть водой под давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/kholodnyy_vosk_cherry_wax_kanistra_1_l_/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Для распылителя концентрат разбавить с водой в пропорции 1:25 (1:50) или 20-40 г/л"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 3,
+      "to": 5,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Для пенокомплекта разбавить с водой в пропорции 1:3 (1:5) или 300-200 г/л",
+     "surface": null,
+     "dwellSec": null,
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на предварительно очищенную поверхность",
+      "Излишки смыть водой под давлением"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/kholodnyy_vosk_cherry_wax_kanistra_1_l_/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Для пенокомплекта разбавить с водой в пропорции 1:3 (1:5) или 300-200 г/л"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/kholodnyy_vosk_cherry_wax_kanistra_1_l_/"
+  },
+  {
+   "id": "grass-disk",
+   "brand": "GRASS",
+   "name": "Disk",
+   "subtitle": "Кислотное средство для очистки колёсных дисков (кислотостойкие материалы)",
+   "aliases": [],
+   "category": "wheel_cleaner",
+   "phase": null,
+   "ph": 3,
+   "packages": [
+    600
+   ],
+   "applications": [
+    {
+     "method": "trigger",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "готов к применению",
+     "surface": null,
+     "dwellSec": {
+      "from": 0,
+      "to": 60
+     },
+     "steps": [
+      "Охладить поверхность",
+      "Распылителем в положении «SPRAY» нанести средство",
+      "Оставить не более чем на 1 минуту, не допуская высыхания",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания",
+      "Только для кислотостойких материалов"
+     ],
+     "sourceUrl": "https://grass.su/product/sredstvo_dlya_ochistki_kolesnykh_diskov_disk_flakon_600_ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Повернуть распылитель в положение «SPRAY», нанести средство на очищаемую поверхность, оставить не более, чем на 1 минуту"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/sredstvo_dlya_ochistki_kolesnykh_diskov_disk_flakon_600_ml/"
+  },
+  {
+   "id": "grass-disk-cleaner-super",
+   "brand": "GRASS",
+   "name": "Disk Cleaner Super",
+   "subtitle": "Нейтральный очиститель дисков от металлических вкраплений (индикатор)",
+   "aliases": [],
+   "category": "wheel_cleaner",
+   "phase": null,
+   "ph": 7,
+   "packages": [
+    600
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "готов к применению",
+     "surface": null,
+     "dwellSec": {
+      "from": 180,
+      "to": 180
+     },
+     "steps": [
+      "Охладить поверхность, взболтать средство",
+      "Помыть авто бесконтактным шампунем",
+      "Нанести состав на загрязнённые участки, дождаться малинового окрашивания",
+      "При тяжёлых загрязнениях выдержать не менее 3 минут, затем поработать щёткой/кистью/губкой",
+      "Тщательно промыть мощной струёй воды"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/chistyashchee_sredstvo_disk_cleaner_super_flakon_600_ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Нанесите состав Disk Cleaner Super на загрязненные участки. Дождитесь окраски состава в малиновый цвет."
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/chistyashchee_sredstvo_disk_cleaner_super_flakon_600_ml/"
+  },
+  {
+   "id": "grass-fast-wax",
+   "brand": "GRASS",
+   "name": "Fast Wax",
+   "subtitle": "Холодный воск для быстрой сушки и защиты",
+   "aliases": [],
+   "category": "protection",
+   "phase": null,
+   "ph": 6,
+   "packages": [
+    1000,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 20,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Для пенокомплекта разбавьте с водой в пропорции 1:10-1:20 (90-47 г/л)",
+     "surface": null,
+     "dwellSec": null,
+     "steps": [
+      "Помыть авто бесконтактным шампунем, затем ручным шампунем",
+      "Развести в указанной пропорции",
+      "Нанести на поверхность",
+      "Смыть остатки водой под давлением"
+     ],
+     "restrictions": [
+      "Не допускать смешивания с бесконтактными шампунями"
+     ],
+     "sourceUrl": "https://grass.su/product/kholodnyy_vosk_fast_wax_kanistra_1_l_/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Для пенокомплекта разбавьте с водой в пропорции 1:10-1:20 (90-47 г/л)"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Для распылителя концентрат разбавьте с водой в пропорции 1:50-1:100 (10-5 г/л)",
+     "surface": null,
+     "dwellSec": null,
+     "steps": [
+      "Помыть авто бесконтактным шампунем, затем ручным шампунем",
+      "Развести в указанной пропорции",
+      "Нанести на поверхность",
+      "Смыть остатки водой под давлением"
+     ],
+     "restrictions": [
+      "Не допускать смешивания с бесконтактными шампунями"
+     ],
+     "sourceUrl": "https://grass.su/product/kholodnyy_vosk_fast_wax_kanistra_1_l_/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Для распылителя концентрат разбавьте с водой в пропорции 1:50-1:100 (10-5 г/л)"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/kholodnyy_vosk_fast_wax_kanistra_1_l_/"
+  },
+  {
+   "id": "grass-mosquitos-cleaner-concentrate",
+   "brand": "GRASS",
+   "name": "Mosquitos Cleaner (концентрат)",
+   "subtitle": "Концентрат для удаления следов насекомых",
+   "aliases": [],
+   "category": "insect_remover",
+   "phase": null,
+   "ph": 11,
+   "packages": [
+    1000,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 100,
+      "to": 200,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "Для распылителя концентрат разбавить с водой в пропорции 100-200 г/л",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Охладить поверхность",
+      "Сбить верхний слой пыли водой под давлением",
+      "Нанести раствор распылителем",
+      "Выдержать 2–3 минуты, не допуская высыхания",
+      "Тщательно смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания"
+     ],
+     "sourceUrl": "https://grass.su/product/sredstvo_dlya_udaleniya_sledov_nasekomykh_mosquitos_cleaner_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Для распылителя концентрат разбавить с водой в пропорции 100-200 г/л в зависимости от степени загрязнения."
+    }
+   ],
+   "warnings": [
+    "В составе щелочь – использовать перчатки"
+   ],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/sredstvo_dlya_udaleniya_sledov_nasekomykh_mosquitos_cleaner_kanistra_1_l/"
+  },
+  {
+   "id": "grass-mosquitos-cleaner-rtu",
+   "brand": "GRASS",
+   "name": "Mosquitos Cleaner (флакон 600 мл)",
+   "subtitle": "Готовое средство для удаления следов насекомых",
+   "aliases": [],
+   "category": "insect_remover",
+   "phase": null,
+   "ph": 8,
+   "packages": [
+    600
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "готов к применению",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Охладить поверхность",
+      "Обильно нанести на загрязнения с близкого расстояния",
+      "Через 2–3 минуты потереть губкой",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://grass.su/product/sredstvo_dlya_udaleniya_sledov_nasekomykh_mosquitos_cleaner_flakon_600_ml/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Перед основной мойкой автомобиля следует обильно нанести средство на загрязненные области с близкого расстояния."
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/sredstvo_dlya_udaleniya_sledov_nasekomykh_mosquitos_cleaner_flakon_600_ml/"
+  },
+  {
+   "id": "grass-nano-shampoo",
+   "brand": "GRASS",
+   "name": "Nano Shampoo",
+   "subtitle": "Наношампунь для ручной мойки с защитным эффектом",
+   "aliases": [],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": 8,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 5,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "50 мл на 10 л теплой воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Предварительно помыть авто бесконтактным средством",
+      "Нанести наношампунь губкой или пенокомплектом",
+      "Распределить губкой или варежкой",
+      "Смыть водой"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/nanoshampun_nano_shampoo_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Для ручной мойки необходимо развести концентрат из расчета 50 мл на 10 л теплой воды"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 100,
+      "to": 100,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "для пенокомплекта (1 л) потребуется 100 мл концентрата",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Предварительно помыть авто бесконтактным средством",
+      "Нанести наношампунь губкой или пенокомплектом",
+      "Распределить губкой или варежкой",
+      "Смыть водой"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/nanoshampun_nano_shampoo_kanistra_1_l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Для нанесения с помощью пенокомплекта (1 л) потребуется 100 мл концентрата"
+    }
+   ],
+   "warnings": [
+    "При частой работе использовать перчатки"
+   ],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/nanoshampun_nano_shampoo_kanistra_1_l/"
+  },
+  {
+   "id": "grass-nano-wax",
+   "brand": "GRASS",
+   "name": "Nano Wax",
+   "subtitle": "Нановоск с защитным эффектом для консервации после мойки",
+   "aliases": [],
+   "category": "protection",
+   "phase": null,
+   "ph": 6,
+   "packages": [
+    1000,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 30,
+      "to": 50,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Для пенокомплекта разбавьте с водой в пропорции 1:30-1:50 (20-30 г/л)",
+     "surface": null,
+     "dwellSec": null,
+     "steps": [
+      "Помыть авто бесконтактным шампунем, затем ручным шампунем",
+      "Развести в указанной пропорции",
+      "Нанести на поверхность",
+      "Смыть остатки водой под давлением"
+     ],
+     "restrictions": [
+      "Не допускать смешивания с бесконтактными шампунями"
+     ],
+     "sourceUrl": "https://grass.su/product/nanovosk_s_zashchitnym_effektom_nano_wax_kanistra_1_l_/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Для пенокомплекта разбавьте с водой в пропорции 1:30-1:50 (20-30 г/л)"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 300,
+      "to": 500,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Для распылителя концентрат разбавьте с водой в пропорции 1:300-1:500 (2-3 г/л)",
+     "surface": null,
+     "dwellSec": null,
+     "steps": [
+      "Помыть авто бесконтактным шампунем, затем ручным шампунем",
+      "Развести в указанной пропорции",
+      "Нанести на поверхность",
+      "Смыть остатки водой под давлением"
+     ],
+     "restrictions": [
+      "Не допускать смешивания с бесконтактными шампунями"
+     ],
+     "sourceUrl": "https://grass.su/product/nanovosk_s_zashchitnym_effektom_nano_wax_kanistra_1_l_/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Для распылителя концентрат разбавьте с водой в пропорции 1:300-1:500 (2-3 г/л)"
+    }
+   ],
+   "warnings": [
+    "Для разбавления рекомендуется очищенная или осмотическая вода"
+   ],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/nanovosk_s_zashchitnym_effektom_nano_wax_kanistra_1_l_/"
+  },
+  {
+   "id": "grass-wash-wax",
+   "brand": "GRASS",
+   "name": "Wash & Wax",
+   "subtitle": "Автошампунь с карнаубским воском для ручной мойки",
+   "aliases": [
+    "Wash and Wax"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": 7,
+   "packages": [
+    1000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 3,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "Растворить 30-50г шампуня в 10 л воды",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Растворить шампунь в воде",
+      "Нанести вручную",
+      "Смыть водой"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://grass.su/product/avtoshampun_s_karnaubskim_voskom_wash_wax_flakon_1l/",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Растворить 30-50г шампуня в 10 л воды."
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://grass.su/product/avtoshampun_s_karnaubskim_voskom_wash_wax_flakon_1l/"
+  },
+  {
+   "id": "shine-systems-acidcleaner",
+   "brand": "Shine Systems",
+   "name": "AcidCleaner",
+   "subtitle": "Универсальный кислотный очиститель (диски, кислотостойкие поверхности)",
+   "aliases": [],
+   "category": "wheel_cleaner",
+   "phase": null,
+   "ph": "0–1",
+   "packages": [
+    750,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 3,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:3 – 1:10",
+     "surface": "wet",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести",
+      "Обильно смочить поверхность водой",
+      "Нанести раствор распылителем, выдержать 2–3 минуты",
+      "При необходимости поработать щёткой",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами",
+      "Не применять на алюминиевых, анодированных и хромированных поверхностях",
+      "Не для мойки кузова и моторного отсека"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/d2a1cd78-9a4e-11ea-80c7-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Разбавление: 1:3 – 1:10. Нанести с помощью распылителя раствор"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/d2a1cd78-9a4e-11ea-80c7-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-acidshampoo",
+   "brand": "Shine Systems",
+   "name": "AcidShampoo",
+   "subtitle": "Кислотный шампунь для ручной мойки (2 фаза), нейтрализует щёлочь, для защитных покрытий",
+   "aliases": [
+    "Acid Shampoo"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "0–1",
+   "packages": [
+    750,
+    5000,
+    20000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 200,
+      "to": 200,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:200 — ручная мойка",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести пенокомплектом либо ведром и губкой",
+      "Промыть кузов крупноячеистой губкой без выдержки",
+      "Смыть АВД"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами",
+      "Перед применением взболтать"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/826f48f9-6119-11eb-80ed-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Разбавление: 1:200 — ручная мойка"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 7,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:7-1:10 – через пенокомплект",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести пенокомплектом либо ведром и губкой",
+      "Промыть кузов крупноячеистой губкой без выдержки",
+      "Смыть АВД"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами",
+      "Перед применением взболтать"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/826f48f9-6119-11eb-80ed-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:7-1:10 – через пенокомплект"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема",
+    "Беречь от детей"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/826f48f9-6119-11eb-80ed-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-activebase",
+   "brand": "Shine Systems",
+   "name": "ActiveBase",
+   "subtitle": "Активный шампунь для бесконтактной мойки",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 12,
+   "packages": [
+    900,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 6,
+      "to": 12,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:6 – 1:12 – пенокомплект",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/0c83b2b8-4460-11f1-b8a5-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:6 – 1:12 – пенокомплект"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 60,
+      "to": 120,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:60 – 1:120 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/0c83b2b8-4460-11f1-b8a5-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:60 – 1:120 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 60,
+      "to": 120,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:60 – 1:120 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/0c83b2b8-4460-11f1-b8a5-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:60 – 1:120 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/0c83b2b8-4460-11f1-b8a5-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-activefoam",
+   "brand": "Shine Systems",
+   "name": "ActiveFoam",
+   "subtitle": "Активная пена для бесконтактной мойки",
+   "aliases": [
+    "Active Foam"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    900
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 20,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:10 – 1:20 – пенокомплект, смеситель типа PROMAX",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/23b92096-09ac-11ea-bbbd-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:10 – 1:20 – пенокомплект, смеситель типа PROMAX"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 100,
+      "to": 200,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:100 – 1:200 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/23b92096-09ac-11ea-bbbd-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:100 – 1:200 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 100,
+      "to": 200,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:100 – 1:200 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/23b92096-09ac-11ea-bbbd-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:100 – 1:200 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/23b92096-09ac-11ea-bbbd-74d4350ba0d8"
+  },
+  {
+   "id": "shine-systems-activegel",
+   "brand": "Shine Systems",
+   "name": "ActiveGel",
+   "subtitle": "Активный шампунь-гель для бесконтактной мойки",
+   "aliases": [
+    "Active Gel"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 12,
+   "packages": [
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 20,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:10 – 1:20 – пенокомплект, смеситель типа PROMAX",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/72c9919b-a040-11f0-b85a-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:10 – 1:20 – пенокомплект, смеситель типа PROMAX"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 100,
+      "to": 200,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:100 – 1:200 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/72c9919b-a040-11f0-b85a-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:100 – 1:200 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 100,
+      "to": 200,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:100 – 1:200 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/72c9919b-a040-11f0-b85a-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:100 – 1:200 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/72c9919b-a040-11f0-b85a-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-bitumfree",
+   "brand": "Shine Systems",
+   "name": "BitumFree",
+   "subtitle": "Деликатный очиститель битумных пятен и дорожных реагентов",
+   "aliases": [],
+   "category": "tar_remover",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    750,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "Применяется в неразведенном виде.",
+     "surface": null,
+     "dwellSec": {
+      "from": 30,
+      "to": 180
+     },
+     "steps": [
+      "Встряхнуть флакон",
+      "Нанести непосредственно на загрязнение (распылителем или губкой)",
+      "Выдержать 30–60 секунд (до 3 минут при сложных загрязнениях)",
+      "Смыть высоким давлением, затем губкой с шампунем"
+     ],
+     "restrictions": [
+      "Температура поверхности от +5 до +30 °C",
+      "Избегать обработки под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/4c04cff2-450f-11f0-b850-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Применяется в неразведенном виде. Распределите равномерно или точечно (с помощью распылителя или губки)."
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема",
+    "Перед применением проверить на совместимость с поверхностью",
+    "С осторожностью на виниловых и полиуретановых плёнках"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/4c04cff2-450f-11f0-b850-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-bitumoff",
+   "brand": "Shine Systems",
+   "name": "BitumOFF",
+   "subtitle": "Терпеновый антибитум",
+   "aliases": [],
+   "category": "tar_remover",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    750
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "Применяется в неразведенном виде.",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 600
+     },
+     "steps": [
+      "Нанести на губку и обработать загрязнение либо сразу нанести на поверхность",
+      "Выдержать до растворения пятна 1–10 минут",
+      "Смыть высоким давлением, затем губкой с шампунем"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://shinesystems.ru/product/5c8d1398-b545-11e6-ba0c-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Применяется в неразведенном виде. Нанести на губку и обработать загрязнение либо сразу нанести на поверхность."
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/5c8d1398-b545-11e6-ba0c-74d4350ba0d8"
+  },
+  {
+   "id": "shine-systems-black-line-gentlewash",
+   "brand": "Shine Systems",
+   "name": "Black Line GentleWash",
+   "subtitle": "Деликатный шампунь для бесконтактной мойки, 1 фаза двухфазной мойки",
+   "aliases": [
+    "GentleWash"
+   ],
+   "category": "prewash",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    750,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:5-1:10 – пенокомплект, система PROMAX",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Нанести в виде пены либо эмульсионного раствора",
+      "При незначительных загрязнениях допускается нанесение на сухую поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами",
+      "Перед применением взболтать"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/1811479a-d4f5-11ec-810a-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:5-1:10 – пенокомплект, система PROMAX"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50-1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Нанести в виде пены либо эмульсионного раствора",
+      "При незначительных загрязнениях допускается нанесение на сухую поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами",
+      "Перед применением взболтать"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/1811479a-d4f5-11ec-810a-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50-1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50-1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Нанести в виде пены либо эмульсионного раствора",
+      "При незначительных загрязнениях допускается нанесение на сухую поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами",
+      "Перед применением взболтать"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/1811479a-d4f5-11ec-810a-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50-1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема",
+    "Беречь от детей"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/1811479a-d4f5-11ec-810a-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-black-line-ironoff-pro",
+   "brand": "Shine Systems",
+   "name": "Black Line IronOFF Pro",
+   "subtitle": "Нейтральный очиститель дисков с индикатором",
+   "aliases": [],
+   "category": "wheel_cleaner",
+   "phase": null,
+   "ph": "нейтральный",
+   "packages": [
+    400,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "Применяется в неразведенном виде.",
+     "surface": null,
+     "dwellSec": {
+      "from": 300,
+      "to": 420
+     },
+     "steps": [
+      "Распылить на поверхность",
+      "Выдержать 5–7 минут, не дожидаясь подсыхания",
+      "Тщательно смыть водой"
+     ],
+     "restrictions": [
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами",
+      "Не наносить на незащищенные элементы из железа и его сплавов",
+      "Избегать попадания на тормозной диск и суппорта без покрытий",
+      "Перед применением взболтать"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/fcc36d4e-d4f5-11ec-810a-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Применяется в неразведенном виде. Распылить на обрабатываемую поверхность."
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема",
+    "Беречь от детей"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/fcc36d4e-d4f5-11ec-810a-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-black-line-pinkfoam-aroma",
+   "brand": "Shine Systems",
+   "name": "Black Line PinkFoam Aroma",
+   "subtitle": "Активный шампунь для бесконтактной мойки, розовая пена, аромат вишни",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 11.5,
+   "packages": [
+    750,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 4,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:4-1:10 – проф. пенокомплект, система PROMAX",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/6ac89273-f5ae-11ef-b848-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:4-1:10 – проф. пенокомплект, система PROMAX"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50-1:100 – пеногенератор, спреер, система DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/6ac89273-f5ae-11ef-b848-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50-1:100 – пеногенератор, спреер, система DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50-1:100 – пеногенератор, спреер, система DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/6ac89273-f5ae-11ef-b848-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50-1:100 – пеногенератор, спреер, система DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема",
+    "Не замораживать"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/6ac89273-f5ae-11ef-b848-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-black-line-readyfoam",
+   "brand": "Shine Systems",
+   "name": "Black Line ReadyFoam",
+   "subtitle": "Готовый автошампунь для бесконтактной мойки (жёлто-зелёная пена)",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": "12–12,5",
+   "packages": [
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "Не требуется – пенокомплект",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Нанести пеной",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/7cbbe856-08a0-11f1-b88d-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Разбавление: Не требуется – пенокомплект"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 4,
+      "to": 5,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:4-1:5 – накачной помповый распрыскиватель",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести",
+      "Нанести",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/7cbbe856-08a0-11f1-b88d-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:4-1:5 – накачной помповый распрыскиватель"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема",
+    "Не замораживать"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/7cbbe856-08a0-11f1-b88d-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-black-line-readyshampoo",
+   "brand": "Shine Systems",
+   "name": "Black Line ReadyShampoo",
+   "subtitle": "Готовый ручной автошампунь с гидрофобным эффектом",
+   "aliases": [],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "5–5.5",
+   "packages": [
+    5000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 30,
+      "to": 50,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "300 – 500 мл на 10л воды – разведение в ведре",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/7fe8866f-08a1-11f1-b88d-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "300 – 500 мл на 10л воды – разведение в ведре"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "Не требуется – пенокомплект, дозатор PROMAX",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/7fe8866f-08a1-11f1-b88d-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Не требуется – пенокомплект, дозатор PROMAX"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 200,
+      "to": 300,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "200 - 300 мл на 1 литр воды – накачной помповый распрыскиватель",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/7fe8866f-08a1-11f1-b88d-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "200 - 300 мл на 1 литр воды – накачной помповый распрыскиватель"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема",
+    "Не замораживать"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/7fe8866f-08a1-11f1-b88d-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-black-line-slideshampoo-apple",
+   "brand": "Shine Systems",
+   "name": "Black Line SlideShampoo Apple",
+   "subtitle": "Шампунь для ручной мойки (2 фаза), нейтральный pH, лубрицирующий",
+   "aliases": [
+    "SlideShampoo Apple"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "нейтральный",
+   "packages": [
+    400,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 5,
+      "to": 7,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "70 – 50 мл на 10л воды – разведение в ведре",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Покрыть кузов пеной (или раствором из ведра)",
+      "Не выдерживая, без нажима промыть губкой/варежкой сверху вниз",
+      "Тщательно промыть кузов водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не применять под прямыми солнечными лучами",
+      "Перед применением взболтать"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/8070d43c-d4f6-11ec-810a-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "70 – 50 мл на 10л воды – разведение в ведре"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 100,
+      "to": 150,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "150 – 100 мл на 1 литр – пенокомплект, дозатор PROMAX",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Покрыть кузов пеной (или раствором из ведра)",
+      "Не выдерживая, без нажима промыть губкой/варежкой сверху вниз",
+      "Тщательно промыть кузов водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не применять под прямыми солнечными лучами",
+      "Перед применением взболтать"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/8070d43c-d4f6-11ec-810a-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "150 – 100 мл на 1 литр – пенокомплект, дозатор PROMAX"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 10,
+      "to": 15,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "15 – 10 мл на 1 литр воды – накачной помповый распрыскиватель",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Покрыть кузов пеной (или раствором из ведра)",
+      "Не выдерживая, без нажима промыть губкой/варежкой сверху вниз",
+      "Тщательно промыть кузов водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не применять под прямыми солнечными лучами",
+      "Перед применением взболтать"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/8070d43c-d4f6-11ec-810a-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "15 – 10 мл на 1 литр воды – накачной помповый распрыскиватель"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/8070d43c-d4f6-11ec-810a-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-black-line-taroff",
+   "brand": "Shine Systems",
+   "name": "Black Line TarOFF",
+   "subtitle": "Профессиональный очиститель битумных пятен",
+   "aliases": [],
+   "category": "tar_remover",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    400
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "Применяется в неразведенном виде.",
+     "surface": null,
+     "dwellSec": {
+      "from": 60,
+      "to": 600
+     },
+     "steps": [
+      "Взболтать",
+      "Нанести на губку и обработать загрязнение либо сразу нанести на поверхность",
+      "Выдержать до растворения пятна 1–10 минут",
+      "Смыть высоким давлением",
+      "Помыть автомобиль ручным шампунем"
+     ],
+     "restrictions": [],
+     "sourceUrl": "https://shinesystems.ru/product/f6de252b-e592-11ed-811f-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Применяется в неразведенном виде. Нанести на губку и обработать загрязнение либо сразу нанести на поверхность."
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/f6de252b-e592-11ed-811f-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-black-line-wheelcleanton",
+   "brand": "Shine Systems",
+   "name": "Black Line WheelCleanton",
+   "subtitle": "Деликатный бескислотный очиститель дисков с индикатором",
+   "aliases": [],
+   "category": "wheel_cleaner",
+   "phase": null,
+   "ph": "нейтральный",
+   "packages": [
+    400
+   ],
+   "applications": [],
+   "warnings": [],
+   "status": "unverified",
+   "productUrl": "https://shinesystems.ru/product/dd13824f-3c8b-11f1-b89a-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-black-line-zhukoff",
+   "brand": "Shine Systems",
+   "name": "Black Line ZhukOFF",
+   "subtitle": "Терпеновый очиститель следов насекомых",
+   "aliases": [],
+   "category": "insect_remover",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    400
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "Применяется в неразведенном виде.",
+     "surface": "wet",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Обильно смочить поверхность и сбить основные загрязнения АВД",
+      "Равномерно распылить состав",
+      "Оставить на 2–3 минуты, не допуская высыхания",
+      "Тщательно смыть АВД"
+     ],
+     "restrictions": [
+      "Не допускать высыхания состава",
+      "Не наносить на горячие поверхности и под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/c958ca7f-9634-11f1-b8c1-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Разбавление: Применяется в неразведенном виде."
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема",
+    "Беречь от детей",
+    "Перед применением взболтать"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/c958ca7f-9634-11f1-b8c1-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-bubblewax",
+   "brand": "Shine Systems",
+   "name": "BubbleWax",
+   "subtitle": "Пенный воск для сушки и защиты кузова с эффектом кавитации",
+   "aliases": [
+    "Bubble Wax"
+   ],
+   "category": "protection",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    750,
+    5000,
+    20000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 7,
+      "to": 12,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:7 – 1:12 – пенокомплект, дозатор PROMAX",
+     "surface": "wet",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на чистую мокрую поверхность",
+      "Через 2–3 минуты смыть остатки низким давлением",
+      "Протереть насухо микрофиброй или продуть турбосушкой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не хранить в разведенном состоянии"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/7abc137f-07c4-11f1-b88c-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:7 – 1:12 – пенокомплект, дозатор PROMAX"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 15,
+      "to": 20,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "15 - 20 мл на 1 литр воды – накачной помповый распрыскиватель",
+     "surface": "wet",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на чистую мокрую поверхность",
+      "Через 2–3 минуты смыть остатки низким давлением",
+      "Протереть насухо микрофиброй или продуть турбосушкой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не хранить в разведенном состоянии"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/7abc137f-07c4-11f1-b88c-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "15 - 20 мл на 1 литр воды – накачной помповый распрыскиватель"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/7abc137f-07c4-11f1-b88c-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-cationicshampoo",
+   "brand": "Shine Systems",
+   "name": "CationicShampoo",
+   "subtitle": "Наношампунь для ручной мойки на катионных ПАВ, гидрофобный эффект",
+   "aliases": [
+    "Cationic Shampoo"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "нейтральный",
+   "packages": [
+    200,
+    750,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "50 – 100 мл на 10 л воды – разведение в ведре",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/8db16a89-b283-11e7-8a98-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "50 – 100 мл на 10 л воды – разведение в ведре"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 20,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:10 – 1:20 – пенокомплект, дозатор PROMAX",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/8db16a89-b283-11e7-8a98-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:10 – 1:20 – пенокомплект, дозатор PROMAX"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 10,
+      "to": 20,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "10 – 20 мл на 1 л воды – накачной помповый распрыскиватель",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/8db16a89-b283-11e7-8a98-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "10 – 20 мл на 1 л воды – накачной помповый распрыскиватель"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема",
+    "Не замораживать"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/8db16a89-b283-11e7-8a98-74d4350ba0d8"
+  },
+  {
+   "id": "shine-systems-cherrybomb",
+   "brand": "Shine Systems",
+   "name": "CherryBomb",
+   "subtitle": "Автошампунь для ручной мойки (2 фаза), нейтральный pH, вишнёвый аромат",
+   "aliases": [
+    "Cherry Bomb",
+    "Черри Бомб",
+    "CherryBomb Shampoo"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": 7,
+   "packages": [
+    750,
+    5000,
+    20000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 3,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "30 – 50 мл на 10л воды – разведение в ведре",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/9d98961e-b05f-11e6-b0c6-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "30 – 50 мл на 10л воды – разведение в ведре"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "50 – 100 мл на 1 литр – пенокомплект, дозатор PROMAX",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/9d98961e-b05f-11e6-b0c6-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "50 – 100 мл на 1 литр – пенокомплект, дозатор PROMAX"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "5 – 10 мл на 1 литр воды – накачной помповый распрыскиватель",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/9d98961e-b05f-11e6-b0c6-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "5 – 10 мл на 1 литр воды – накачной помповый распрыскиватель"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/9d98961e-b05f-11e6-b0c6-74d4350ba0d8"
+  },
+  {
+   "id": "shine-systems-delicatewash",
+   "brand": "Shine Systems",
+   "name": "DelicateWash",
+   "subtitle": "Активный шампунь для деликатной (бесконтактной) мойки авто, 1 фаза для авто с керамикой, восками, плёнками",
+   "aliases": [
+    "Деликат Вош",
+    "Delicate Wash"
+   ],
+   "category": "prewash",
+   "phase": 1,
+   "ph": 11,
+   "packages": [
+    750,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:5-1:10 – пенокомплект, система PROMAX",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Нанести в виде пены либо эмульсионного раствора",
+      "При незначительных загрязнениях допускается нанесение на сухую поверхность без предварительной сбивки грязи",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами",
+      "Перед применением взболтать"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/02c8a9a9-8c8a-11eb-80f1-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:5-1:10 – пенокомплект, система PROMAX"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50-1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Нанести в виде пены либо эмульсионного раствора",
+      "При незначительных загрязнениях допускается нанесение на сухую поверхность без предварительной сбивки грязи",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами",
+      "Перед применением взболтать"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/02c8a9a9-8c8a-11eb-80f1-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50-1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50-1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Нанести в виде пены либо эмульсионного раствора",
+      "При незначительных загрязнениях допускается нанесение на сухую поверхность без предварительной сбивки грязи",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами",
+      "Перед применением взболтать"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/02c8a9a9-8c8a-11eb-80f1-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50-1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема",
+    "Беречь от детей"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/02c8a9a9-8c8a-11eb-80f1-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-dosatron",
+   "brand": "Shine Systems",
+   "name": "Dosatron",
+   "subtitle": "Активный шампунь для бесконтактной мойки (для систем дозации)",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": null,
+   "packages": [],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:5 – 1:10 – пенокомплект, смеситель типа PROMAX",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/a85c20f8-b2c0-11e6-b0c6-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:5 – 1:10 – пенокомплект, смеситель типа PROMAX"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50 – 1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/a85c20f8-b2c0-11e6-b0c6-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50 – 1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50 – 1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/a85c20f8-b2c0-11e6-b0c6-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50 – 1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/a85c20f8-b2c0-11e6-b0c6-74d4350ba0d8"
+  },
+  {
+   "id": "shine-systems-duchessbomb",
+   "brand": "Shine Systems",
+   "name": "DuchessBomb",
+   "subtitle": "Автошампунь для ручной мойки (2 фаза), нейтральный pH, аромат груши",
+   "aliases": [],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "6.5–7.5",
+   "packages": [
+    750,
+    5000,
+    20000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 3,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "30 – 50 мл на 10л воды – разведение в ведре",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/6b0e3e51-99f6-11f0-b858-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "30 – 50 мл на 10л воды – разведение в ведре"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "50 – 100 мл на 1 литр – пенокомплект, дозатор PROMAX",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/6b0e3e51-99f6-11f0-b858-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "50 – 100 мл на 1 литр – пенокомплект, дозатор PROMAX"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "5 – 10 мл на 1 литр воды – накачной помповый распрыскиватель",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/6b0e3e51-99f6-11f0-b858-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "5 – 10 мл на 1 литр воды – накачной помповый распрыскиватель"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/6b0e3e51-99f6-11f0-b858-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-ecofoam",
+   "brand": "Shine Systems",
+   "name": "EcoFoam",
+   "subtitle": "Активный шампунь для бесконтактной мойки",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 11.5,
+   "packages": [
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 2,
+      "to": 5,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:2 – 1:5 – пенокомплект",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/35139874-6917-11f0-b854-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:2 – 1:5 – пенокомплект"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 20,
+      "to": 50,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:20 – 1:50 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/35139874-6917-11f0-b854-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:20 – 1:50 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 20,
+      "to": 50,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:20 – 1:50 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/35139874-6917-11f0-b854-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:20 – 1:50 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/35139874-6917-11f0-b854-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-eurowash",
+   "brand": "Shine Systems",
+   "name": "EuroWash",
+   "subtitle": "Активный шампунь для бесконтактной мойки, первая фаза",
+   "aliases": [
+    "Euro Wash"
+   ],
+   "category": "prewash",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    900,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:5 – 1:10 – пенокомплект, смеситель типа PROMAX",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/25e578c4-b688-11e4-b4f9-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:5 – 1:10 – пенокомплект, смеситель типа PROMAX"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50 – 1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/25e578c4-b688-11e4-b4f9-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50 – 1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50 – 1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/25e578c4-b688-11e4-b4f9-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50 – 1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/25e578c4-b688-11e4-b4f9-74d4350ba0d8"
+  },
+  {
+   "id": "shine-systems-fastquartz",
+   "brand": "Shine Systems",
+   "name": "FastQuartz",
+   "subtitle": "Быстрое супергидрофобное покрытие на мокрый кузов (SiO2)",
+   "aliases": [
+    "Fast Quartz",
+    "Фаст Кварц"
+   ],
+   "category": "protection",
+   "phase": null,
+   "ph": 4,
+   "packages": [
+    200,
+    750,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "Применяется в неразведенном виде.",
+     "surface": "wet",
+     "dwellSec": null,
+     "steps": [
+      "С помощью распрыскивателя нанести 50–100 мл состава на чистую мокрую поверхность всего автомобиля",
+      "Сразу после нанесения смыть остатки высоким давлением воды"
+     ],
+     "restrictions": [
+      "Не допускать подсыхания состава",
+      "Не наносить на недомытую поверхность",
+      "Наносить только на остывшую поверхность, укрытую от солнца, нагревательных элементов и направленного потока воздуха"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/2504bd32-4ca8-11ea-80be-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Применяется в неразведенном виде. С помощью распрыскивателя нанести на чистую мокрую поверхность всего автомобиля 50-100 мл состава.",
+     "consumptionMl": {
+      "from": 50,
+      "to": 100
+     }
+    }
+   ],
+   "warnings": [
+    "Перед применением проверить на совместимость с поверхностью",
+    "Не замораживать"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/2504bd32-4ca8-11ea-80be-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-glossprotection",
+   "brand": "Shine Systems",
+   "name": "GlossProtection",
+   "subtitle": "Наноконсервант-осушитель для сушки и защиты кузова (3 фаза, SiO2)",
+   "aliases": [
+    "Gloss Protection"
+   ],
+   "category": "drying_aid",
+   "phase": null,
+   "ph": "5–6",
+   "packages": [
+    200,
+    750,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 20,
+      "to": 30,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "30 – 20 мл на 1 литр – пенокомплект, дозатор PROMAX",
+     "surface": "wet",
+     "dwellSec": {
+      "from": 60,
+      "to": 60
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на чистую мокрую поверхность, выдержать не менее 1 минуты",
+      "При необходимости смыть остатки низким давлением",
+      "Протереть насухо микрофиброй или продуть турбосушкой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не хранить в разведенном состоянии"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/56017c47-bfa3-11e7-972a-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "30 – 20 мл на 1 литр – пенокомплект, дозатор PROMAX"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 3,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "5 – 3 мл на 1 литр воды – накачной помповый распрыскиватель",
+     "surface": "wet",
+     "dwellSec": {
+      "from": 60,
+      "to": 60
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на чистую мокрую поверхность, выдержать не менее 1 минуты",
+      "При необходимости смыть остатки низким давлением",
+      "Протереть насухо микрофиброй или продуть турбосушкой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не хранить в разведенном состоянии"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/56017c47-bfa3-11e7-972a-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "5 – 3 мл на 1 литр воды – накачной помповый распрыскиватель"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема",
+    "Не замораживать"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/56017c47-bfa3-11e7-972a-74d4350ba0d8"
+  },
+  {
+   "id": "shine-systems-insectoff",
+   "brand": "Shine Systems",
+   "name": "InsectOFF",
+   "subtitle": "Очиститель следов насекомых",
+   "aliases": [
+    "Insect OFF"
+   ],
+   "category": "insect_remover",
+   "phase": null,
+   "ph": "12–12.5",
+   "packages": [
+    750,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "Применяется в неразведенном виде.",
+     "surface": "wet",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Обильно смочить поверхность и сбить основные загрязнения АВД",
+      "Распылить состав",
+      "Выдержать 2–3 минуты",
+      "Не дожидаясь подсыхания промыть губкой",
+      "Тщательно смыть АВД"
+     ],
+     "restrictions": [
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/54e62df0-94c5-11ea-80c7-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Применяется в неразведенном виде. Распылить состав с помощью распрыскивателя"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/54e62df0-94c5-11ea-80c7-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-ironoff",
+   "brand": "Shine Systems",
+   "name": "IronOFF",
+   "subtitle": "Бескислотный pH-нейтральный очиститель дисков с индикатором (металлические вкрапления, колодочная пыль)",
+   "aliases": [
+    "Iron OFF"
+   ],
+   "category": "wheel_cleaner",
+   "phase": null,
+   "ph": "нейтральный",
+   "packages": [
+    750,
+    5000,
+    20000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "Применяется в неразведенном виде.",
+     "surface": null,
+     "dwellSec": {
+      "from": 300,
+      "to": 480
+     },
+     "steps": [
+      "Распылить на поверхность",
+      "Выдержать 5–8 минут, не дожидаясь подсыхания",
+      "Тщательно промыть водой под высоким давлением",
+      "При сильных загрязнениях после выдержки использовать кисти и щётки"
+     ],
+     "restrictions": [
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/24d5dbc5-d732-11e6-b661-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Применяется в неразведенном виде. Распылить на обрабатываемую поверхность с помощью распрыскивателя."
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/24d5dbc5-d732-11e6-b661-74d4350ba0d8"
+  },
+  {
+   "id": "shine-systems-ironoff-gel",
+   "brand": "Shine Systems",
+   "name": "IronOFF Gel",
+   "subtitle": "Нейтральный гелевый очиститель дисков с индикатором",
+   "aliases": [],
+   "category": "wheel_cleaner",
+   "phase": null,
+   "ph": 6,
+   "packages": [
+    750,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "Применяется в неразведенном виде.",
+     "surface": null,
+     "dwellSec": {
+      "from": 300,
+      "to": 480
+     },
+     "steps": [
+      "Распылить на поверхность",
+      "Выдержать 5–8 минут, не дожидаясь подсыхания",
+      "Тщательно промыть водой под высоким давлением"
+     ],
+     "restrictions": [
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами",
+      "Не наносить на незащищенные элементы из железа и его сплавов"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/123ba8c3-8099-11ea-80c6-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Применяется в неразведенном виде. Распылить на обрабатываемую поверхность с помощью распрыскивателя."
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/123ba8c3-8099-11ea-80c6-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-light",
+   "brand": "Shine Systems",
+   "name": "Light",
+   "subtitle": "Активный шампунь для бесконтактной мойки (основная или предварительная мойка)",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": null,
+   "packages": [
+    900
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 3,
+      "to": 7,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:3 – 1:7 – пенокомплект, смеситель типа PROMAX",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/9c4af860-b5a5-11e4-b4f9-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:3 – 1:7 – пенокомплект, смеситель типа PROMAX"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 30,
+      "to": 70,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:30 – 1:70 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/9c4af860-b5a5-11e4-b4f9-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:30 – 1:70 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 30,
+      "to": 70,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:30 – 1:70 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/9c4af860-b5a5-11e4-b4f9-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:30 – 1:70 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/9c4af860-b5a5-11e4-b4f9-74d4350ba0d8"
+  },
+  {
+   "id": "shine-systems-lollipopshampoo",
+   "brand": "Shine Systems",
+   "name": "LollipopShampoo",
+   "subtitle": "Ручной автошампунь с эффектом леденца, гидрофоб, без силиконов",
+   "aliases": [
+    "Lollipop Shampoo"
+   ],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "5–5.5",
+   "packages": [
+    200,
+    750,
+    5000,
+    20000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "50 – 100 мл на 10 л воды – разведение в ведре",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести пенокомплектом либо губкой",
+      "Промыть кузов крупноячеистой губкой без выдержки",
+      "Смыть АВД"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/01494352-fcb1-11ea-80d6-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "50 – 100 мл на 10 л воды – разведение в ведре"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 20,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:10 – 1:20 – пенокомплект, дозатор PROMAX",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести пенокомплектом либо губкой",
+      "Промыть кузов крупноячеистой губкой без выдержки",
+      "Смыть АВД"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/01494352-fcb1-11ea-80d6-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:10 – 1:20 – пенокомплект, дозатор PROMAX"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 10,
+      "to": 20,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "10 – 20 мл на 1 л воды – накачной помповый распрыскиватель",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести пенокомплектом либо губкой",
+      "Промыть кузов крупноячеистой губкой без выдержки",
+      "Смыть АВД"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/01494352-fcb1-11ea-80d6-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "10 – 20 мл на 1 л воды – накачной помповый распрыскиватель"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/01494352-fcb1-11ea-80d6-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-mosquitoff-concentrate",
+   "brand": "Shine Systems",
+   "name": "MosquitOFF Concentrate",
+   "subtitle": "Концентрированный очиститель следов насекомых",
+   "aliases": [],
+   "category": "insect_remover",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    5000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "Разводится водой 1:5 — 1:10",
+     "surface": "wet",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Обильно смочить поверхность и сбить основные загрязнения АВД",
+      "Распылить разведенный состав",
+      "Выдержать 2–3 минуты",
+      "Не дожидаясь подсыхания промыть губкой",
+      "Тщательно смыть АВД"
+     ],
+     "restrictions": [
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/5bee884e-d380-11ed-811f-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Разводится водой 1:5 — 1:10"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/5bee884e-d380-11ed-811f-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-multitec",
+   "brand": "Shine Systems",
+   "name": "MultiTec",
+   "subtitle": "Активный шампунь для бесконтактной мойки, концентрат",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 12,
+   "packages": [
+    900
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 4,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:4 – 1:10 – пенокомплект",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/9882d853-b0fe-11e4-b4f9-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:4 – 1:10 – пенокомплект"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 40,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:40 – 1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/9882d853-b0fe-11e4-b4f9-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:40 – 1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 40,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:40 – 1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/9882d853-b0fe-11e4-b4f9-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:40 – 1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/9882d853-b0fe-11e4-b4f9-74d4350ba0d8"
+  },
+  {
+   "id": "shine-systems-multiwash",
+   "brand": "Shine Systems",
+   "name": "MultiWash",
+   "subtitle": "Активный шампунь для бесконтактной мойки, суперконцентрат (легковые и грузовые)",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 12,
+   "packages": [],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 15,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:10 – 1:15 – пенокомплект",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/0fb3809d-9f03-11ea-80c8-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:10 – 1:15 – пенокомплект"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 100,
+      "to": 150,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:100 – 1:150 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/0fb3809d-9f03-11ea-80c8-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:100 – 1:150 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 100,
+      "to": 150,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:100 – 1:150 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/0fb3809d-9f03-11ea-80c8-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:100 – 1:150 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/0fb3809d-9f03-11ea-80c8-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-orangebomb",
+   "brand": "Shine Systems",
+   "name": "OrangeBomb",
+   "subtitle": "Автошампунь для ручной мойки (2 фаза), нейтральный pH, аромат апельсина",
+   "aliases": [],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "6.5–7.5",
+   "packages": [
+    750,
+    5000,
+    20000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 3,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "30 – 50 мл на 10л воды – разведение в ведре",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/fdf88c01-99f4-11f0-b858-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "30 – 50 мл на 10л воды – разведение в ведре"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "50 – 100 мл на 1 литр – пенокомплект, дозатор PROMAX",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/fdf88c01-99f4-11f0-b858-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "50 – 100 мл на 1 литр – пенокомплект, дозатор PROMAX"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "5 – 10 мл на 1 литр воды – накачной помповый распрыскиватель",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/fdf88c01-99f4-11f0-b858-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "5 – 10 мл на 1 литр воды – накачной помповый распрыскиватель"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/fdf88c01-99f4-11f0-b858-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-pinkfoam",
+   "brand": "Shine Systems",
+   "name": "PinkFoam",
+   "subtitle": "Активный шампунь для бесконтактной мойки, розовая пена (обесцвечивается при смывании)",
+   "aliases": [
+    "Pink Foam"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 11,
+   "packages": [
+    750,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:5-1:10 — пенокомплект",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/7dfe219a-deca-11dd-8012-001b777549c2",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:5-1:10 — пенокомплект"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50 — 1:100- пеногенератор, спреер, накачной распрыскиватель.",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/7dfe219a-deca-11dd-8012-001b777549c2",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50 — 1:100- пеногенератор, спреер, накачной распрыскиватель."
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50 — 1:100- пеногенератор, спреер, накачной распрыскиватель.",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/7dfe219a-deca-11dd-8012-001b777549c2",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50 — 1:100- пеногенератор, спреер, накачной распрыскиватель."
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/7dfe219a-deca-11dd-8012-001b777549c2"
+  },
+  {
+   "id": "shine-systems-ppf-prewash",
+   "brand": "Shine Systems",
+   "name": "PPF PreWash",
+   "subtitle": "Деликатный бесконтактный шампунь для авто в виниловой/полиуретановой плёнке",
+   "aliases": [],
+   "category": "prewash",
+   "phase": 1,
+   "ph": "11–11,5",
+   "packages": [
+    750,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:5-1:10 – пенокомплект, система PROMAX",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Нанести в виде пены либо эмульсионного раствора",
+      "При незначительных загрязнениях допускается нанесение на сухую поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/62baae2e-9857-11f0-b858-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:5-1:10 – пенокомплект, система PROMAX"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50-1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Нанести в виде пены либо эмульсионного раствора",
+      "При незначительных загрязнениях допускается нанесение на сухую поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/62baae2e-9857-11f0-b858-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50-1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50-1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Нанести в виде пены либо эмульсионного раствора",
+      "При незначительных загрязнениях допускается нанесение на сухую поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/62baae2e-9857-11f0-b858-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50-1:100 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/62baae2e-9857-11f0-b858-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-ppf-shampoo",
+   "brand": "Shine Systems",
+   "name": "PPF Shampoo",
+   "subtitle": "Ручной pH-нейтральный автошампунь для виниловых и полиуретановых плёнок",
+   "aliases": [],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "5–5.5",
+   "packages": [
+    750,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 4.5,
+      "to": 7,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "70 – 45 мл на 10л воды – разведение в ведре",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести пенокомплектом либо губкой",
+      "Промыть кузов крупноячеистой губкой без выдержки",
+      "Смыть АВД"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/ff000679-9857-11f0-b858-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "70 – 45 мл на 10л воды – разведение в ведре"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 70,
+      "to": 100,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "70 – 100 мл на 1 литр – пенокомплект, дозатор PROMAX",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести пенокомплектом либо губкой",
+      "Промыть кузов крупноячеистой губкой без выдержки",
+      "Смыть АВД"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/ff000679-9857-11f0-b858-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "70 – 100 мл на 1 литр – пенокомплект, дозатор PROMAX"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "5 – 10 мл на 1 литр воды – накачной помповый распрыскиватель",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести пенокомплектом либо губкой",
+      "Промыть кузов крупноячеистой губкой без выдержки",
+      "Смыть АВД"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/ff000679-9857-11f0-b858-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "5 – 10 мл на 1 литр воды – накачной помповый распрыскиватель"
+    }
+   ],
+   "warnings": [],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/ff000679-9857-11f0-b858-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-prewash",
+   "brand": "Shine Systems",
+   "name": "PreWash",
+   "subtitle": "Активный шампунь для бесконтактной (предварительной) мойки",
+   "aliases": [
+    "Pre Wash"
+   ],
+   "category": "prewash",
+   "phase": 1,
+   "ph": 12,
+   "packages": [
+    900,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 15,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:5-1:15 – пенокомплект",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/70a5d583-e099-11e3-aecc-0018f30ceaf0",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:5-1:15 – пенокомплект"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 150,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50 –1:150 — пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/70a5d583-e099-11e3-aecc-0018f30ceaf0",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50 –1:150 — пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 50,
+      "to": 150,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50 –1:150 — пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/70a5d583-e099-11e3-aecc-0018f30ceaf0",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50 –1:150 — пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/70a5d583-e099-11e3-aecc-0018f30ceaf0"
+  },
+  {
+   "id": "shine-systems-prewash-active",
+   "brand": "Shine Systems",
+   "name": "PreWash Active",
+   "subtitle": "Активный шампунь для бесконтактной (предварительной) мойки, высокая концентрация",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 12,
+   "packages": [],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 7,
+      "to": 15,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:7 – 1:15 – пенокомплект",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/39781e6e-6ffc-11ea-80c6-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:7 – 1:15 – пенокомплект"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 70,
+      "to": 150,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:70 – 1:150 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/39781e6e-6ffc-11ea-80c6-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:70 – 1:150 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 70,
+      "to": 150,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:70 – 1:150 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/39781e6e-6ffc-11ea-80c6-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:70 – 1:150 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/39781e6e-6ffc-11ea-80c6-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-sunnyfoam",
+   "brand": "Shine Systems",
+   "name": "SunnyFoam",
+   "subtitle": "Жёлтая пена для бесконтактной мойки (pH-индикатор)",
+   "aliases": [],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 12,
+   "packages": [
+    900
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:5-1:10 – проф. пенокомплект, система PROMAX",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/d6480547-be34-11f1-b8c8-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:5-1:10 – проф. пенокомплект, система PROMAX"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50-1:100 – пеногенератор, спреер, система DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/d6480547-be34-11f1-b8c8-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50-1:100 – пеногенератор, спреер, система DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50-1:100 – пеногенератор, спреер, система DOSATRON",
+     "surface": "any",
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести в указанной пропорции",
+      "Нанести на поверхность в виде пены",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не наносить на горячую поверхность",
+      "Не наносить под прямыми солнечными лучами"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/d6480547-be34-11f1-b8c8-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50-1:100 – пеногенератор, спреер, система DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема",
+    "Не хранить в разведённом состоянии"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/d6480547-be34-11f1-b8c8-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-superstar",
+   "brand": "Shine Systems",
+   "name": "SuperStar",
+   "subtitle": "Активный шампунь для бесконтактной мойки, суперконцентрат",
+   "aliases": [
+    "Super Star"
+   ],
+   "category": "active_foam",
+   "phase": 1,
+   "ph": 12,
+   "packages": [
+    900
+   ],
+   "applications": [
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 5,
+      "to": 12,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:5 – 1:12 – пенокомплект",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/4d483940-b266-11e4-b4f9-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:5 – 1:12 – пенокомплект"
+    },
+    {
+     "method": "foam_generator",
+     "dilution": {
+      "from": 50,
+      "to": 120,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50 – 1:120 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/4d483940-b266-11e4-b4f9-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50 – 1:120 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 50,
+      "to": 120,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:50 – 1:120 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON",
+     "surface": null,
+     "dwellSec": {
+      "from": 120,
+      "to": 180
+     },
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность",
+      "Выдержать 2–3 минуты",
+      "Тщательно смыть напором воды"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/4d483940-b266-11e4-b4f9-74d4350ba0d8",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:50 – 1:120 – пеногенератор, спреер, накачной распрыскиватель, DOSATRON"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/4d483940-b266-11e4-b4f9-74d4350ba0d8"
+  },
+  {
+   "id": "shine-systems-tire-wheel-cleaner",
+   "brand": "Shine Systems",
+   "name": "Tire&Wheel Cleaner",
+   "subtitle": "Очиститель резины и колёсных дисков",
+   "aliases": [],
+   "category": "wheel_cleaner",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    900,
+    5000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "kind": "ready"
+     },
+     "dilutionText": "Применяется в неразведенном виде.",
+     "surface": null,
+     "dwellSec": {
+      "from": 180,
+      "to": 240
+     },
+     "steps": [
+      "Предварительно смыть сильные загрязнения напором воды",
+      "Нанести на остывшую резину и диск",
+      "Через 3–4 минуты тщательно смыть высоким давлением"
+     ],
+     "restrictions": [
+      "Не наносить на горячую поверхность",
+      "Не допускать высыхания состава",
+      "Не применять на анодированных и не покрытых лаком алюминиевых дисках"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/afd3c89b-153d-11ec-80fe-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "Разбавление: Применяется в неразведенном виде."
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема",
+    "Предварительно проверить на совместимость с нештатными дисками или покрытиями"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/afd3c89b-153d-11ec-80fe-b42e99843e13"
+  },
+  {
+   "id": "shine-systems-tropicbomb",
+   "brand": "Shine Systems",
+   "name": "TropicBomb",
+   "subtitle": "Автошампунь для ручной мойки (2 фаза), нейтральный pH, аромат тропических фруктов",
+   "aliases": [],
+   "category": "contact_shampoo",
+   "phase": 2,
+   "ph": "6.5–7.5",
+   "packages": [
+    750,
+    5000,
+    20000
+   ],
+   "applications": [
+    {
+     "method": "bucket",
+     "dilution": {
+      "from": 3,
+      "to": 5,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "30 – 50 мл на 10л воды – разведение в ведре",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/dacd449d-ab71-11f1-b8c6-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "30 – 50 мл на 10л воды – разведение в ведре"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 50,
+      "to": 100,
+      "kind": "ml_per_l",
+      "basis": "solution"
+     },
+     "dilutionText": "50 – 100 мл на 1 литр – пенокомплект, дозатор PROMAX",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/dacd449d-ab71-11f1-b8c6-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "50 – 100 мл на 1 литр – пенокомплект, дозатор PROMAX"
+    },
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 5,
+      "to": 10,
+      "kind": "ml_per_l",
+      "basis": "water"
+     },
+     "dilutionText": "5 – 10 мл на 1 литр воды – накачной помповый распрыскиватель",
+     "surface": "any",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на поверхность и, не выдерживая, без нажима протереть губкой или варежкой сверху вниз",
+      "Смыть водой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/dacd449d-ab71-11f1-b8c6-08bfb8a4e514",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "5 – 10 мл на 1 литр воды – накачной помповый распрыскиватель"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/dacd449d-ab71-11f1-b8c6-08bfb8a4e514"
+  },
+  {
+   "id": "shine-systems-universalwax",
+   "brand": "Shine Systems",
+   "name": "UniversalWax",
+   "subtitle": "Воск для автоматических и ручных моек (полимерный)",
+   "aliases": [
+    "Universal Wax"
+   ],
+   "category": "protection",
+   "phase": null,
+   "ph": null,
+   "packages": [
+    5000,
+    20000
+   ],
+   "applications": [
+    {
+     "method": "sprayer",
+     "dilution": {
+      "from": 100,
+      "to": 200,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:100-1:200 – нанесение спреером",
+     "surface": "wet",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на чистую мокрую поверхность",
+      "Смыть остатки низким давлением",
+      "Протереть насухо микрофиброй или продуть турбосушкой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не хранить в разведенном состоянии"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/679e7117-16ea-11ee-8122-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:100-1:200 – нанесение спреером"
+    },
+    {
+     "method": "foam_lance",
+     "dilution": {
+      "from": 10,
+      "to": 20,
+      "kind": "ratio",
+      "ratioBasis": "water"
+     },
+     "dilutionText": "1:10 – 1:20 – пенокомплект, дозатор PROMAX",
+     "surface": "wet",
+     "dwellSec": null,
+     "steps": [
+      "Развести водой",
+      "Нанести на чистую мокрую поверхность",
+      "Смыть остатки низким давлением",
+      "Протереть насухо микрофиброй или продуть турбосушкой"
+     ],
+     "restrictions": [
+      "Не допускать высыхания на поверхности",
+      "Не хранить в разведенном состоянии"
+     ],
+     "sourceUrl": "https://shinesystems.ru/product/679e7117-16ea-11ee-8122-b42e99843e13",
+     "checkedAt": "2026-10-25",
+     "sourceQuote": "1:10 – 1:20 – пенокомплект, дозатор PROMAX"
+    }
+   ],
+   "warnings": [
+    "При попадании в глаза либо на кожу – промыть большим количеством воды",
+    "Использовать перчатки и защитные крема"
+   ],
+   "status": "verified",
+   "productUrl": "https://shinesystems.ru/product/679e7117-16ea-11ee-8122-b42e99843e13"
+  }
+ ]
+}

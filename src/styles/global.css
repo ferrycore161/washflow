@@ -43,6 +43,12 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+html {
+  /* фокус и прокрутка к элементу не прячут его под панелью вкладок */
+  scroll-padding-top: calc(var(--safe-top) + 16px);
+  scroll-padding-bottom: calc(var(--tabbar-h) + var(--safe-bottom) + 32px);
+}
+
 html,
 body,
 #root {

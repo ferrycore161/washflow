@@ -1,0 +1,323 @@
+{
+  "brand": "Koch-Chemie",
+  "brandSite": "https://www.koch-chemie.com",
+  "products": [
+    {
+      "id": "koch-chemie-green-star",
+      "name": "Green Star",
+      "subtitle": "Высококонцентрированный щелочной универсальный очиститель (без фосфатов и растворителей); для экстерьера и двигателя",
+      "aliases": [
+        "GS",
+        "Грин Стар",
+        "Green Star Koch"
+      ],
+      "category": "prewash",
+      "phase": 1,
+      "ph": "щелочной",
+      "packages": [
+        1000,
+        5000
+      ],
+      "productUrl": "https://www.koch-chemie.com/en/products/green_star",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 30,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Vehicle exteriors and engines: 1:5 to 1:30 solution",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести раствор на всю поверхность",
+            "Дать кратко прореагировать",
+            "Тщательно смыть аппаратом высокого давления"
+          ],
+          "restrictions": [
+            "Do not use on hot surfaces (не наносить на горячие поверхности)",
+            "Do not let dry (не допускать высыхания)",
+            "Максимальная концентрация применения 1:3 (VDA), выдержка не более 5 минут"
+          ],
+          "sourceUrl": "https://www.koch-chemie.com/en/products/green_star",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Vehicle exteriors and engines: 1:5 to 1:30 solution"
+        }
+      ],
+      "warnings": [
+        "Before using, check suitability and compatibility (проверить совместимость)"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "koch-chemie-gentle-snow-foam",
+      "name": "Gentle Snow Foam",
+      "subtitle": "pH-нейтральная пена для предварительной мойки (снежная пена) и ручной мойки, аромат вишни",
+      "aliases": [
+        "GSF"
+      ],
+      "category": "universal_shampoo",
+      "phase": null,
+      "ph": "нейтральный",
+      "packages": [
+        1000,
+        5000
+      ],
+      "productUrl": "https://www.koch-chemie.com/en/products/gentle_snow_foam",
+      "applications": [
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 20,
+            "to": 20,
+            "basis": "water"
+          },
+          "dilutionText": "Pour approx. 20 ml Snow Foam into 1 l water and lather the vehicle using a foam sprayer.",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Влить ок. 20 мл на 1 л воды в пенный распылитель (foam sprayer)",
+            "Покрыть автомобиль пеной"
+          ],
+          "restrictions": [
+            "Do not let dry (не допускать высыхания)"
+          ],
+          "sourceUrl": "https://www.koch-chemie.com/en/products/gentle_snow_foam",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Pour approx. 20 ml Snow Foam into 1 l water and lather the vehicle using a foam sprayer."
+        },
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 5,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "Pour 50 ml into 10 litres water",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "50 мл на 10 л воды",
+            "Вымыть варежкой",
+            "Смыть водой"
+          ],
+          "restrictions": [
+            "Do not let dry (не допускать высыхания)"
+          ],
+          "sourceUrl": "https://www.koch-chemie.com/en/products/gentle_snow_foam",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Pour 50 ml into 10 litres water, clean the vehicle with washing mitts and rinse with water."
+        }
+      ],
+      "warnings": [
+        "Before using, check suitability and compatibility (проверить совместимость)"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "koch-chemie-hydro-foam-sealant",
+      "name": "Hydro Foam Sealant",
+      "subtitle": "Премиальный концентрат защиты на мокрый кузов",
+      "aliases": [
+        "HFS"
+      ],
+      "category": "protection",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://www.koch-chemie.com/en/products/hydro_foam_sealant",
+      "applications": [
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 150,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Dilute 1:50-1:150 with water",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Развести 1:50–1:150",
+            "Нанести на чистый ещё мокрый автомобиль",
+            "Дать кратко прореагировать",
+            "Тщательно смыть, чтобы избежать пятен",
+            "Высушить остатки воды"
+          ],
+          "restrictions": [
+            "Разведённый состав – на одно применение, не хранить",
+            "Protect against frost and excessive heat"
+          ],
+          "sourceUrl": "https://www.koch-chemie.com/en/products/hydro_foam_sealant",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Dilute 1:50-1:150 with water ... using a foam sprayer or pump sprayer"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 50,
+            "to": 150,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Dilute 1:50-1:150 with water",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Развести 1:50–1:150",
+            "Нанести на чистый ещё мокрый автомобиль",
+            "Дать кратко прореагировать",
+            "Тщательно смыть, чтобы избежать пятен",
+            "Высушить остатки воды"
+          ],
+          "restrictions": [
+            "Разведённый состав – на одно применение, не хранить",
+            "Protect against frost and excessive heat"
+          ],
+          "sourceUrl": "https://www.koch-chemie.com/en/products/hydro_foam_sealant",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Dilute 1:50-1:150 with water ... using a foam sprayer or pump sprayer"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "koch-chemie-reactivation-shampoo",
+      "name": "Reactivation Shampoo",
+      "subtitle": "Кислотный шампунь для реактивации керамических покрытий, pH 3,0",
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": 3.0,
+      "packages": [
+        1000
+      ],
+      "productUrl": "https://www.koch-chemie.com/en/products/reactivation_shampoo",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ratio",
+            "from": 200,
+            "to": 200,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "Dilute the shampoo 1:200 (for hand washing 50 ml to 10 l) with water.",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "50 мл на 10 л воды",
+            "Вымыть вручную"
+          ],
+          "restrictions": [
+            "Do not let the product dry",
+            "Wearing gloves is recommended"
+          ],
+          "sourceUrl": "https://www.koch-chemie.com/en/products/reactivation_shampoo",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Dilute the shampoo 1:200 (for hand washing 50 ml to 10 l) with water."
+        }
+      ],
+      "warnings": [
+        "Check for material compatibility before use",
+        "Protect from frost and excessive heat"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "koch-chemie-alkali-wheel-cleaner",
+      "name": "Alkali Wheel Cleaner",
+      "subtitle": "Мощный щелочной очиститель дисков",
+      "category": "wheel_cleaner",
+      "phase": null,
+      "ph": "щелочной",
+      "packages": [
+        5000,
+        20000
+      ],
+      "productUrl": "https://www.koch-chemie.com/en/products/alkali_wheel_cleaner",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 2,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "apply a 1:2 to 1:10 solution to the whole of the rinsed rim",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Ополоснуть диск",
+            "Нанести раствор 1:2–1:10 на весь диск (избегать подтёков)",
+            "Дать кратко прореагировать",
+            "Смыть АВД, при необходимости дочистить щёткой"
+          ],
+          "restrictions": [
+            "Do not use on hot surfaces",
+            "Не для полированного алюминия, хрома и чувствительных к щелочи поверхностей",
+            "Do not let dry"
+          ],
+          "sourceUrl": "https://www.koch-chemie.com/en/products/alkali_wheel_cleaner",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Depending on the dirt accumulation, apply a 1:2 to 1:10 solution to the whole of the rinsed rim"
+        }
+      ],
+      "warnings": [
+        "Before using, check suitability and compatibility"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "koch-chemie-reactive-rust-remover",
+      "name": "Reactive Rust Remover",
+      "subtitle": "pH-нейтральный очиститель ржавчины, металлических частиц и пригоревшей тормозной пыли",
+      "aliases": [
+        "RRR"
+      ],
+      "category": "iron_remover",
+      "phase": null,
+      "ph": "нейтральный",
+      "packages": [
+        500
+      ],
+      "productUrl": "https://www.koch-chemie.com/en/products/reactive_rust_remover",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "Spray undiluted product onto surface",
+          "surface": "any",
+          "dwellSec": {
+            "from": 180,
+            "to": 360
+          },
+          "steps": [
+            "Распылить неразбавленный состав",
+            "Дать впитаться ок. 3–6 минут",
+            "Тщательно смыть, стойкие места дочистить щёткой или губкой"
+          ],
+          "restrictions": [
+            "Do not use on hot surfaces",
+            "Do not let dry"
+          ],
+          "sourceUrl": "https://www.koch-chemie.com/en/products/reactive_rust_remover",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Spray undiluted product onto surface"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    }
+  ]
+}

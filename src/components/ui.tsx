@@ -1,4 +1,5 @@
 import { useEffect, useRef, type ReactNode } from 'react';
+import { createPortal } from 'react-dom';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { create } from 'zustand';
 import { Bell, Box, ChevronLeft, ChevronRight, FlaskConical, House, Minus, Plus, UserRound, X } from 'lucide-react';
@@ -119,7 +120,8 @@ export function Sheet({
     };
   }, [open, onClose]);
   if (!open) return null;
-  return (
+  // портал: шторка поверх панели вкладок, вне stacking context анимированного экрана
+  return createPortal(
     <div className="sheet-backdrop" onClick={onClose}>
       <div
         className="sheet"
@@ -133,7 +135,8 @@ export function Sheet({
         <div className="sheet-grip" />
         {children}
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }
 

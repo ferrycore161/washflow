@@ -1,0 +1,914 @@
+{
+  "brand": "Foam Heroes",
+  "brandSite": "https://foam-heroes.ru",
+  "products": [
+    {
+      "id": "foam-heroes-foam-buddy",
+      "name": "Foam Buddy",
+      "subtitle": "Высокопенный шампунь для бесконтактной мойки (осенне-зимний период, реагенты)",
+      "aliases": [
+        "Фоам Бадди"
+      ],
+      "category": "active_foam",
+      "phase": 1,
+      "ph": null,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb032.html",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 15,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для пенокомплекта в соотношении 1:10 - 1:15",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 240
+          },
+          "steps": [
+            "При необходимости удалить поверхностные загрязнения водой под давлением",
+            "Нанести готовый раствор в виде пены или эмульсии",
+            "Выдержать 2–4 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Не наносить на оголённые металлические поверхности",
+            "Не распылять на горячую поверхность",
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb032.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для пенокомплекта в соотношении 1:10 - 1:15"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 100,
+            "to": 150,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для пеногенератора в соотношении 1:100 - 1:150",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 240
+          },
+          "steps": [
+            "При необходимости удалить поверхностные загрязнения водой под давлением",
+            "Нанести готовый раствор в виде пены или эмульсии",
+            "Выдержать 2–4 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Не наносить на оголённые металлические поверхности",
+            "Не распылять на горячую поверхность",
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb032.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для пеногенератора в соотношении 1:100 - 1:150"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 100,
+            "to": 150,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для ручного помпового опрыскивателя в соотношении 1:100 - 1:150",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 240
+          },
+          "steps": [
+            "При необходимости удалить поверхностные загрязнения водой под давлением",
+            "Нанести готовый раствор в виде пены или эмульсии",
+            "Выдержать 2–4 минуты, не допуская высыхания",
+            "Тщательно смыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Не наносить на оголённые металлические поверхности",
+            "Не распылять на горячую поверхность",
+            "Не допускать высыхания"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb032.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для ручного помпового опрыскивателя в соотношении 1:100 - 1:150"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "foam-heroes-citrus-buddy",
+      "name": "Citrus Buddy",
+      "subtitle": "Шампунь для предварительной мойки на основе цитрусовых масел, pH 10",
+      "category": "prewash",
+      "phase": 1,
+      "ph": 10,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb033.html",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 5,
+            "to": 12,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для пенокомплекта в соотношении 1:5 - 1:12",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 300
+          },
+          "steps": [
+            "Предварительно удалить поверхностные загрязнения водой под давлением",
+            "Нанести в виде пены или эмульсии",
+            "Выдержать 2–5 минут",
+            "Смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb033.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для пенокомплекта в соотношении 1:5 - 1:12"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для пеногенератора в соотношении 1:40 - 1:60",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 300
+          },
+          "steps": [
+            "Предварительно удалить поверхностные загрязнения водой под давлением",
+            "Нанести в виде пены или эмульсии",
+            "Выдержать 2–5 минут",
+            "Смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb033.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для пеногенератора в соотношении 1:40 - 1:60"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для помпового опрыскивателя в соотношении 1:40 - 1:60",
+          "surface": null,
+          "dwellSec": {
+            "from": 120,
+            "to": 300
+          },
+          "steps": [
+            "Предварительно удалить поверхностные загрязнения водой под давлением",
+            "Нанести в виде пены или эмульсии",
+            "Выдержать 2–5 минут",
+            "Смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb033.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для помпового опрыскивателя в соотношении 1:40 - 1:60"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "foam-heroes-gentle-soap-amber",
+      "name": "Gentle Soap Amber",
+      "subtitle": "Деликатный шампунь для предварительной мойки авто с защитными покрытиями (амбра и табак)",
+      "aliases": [
+        "Gentle Soap"
+      ],
+      "category": "prewash",
+      "phase": 1,
+      "ph": null,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb003.html",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 12,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для пенокомплекта в соотношении 1:10-1:12",
+          "surface": "dry",
+          "dwellSec": {
+            "from": 120,
+            "to": 300
+          },
+          "steps": [
+            "Нанести на сухую поверхность в виде пены или эмульсии",
+            "Выдержать 2–5 минут",
+            "Смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb003.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для пенокомплекта в соотношении 1:10-1:12"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для ручного пеногенератора в соотношении 1:40-1:60",
+          "surface": "dry",
+          "dwellSec": {
+            "from": 120,
+            "to": 300
+          },
+          "steps": [
+            "Нанести на сухую поверхность в виде пены или эмульсии",
+            "Выдержать 2–5 минут",
+            "Смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb003.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для ручного пеногенератора в соотношении 1:40-1:60"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для помпового опрыскивателя в соотношении 1:40-1:60",
+          "surface": "dry",
+          "dwellSec": {
+            "from": 120,
+            "to": 300
+          },
+          "steps": [
+            "Нанести на сухую поверхность в виде пены или эмульсии",
+            "Выдержать 2–5 минут",
+            "Смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb003.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для помпового опрыскивателя в соотношении 1:40-1:60"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "foam-heroes-gentle-soap-cloudberry",
+      "name": "Gentle Soap Cloudberry",
+      "subtitle": "Деликатный шампунь для предварительной мойки авто с защитными покрытиями (морошковое варенье)",
+      "aliases": [
+        "Gentle Soap"
+      ],
+      "category": "prewash",
+      "phase": 1,
+      "ph": null,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb102.html",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 12,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для пенокомплекта в соотношении 1:10-1:12",
+          "surface": "dry",
+          "dwellSec": {
+            "from": 120,
+            "to": 300
+          },
+          "steps": [
+            "Нанести на сухую поверхность в виде пены или эмульсии",
+            "Выдержать 2–5 минут",
+            "Смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb102.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для пенокомплекта в соотношении 1:10-1:12"
+        },
+        {
+          "method": "foam_generator",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для ручного пеногенератора в соотношении 1:40-1:60",
+          "surface": "dry",
+          "dwellSec": {
+            "from": 120,
+            "to": 300
+          },
+          "steps": [
+            "Нанести на сухую поверхность в виде пены или эмульсии",
+            "Выдержать 2–5 минут",
+            "Смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb102.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для ручного пеногенератора в соотношении 1:40-1:60"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для помпового опрыскивателя в соотношении 1:40-1:60",
+          "surface": "dry",
+          "dwellSec": {
+            "from": 120,
+            "to": 300
+          },
+          "steps": [
+            "Нанести на сухую поверхность в виде пены или эмульсии",
+            "Выдержать 2–5 минут",
+            "Смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb102.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для помпового опрыскивателя в соотношении 1:40-1:60"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "foam-heroes-cola-bay",
+      "name": "Cola Bay",
+      "subtitle": "pH-нейтральный шампунь для ручной мойки, аромат колы",
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": "нейтральный",
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb001.html",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 15,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для пенокомплекта в соотношении 1:10-1:15",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести готовый раствор на поверхность",
+            "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+            "Промывать губку после каждого элемента",
+            "Не допуская высыхания смыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Избегать использования под прямыми солнечными лучами"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb001.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для пенокомплекта в соотношении 1:10-1:15"
+        },
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 3,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести готовый раствор на поверхность",
+            "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+            "Промывать губку после каждого элемента",
+            "Не допуская высыхания смыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Избегать использования под прямыми солнечными лучами"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb001.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 15,
+            "to": 20,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для помпового опрыскивателя в соотношении 1:15-1:20",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести готовый раствор на поверхность",
+            "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+            "Промывать губку после каждого элемента",
+            "Не допуская высыхания смыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Избегать использования под прямыми солнечными лучами"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb001.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для помпового опрыскивателя в соотношении 1:15-1:20"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "foam-heroes-slick-ice",
+      "name": "Slick Ice",
+      "subtitle": "pH-нейтральный шампунь для ручной мойки с повышенными лубрицирующими свойствами",
+      "aliases": [
+        "Slick Ice Zippy"
+      ],
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": "нейтральный",
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb014.html",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 10,
+            "to": 15,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для пенокомплекта в соотношении 1:10-1:15",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести готовый раствор на поверхность",
+            "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+            "Промывать губку после каждого элемента",
+            "Не допуская высыхания смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb014.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для пенокомплекта в соотношении 1:10-1:15"
+        },
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 3,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести готовый раствор на поверхность",
+            "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+            "Промывать губку после каждого элемента",
+            "Не допуская высыхания смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb014.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "foam-heroes-slimy-foam",
+      "name": "Slimy Foam",
+      "subtitle": "pH-нейтральный шампунь для ручной мойки по методу двух вёдер",
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": "нейтральный",
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb070.html",
+      "applications": [
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 3,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "для мойки при помощи ведра в соотношении 30-50 мл на 10л воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Развести в ведре (лучше в тёплой воде)",
+            "Нанести готовый раствор на поверхность",
+            "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+            "Промывать губку после каждого элемента",
+            "Не допуская высыхания смыть водой под высоким давлением"
+          ],
+          "restrictions": [],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb070.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для мойки при помощи ведра в соотношении 30-50 мл на 10л воды"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "foam-heroes-acid-shock",
+      "name": "Acid Shock",
+      "subtitle": "Кислотный шампунь для ручной мойки (нейтрализация щёлочи)",
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": "кислотный",
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb062.html",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 8,
+            "to": 12,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для пенокомплекта в соотношении 1:8-1:12",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести готовый раствор на поверхность",
+            "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+            "Промывать губку после каждого элемента",
+            "Не допуская высыхания смыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Избегать использования под прямыми солнечными лучами"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb062.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для пенокомплекта в соотношении 1:8-1:12"
+        },
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 3,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести готовый раствор на поверхность",
+            "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+            "Промывать губку после каждого элемента",
+            "Не допуская высыхания смыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Избегать использования под прямыми солнечными лучами"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb062.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для ручного помпового опрыскивателя в соотношении 1:40-1:60",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести готовый раствор на поверхность",
+            "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+            "Промывать губку после каждого элемента",
+            "Не допуская высыхания смыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Избегать использования под прямыми солнечными лучами"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb062.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для ручного помпового опрыскивателя в соотношении 1:40-1:60"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "foam-heroes-acid-citrus",
+      "name": "Acid Citrus",
+      "subtitle": "Кислотный шампунь для ручной мойки с цитрусовыми маслами",
+      "category": "contact_shampoo",
+      "phase": 2,
+      "ph": "кислотный",
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb116.html",
+      "applications": [
+        {
+          "method": "foam_lance",
+          "dilution": {
+            "kind": "ratio",
+            "from": 7,
+            "to": 10,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для пенокомплекта в соотношении 1:7-1:10",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести готовый раствор на поверхность",
+            "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+            "Промывать губку после каждого элемента",
+            "Не допуская высыхания смыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Избегать использования под прямыми солнечными лучами",
+            "Избегать применения на оголённых металлических поверхностях"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb116.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для пенокомплекта в соотношении 1:7-1:10"
+        },
+        {
+          "method": "bucket",
+          "dilution": {
+            "kind": "ml_per_l",
+            "from": 3,
+            "to": 5,
+            "basis": "water"
+          },
+          "dilutionText": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести готовый раствор на поверхность",
+            "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+            "Промывать губку после каждого элемента",
+            "Не допуская высыхания смыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Избегать использования под прямыми солнечными лучами",
+            "Избегать применения на оголённых металлических поверхностях"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb116.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для мойки при помощи ведра в соотношении 30-50мл на 10л воды"
+        },
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 40,
+            "to": 60,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "для ручного помпового опрыскивателя в соотношении 1:40-1:60",
+          "surface": "any",
+          "dwellSec": null,
+          "steps": [
+            "Нанести готовый раствор на поверхность",
+            "Вымыть кузов губкой или варежкой: крыша, стёкла, капот, двери, багажник, бампера, пороги",
+            "Промывать губку после каждого элемента",
+            "Не допуская высыхания смыть водой под высоким давлением"
+          ],
+          "restrictions": [
+            "Избегать использования под прямыми солнечными лучами",
+            "Избегать применения на оголённых металлических поверхностях"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb116.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "для ручного помпового опрыскивателя в соотношении 1:40-1:60"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "foam-heroes-pure-wheels",
+      "name": "Pure Wheels",
+      "subtitle": "Высокопенный очиститель шин и дисков, pH 10 в концентрате",
+      "category": "wheel_cleaner",
+      "phase": null,
+      "ph": 10,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb031.html",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "используйте готовый состав или разведите его с водой 1:1",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Предварительно удалить поверхностные загрязнения водой под давлением",
+            "Нанести на колёса в виде эмульсии или пены",
+            "Подождать несколько минут, при необходимости поработать кистями",
+            "Смыть обильно водой под давлением"
+          ],
+          "restrictions": [
+            "Не распылять на горячую поверхность дисков"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb031.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "в зависимости от степени загрязнения используйте готовый состав или разведите его с водой 1:1"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "foam-heroes-pure-wheels-plus",
+      "name": "Pure Wheels+",
+      "subtitle": "Высокопенный концентрат очистителя шин и дисков, pH 10,5 в концентрате",
+      "aliases": [
+        "Pure Wheels Plus"
+      ],
+      "category": "wheel_cleaner",
+      "phase": null,
+      "ph": 10.5,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb097.html",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ratio",
+            "from": 1,
+            "to": 5,
+            "ratioBasis": "water"
+          },
+          "dilutionText": "разведите состав с водой в соотношении 1:1-1:5",
+          "surface": null,
+          "dwellSec": null,
+          "steps": [
+            "Предварительно удалить поверхностные загрязнения водой под давлением",
+            "Нанести разведённый состав на колёса",
+            "Подождать несколько минут",
+            "Смыть обильно водой под давлением"
+          ],
+          "restrictions": [
+            "Не применять в неразбавленном виде",
+            "Не распылять на горячую поверхность дисков"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb097.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "в зависимости от степени загрязнения разведите состав с водой в соотношении 1:1-1:5"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "foam-heroes-double-iron",
+      "name": "Double Iron",
+      "subtitle": "Готовый очиститель металлических вкраплений с двойной индикацией",
+      "category": "iron_remover",
+      "phase": null,
+      "ph": "pH-сбалансированный",
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb076.html",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готовый к применению",
+          "surface": null,
+          "dwellSec": {
+            "from": 180,
+            "to": 300
+          },
+          "steps": [
+            "Тщательно вымыть автомобиль",
+            "Нанести состав и оставить на 3–5 минут",
+            "При сильных загрязнениях использовать кисти и щётки",
+            "Смыть обильно водой под давлением"
+          ],
+          "restrictions": [
+            "Не распылять на горячую поверхность",
+            "Не наносить на незащищённые элементы из железа и его сплавов"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb076.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "Double Iron от Foam Heroes - готовый к применению эффективный очиститель кузова"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    },
+    {
+      "id": "foam-heroes-mad-drops",
+      "name": "Mad Drops",
+      "subtitle": "Готовое быстрое гидрофобное покрытие (SiO2) на мокрый кузов",
+      "category": "protection",
+      "phase": null,
+      "ph": null,
+      "packages": [
+        500
+      ],
+      "productUrl": "https://foam-heroes.ru/product-fhb015.html",
+      "applications": [
+        {
+          "method": "sprayer",
+          "dilution": {
+            "kind": "ready"
+          },
+          "dilutionText": "готовое к применению",
+          "surface": "wet",
+          "dwellSec": null,
+          "steps": [
+            "Тщательно вымыть авто и сбить остатки моющих средств водой",
+            "Поэлементно нанести на мокрый кузов: 1 распыление на элемент, 2 на капот и крышу",
+            "По желанию разнести губкой/падом/влажной микрофиброй",
+            "Не допуская высыхания смыть водой под высоким давлением",
+            "Высушить"
+          ],
+          "restrictions": [
+            "Избегать прямых солнечных лучей и температуры воздуха выше 25 °C"
+          ],
+          "sourceUrl": "https://foam-heroes.ru/product-fhb015.html",
+          "checkedAt": "2026-10-25",
+          "sourceQuote": "поэлементно нанесите состав на мокрый кузов автомобиля (1 распыление на элемент, 2 на капот и крышу)"
+        }
+      ],
+      "warnings": [],
+      "status": "verified"
+    }
+  ]
+}
